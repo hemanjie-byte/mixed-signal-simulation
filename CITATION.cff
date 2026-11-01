@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite original papers for scientific claims. This repository provides illustrative computations only."
+title: "Mixed-Signal Simulation: semiconductor and analog IC research cohort and illustrative models"
+type: software
+version: 3.0.0
+date-released: 2026-11-01
+url: "https://github.com/hemanjie-byte/mixed-signal-simulation"
+authors:
+  - name: "Mixed-Signal Simulation contributors"

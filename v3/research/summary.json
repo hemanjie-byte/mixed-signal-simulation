@@ -1,0 +1,43 @@
+{
+  "people": 200,
+  "unique_papers": 184,
+  "country_regions": 20,
+  "region_counts": {
+    "United States": 76,
+    "Japan": 4,
+    "Italy": 15,
+    "Netherlands": 21,
+    "Australia": 1,
+    "Canada": 14,
+    "United Kingdom": 2,
+    "Saudi Arabia": 2,
+    "Singapore": 2,
+    "Brazil": 5,
+    "Switzerland": 5,
+    "Taiwan, China": 7,
+    "France": 6,
+    "Belgium": 5,
+    "Mainland China": 11,
+    "Hong Kong, China": 2,
+    "South Korea": 8,
+    "India": 12,
+    "Germany": 1,
+    "South Africa": 1
+  },
+  "category_counts": {
+    "Precision analog and sensor interfaces": 37,
+    "Data converters": 23,
+    "Analog design automation and testing": 7,
+    "Analog device modeling and matching": 13,
+    "Semiconductor devices and integration": 31,
+    "Frequency synthesis and clocking": 29,
+    "RF and high-speed analog ICs": 45,
+    "Power management ICs": 15
+  },
+  "metadata_verified_papers": 184,
+  "primary_review_papers": 5,
+  "primary_review_people": 9,
+  "legacy_top100_retained": 23,
+  "article_reproductions": 0,
+  "as_of": "2026-11-01"
+}

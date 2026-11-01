@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "workbook": "Mixed_Signal_Simulation_V3_EN_ZH.xlsx",
+  "sheets": 22,
+  "charts": 12,
+  "images": 11,
+  "people": 200,
+  "papers": 184,
+  "representative_cases": 11,
+  "power_formulas_checked": 5620,
+  "max_power_error_W": 0,
+  "formula_errors": [],
+  "raw_data_matches": true,
+  "formula_recalculation": {
+    "voltage_assumption_recalculated": true,
+    "terminal_power_recalculated": true,
+    "temporary_edits_restored": true,
+    "engine": "artifact-tool",
+    "native_Excel_engine_tested": false
+  },
+  "sha256": "cf40e0046f10d9ff132a300f9f8ae9eab311a1088c5b17b3d221de8165278ab0",
+  "engine_note": "Exported workbook inspected with openpyxl read-only analysis; authoring and recalculation used artifact-tool. Native Microsoft Excel engine was not tested."
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "B01",
+    "title_en": "An analytical MOS transistor model valid in all regions of operation and dedicated to low-voltage and low-current applications",
+    "title_zh": "适用于所有工作区的解析MOS模型",
+    "doi": "10.1007/bf01239381",
+    "url": "https://link.springer.com/article/10.1007/BF01239381",
+    "read_level_en": "Publisher abstract and bibliographic page",
+    "read_level_zh": "出版商摘要与题录页",
+    "use_en": "Continuous weak-to-strong inversion and source/drain symmetry motivate A01; full intrinsic capacitance/noise model is not implemented.",
+    "use_zh": "连续反型和源漏对称性启发A01；未实现论文完整内禀电容与噪声模型。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "B02",
+    "title_en": "Matching Properties of MOS Transistors",
+    "title_zh": "MOS晶体管匹配特性",
+    "doi": "10.1109/jssc.1989.572629",
+    "url": "https://ewh.ieee.org/r5/denver/sscs/References/1989_10_Pelgrom.pdf",
+    "read_level_en": "Targeted PDF body: area dependence and pair mismatch",
+    "read_level_zh": "定向阅读PDF正文：面积关系与配对失配",
+    "use_en": "Area scaling informs A04. The 3 mV·um coefficient and rho=0.25 are assumed, not extracted from the paper.",
+    "use_zh": "面积规律用于A04；3mV·μm和相关系数0.25为假设，未从论文提取。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "B03",
+    "title_en": "A Simple Three-Terminal IC Bandgap Reference",
+    "title_zh": "简单的三端集成带隙基准",
+    "doi": "10.1109/jssc.1974.1050532",
+    "url": "https://class.ece.iastate.edu/djchen/ee501/2013/bandgaprefpaperbypaulbrokawjssc1974.pdf",
+    "read_level_en": "Targeted PDF body: bandgap topology and temperature cancellation",
+    "read_level_zh": "定向阅读PDF正文：带隙拓扑与温漂相消",
+    "use_en": "B02 uses an ideal CTAT/PTAT sum, not the measured 2.5 V circuit or its start-up behavior.",
+    "use_zh": "B02只用理想CTAT/PTAT合成，不复现实测2.5V电路及启动。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "B04",
+    "title_en": "Gabriel A. Rincon-Mora publication list",
+    "title_zh": "Rincon-Mora官方论文目录",
+    "doi": "",
+    "url": "https://rincon-mora.gatech.edu/publicat/",
+    "read_level_en": "Official author publication list",
+    "read_level_zh": "作者官方论文目录",
+    "use_en": "Confirms the LDO title and coauthorship with Phillip E. Allen; identity support only.",
+    "use_zh": "核对LDO题名与Phillip E. Allen共同署名；仅作身份支撑。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "B05",
+    "title_en": "MT-001: Taking the Mystery out of SNR = 6.02N + 1.76 dB",
+    "title_zh": "MT-001：理想ADC信噪比公式",
+    "doi": "",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-001.pdf",
+    "read_level_en": "Manufacturer tutorial: quantization-noise derivation",
+    "read_level_zh": "厂家教程：量化噪声推导",
+    "use_en": "Provides an analytical ideal-ADC check. This tutorial is not classified as a peer-reviewed paper.",
+    "use_zh": "用于理想ADC解析校核；教程不计入同行评审论文。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "B06",
+    "title_en": "A low-voltage, low quiescent current, low drop-out regulator",
+    "title_zh": "低电压、低静态电流、低压差稳压器",
+    "doi": "10.1109/4.654935",
+    "url": "https://rincon-mora.gatech.edu/publicat/jrnls/jssc98_lv_ldo.pdf",
+    "read_level_en": "Author-hosted PDF: abstract, frequency-response discussion, conclusions",
+    "read_level_zh": "作者公开PDF：摘要、频率响应讨论与结论",
+    "use_en": "Motivates load-dependent loop analysis; B05 uses an independent two-state assumed model, not this chip implementation.",
+    "use_zh": "用于识别负载相关环路分析需求；B05为独立假设的二状态模型，并非该芯片实现。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "B07",
+    "title_en": "Ngspice User Manual, version 46, chapters 7 and 8",
+    "title_zh": "Ngspice 46手册第7和第8章",
+    "doi": "",
+    "url": "https://ngspice.sourceforge.io/docs/ngspice-46-manual.pdf",
+    "read_level_en": "Targeted manual sections: diode capacitance (p.138), BJT model (p.143)",
+    "read_level_zh": "定向阅读手册：二极管电容第138页、BJT模型第143页",
+    "use_en": "Documents depletion-capacitance and BJT parameter meanings. A02/A03 are Python reductions; ngspice was not executed.",
+    "use_zh": "核对耗尽电容与BJT参数含义。A02/A03为Python缩减模型，本次没有运行ngspice。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "B08",
+    "title_en": "To Chop or Auto-Zero: That Is the Question",
+    "title_zh": "斩波还是自调零",
+    "doi": "",
+    "url": "https://www.analog.com/en/resources/technical-articles/2018/05/25/03/08/to-chop-or-auto-zero-that-is-the-question.html",
+    "read_level_en": "Manufacturer technical article: noise trade-offs and switching artifacts",
+    "read_level_zh": "厂家技术文章：噪声取舍与开关伪迹",
+    "use_en": "Motivates the missing aliasing, ripple, current-noise and charge-injection terms explicitly listed for B03.",
+    "use_zh": "用于列出B03仍缺失的混叠、纹波、电流噪声和电荷注入项。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "B09",
+    "title_en": "A General Theory of Phase Noise in Electrical Oscillators",
+    "title_zh": "电振荡器相位噪声的一般理论",
+    "doi": "10.1109/4.658619",
+    "url": "https://chic.caltech.edu/wp-content/uploads/2013/05/general.pdf",
+    "read_level_en": "Author-hosted PDF: abstract and time-varying/ISF mechanism sections",
+    "read_level_zh": "作者公开PDF：摘要、时变系统与ISF机理章节",
+    "use_en": "Shows why a phase-domain loop is insufficient to predict transistor oscillator phase noise. ISF/cyclostationary noise are open gaps.",
+    "use_zh": "说明相位域环路不足以预测晶体管振荡器相噪；ISF与循环平稳噪声仍缺。",
+    "retrieved_date": "2026-11-01"
+  },
+  {
+    "id": "D01",
+    "title_en": "Kirchhoff laws and numerical integration",
+    "title_zh": "基尔霍夫定律与数值积分",
+    "doi": "",
+    "url": "",
+    "read_level_en": "Independent derivation in this repository",
+    "read_level_zh": "本仓库独立推导",
+    "use_en": "B07 uses KVL/KCL, passive energy storage and event-aligned RK4; no article performance is reproduced.",
+    "use_zh": "B07使用KVL/KCL、储能与边沿对齐RK4，不复现任何论文性能。",
+    "retrieved_date": "2026-11-01"
+  }
+]

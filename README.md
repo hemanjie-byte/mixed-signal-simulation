@@ -1,90 +1,106 @@
-# mixed-signal simulation
+# Mixed-Signal Simulation
 
-## V2 更新 — 2026-11-01
+# 模拟与混合信号仿真
 
-**49类器件 + 6项机制扩展，600个测试工况，另含六档Buck。** 原版资料保留在下方。论文用于识别器件与机制；全部数值参数为演示假设，未进行论文曲线拟合，无晶圆厂PDK。
+V3.0.0 · 2026-11-01. Semiconductor and analog IC research: 200 researchers, 184 distinct representative papers, 20 countries/regions of affiliation context. English comes first with Chinese below. TOP200 is a curated cohort, not an official global ranking.
 
-- [新版Excel](40至150V_DC_DC工艺器件与仿真_V2.xlsx)：保留原版31页，加入TOP100对照、关键论文、模型假设、全部新增工况指标及31个独立模型页。
-- [新版离线3D演示](index.html)：下载后用Edge/Chrome打开。支持旋转结构、选择模型/温度/适用Vin、播放扫描，查看端电压、电流、功率及状态量，导出CSV/图片。
-- [V2完整交付包](mixed-signal-simulation_V2_20261101.zip)：解压后打开index.html；包含两版Excel/HTML、代码、结果、OBJ与论文对照。
-- [论文对照与模型缺口报告](v2/论文对照与模型缺口.md) · [100人逐行台账](v2/research/top100_screening.csv) · [24篇关键来源](v2/research/papers.json) · [全部模型参数](v2/models/model_catalog.json)。
+V3.0.0 · 2026-11-01。半导体与模拟芯片研究：200位研究人员、184篇不同代表论文、20个国家/地区机构背景。英文在前、中文在下。TOP200为整理的研究名单，不是官方全球排名。
 
-### 补充范围
+The new release adds four device/parameter model extensions and seven circuit benchmarks with 58 computed cases. All 29 analytical/numerical/data checks pass in the recorded run. Models use public equations and assumed parameters. No PDK, silicon fitting, TCAD field solution or publication-level circuit reproduction is claimed.
 
-| 类别 | 新增模型 |
-|---|---|
-| N01–N05 功率器件 | SiC MOSFET、增强型GaN HEMT、硅超结MOSFET、IGBT、SiC JBS |
-| N06–N11 新型晶体管 | FinFET、IGZO TFT、有机TFT、MoS2、石墨烯、CNT FET |
-| N12–N16 存储与铁电 | FeFET、RRAM、PCM、MTJ、铁电电容 |
-| N17–N21、N24–N25 光电与能量转换 | 氮化物LED、量子点LED、PIN光探测器、单结光伏、热电、MZI调制器、激光二极管 |
-| N22–N23 无源与互连 | 片上耦合变压器、TSV |
-| X01–X06 原器件机制扩展 | 栅电荷/Miller、PN反向恢复、自热、NBTI、噪声、参数统计分散 |
+本版增加4项器件/参数模型增强与7个电路测试台，共58个计算工况；本次记录的29项解析、数值与数据检查全部通过。模型基于公开方程和假设参数，不声称PDK、实测拟合、TCAD场求解或论文级电路复现。
 
-N01–N05：5×6输入×3温度=90工况；N06–N25：20×3=60；X01–X06：6×3=18。新增168；原版432已重新运行。
+## Open the release
 
-TOP100来自2026-10-11的内部证据分榜单，并非官方世界排名。逐人筛查代表论文，补齐原缺失4条，共95个不同代表DOI；本轮重点核对24篇原始来源。56人仅题录初筛、18人复用既有出版商摘要、26人关联本轮关键来源。**不等于通读100人全部论文或复现100篇论文。** 逐行记录实际证据层级。
+## 查看本版
 
-低压、存储和光电器件不可直接连接40–150V功率节点。SiC/GaN/IGBT等是外接功率器件研究对照，不证明BCD平台已提供。650V阻断等级为假设，IGBT及650V器件不是针对40–150V DC/DC的选型建议。
+- [Excel workbook](Mixed_Signal_Simulation_V3_EN_ZH.xlsx)<br>
+  英文/中文Excel汇总
+- [Offline interactive 3D and curves](index.html)<br>
+  离线交互3D与曲线
+- [V3 delivery package](mixed-signal-simulation_V3_20261101.zip)<br>
+  V3交付包
+- [200-person research ledger](v3/research/people200.csv)<br>
+  200人研究台账
+- [184-paper bibliography](v3/research/papers.csv)<br>
+  184篇论文题录
+- [Reviewer guide](v3/REVIEWER_GUIDE.md)<br>
+  审阅指南
+- [Methods and reading depth](v3/METHODOLOGY.md)<br>
+  方法与阅读层级
+- [Model equations and limits](v3/MODEL_CARDS.md)<br>
+  模型方程与适用边界
+- [Foundry context and voltage screening](v3/FOUNDRY_CONTEXT.md)<br>
+  工艺背景与电压筛选
 
-### V2复现与验证
+Download index.html and open it locally in Edge or Chrome, or use the ZIP. GitHub’s file preview does not execute HTML. The standalone page has no external runtime libraries. Rotate models, select computed cases, inspect voltage/current/power and state traces, and export CSV/OBJ/PNG.
+
+下载index.html后用Edge或Chrome本地打开，或使用ZIP。GitHub文件预览不会执行HTML。页面无需外部运行库，可旋转模型、选择已计算工况、查看电压/电流/功率及状态曲线，并导出CSV/OBJ/PNG。
+
+The ZIP contains the V3 delivery only. Historical V1/V2 files remain in the full repository. SHA-256 checksums for the V3 snapshot are in `v3/validation/release_manifest.json`.
+
+ZIP仅包含V3交付内容，历史V1/V2文件保留在完整仓库中。V3快照的SHA-256校验值见`v3/validation/release_manifest.json`。
+
+## What changed
+
+## 本版变化
+
+| IDs | English | 中文 | Cases / 工况 |
+|---|---|---|---:|
+| A01 | Four-terminal MOS interpolation | 四端MOS连续插值 | 9 |
+| A02 | Junction charge and varactor | 结电荷与变容二极管 | 6 |
+| A03 | Reciprocal NPN Ebers–Moll | 满足互易关系的NPN Ebers–Moll | 6 |
+| A04 | MOS pair mismatch and correlation | MOS配对失配与相关性 | 4 |
+| B01 | MOS differential pair | MOS差分对 | 3 |
+| B02 | CTAT/PTAT reference sum | CTAT/PTAT基准合成 | 1 |
+| B03 | Input noise and sampled kT/C | 输入噪声与采样kT/C | 3 |
+| B04 | Capacitor DAC and SAR ADC | 电容DAC与SAR ADC | 2 |
+| B05 | LDO loop and load step | LDO环路与负载阶跃 | 3 |
+| B06 | Phase loop and noise transfer | 相位环路与噪声传递 | 3 |
+| B07 | 40–150 V synchronous buck | 40–150V同步降压 | 18 |
+
+The research cohort was refocused on analog/semiconductor work rather than appending unrelated names to the old broad list. 23 of the former TOP100 remain; see the 100-row reconciliation. All 184 DOI records have bibliographic checks. Five key papers received targeted primary-source reading; the other papers were not fully read. The record-level no-update flag is not a comprehensive retraction audit.
+
+研究名单围绕模拟/半导体重新筛选，未简单向旧宽范围名单追加无关人员。原TOP100有23人保留，变更见100行对照。184条DOI全部完成题录核对，5篇关键论文定向阅读原始来源，其余未通读全文。记录中无更新项不等于全面撤稿审计。
+
+[Legacy TOP100 reconciliation / 旧TOP100对照](v3/research/legacy100_reconciliation.csv) · [Selection audit / 筛选记录](v3/research/selection_audit.csv) · [Key sources / 关键来源](v3/research/key_sources.json)
+
+Gaps remain substantial: RF front ends, calibrated SiGe HBT, full chopper/ADC/PLL implementations, start-up/protection, reliability and PDK statistics are not completed. Device and circuit counts are not a percentage of library completeness. Read the per-topic gaps and model cards before using a result.
+
+仍有重要缺口：射频前端、校准SiGe HBT、完整斩波/ADC/PLL实现、启动保护、可靠性和PDK统计尚未完成。器件与电路数量不代表库完整度百分比。使用前请查看逐主题缺口与模型卡。
+
+## Reproduce
+
+## 复现
 
 ```bash
-python -m pip install -r requirements.txt
-python 可复现计算/simulate.py
-python 可复现计算/finalize_viewer.py
-python v2/models/simulate_v2.py
-python v2/models/build_geometry.py
-python v2/models/build_viewer.py
+python -m pip install -r v3/requirements.txt
+python v3/models/run_simulations.py
+python v3/tests/run_validation.py
+python v3/models/build_geometry.py
+python v3/models/build_viewer.py
 ```
 
-新增结果在`v2/results/`；结构在`v2/models/OBJ/`。Excel与ZIP是本次运行快照，命令不会自动重建。Excel各N/X页为25°C代表工况全采样，功率列有ΣVI公式；完整168工况在HTML/JSON中。修改Excel参数文本不会自动重算非线性模型。
+Tested with Python 3.12.14 and NumPy 2.3.5; the exact versions are recorded in validation.json. Runtime dependencies are NumPy only for V3 calculations. The Excel/ZIP files are delivery snapshots, not regenerated by these commands. V3 uses a 250 kHz, 100 uH, 22 uF buck example; V1 used different system assumptions.
 
-[数值校核](v2/results/validation.json) · [浏览器检查](v2/validation/viewer_validation.json) · [工作簿检查](v2/validation/workbook_validation.json) · [数据与模型约定](v2/数据与模型约定.md)。3D只显示概念结构、电极电压和端电流方向，无局部电场/电流密度/真实尺寸。新增自热为集总模型，不是TCAD热场。校核说明内部一致性，不构成实测精度或工艺签核。
+运行环境以validation.json的精确版本为准；V3计算仅依赖NumPy。上述命令不会自动重新生成Excel/ZIP，二者是交付快照。V3降压例子为250kHz、100μH、22μF，V1系统假设不同。
 
-## 原版资料（V1）
+[Recorded tests / 检查记录](v3/results/validation.json) · [Browser QA / 浏览器检查](v3/validation/viewer_validation.json) · [Workbook QA / 工作簿检查](v3/validation/workbook_validation.json)
 
-40–150V DC/DC 工艺、器件与通用示意仿真资料。首批研究与计算日期：2026-11-01。
+Current is positive into the modeled port. ΣVI includes energy storage and is not always heat. The 3D geometry is conceptual, with no process dimensions or local electric/current-density fields. Unmodeled supply currents are explicitly absent. 40–150 V means maximum DC/DC input; low-voltage analog blocks cannot be connected directly to that bus.
 
-研究华虹、芯联集成、东部 DB HiTek，并参考台积电、联电、海力士 system ic 及美格纳历史工艺。40V、60V、80V、100V、120V、150V 均表示 DC/DC 最高输入电压。
+电流以流入模型端口为正。ΣVI包含储能变化，不总是热损耗。3D为概念结构，无工艺尺寸和局部电场/电流密度。未建模的供电电流明确留空。40–150V指DC/DC最高输入，低压模拟模块不能直接接到高压总线。
 
-## 查看结果
+## Historical releases
 
-- [Excel 汇总](40至150V_DC_DC工艺器件与仿真.xlsx)：31 个工作表、27 张可编辑图表、24 张 3D 预览；包含工艺证据、器件需求、计算假设、扫描数据和校核说明。
-- [离线 3D 演示](DC_DC_3D器件演示.html)：下载后用 Edge 或 Chrome 打开。支持旋转结构、选择器件/输入/温度、播放扫描、导出 CSV 和图片。GitHub 文件页面本身不会执行这个 HTML。
-- [完整交付包](DC_DC工艺器件_完整交付_20261101.zip)：原始交付快照，可下载解压使用。
-- [使用说明](使用说明.txt)：模型范围、数据更新与使用方法。
-- [24 个独立 OBJ 模型](3D模型_OBJ/)：归一化结构示意，可在支持 OBJ 的软件中查看。
+## 历史版本
 
-## 已计算内容
+V1/V2 are retained as historical Chinese-language artifacts with a broader device/literature scope. Their original TOP100 and numerical models are not silently reclassified as V3 analog evidence.
 
-24 类器件 × 6 档最高输入 × 3 个温度点（−40°C、25°C、125°C），共 432 个独立测试。
+V1/V2保留为中文历史交付物，器件与文献范围更宽；其TOP100与模型不会自动视为本版模拟方向证据。
 
-器件包括高侧/低侧 NLDMOS、PLDMOS、DE-NMOS/PMOS、低压 CMOS、NPN/PNP、PN/自举/肖特基/Zener 二极管、启动 JFET、电阻、MIM/MOM 电容、隔离网络、ESD 等效器件及外接电感/电容。
+[V2 viewer / V2演示](v2/legacy-viewer.html) · [V2 workbook / V2工作簿](40至150V_DC_DC工艺器件与仿真_V2.xlsx) · [V2 notes / V2说明](v2/README_ARCHIVE.md)
 
-另含六档输入下的 12V/1A、200kHz 理想 CCM 同步 Buck 示例，展示开关节点、漏源/栅源电压、电感/开关/电容电流、输出纹波与独立损耗估算。
+Third-party papers are linked, not redistributed in full. Inclusion does not imply author or foundry endorsement. Cite the original papers for their scientific claims and this repository/version for these illustrative computations.
 
-## 复现计算
-
-需要 Python 3 和 NumPy 2.x。在仓库目录执行：
-
-```bash
-python -m pip install -r requirements.txt
-python 可复现计算/simulate.py
-python 可复现计算/finalize_viewer.py
-```
-
-第一个脚本更新 `可复现计算/data.json` 和 `device_runs.csv`；第二个脚本重建根目录的离线 HTML。Excel 和 ZIP 是本次已完成交付的快照，上述命令不会自动重建它们。
-
-## 参数与模型边界
-
-没有使用晶圆厂 PDK。所有器件 R、C、Vth、β、温度系数、热阻等数值均为通用演示假设，不代表任一晶圆厂实测性能。器件测试采用解析模型及数值求解，不能用于流片签核或厂商性能排名。
-
-3D 几何无真实工艺尺寸或掺杂信息；色带是端电压线性插值，箭头表示常规电流方向。未求解 Poisson、载流子输运、局部电场、电流密度或自热，不能视为 TCAD 结果。
-
-电压筛选示例采用 15% 尖峰和 90% 工作等级利用率，对应 60/80/120/150/200/200V 的模型等级。实际设计需按瞬态、逐端子可靠性限制、SOA、隔离、PVT 与版图寄生重新验证。公开的平台电压范围不等于完整器件型号表或当前可订购状态。
-
-## 来源与校核
-
-- 官方来源链接见 Excel 的“工艺证据”、HTML 的“工艺依据与边界”及 [research.json](可复现计算/research.json)。
-- [validation/](validation/) 保存原交付的数值、公式及浏览器验证记录。`final_validation.json` 的压缩包文件数和 SHA-256 对应原始交付 ZIP，并非整个 Git 仓库的文件数。
-- [SHA256SUMS.txt](SHA256SUMS.txt) 用于检查主要交付文件与已有结果数据的一致性。
+第三方论文只提供链接，不分发全文。纳入名单不表示作者或晶圆厂背书。科学结论请引用原始论文，示意计算请注明本仓库与版本。

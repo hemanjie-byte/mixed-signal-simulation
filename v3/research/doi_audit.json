@@ -1,0 +1,3212 @@
+[
+  {
+    "paper_id": "P001",
+    "doi": "10.1109/jssc.2007.914300",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2007.914300",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Millimeter-Wave CMOS Heterodyne Receiver With On-Chip LO and Divider",
+    "authors": [
+      "Behzad Razavi"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "0fe95c589a1fd6605649d8f6ca77a3d81bf47720e8a13b79a250beb9aee88894"
+  },
+  {
+    "paper_id": "P002",
+    "doi": "10.1109/jssc.2025.3612157",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2025.3612157",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Ultra-Low-Power Dynamic-Bias Comparators With Self-Clocked Latch in 65-nm CMOS",
+    "authors": [
+      "Anojh Kumaran Rajendra",
+      "Harijot Singh Bindra",
+      "Bram Nauta"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2026,
+    "update_to": [],
+    "metadata_sha256": "78ea4a5f649d40b2e7065521cf07bba6f29f49b5692ec13a3cf7eb57d70f0071"
+  },
+  {
+    "paper_id": "P003",
+    "doi": "10.1109/jssc.2007.908743",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2007.908743",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Millimeter-Wave Devices and Circuit Blocks up to 104 GHz in 90 nm CMOS",
+    "authors": [
+      "Babak Heydari",
+      "Mounir Bohsali",
+      "Ehsan Adabi",
+      "Ali M. Niknejad"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2007,
+    "update_to": [],
+    "metadata_sha256": "b7c6d19238d8e96646caf97b3bd57ef280d5958c8d2ead7ce6ffb14cd884d6cf"
+  },
+  {
+    "paper_id": "P004",
+    "doi": "10.1109/jssc.2008.922405",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2008.922405",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Interface Electronics for a CMOS Electrothermal Frequency-Locked-Loop",
+    "authors": [
+      "Cheng Zhang",
+      "Kofi A. A. Makinwa"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "c65f65fcb1949e76c8a9359c48ebdae706db62b21e364a789b0484af1a49755d"
+  },
+  {
+    "paper_id": "P005",
+    "doi": "10.1109/jssc.2008.917405",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2008.917405",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 9 b, 1.25 ps Resolution Coarse–Fine Time-to-Digital Converter in 90 nm CMOS that Amplifies a Time Residue",
+    "authors": [
+      "Minjae Lee",
+      "Asad A. Abidi"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "9ec3c5e860c04cfdca94b2c389e34f215c88c5e5f7cb8dea7e7c60f7fb1736f5"
+  },
+  {
+    "paper_id": "P006",
+    "doi": "10.1109/tcsi.2014.2334812",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsi.2014.2334812",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Compact Analog Temporal Edge Detector Circuit With Programmable Adaptive Threshold for Neuromorphic Vision Sensors",
+    "authors": [
+      "Neeraj K. Mandloi",
+      "Giacomo Indiveri",
+      "Chiara Bartolozzi"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "year": 2014,
+    "update_to": [],
+    "metadata_sha256": "4d3c2b5a79ea67c5e993c7f1a1e455c397c60b2c8c5c76108c885385cac4cbd3"
+  },
+  {
+    "paper_id": "P007",
+    "doi": "10.1109/jssc.2015.2463110",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2015.2463110",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 14 b 35 MS/s SAR ADC Achieving 75 dB SNDR and 99 dB SFDR With Loop-Embedded Input Buffer in 40 nm CMOS",
+    "authors": [
+      "Martin J. Kramer",
+      "Erwin Janssen",
+      "Kostas Doris",
+      "Boris Murmann"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "deb7f24ca223086b26e9225ca579578db9357b7739979c06816a925aabf3a466"
+  },
+  {
+    "paper_id": "P008",
+    "doi": "10.1109/4.735542",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2F4.735542",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A high-swing CMOS telescopic operational amplifier",
+    "authors": [
+      "K. Gulati",
+      "Hae-Seung Lee"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 1998,
+    "update_to": [],
+    "metadata_sha256": "79389c4be5b5e417407da9672d135a5bc96e5807b010076ce8e8e78b030f3921"
+  },
+  {
+    "paper_id": "P009",
+    "doi": "10.1109/jssc.2014.2302793",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2014.2302793",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Co-Design of a CMOS Rectifier and Small Loop Antenna for Highly Sensitive RF Energy Harvesters",
+    "authors": [
+      "Mark Stoopman",
+      "Shady Keyrouz",
+      "Hubregt J. Visser",
+      "Kathleen Philips",
+      "Wouter A. Serdijn"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2014,
+    "update_to": [],
+    "metadata_sha256": "51e8c36958a2d923c01e8b62bc3ee17322c1bf6563bdab58ae8fa8a29679fc72"
+  },
+  {
+    "paper_id": "P010",
+    "doi": "10.1109/jssc.2017.2697412",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2017.2697412",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Design and Analysis of an 8 mW, 1 GHz Span, Passive Spectrum Scanner With >+31 dBm Out-of-Band IIP3 Using Periodically Time-Varying Circuit Components",
+    "authors": [
+      "Neha Sinha",
+      "Mansour Rachid",
+      "Shanthi Pavan",
+      "Sudhakar Pamarti"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "b1c87745729ba0801a9a7a91495734a6d5fd2ed059dc2b7aedcfbf083586b7a7"
+  },
+  {
+    "paper_id": "P011",
+    "doi": "10.1109/jssc.2006.884330",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2006.884330",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Comparator-Based Switched-Capacitor Circuits for Scaled CMOS Technologies",
+    "authors": [
+      "John K. Fiorenza",
+      "Todd Sepke",
+      "Peter Holloway",
+      "Charles G. Sodini",
+      "Hae-Seung Lee"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2006,
+    "update_to": [],
+    "metadata_sha256": "57831177af6913fb7f8f42c27ae82d429d2fe86460091eb60426369184dc5040"
+  },
+  {
+    "paper_id": "P012",
+    "doi": "10.1109/tcad.2018.2848590",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcad.2018.2848590",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Graph-Constrained Sparse Performance Modeling for Analog Circuit Optimization via SDP Relaxation",
+    "authors": [
+      "Jun Tao",
+      "Yangfeng Su",
+      "Dian Zhou",
+      "Xuan Zeng",
+      "Xin Li"
+    ],
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "f456d31a5892d3104f00d4a423c188508ca5cf7e9c83315c08205b78b70ab508"
+  },
+  {
+    "paper_id": "P013",
+    "doi": "10.1109/jssc.2009.2020220",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2009.2020220",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 70 pJ/Pulse Analog Front-End in 130 nm CMOS for UWB Impulse Radio Receivers",
+    "authors": [
+      "Nick Van Helleputte",
+      "Georges Gielen"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "ae2b18afeeb0f3a31be9e11c11df8df313dfca15b38fa136d39666f178dc7b50"
+  },
+  {
+    "paper_id": "P014",
+    "doi": "10.1109/jssc.2012.2217832",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2012.2217832",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Blocker-Tolerant, Noise-Cancelling Receiver Suitable for Wideband Wireless Applications",
+    "authors": [
+      "David Murphy",
+      "Hooman Darabi",
+      "Asad Abidi",
+      "Amr A. Hafez",
+      "Ahmad Mirzaei",
+      "Mohyee Mikhemar",
+      "Mau-Chung Frank Chang"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "7135a41960f3520745c556d300a1261de1410b95209b4998887fd311a513493e"
+  },
+  {
+    "paper_id": "P015",
+    "doi": "10.1109/jssc.2012.2191325",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2012.2191325",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Merged Two-Stage Power Converter With Soft Charging Switched-Capacitor Stage in 180 nm CMOS",
+    "authors": [
+      "Robert C. N. Pilawa-Podgurski",
+      "David J. Perreault"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "73807dd76288a1ded5c30aff2a6e521ea97bd610ae28f244c9b467a81415bb89"
+  },
+  {
+    "paper_id": "P016",
+    "doi": "10.1109/tmtt.2013.2255621",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftmtt.2013.2255621",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "5.2-GHz RF Power Harvester in 0.18-/spl mu/m CMOS for Implantable Intraocular Pressure Monitoring",
+    "authors": [
+      "Mahmoud H. Ouda",
+      "Muhammad Arsalan",
+      "Loic Marnat",
+      "Atif Shamim",
+      "Khaled N. Salama"
+    ],
+    "venue": "IEEE Transactions on Microwave Theory and Techniques",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "215d06e4c7f12d8309b7d6493db5d254c316090f624c8b808b55584297eba391"
+  },
+  {
+    "paper_id": "P017",
+    "doi": "10.1007/s10470-008-9222-5",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-008-9222-5",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1-GS/s 6-bit folding and interpolating ADC in 0.13-μm CMOS",
+    "authors": [
+      "Li Lin",
+      "Junyan Ren",
+      "Kai Zhu",
+      "Fan Ye"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "50109b4e2da3a8cb53c0e8cfdda7d2d879c74547f6d3d70b9f3d196455a430da"
+  },
+  {
+    "paper_id": "P018",
+    "doi": "10.1109/jssc.2012.2204475",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2012.2204475",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1.4-µW 24.9-ppm/°C Current Reference With Process-Insensitive Temperature Compensation in 0.18-µm CMOS",
+    "authors": [
+      "Junghyup Lee",
+      "SeongHwan Cho"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "5de9a2f834eb0fe8a80a59004c142ccd1d3ba7b5a6fb219adfba90289f5fb1b2"
+  },
+  {
+    "paper_id": "P019",
+    "doi": "10.1007/s10470-014-0412-z",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-014-0412-z",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A broadband, high isolation millimeter-wave CMOS power amplifier using a transformer and transmission line matching topology",
+    "authors": [
+      "Bo Chen",
+      "Li Shen",
+      "Supeng Liu",
+      "Yuanjin Zheng",
+      "Jianjun Gao"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2014,
+    "update_to": [],
+    "metadata_sha256": "c5e11227051943152416f788c8d91bb62e3623ba9b2a987371b9f58ab0499009"
+  },
+  {
+    "paper_id": "P020",
+    "doi": "10.1109/jssc.2013.2273181",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2013.2273181",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Suppression of Flicker Noise Up-Conversion in a 65-nm CMOS VCO in the 3.0-to-3.6 GHz Band",
+    "authors": [
+      "Federico Pepe",
+      "Andrea Bonfanti",
+      "Salvatore Levantino",
+      "Carlo Samori",
+      "Andrea L. Lacaita"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "e1c00ada49817d020658190d5cfe86911ff7baa135fbdcb8e9bc4f879a58a811"
+  },
+  {
+    "paper_id": "P021",
+    "doi": "10.1109/tmtt.2017.2671359",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftmtt.2017.2671359",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Design and Sensitivity Improvement of CMOS-MEMS Scanning Microwave Microscopes",
+    "authors": [
+      "Mostafa Azizi",
+      "Raafat R. Mansour"
+    ],
+    "venue": "IEEE Transactions on Microwave Theory and Techniques",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "944037358bf1f8052da9ceca930d36774a91f66a6ff3ff5b41b8f8a514777979"
+  },
+  {
+    "paper_id": "P022",
+    "doi": "10.1109/jssc.2009.2032273",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2009.2032273",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 150 GHz Amplifier With 8 dB Gain and +6 dBm P_{ sat} in Digital 65 nm CMOS Using Dummy-Prefilled Microstrip Lines",
+    "authors": [
+      "Munkyo Seo",
+      "Basanth Jagannathan",
+      "John Pekarik",
+      "Mark J. W. Rodwell"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "01bcf88985edc1ad07d651bf1a6839747204258b3923af8fea57bb51fc813931"
+  },
+  {
+    "paper_id": "P023",
+    "doi": "10.1109/jssc.2017.2693229",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2017.2693229",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 2-GHz Bandwidth, 0.25–1.7 ns True-Time-Delay Element Using a Variable-Order All-Pass Filter Architecture in 0.13 μ m CMOS",
+    "authors": [
+      "Imon Mondal",
+      "Nagendra Krishnapura"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "95838acf61f1ca9d5faaa4f06a74afe040165e6410fa8f555b24291df88a0779"
+  },
+  {
+    "paper_id": "P024",
+    "doi": "10.1109/jssc.2019.2916418",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2019.2916418",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 763 pW 230 pJ/Conversion Fully Integrated CMOS Temperature-to-Digital Converter With +0.81 °C/−0.75 °C Inaccuracy",
+    "authors": [
+      "Hui Wang",
+      "Patrick P. Mercier"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "9b8a6fe1a3d389d26cc5cfb88ee60425bfd6f04c1d3cdd6470fefca94b1b9bde"
+  },
+  {
+    "paper_id": "P025",
+    "doi": "10.1109/jssc.2014.2354048",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2014.2354048",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 0.79 pJ/K-Gate, 83% Efficient Unified Core and Voltage Regulator Architecture for Sub/Near-Threshold Operation in 130 nm CMOS",
+    "authors": [
+      "Sai Zhang",
+      "Jane S. Tu",
+      "Naresh R. Shanbhag",
+      "Philip T. Krein"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2014,
+    "update_to": [],
+    "metadata_sha256": "a77ac1cccd0715552b9bbfdd41ddf7bcbebc827e1f02b48e0e82658bb9988eaa"
+  },
+  {
+    "paper_id": "P026",
+    "doi": "10.1007/s10470-007-9062-8",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-007-9062-8",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A fully-integrated 5 Gbit/s CMOS clock and data recovery circuit",
+    "authors": [
+      "Tan Kok-Siang",
+      "Mohd-Shahiman Sulaiman",
+      "Mamun Reaz",
+      "Chuah Hean-Teik",
+      "Manoj Sachdev"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2007,
+    "update_to": [],
+    "metadata_sha256": "1d721815b0a494a3cec93df139bd8a5927696bbeaa4366d8529b93ddbff50d9b"
+  },
+  {
+    "paper_id": "P027",
+    "doi": "10.1109/jssc.2016.2607338",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2016.2607338",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Multichannel 65 zF rms Resolution CMOS Monolithic Capacitive Sensor for Counting Single Micrometer-Sized Airborne Particles on Chip",
+    "authors": [
+      "Pietro Ciccarella",
+      "Marco Carminati",
+      "Marco Sampietro",
+      "Giorgio Ferrari"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2016,
+    "update_to": [],
+    "metadata_sha256": "033ab3f477e910b7643fd541e2a33506f849ee318c44da0cc8fd6152c9e5f10b"
+  },
+  {
+    "paper_id": "P028",
+    "doi": "10.1109/jssc.2023.3311673",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2023.3311673",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Fully Integrated 135-GHz Direct-Digital 16-QAM Wireless and Dielectric Waveguide Link in 28-nm CMOS",
+    "authors": [
+      "Carl D’heer",
+      "Patrick Reynaert"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2024,
+    "update_to": [],
+    "metadata_sha256": "dfcdd23bb6f1df8f41a6942ec34da9efb3c77e08fefe973f6c8629a66bd37a45"
+  },
+  {
+    "paper_id": "P029",
+    "doi": "10.1080/09500340.2015.1049572",
+    "metadata_url": "https://api.crossref.org/works/10.1080%2F09500340.2015.1049572",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Planar CMOS analog SiPMs: design, modeling, and characterization",
+    "authors": [
+      "Yu Zou",
+      "Federica Villa",
+      "Danilo Bronzi",
+      "Simone Tisa",
+      "Alberto Tosi",
+      "Franco Zappa"
+    ],
+    "venue": "Journal of Modern Optics",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "65147370f53de723f5ce5890722e6fdb1522b00e516f67d96125c09b8f1b5188"
+  },
+  {
+    "paper_id": "P030",
+    "doi": "10.1109/ted.2008.916680",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2008.916680",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Matching the Transconductance Characteristics of CMOS ISFET Arrays by Removing Trapped Charge",
+    "authors": [
+      "Mark J. Milgrew",
+      "David R. S. Cumming"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "464dfe551afad09e4f4aeaf227068fb21c81afa78ae203624226404737a41f6b"
+  },
+  {
+    "paper_id": "P031",
+    "doi": "10.1007/bf01239077",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fbf01239077",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Fault simulation of linear analog circuits",
+    "authors": [
+      "Naveena Nagi",
+      "Abhijit Chatterjee",
+      "Jacob A. Abraham"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 1993,
+    "update_to": [],
+    "metadata_sha256": "23a6411e6712010a14477abd1cc9432bfeb0341a4c0cc2f28532f3966b2f147f"
+  },
+  {
+    "paper_id": "P032",
+    "doi": "10.1109/tcsi.2024.3524949",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsi.2024.3524949",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Enhanced ISI Analysis and Fast Circuit Simulation of High-Speed Current-Steering DACs",
+    "authors": [
+      "Subin Kim",
+      "Ian Galton"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "year": 2025,
+    "update_to": [],
+    "metadata_sha256": "882c7737851e38150b63ffc410ac562cecbd4bf91882133d40e481f7a91ec7ac"
+  },
+  {
+    "paper_id": "P033",
+    "doi": "10.1109/jssc.2017.2743174",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2017.2743174",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Low-Power CMOS Crystal Oscillator Using a Stacked-Amplifier Architecture",
+    "authors": [
+      "Shunta Iguchi",
+      "Takayasu Sakurai",
+      "Makoto Takamiya"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "1c6df8dfa94bdfbd09e8c4414baa7d18e5223e3cdc6a23c67c7cfa646fb3e747"
+  },
+  {
+    "paper_id": "P034",
+    "doi": "10.1109/jssc.2011.2178723",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2011.2178723",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 40-Gb/s Optical Transceiver Front-End in 45 nm SOI CMOS",
+    "authors": [
+      "Joohwa Kim",
+      "James F. Buckwalter"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "3071e73b3aa84d594db4ec94b97360a750ce918f175faeebbe4b62804f1c720e"
+  },
+  {
+    "paper_id": "P035",
+    "doi": "10.1109/30.793412",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2F30.793412",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A low-power video 10-bit CMOS D/A converter using modified look-ahead circuit",
+    "authors": [
+      "Yang Xu",
+      "Hao Min"
+    ],
+    "venue": "IEEE Transactions on Consumer Electronics",
+    "year": 1999,
+    "update_to": [],
+    "metadata_sha256": "35832cb3b86bddb50ef7c843618e5fe737a5e340662131ad6e08ac2d4f9f515b"
+  },
+  {
+    "paper_id": "P036",
+    "doi": "10.4071/hitec-tp16",
+    "metadata_url": "https://api.crossref.org/works/10.4071%2Fhitec-tp16",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "500 °C operation of AlGaN/GaN and AlInN/GaN Integrated Circuits",
+    "authors": [
+      "Mikhail Gaevski",
+      "Jianyu Deng",
+      "Grigory Simin",
+      "Remis Gaska"
+    ],
+    "venue": "Additional Conferences (Device Packaging, HiTEC, HiTEN, and CICMT)",
+    "year": 2014,
+    "update_to": [],
+    "metadata_sha256": "fa8ed7cac1cfa9921bcdd9a2ee80e9253ba9ef79d8370d73905ec56d88ff7d83"
+  },
+  {
+    "paper_id": "P037",
+    "doi": "10.1007/s10470-011-9771-x",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-011-9771-x",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A superheterodyne receiver front-end with on-chip automatically Q-tuned notch filters",
+    "authors": [
+      "Baoyong Chi",
+      "Zhihua Wang",
+      "S. Simon Wong"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2011,
+    "update_to": [],
+    "metadata_sha256": "6c6a832649a3151d497854efe0fa382bfbc28a67a2e51fd05638b8c299ad460d"
+  },
+  {
+    "paper_id": "P038",
+    "doi": "10.1109/jssc.2020.3028811",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2020.3028811",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 0.7–5.7 GHz Reconfigurable MIMO Receiver Architecture for Analog Spatial Notch Filtering Using Orthogonal Beamforming",
+    "authors": [
+      "Sajad Golabighezelahmad",
+      "Eric A. M. Klumperink",
+      "Bram Nauta"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2021,
+    "update_to": [],
+    "metadata_sha256": "0152cc4c7eced7eaa3de31941dc1c17bad20ecabacaf6a5e26b6bc781f132116"
+  },
+  {
+    "paper_id": "P039",
+    "doi": "10.1109/4.406403",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2F4.406403",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "CMOS analog divider and four-quadrant multiplier using pool circuits",
+    "authors": [
+      "Shen-Iuan Liu",
+      "Cheng-Chieh Chang"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 1995,
+    "update_to": [],
+    "metadata_sha256": "c7e190b96f8266d628603cd2ffa50e71abbe3e564e5b4e70120b41bd2ef1ee54"
+  },
+  {
+    "paper_id": "P040",
+    "doi": "10.1109/tcsii.2024.3374052",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsii.2024.3374052",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Digitally Controlled Bidirectional 24–32-GHz Variable Gain Phase Shifter in 45-nm SOI CMOS",
+    "authors": [
+      "Mehran Hazer Sahlabadi",
+      "Hang Yu",
+      "Jingjing Xia",
+      "Slim Boumaiza"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+    "year": 2024,
+    "update_to": [],
+    "metadata_sha256": "fd62ee7431ea036950b5468881e28c9ae4b6a4cb8702b71ffbeb1908a4683023"
+  },
+  {
+    "paper_id": "P041",
+    "doi": "10.1166/jolpe.2013.1287",
+    "metadata_url": "https://api.crossref.org/works/10.1166%2Fjolpe.2013.1287",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Versatile High Swing Current Mode Instrumentation Amplifier with an Integrated Band-Pass Filter for Bio-Potential Signal Acquisition",
+    "authors": [
+      "A. Anvesha",
+      "Maryam Shojaei Baghini"
+    ],
+    "venue": "Journal of Low Power Electronics",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "8aaea1390aa1581c359617b0edb0ee67676ad44456c78dfb7005a21110a3068d"
+  },
+  {
+    "paper_id": "P042",
+    "doi": "10.1109/jssc.2018.2866374",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2018.2866374",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Phase-Domain Readout Circuit for a CMOS-Compatible Hot-Wire CO 2 Sensor",
+    "authors": [
+      "Zeyu Cai",
+      "Robert van Veldhoven",
+      "Hilco Suy",
+      "Ger de Graaf",
+      "Kofi A. A. Makinwa",
+      "Michiel A. P. Pertijs"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "13c6b55f7ef6e0a11ecbbce5bd5515b671829ae09080fb67599cd23d4504ff55"
+  },
+  {
+    "paper_id": "P043",
+    "doi": "10.1109/jssc.2013.2252516",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2013.2252516",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 6-b 4.1-GS/s Flash ADC With Time-Domain Latch Interpolation in 90-nm CMOS",
+    "authors": [
+      "Jong-In Kim",
+      "Ba-Ro-Saim Sung",
+      "Wan Kim",
+      "Seung-Tak Ryu"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "0989b0149cf9594bf12cbaaf21ea1103bec1f9777665a3b43839d4a5fd7c0a67"
+  },
+  {
+    "paper_id": "P044",
+    "doi": "10.1109/jmems.2013.2262589",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjmems.2013.2262589",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Behavioral Modeling of a CMOS–MEMS Nonlinear Parametric Resonator",
+    "authors": [
+      "Congzhong Guo",
+      "Gary K. Fedder"
+    ],
+    "venue": "Journal of Microelectromechanical Systems",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "c38611b1f75b1a47025cf008ab85dceaf5b0b559a259589146bc9d01130df1a0"
+  },
+  {
+    "paper_id": "P045",
+    "doi": "10.1109/mssc.2012.2203171",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fmssc.2012.2203171",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "The Silence of the Amps: Integrated Circuits for Very-Low-Noise Processing of Random Signals from Radiation Detectors",
+    "authors": [
+      "Giuseppe Bertuccio"
+    ],
+    "venue": "IEEE Solid-State Circuits Magazine",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "eb6a19b751d870feb0d95c175a93f71d31c6e724a6121d5daa291110457323d1"
+  },
+  {
+    "paper_id": "P046",
+    "doi": "10.1109/jssc.2007.897131",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2007.897131",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 750 mV Fully Integrated Direct Conversion Receiver Front-End for GSM in 90-nm CMOS",
+    "authors": [
+      "Massimo Brandolini",
+      "Marco Sosio",
+      "Francesco Svelto"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2007,
+    "update_to": [],
+    "metadata_sha256": "6abfba3061caf2e4a1cbf0e60a70cbc59561231a484c402f077ba63926cd5376"
+  },
+  {
+    "paper_id": "P047",
+    "doi": "10.1109/jssc.2010.2058150",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2010.2058150",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Passive W-Band Imaging Receiver in 65-nm Bulk CMOS",
+    "authors": [
+      "Alexander Tomkins",
+      "Patrice Garcia",
+      "Sorin P. Voinigescu"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2010,
+    "update_to": [],
+    "metadata_sha256": "22b4ae17eec5c44fd832fe93157bef276dfa5e2490cf145ffb2affff0656f306"
+  },
+  {
+    "paper_id": "P048",
+    "doi": "10.1109/jssc.2023.3243305",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2023.3243305",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Improving Linearity in CMOS Phase Interpolators",
+    "authors": [
+      "Amit Kumar Mishra",
+      "Yifei Li",
+      "Pawan Agarwal",
+      "Sudip Shekhar"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2023,
+    "update_to": [],
+    "metadata_sha256": "f8c243b7ebb04eec9cbb46ecd9e2ce577eead64ccdb4d86bac79737fcc4279de"
+  },
+  {
+    "paper_id": "P049",
+    "doi": "10.1109/jssc.2022.3149916",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2022.3149916",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 30-fps 192 × 192 CMOS Image Sensor With Per-Frame Spatial-Temporal Coded Exposure for Compressive Focal-Stack Depth Sensing",
+    "authors": [
+      "Yi Luo",
+      "Shahriar Mirabbasi"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2022,
+    "update_to": [],
+    "metadata_sha256": "178da1a2eb92244bdb5381880ad7eea221bb469f43e16a5215c8b32d518cc367"
+  },
+  {
+    "paper_id": "P050",
+    "doi": "10.1109/jssc.2012.2225738",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2012.2225738",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Analog Filter Design Using Ring Oscillator Integrators",
+    "authors": [
+      "Brian Drost",
+      "Mrunmay Talegaonkar",
+      "Pavan Kumar Hanumolu"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "02ba999184cdceb023091334a46fbb8b1b8863e4ebdb028d50a0d24c69415454"
+  },
+  {
+    "paper_id": "P051",
+    "doi": "10.1109/jssc.2013.2273823",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2013.2273823",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Class-F CMOS Oscillator",
+    "authors": [
+      "Masoud Babaie",
+      "Robert Bogdan Staszewski"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "aed00810b4b7b3675c14a1d06aab58c17b5f90ceed20aaef0d809012d99865a7"
+  },
+  {
+    "paper_id": "P052",
+    "doi": "10.1109/jssc.2008.925605",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2008.925605",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 30.5 dBm 48% PAE CMOS Class-E PA With Integrated Balun for RF Applications",
+    "authors": [
+      "Riccardo Brama",
+      "Luca Larcher",
+      "Andrea Mazzanti",
+      "Francesco Svelto"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "e918ac8aae39f8b3ba7ade8c15e9c0840186b973e83271f41138268c34616d13"
+  },
+  {
+    "paper_id": "P053",
+    "doi": "10.1109/jssc.2019.2954232",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2019.2954232",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Fully Integrated 0.27-THz Injection-Locked Frequency Synthesizer With Frequency-Tracking Loop in 65-nm CMOS",
+    "authors": [
+      "Xiaolong Liu",
+      "Howard C. Luong"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2020,
+    "update_to": [],
+    "metadata_sha256": "db5a8ee38a5fee8756b9bb19035f43b0605e4946b475a013dcbd577656b3f033"
+  },
+  {
+    "paper_id": "P054",
+    "doi": "10.1109/jssc.2018.2862892",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2018.2862892",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Design and Analysis of a Programmable Receiver Front End With Time-Interleaved Baseband Analog-FIR Filtering",
+    "authors": [
+      "Sameed Hameed",
+      "Sudhakar Pamarti"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "71df032efeab7b95666968b1a6496d22f5ad706d55f8b626222aca0ff9b0b4cf"
+  },
+  {
+    "paper_id": "P055",
+    "doi": "10.1109/led.2005.860889",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fled.2005.860889",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "The effect of gate leakage on the noise figure of AlGaN/GaN HEMTs",
+    "authors": [
+      "C. Sanabria",
+      "A. Chakraborty",
+      "Hongtao Xu",
+      "M.J. Rodwell",
+      "U.K. Mishra",
+      "R.A. York"
+    ],
+    "venue": "IEEE Electron Device Letters",
+    "year": 2006,
+    "update_to": [],
+    "metadata_sha256": "e0818ee2476de1744bb5d863dd4dd26af5b911183d2f33e716c3e95fbd9a517d"
+  },
+  {
+    "paper_id": "P056",
+    "doi": "10.1109/jssc.2025.3570656",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2025.3570656",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Millimeter-Wave Power Amplifier With an Integrated CMOS Isolator/Circulator/Receiver",
+    "authors": [
+      "Masoud Pashaeifar",
+      "Leo C. N. de Vreede",
+      "Morteza S. Alavi"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2026,
+    "update_to": [],
+    "metadata_sha256": "59b5b72fc4a9c16ce6f2ee503a57a08d8c4306cf87a7f56bd1083be8b60dc047"
+  },
+  {
+    "paper_id": "P057",
+    "doi": "10.1109/jssc.2022.3218558",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2022.3218558",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 112-Gb/s —8.2-dBm Sensitivity 4-PAM Linear TIA in 16-nm CMOS With Co-Packaged Photodiodes",
+    "authors": [
+      "Dhruv Patel",
+      "Alireza Sharif-Bakhtiar",
+      "Tony Chan Carusone"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2023,
+    "update_to": [],
+    "metadata_sha256": "19021b5f71793001c0065ad0198c3ee42254aa434849dc43e0e6076032ca3d8d"
+  },
+  {
+    "paper_id": "P058",
+    "doi": "10.1109/jssc.2013.2245058",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2013.2245058",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 256 Pixel Magnetoresistive Biosensor Microarray in 0.18 µm CMOS",
+    "authors": [
+      "Drew A. Hall",
+      "Richard S. Gaster",
+      "Kofi A. A. Makinwa",
+      "Shan X. Wang",
+      "Boris Murmann"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "db50ba49bc37743a0e032fef87812c18af3db4c0f56c9c37417d3e64367f5e0f"
+  },
+  {
+    "paper_id": "P059",
+    "doi": "10.1109/jssc.2014.2368132",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2014.2368132",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Cell-Based Variable-Gain Amplifiers With Accurate dB-Linear Characteristic in 0.18 µm CMOS Technology",
+    "authors": [
+      "Hang Liu",
+      "Xi Zhu",
+      "Chirn Chye Boon",
+      "Xiaofeng He"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "c266b8dc8237fc6373b14ace5cab57ae406cd3e815411bcf93ca611ea696afe0"
+  },
+  {
+    "paper_id": "P060",
+    "doi": "10.1049/iet-cds.2018.5252",
+    "metadata_url": "https://api.crossref.org/works/10.1049%2Fiet-cds.2018.5252",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "High‐Q second‐order all‐pass delay network in CMOS",
+    "authors": [
+      "Piotr Jan Osuch",
+      "Tinus Stander"
+    ],
+    "venue": "IET Circuits, Devices & Systems",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "3a183e31a0af08ea379d5d200d42c7e96d6e6cd5836d6d0be1d08d34deba347a"
+  },
+  {
+    "paper_id": "P061",
+    "doi": "10.1109/tcad.2021.3081405",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcad.2021.3081405",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "An Efficient Analog Circuit Sizing Method Based on Machine Learning Assisted Global Optimization",
+    "authors": [
+      "Ahmet Faruk Budak",
+      "Miguel Gandara",
+      "Wei Shi",
+      "David Z. Pan",
+      "Nan Sun",
+      "Bo Liu"
+    ],
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "year": 2022,
+    "update_to": [],
+    "metadata_sha256": "4a4476d34aed52cace57a4448f2a4cdb3c86ed1e3a8ef2a5e7766f01586e57e6"
+  },
+  {
+    "paper_id": "P062",
+    "doi": "10.1109/jssc.2009.2020203",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2009.2020203",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A V-Band CMOS VCO With an Admittance-Transforming Cross-Coupled Pair",
+    "authors": [
+      "Hsieh-Hung Hsieh",
+      "Liang-Hung Lu"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "f639913b74566755bb9f7c1fffc7468b2efc72ab15348c52e93fed2fcfbc4d94"
+  },
+  {
+    "paper_id": "P063",
+    "doi": "10.1007/s10470-007-9083-3",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-007-9083-3",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Adaptive log domain filters for system identification using floating gate transistors",
+    "authors": [
+      "Yiming Zhai",
+      "Pamela Ann Abshire"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2007,
+    "update_to": [],
+    "metadata_sha256": "892d91f5f00de690c4e9d9a6a3203401abe0ac2d164965588baf7b169739f3a4"
+  },
+  {
+    "paper_id": "P064",
+    "doi": "10.1109/tcsi.2007.904597",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsi.2007.904597",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Development of Integrated Broad-Band CMOS Low-Noise Amplifiers",
+    "authors": [
+      "Yi-Jan Emery Chen",
+      "Yao-I. Huang"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "year": 2007,
+    "update_to": [],
+    "metadata_sha256": "52b5f1196497a4e25cc3e9edbd349a78bb55ee7fcea98b2d513ecfff3c9fc27b"
+  },
+  {
+    "paper_id": "P065",
+    "doi": "10.1109/4.910481",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2F4.910481",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 900-MHz 2.5-mA CMOS frequency synthesizer with an automatic SC tuning loop",
+    "authors": [
+      "Tsung-Hsien Lin",
+      "W.J. Kaiser"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2001,
+    "update_to": [],
+    "metadata_sha256": "d43252636b5bb61bde59cdd9415e83928b2e736c85b52a3ddf42df05ed4cfa69"
+  },
+  {
+    "paper_id": "P066",
+    "doi": "10.1109/jssc.2019.2948171",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2019.2948171",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 21-dm-OP1 dB 20.3%-Efficiency -131.8-dBm/Hz-Noise X-Band Cartesian Error Feedback Transmitter With Fully Integrated Power Amplifier in 65-nm CMOS",
+    "authors": [
+      "Jinbo Li",
+      "Ran Shu",
+      "Zhiwei Xu",
+      "Qun Jane Gu"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "1426fc3e0e893810d6b8f75037933ca3d46a115ed9766d45407fdbeea996feee"
+  },
+  {
+    "paper_id": "P067",
+    "doi": "10.1109/jssc.2007.903050",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2007.903050",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Design of Wide-Tuning-Range Millimeter-Wave CMOS VCO With a Standing-Wave Architecture",
+    "authors": [
+      "Jun-Chau Chien",
+      "Liang-Hung Lu"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2007,
+    "update_to": [],
+    "metadata_sha256": "d79ba3cb6f83c912494f753f58c830c87e7a6fed62f535786709c0609ef36fd8"
+  },
+  {
+    "paper_id": "P068",
+    "doi": "10.1023/a:1008379914498",
+    "metadata_url": "https://api.crossref.org/works/10.1023%2Fa%3A1008379914498",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "CMOS Programmable Imager Implementing Pre-Processing Operations",
+    "authors": [
+      "Khaled N. Salama",
+      "Ahmed M. El-Tawil",
+      "Ahmed M. Soliman",
+      "Hassan O. Elwan"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 1999,
+    "update_to": [],
+    "metadata_sha256": "7ba9fa3cb5f20610c7fe62f74fcad90af7463a901abf84cb0ff79db4f92d7f12"
+  },
+  {
+    "paper_id": "P069",
+    "doi": "10.1007/s10470-015-0528-9",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-015-0528-9",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 10 Gb/s adaptive analog decision feedback equalizer for multimode fiber dispersion compensation in 0.13 {μ } μ m CMOS",
+    "authors": [
+      "Mahyar Kargar",
+      "Pouria Khaliliadl",
+      "Michael M. Green"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "abbe98e8beb41c930f43258be0922dfc168b8af573f05c8958568ad48116c3a9"
+  },
+  {
+    "paper_id": "P070",
+    "doi": "10.1109/ted.2015.2420597",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2015.2420597",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Comparison of the Degradation in RF Performance Due to Device Interconnects in Advanced SiGe HBT and CMOS Technologies",
+    "authors": [
+      "Robert L. Schmid",
+      "Ahmet Cagri Ulusoy",
+      "Saeed Zeinolabedinzadeh",
+      "John D. Cressler"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "ab1721e6dbd01c39de14172a2e5b46f5598d8f0a724a357c1c7b902f590fb221"
+  },
+  {
+    "paper_id": "P071",
+    "doi": "10.1109/jssc.2010.2091322",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2010.2091322",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Nanosecond Delay Floating High Voltage Level Shifters in a 0.35 μm HV-CMOS Technology",
+    "authors": [
+      "Yashodhan Moghe",
+      "Torsten Lehmann",
+      "Tim Piessens"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2011,
+    "update_to": [],
+    "metadata_sha256": "7b526d9ca9602a24d4d4013dfafd9d46954dd203d8697e4fbf91570008f9ef38"
+  },
+  {
+    "paper_id": "P072",
+    "doi": "10.1023/a:1020769913779",
+    "metadata_url": "https://api.crossref.org/works/10.1023%2Fa%3A1020769913779",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Multi-bit Delta-Sigma Modulator Using a Modified DWA Algorithm",
+    "authors": [
+      "Chien-Hung Kuo",
+      "Tzu-Chien Hsueh",
+      "Shen-Iuan Liu"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2002,
+    "update_to": [],
+    "metadata_sha256": "c83e649d2e0724bff5eb6432f2e817167bc54190f3687263c6b02449c7cc7988"
+  },
+  {
+    "paper_id": "P073",
+    "doi": "10.1007/s10470-015-0657-1",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-015-0657-1",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A high speed four-stage operational amplifier in 65 nm CMOS",
+    "authors": [
+      "Yi Xie",
+      "Zhangming Zhu"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "48be4e094d0bc0805c352c467f2e343c5e6a1e3f75e349abe0f81fe7545f0bff"
+  },
+  {
+    "paper_id": "P074",
+    "doi": "10.1109/tvlsi.2018.2861769",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftvlsi.2018.2861769",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Comprehensive Time-Dependent Dielectric Breakdown Lifetime Simulator for Both Traditional CMOS and FinFET Technology",
+    "authors": [
+      "Kexin Yang",
+      "Taizhi Liu",
+      "Rui Zhang",
+      "Linda Milor"
+    ],
+    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "b831987a6ae73b692b9208984c891221744692b85c3cdd5f64f72fb5c9e65616"
+  },
+  {
+    "paper_id": "P075",
+    "doi": "10.1109/tcsi.2016.2598184",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsi.2016.2598184",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "One-Shot Non-Intrusive Calibration Against Process Variations for Analog/RF Circuits",
+    "authors": [
+      "Martin Andraud",
+      "Haralampos-G. Stratigopoulos",
+      "Emmanuel Simeu"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "year": 2016,
+    "update_to": [],
+    "metadata_sha256": "35576f9515989ad7526609eab8300d8075dfd26861a7494d3162f8cb7e6350af"
+  },
+  {
+    "paper_id": "P076",
+    "doi": "10.1109/jssc.2018.2820147",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2018.2820147",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1.2-V Dynamic Bias Latch-Type Comparator in 65-nm CMOS With 0.4-mV Input Noise",
+    "authors": [
+      "Harijot Singh Bindra",
+      "Christiaan E. Lokin",
+      "Daniel Schinkel",
+      "Anne-Johan Annema",
+      "Bram Nauta"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "80b929f8d15f8ffe08beb82c5deffbc963150dde2e42d8e2e36056b3a67b34b3"
+  },
+  {
+    "paper_id": "P077",
+    "doi": "10.1109/jssc.2019.2914576",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2019.2914576",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Quantized Analog RF Front End",
+    "authors": [
+      "Javid Musayev",
+      "Antonio Liscidini"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "eac0cf3b709f5e5fb5af7a62e810cae4c8a415dd0f61aee4be01a6f300af7afa"
+  },
+  {
+    "paper_id": "P078",
+    "doi": "10.1109/jssc.2017.2650409",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2017.2650409",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Wideband Fully Integrated Software-Defined Transceiver for FDD and TDD Operation",
+    "authors": [
+      "Hazal Yuksel",
+      "Dong Yang",
+      "Zachariah Boynton",
+      "Changhyuk Lee",
+      "Thomas Tapen",
+      "Alyosha Molnar",
+      "Alyssa Apsel"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "709f2fb6c87f6fa09a51a9c6df1cfc57c5480423ccef1bfea45f0defd5b6ca96"
+  },
+  {
+    "paper_id": "P079",
+    "doi": "10.1109/jssc.2008.2004863",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2008.2004863",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Scalable 6-to-18 GHz Concurrent Dual-Band Quad-Beam Phased-Array Receiver in CMOS",
+    "authors": [
+      "Sanggeun Jeon",
+      "Yu-Jiu Wang",
+      "Hua Wang",
+      "Florian Bohn",
+      "Arun Natarajan",
+      "Aydin Babakhani",
+      "Ali Hajimiri"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "584d2be5c49f20ec8daa7df9c9b000358bbb7bd6868b6134c9b4a2cc6825f3f6"
+  },
+  {
+    "paper_id": "P080",
+    "doi": "10.1109/tmtt.2025.3617568",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftmtt.2025.3617568",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 230-GHz 3.5-dBm Phase-Shifter-Embedded Frequency Tripler With Fundamental Voltage Tuning in 40-nm CMOS",
+    "authors": [
+      "Chun-Sheng Lin",
+      "Chun-Hsing Li"
+    ],
+    "venue": "IEEE Transactions on Microwave Theory and Techniques",
+    "year": 2026,
+    "update_to": [],
+    "metadata_sha256": "98806831154e88767987068d50b854c8ea6c83730928caaa4666449b184bce4d"
+  },
+  {
+    "paper_id": "P081",
+    "doi": "10.1109/tuffc.2022.3147973",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftuffc.2022.3147973",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Analysis and Modeling of an 11.8 GHz Fin Resonant Body Transistor in a 14 nm FinFET CMOS Process",
+    "authors": [
+      "Udit Rawat",
+      "Bichoy Bahr",
+      "Dana Weinstein"
+    ],
+    "venue": "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control",
+    "year": 2022,
+    "update_to": [],
+    "metadata_sha256": "51d3a4aa5c3dbd74cbf73855292fa1089054385ea4b52cdf0c9b2b37f4fb9834"
+  },
+  {
+    "paper_id": "P082",
+    "doi": "10.1002/mop.29586",
+    "metadata_url": "https://api.crossref.org/works/10.1002%2Fmop.29586",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A high‐power, broadband 245–285 GHz balanced frequency doubler in 45 nm SOI CMOS",
+    "authors": [
+      "Morteza Abbasi",
+      "David S. Ricketts"
+    ],
+    "venue": "Microwave and Optical Technology Letters",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "b8a3114e638088a7c725a49299cc357ed6e0a842f941cf6b68a6fc364edfd2ed"
+  },
+  {
+    "paper_id": "P083",
+    "doi": "10.4071/001c.81980",
+    "metadata_url": "https://api.crossref.org/works/10.4071%2F001c.81980",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Double-Sided Integrated GaN Power Module with Double Pulse Test (DPT) Verification",
+    "authors": [
+      "Sourish S. Sinha",
+      "Tzu-Hsuan Cheng",
+      "Douglas C. Hopkins"
+    ],
+    "venue": "Journal of Microelectronics and Electronic Packaging",
+    "year": 2023,
+    "update_to": [],
+    "metadata_sha256": "335ff20c2350d1572c250e06941a90db3747ec9df49c88103dd20088535d4b81"
+  },
+  {
+    "paper_id": "P084",
+    "doi": "10.1109/ted.2012.2186301",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2012.2186301",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "High-Performance Shielded Coplanar Waveguides for the Design of CMOS 60-GHz Bandpass Filters",
+    "authors": [
+      "Anne-Laure Franc",
+      "Emmanuel Pistono",
+      "Daniel Gloria",
+      "Philippe Ferrari"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "271b758dd11b2222935ff2ef7e59cdf61e695e46146405ea2441ea9b82e65187"
+  },
+  {
+    "paper_id": "P085",
+    "doi": "10.1109/tbcas.2017.2743685",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftbcas.2017.2743685",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A CMOS Front-End With Integrated Magnetoresistive Sensors for Biomolecular Recognition Detection Applications",
+    "authors": [
+      "Tiago Costa",
+      "Filipe A. Cardoso",
+      "Jose Germano",
+      "Paulo P. Freitas",
+      "Moises S. Piedade"
+    ],
+    "venue": "IEEE Transactions on Biomedical Circuits and Systems",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "132c00ea97f57f1c05fbb9aa9a354c70083c2d801b30bdf6f56671b3f730eb84"
+  },
+  {
+    "paper_id": "P086",
+    "doi": "10.1109/lssc.2022.3172992",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Flssc.2022.3172992",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Integrated Stacked Parallel Plate Shunt Capacitor for Millimeter-Wave Systems in Low-Cost Highly Integrated CMOS Technologies",
+    "authors": [
+      "Mohamad El-Chaar",
+      "Florence Podevin",
+      "Sylvain Bourdel",
+      "Antonio A. L. de Souza",
+      "Jean-Daniel Arnould"
+    ],
+    "venue": "IEEE Solid-State Circuits Letters",
+    "year": 2022,
+    "update_to": [],
+    "metadata_sha256": "b2123dfd6849de83baeb5771d1e00d4cd404fe72e6c804671f2e4ef03fa80719"
+  },
+  {
+    "paper_id": "P087",
+    "doi": "10.1109/tpel.2020.3040553",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftpel.2020.3040553",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Stability Prediction of Integrated-Circuit Based Constant ON-Time Controlled Buck Converters",
+    "authors": [
+      "Brian Wang",
+      "Dan Chen",
+      "Ching-Jan Chen",
+      "Sheng-Fu Hsiao"
+    ],
+    "venue": "IEEE Transactions on Power Electronics",
+    "year": 2021,
+    "update_to": [],
+    "metadata_sha256": "6814c797a96b3e2c133d9829a23d70a6c98db115ad106a647857c627e7672902"
+  },
+  {
+    "paper_id": "P088",
+    "doi": "10.1109/ted.2011.2104961",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2011.2104961",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Reconfigurable CMOS Oscillator Based on Multifrequency AlN Contour-Mode MEMS Resonators",
+    "authors": [
+      "Matteo Rinaldi",
+      "Chengjie Zuo",
+      "Jan Van der Spiegel",
+      "Gianluca Piazza"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2011,
+    "update_to": [],
+    "metadata_sha256": "d45bc7e1a3b6d631e8fb8f8175d21b195eaf3cc9e9243a2b37e8d97646ca4472"
+  },
+  {
+    "paper_id": "P089",
+    "doi": "10.1109/jssc.2026.3659771",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2026.3659771",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 19-dBm 110--142-GHz CMOS Power Amplifier With Device-Centric Power Boosting and Dual-Coupled Slotline Combiner",
+    "authors": [
+      "Md Hedayatullah Maktoomi",
+      "Xuyang Liu",
+      "Hamidreza Aghasi"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2026,
+    "update_to": [],
+    "metadata_sha256": "985719fdd7c064eae3e45f221da8f806782402ef8d2703b959fda71f3fcc6088"
+  },
+  {
+    "paper_id": "P090",
+    "doi": "10.1109/jssc.2011.2159054",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2011.2159054",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Design Techniques for Fully Integrated Switched-Capacitor DC-DC Converters",
+    "authors": [
+      "Hanh-Phuc Le",
+      "Seth R. Sanders",
+      "Elad Alon"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2011,
+    "update_to": [],
+    "metadata_sha256": "254a9492ef8f2fc3736f435e881256eeeda4c6b900f81798d24a59d33122869d"
+  },
+  {
+    "paper_id": "P091",
+    "doi": "10.1109/tcsi.2005.862068",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsi.2005.862068",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Design and anaylsis of a 2.5-Gbps optical receiver analog front-end in a 0.35-/spl mu/m digital CMOS technology",
+    "authors": [
+      "Wei-Zen Chen",
+      "Chao-Hsin Lu"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "year": 2006,
+    "update_to": [],
+    "metadata_sha256": "b11ba55277831902c9649f067d715bf97582687e0dbaa37c763edb287c3bc6c2"
+  },
+  {
+    "paper_id": "P092",
+    "doi": "10.1007/s10470-021-01814-1",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-021-01814-1",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 34.3 dB SNDR, 2.3GS/s, Sub-radix pipeline ADC using incomplete settling technique with background radix detector",
+    "authors": [
+      "Hsin-Shu Chen",
+      "Chien-Jian Tseng",
+      "Cheng-Ming Chen",
+      "Hsiang-Wen Chen"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2021,
+    "update_to": [],
+    "metadata_sha256": "550bcbf38aaeeadd2ee9787b142222a124859e6857aa33653ebbe1bf486aa9ec"
+  },
+  {
+    "paper_id": "P093",
+    "doi": "10.1109/lpt.2018.2867805",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Flpt.2018.2867805",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "83-ps Timing Jitter With a Red-Enhanced SPAD and a Fully Integrated Front End Circuit",
+    "authors": [
+      "Francesco Ceccarelli",
+      "Giulia Acconcia",
+      "Angelo Gulinatti",
+      "Massimo Ghioni",
+      "Ivan Rech"
+    ],
+    "venue": "IEEE Photonics Technology Letters",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "5b49f085208dfb87288c6e03e01d1397720b92b43ee947a5587980480c8e7317"
+  },
+  {
+    "paper_id": "P094",
+    "doi": "10.1109/jssc.2009.2017973",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2009.2017973",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Fully Integrated 0.13-μm CMOS 40-Gb/s Serial Link Transceiver",
+    "authors": [
+      "Jeong-Kyoum Kim",
+      "Jaeha Kim",
+      "Gyudong Kim",
+      "Deog-Kyoon Jeong"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "17358f1ad81b58bbda1430f32d887550a796cec43f97156afa1cfd01661d362e"
+  },
+  {
+    "paper_id": "P095",
+    "doi": "10.1023/a:1008219807175",
+    "metadata_url": "https://api.crossref.org/works/10.1023%2Fa%3A1008219807175",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Creative Methods of Leveraging VHDL-AMS-like Analog-HDL Environments. Case Study: Simulation of Circuit Reliability",
+    "authors": [
+      "Serag M. Gadelrab",
+      "James A. Barby"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 1998,
+    "update_to": [],
+    "metadata_sha256": "f5b36e1241624bf1e5793e1142e0067825526b4a98c4a6af495de1698825e7e8"
+  },
+  {
+    "paper_id": "P096",
+    "doi": "10.1109/tcsi.2024.3355070",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsi.2024.3355070",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 130nm CMOS Programmable Analog Standard Cell Library",
+    "authors": [
+      "Jennifer Hasler",
+      "Praveen Raj Ayyappan",
+      "Afolabi Ige",
+      "Pranav Mathews"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "year": 2024,
+    "update_to": [],
+    "metadata_sha256": "9237c3b5e9f67df527884605c424a2d9d0c2fa9442c949831fa43e96a833fae0"
+  },
+  {
+    "paper_id": "P097",
+    "doi": "10.1109/jssc.2016.2639536",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2016.2639536",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Pseudo OFDM With Miniaturized FSK Demodulation Body-Coupled Communication Transceiver for Binaural Hearing Aids in 65 nm CMOS",
+    "authors": [
+      "Wala Saadeh",
+      "Muhammad Awais Bin Altaf",
+      "Haneen Alsuradi",
+      "Jerald Yoo"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "7cd9b3e35ce0f307356a9a29db45450b8d5db753c98ac2ae2ba9f1dea2b53893"
+  },
+  {
+    "paper_id": "P098",
+    "doi": "10.1109/tcsi.2020.3000745",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsi.2020.3000745",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "On Quantized Analog Compressive Sensing Methods for Efficient Resonator Frequency Estimation",
+    "authors": [
+      "Laxmeesha Somappa",
+      "Shuchin Aeron",
+      "Adarsh G. Menon",
+      "Sameer Sonkusale",
+      "Ashwin A. Seshia",
+      "Maryam Shojaei Baghini"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "year": 2020,
+    "update_to": [],
+    "metadata_sha256": "fb1e17fbf03879fbf567bdd39b06a53a4d30bb8ac617839625ac69a7dce80086"
+  },
+  {
+    "paper_id": "P099",
+    "doi": "10.1109/jssc.2019.2940332",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2019.2940332",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 30-GHz Digital Sub-Sampling Fractional-N PLL With −238.6-dB Jitter-Power Figure of Merit in 65-nm LP CMOS",
+    "authors": [
+      "Luca Bertulessi",
+      "Saleh Karman",
+      "Dmytro Cherniak",
+      "Alessandro Garghetti",
+      "Carlo Samori",
+      "Andrea L. Lacaita",
+      "Salvatore Levantino"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "a87c966a7d93132c7655e0428b14cec69fd3829176483fa555a9680c85094f34"
+  },
+  {
+    "paper_id": "P100",
+    "doi": "10.1109/tbcas.2019.2926836",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftbcas.2019.2926836",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Correlation of Capacitance and Microscopy Measurements Using Image Processing for a Lab-on-CMOS Microsystem",
+    "authors": [
+      "Bathiya P. Senevirathna",
+      "Sheung Lu",
+      "Marc P. Dandin",
+      "Elisabeth Smela",
+      "Pamela A. Abshire"
+    ],
+    "venue": "IEEE Transactions on Biomedical Circuits and Systems",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "f4817f37fd5aecadf5a7e8788882a00c0904c02d412a101d462e3370e1402fc9"
+  },
+  {
+    "paper_id": "P101",
+    "doi": "10.1109/jssc.2012.2223951",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2012.2223951",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Wideband IM3 Cancellation Technique for CMOS { Π}- and T-Attenuators",
+    "authors": [
+      "Wei Cheng",
+      "Mark S. Oude Alink",
+      "Anne Johan Annema",
+      "Gerard J. M. Wienk",
+      "Bram Nauta"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "629cfd1ab1837a98d511ba9e7679ecb49834f5b1906d700d738856a24d277fa8"
+  },
+  {
+    "paper_id": "P102",
+    "doi": "10.1109/ted.2018.2831719",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2018.2831719",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Dynamic Capacitance Model of a Pinned Photodiode in CMOS Image Sensors",
+    "authors": [
+      "Uzma Khan",
+      "Mukul Sarkar"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "d042088c9b1915f64a361d34394c6c271e79b0b417716021b6d0154028b0c15d"
+  },
+  {
+    "paper_id": "P103",
+    "doi": "10.1109/jssc.2017.2647924",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2017.2647924",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A CMOS Passive LPTV Nonmagnetic Circulator and Its Application in a Full-Duplex Receiver",
+    "authors": [
+      "Negar Reiskarimian",
+      "Jin Zhou",
+      "Harish Krishnaswamy"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "f5cfcf1ce0ed53fa862d8f641c509078ac63f94b87736f636f0450c49f9eb6e9"
+  },
+  {
+    "paper_id": "P104",
+    "doi": "10.1109/tpel.2024.3395126",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftpel.2024.3395126",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 400 V Dual-Phase Series-Capacitor Buck Converter GaN IC With Integrated Closed-Loop Control",
+    "authors": [
+      "Samantha K. Murray",
+      "Avram Kachura",
+      "Olivier Trescases"
+    ],
+    "venue": "IEEE Transactions on Power Electronics",
+    "year": 2024,
+    "update_to": [],
+    "metadata_sha256": "66e14f474d3eb567b26c36e9775b43ac4df32a5b9437c0ef0c15c2d7edb76b80"
+  },
+  {
+    "paper_id": "P105",
+    "doi": "10.1109/tmtt.2012.2231430",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftmtt.2012.2231430",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Lossy Circuit Model Based on Physical Interpretation for Integrated Shielded Slow-Wave CMOS Coplanar Waveguide Structures",
+    "authors": [
+      "Anne-Laure Franc",
+      "Emmanuel Pistono",
+      "Gérard Meunier",
+      "Daniel Gloria",
+      "Philippe Ferrari"
+    ],
+    "venue": "IEEE Transactions on Microwave Theory and Techniques",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "9b9d7a2d0e432b8a36316f7da806b6a3f517a264898b1f0d9d2d2d666f379b8f"
+  },
+  {
+    "paper_id": "P106",
+    "doi": "10.1109/jssc.2011.2143610",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2011.2143610",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1.8 μW 60 nV/√Hz Capacitively-Coupled Chopper Instrumentation Amplifier in 65 nm CMOS for Wireless Sensor Nodes",
+    "authors": [
+      "Qinwen Fan",
+      "Fabio Sebastiano",
+      "Johan H. Huijsing",
+      "Kofi A. A. Makinwa"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2011,
+    "update_to": [],
+    "metadata_sha256": "d26ebb5fb71ff80f6e9b7ead7ebc236e8ac8e74690180c73d92fbfc9ed4556db"
+  },
+  {
+    "paper_id": "P107",
+    "doi": "10.1007/s10470-018-1291-5",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-018-1291-5",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "On the realisation of current-mode four-quadrant CMOS cuber",
+    "authors": [
+      "Pushkar Srivastava",
+      "Ravindra K. Sharma",
+      "Rajeev K. Ranjan"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "73ffd60f70cf2108f1a2ebaf5616f83b243d3fd1b79506bfbb027b91ad53bff7"
+  },
+  {
+    "paper_id": "P108",
+    "doi": "10.1109/jssc.2020.2967554",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2020.2967554",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A CMOS Temperature Stabilized 2-D Mechanical Stress Sensor With 11-bit Resolution",
+    "authors": [
+      "Umidjon Nurmetov",
+      "Tobias Fritz",
+      "Ernst Mullner",
+      "Christopher M. Dougherty",
+      "Michael Szelong",
+      "Franz Kreupl",
+      "Ralf Brederlow"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2020,
+    "update_to": [],
+    "metadata_sha256": "3c9bea8deff1016ee14f67f5492e2bec9ef899a39fc99a390e24941c6983cbdb"
+  },
+  {
+    "paper_id": "P109",
+    "doi": "10.1109/jssc.2018.2820708",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2018.2820708",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1.24 μ A Quiescent Current NMOS Low Dropout Regulator With Integrated Low-Power Oscillator-Driven Charge-Pump and Switched-Capacitor Pole Tracking Compensation",
+    "authors": [
+      "Raveesh Magod",
+      "Bertan Bakkaloglu",
+      "Sanjeev Manandhar"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "b72186b3dc3f72536c8683922b88a3f0998e5ae32b78d9be86be667a76889f35"
+  },
+  {
+    "paper_id": "P110",
+    "doi": "10.1109/jssc.2009.2014730",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2009.2014730",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Wideband Supply Modulator for 20 MHz RF Bandwidth Polar PAs in 65 nm CMOS",
+    "authors": [
+      "Rameswor Shrestha",
+      "Ronan van der Zee",
+      "Anton de Graauw",
+      "Bram Nauta"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "84e9c0a630811ff0ab73218c6866e78a6703ba14512fb6ded24f8fee3b46e2b1"
+  },
+  {
+    "paper_id": "P111",
+    "doi": "10.1109/jssc.2013.2272864",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2013.2272864",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A CMOS High-Power Broadband 260-GHz Radiator Array for Spectroscopy",
+    "authors": [
+      "Ruonan Han",
+      "Ehsan Afshari"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "03cb61ee4ca4ba84303f1cb09685fffdf5131d7d0e3ec3abe9018f65353f457e"
+  },
+  {
+    "paper_id": "P112",
+    "doi": "10.1007/s10470-006-9003-y",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-006-9003-y",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Design of high-Q 3-D integrated inductors for high frequency applications",
+    "authors": [
+      "Dae-Hee Weon",
+      "Jeong-Il Kim",
+      "Saeed Mohammadi"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2006,
+    "update_to": [],
+    "metadata_sha256": "7c31bddda823a10b6f2da011b0f35a95b44667ce9063d1abe252c2179bcf7423"
+  },
+  {
+    "paper_id": "P113",
+    "doi": "10.1109/tcsi.2020.3038360",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsi.2020.3038360",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "An SoC FPAA Based Programmable, Ladder-Filter Based, Linear-Phase Analog Filter",
+    "authors": [
+      "Jennifer Hasler",
+      "Sahil Shah"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "year": 2021,
+    "update_to": [],
+    "metadata_sha256": "9e985687a9cdeab176b8e4acf2d7b6e8fb264f04885774d72c2d29679e879cc4"
+  },
+  {
+    "paper_id": "P114",
+    "doi": "10.1109/tpel.2024.3349417",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftpel.2024.3349417",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Ultrafast Self-Powered Circuit for Gate Driving of Normally On Wide-Bandgap Transistors",
+    "authors": [
+      "Arnab Sarkar",
+      "Nachiketa Deshmukh",
+      "Sandeep Anand"
+    ],
+    "venue": "IEEE Transactions on Power Electronics",
+    "year": 2024,
+    "update_to": [],
+    "metadata_sha256": "478862c0bee4acec36b1423e26350fe8a71dbaa9c42b7762b0cefa5f5ce51087"
+  },
+  {
+    "paper_id": "P115",
+    "doi": "10.1109/jssc.2008.920360",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2008.920360",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "CMOS VCO and LNA Using Tuned-Input Tuned-Output Circuits",
+    "authors": [
+      "Sudip Shekhar",
+      "Jeffery S. Walling",
+      "Sankaran Aniruddhan",
+      "David J. Allstot"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "4c47bc4d0b31a239ad368e0f709da3d1d8ab69677a1a52175aa256337cfe5a3e"
+  },
+  {
+    "paper_id": "P116",
+    "doi": "10.1109/jssc.2022.3149391",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2022.3149391",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1.12–1.91 mW/GHz 2.46–4.92 GHz Cascaded Clock Multiplier in 65 nm CMOS",
+    "authors": [
+      "R. Gautam",
+      "Saurabh Saxena"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2022,
+    "update_to": [],
+    "metadata_sha256": "34703b452b469c57cfa2eb0902f1f438fe16e7191ed99a5da81251293fa97776"
+  },
+  {
+    "paper_id": "P117",
+    "doi": "10.1109/jssc.2016.2594026",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2016.2594026",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 12-Bit 2 GS/s Dual-Rate Hybrid DAC With Pulse-Error Pre-Distortion and In-Band Noise Cancellation Achieving > 74 dBc SFDR and <−80 dBc IM3 up to 1 GHz in 65 nm CMOS",
+    "authors": [
+      "Shiyu Su",
+      "Mike Shuo-Wei Chen"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2016,
+    "update_to": [],
+    "metadata_sha256": "fdd7d61a9e5b792f78f2c8699893990656d93dab21a878bf1aff44b2bf876919"
+  },
+  {
+    "paper_id": "P118",
+    "doi": "10.1109/tpel.2026.3672488",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftpel.2026.3672488",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Dual-Output Full-Wave Rectifier-Based Power Management Circuit With a Synchronized Input Switch for Triboelectric Nanogenerators",
+    "authors": [
+      "Ferran Reverter",
+      "Sijun Du"
+    ],
+    "venue": "IEEE Transactions on Power Electronics",
+    "year": 2026,
+    "update_to": [],
+    "metadata_sha256": "08456542b3f1b8926de1d181964d0c4695edcb0cab76d7ec782b4419da59aee6"
+  },
+  {
+    "paper_id": "P119",
+    "doi": "10.1109/jssc.2025.3631053",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2025.3631053",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Distance-Dependent Variations in FinFETs and Its Impact on Analog Circuit Design",
+    "authors": [
+      "Meghna Madhusudan",
+      "Jitesh Poojary",
+      "Arvind K. Sharma",
+      "Ramprasath S",
+      "Kishor Kunal",
+      "Sachin S. Sapatnekar",
+      "Ramesh Harjani"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2026,
+    "update_to": [],
+    "metadata_sha256": "1124f81d781fd368bb46d25492560d7da444133bf5399325bd4861394217613d"
+  },
+  {
+    "paper_id": "P120",
+    "doi": "10.1109/tns.2009.2015298",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftns.2009.2015298",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Integrated Sensors for Charged-Particle Imaging Using Per-Pixel Correlated Double Sampling",
+    "authors": [
+      "Stuart Kleinfelder",
+      "Mona Ahooie"
+    ],
+    "venue": "IEEE Transactions on Nuclear Science",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "5e63cf3fc607b99e6b65cc0117367c2cca029085de3820adee4682bfb8cb826f"
+  },
+  {
+    "paper_id": "P121",
+    "doi": "10.1080/002072198134256",
+    "metadata_url": "https://api.crossref.org/works/10.1080%2F002072198134256",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A CMOS built-in current sensing circuit",
+    "authors": [
+      "JEONG BEOM KIM",
+      "SUNG JE HONG",
+      "JONG KIM"
+    ],
+    "venue": "International Journal of Electronics",
+    "year": 1998,
+    "update_to": [],
+    "metadata_sha256": "8312ae1568bef00a905a485d5234c73eeefb257ea6019c45b39a3e64e03505bf"
+  },
+  {
+    "paper_id": "P122",
+    "doi": "10.1007/s10470-006-9006-8",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-006-9006-8",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "CMOS inverters based positive type second generation current conveyor",
+    "authors": [
+      "Hervé Barthélemy",
+      "Matthieu Fillaud",
+      "Sylvain Bourdel",
+      "Jean Gaubert"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2006,
+    "update_to": [],
+    "metadata_sha256": "9afc737e0ccf6ad726e2bbd86ca9ea8ab3c0b19e384760b0cfde524508a04f69"
+  },
+  {
+    "paper_id": "P123",
+    "doi": "10.1109/jmems.2010.2067197",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjmems.2010.2067197",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "CMOS-MEMS Variable Capacitors Using Electrothermal Actuation",
+    "authors": [
+      "John Reinke",
+      "Gary K. Fedder",
+      "Tamal Mukherjee"
+    ],
+    "venue": "Journal of Microelectromechanical Systems",
+    "year": 2010,
+    "update_to": [],
+    "metadata_sha256": "f548c3fec2ac9eff5f06f091afb19c8017bbc0eaede09863b898672820bb3b43"
+  },
+  {
+    "paper_id": "P124",
+    "doi": "10.1109/jssc.2025.3647024",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2025.3647024",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "An 11.95-ENOB 560-MS/s Amplifier-Switching Subranging Analog-to-Digital Converter With Multi-Threshold Comparators",
+    "authors": [
+      "Ritaro Takenaka",
+      "Tetsuya Iizuka"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2026,
+    "update_to": [],
+    "metadata_sha256": "3d87a6e1c59e5f85ce592b32921fa87cf377158747691e31e2a53f44c3bb7327"
+  },
+  {
+    "paper_id": "P125",
+    "doi": "10.3390/math8050829",
+    "metadata_url": "https://api.crossref.org/works/10.3390%2Fmath8050829",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Statistical RF/Analog Integrated Circuit Design Using Combinatorial Randomness for Hardware Security Applications",
+    "authors": [
+      "Ethan Chen",
+      "Vanessa Chen"
+    ],
+    "venue": "Mathematics",
+    "year": 2020,
+    "update_to": [],
+    "metadata_sha256": "9f373ae8938c9d2b179ea1d46a6625004129d1fa53f275db7434fdc728c229a3"
+  },
+  {
+    "paper_id": "P126",
+    "doi": "10.1109/tbcas.2019.2920294",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftbcas.2019.2920294",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "An Ultra High-Frequency 8-Channel Neurostimulator Circuit With {68}\\% Peak Power Efficiency",
+    "authors": [
+      "Alessandro Urso",
+      "Vasiliki Giagka",
+      "Marijn van Dongen",
+      "Wouter A. Serdijn"
+    ],
+    "venue": "IEEE Transactions on Biomedical Circuits and Systems",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "040af7ed20441a7ad55b68d8c8ed50171641d4e81cf2ca315bc6537e1ae0951b"
+  },
+  {
+    "paper_id": "P127",
+    "doi": "10.1109/tcsii.2007.898472",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcsii.2007.898472",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Design for Testability of CMOS Analog Sum-Product Error-Control Decoders",
+    "authors": [
+      "Mimi Yiu",
+      "Chris Winstead",
+      "Vincent Gaudet",
+      "Christian Schlegel"
+    ],
+    "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+    "year": 2007,
+    "update_to": [],
+    "metadata_sha256": "f6db1d3096f43aaeba1640f4e7f81b55f87bb82faa917398fc88887312449552"
+  },
+  {
+    "paper_id": "P128",
+    "doi": "10.5573/ieie.2023.60.11.104",
+    "metadata_url": "https://api.crossref.org/works/10.5573%2Fieie.2023.60.11.104",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Readout Circuit for Superconducting Nanowire Single Photon Detector using a Cryogenic Energy-scalable Floating Inverter Amplifier",
+    "authors": [
+      "Changjoo Park",
+      "Jung Wanyeong"
+    ],
+    "venue": "Journal of the Institute of Electronics and Information Engineers",
+    "year": 2023,
+    "update_to": [],
+    "metadata_sha256": "d792d5d17b199e3b81a323d975cf9b908fe5221790699fe4910cfa550dbc76c6"
+  },
+  {
+    "paper_id": "P129",
+    "doi": "10.1109/jssc.2010.2056833",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2010.2056833",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Distributed Parametric Resonator: A Passive CMOS Frequency Divider",
+    "authors": [
+      "Wooram Lee",
+      "Ehsan Afshari"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2010,
+    "update_to": [],
+    "metadata_sha256": "d5fb19168c822d3edc3eeeaef46ec3d482bd05f33cca8671724684272a038178"
+  },
+  {
+    "paper_id": "P130",
+    "doi": "10.1109/jssc.2022.3171545",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2022.3171545",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "300-GHz Double-Balanced Up-Converter Using Asymmetric MOS Varactors in 65-nm CMOS",
+    "authors": [
+      "Zhiyu Chen",
+      "Wooyeol Choi",
+      "K. O Kenneth"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2022,
+    "update_to": [],
+    "metadata_sha256": "5546bb193e7d518e7f7664f6f01f5dc252a186b646f45ff34e75559dac3d8377"
+  },
+  {
+    "paper_id": "P131",
+    "doi": "10.1109/mssc.2023.3305589",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fmssc.2023.3305589",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Implantable Medical Devices for Wireless Optical Neuromodulation and Neural Recording: Energy-Efficient Integrated Circuit and System Design",
+    "authors": [
+      "Yaoyao Jia",
+      "Linran Zhao"
+    ],
+    "venue": "IEEE Solid-State Circuits Magazine",
+    "year": 2023,
+    "update_to": [],
+    "metadata_sha256": "a36f9a667181d53c0b40a9bf9ac32cfd42dfa693acc33be9bdd19262efa7ec40"
+  },
+  {
+    "paper_id": "P132",
+    "doi": "10.1007/s10470-018-1210-9",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-018-1210-9",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Two-step switching scheme for SAR ADC with high energy efficiency",
+    "authors": [
+      "Chenggao Zhang",
+      "Shubin Liu",
+      "Zhangming Zhu"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "e920944f6de1addd7d87f42f99f810678a8820948af9d21b6effdcd01fb4ff29"
+  },
+  {
+    "paper_id": "P133",
+    "doi": "10.1007/s10470-014-0483-x",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-014-0483-x",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A low distortion CMOS analogue switch with high-order compensation",
+    "authors": [
+      "Maliang Liu",
+      "Jingyu Wang",
+      "Zhangming Zhu",
+      "Wei Guo",
+      "Lianxi Liu",
+      "Ruixue Ding"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "16c33b5b33259d4d90dfd47fa4f35a1c010687af303548e9bacb081b3936762d"
+  },
+  {
+    "paper_id": "P134",
+    "doi": "10.1109/ted.2023.3314401",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2023.3314401",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Short-Circuit Failure Modes and Mechanism Investigation of Ohmic-Gate GaN HEMT",
+    "authors": [
+      "Xi Jiang",
+      "Tao Jiang",
+      "Shijie Zhang",
+      "Song Yuan",
+      "Zhaoheng Yan",
+      "Xiaowu Gong",
+      "Jun Wang"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2024,
+    "update_to": [],
+    "metadata_sha256": "da61e53ee57251555f8de74b8dccf63fd4a1d22c00fc6d749b9ea1ced0367836"
+  },
+  {
+    "paper_id": "P135",
+    "doi": "10.1007/s10470-014-0479-6",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-014-0479-6",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 95-dB DR second order incremental ΣΔ ADC for multi-channel healthcare application",
+    "authors": [
+      "Xiaofei Cao",
+      "Yanchao Wang",
+      "Zhijun Fu",
+      "Ting Yi",
+      "Zhiliang Hong"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "d3ebc8330986928101833b36fbb9137ae8ac6f5fe736d580f4363cf182ae6525"
+  },
+  {
+    "paper_id": "P136",
+    "doi": "10.1007/s10470-012-9829-4",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-012-9829-4",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A highly linear 1.2 V 12bit 5–45 MS/s CMOS pipelined ADC with CM-sensing-and-input-interchanged OTA sharing",
+    "authors": [
+      "Yajie Qin",
+      "Qihui Chen",
+      "Zhiliang Hong",
+      "Svante R. Signell"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "b36e66ce2d1e34ff3c5a6f6375c45e0645c26133e97a74d16837865e8f1cbbc9"
+  },
+  {
+    "paper_id": "P137",
+    "doi": "10.1109/tpel.2020.3043281",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftpel.2020.3043281",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Selection Methodology for Si Power MOSFETs Used to Enhance SiC Power MOSFET Short-Circuit Capability With the BaSIC(EMM) Topology",
+    "authors": [
+      "Ajit Kanale",
+      "B. Jayant Baliga"
+    ],
+    "venue": "IEEE Transactions on Power Electronics",
+    "year": 2021,
+    "update_to": [],
+    "metadata_sha256": "d0731ad79af368c7790e2051c7adcde0e3ea0bb90df0aecba86a01fd255e9408"
+  },
+  {
+    "paper_id": "P138",
+    "doi": "10.1109/t-ed.1983.21452",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ft-ed.1983.21452",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "The operation of power MOSFET in reverse mode",
+    "authors": [
+      "Min-hwa Chi",
+      "Chenming Hu"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 1983,
+    "update_to": [],
+    "metadata_sha256": "b51daf6994f1bbcbf8439662addb9fd11f97f1e0d67cc5a5c8ce106316c10646"
+  },
+  {
+    "paper_id": "P139",
+    "doi": "10.1109/ted.2018.2829125",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2018.2829125",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Development of GaN Vertical Trench-MOSFET With MBE Regrown Channel",
+    "authors": [
+      "Wenshen Li",
+      "Huili Grace Xing",
+      "Kazuki Nomoto",
+      "Kevin Lee",
+      "S.M. Islam",
+      "Zongyang Hu",
+      "Mingda Zhu",
+      "Xiang Gao",
+      "Manyam Pilla",
+      "Debdeep Jena"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "aff5d575486c12e3efa4c60530340b35a7ce9d5e7930c59540d7ab264bd1ea13"
+  },
+  {
+    "paper_id": "P140",
+    "doi": "10.1109/ted.2018.2842129",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2018.2842129",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "On the Universality of Hot Carrier Degradation: Multiple Probes, Various Operating Regimes, and Different MOSFET Architectures",
+    "authors": [
+      "Souvik Mahapatra",
+      "Rashmi Saikia"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "85a7a5c0fe3fc8dcc380b6d1f33e06fc91dfc84137a18e2ca5bec5e95a609bf8"
+  },
+  {
+    "paper_id": "P141",
+    "doi": "10.1016/s0038-1101(99)00239-7",
+    "metadata_url": "https://api.crossref.org/works/10.1016%2Fs0038-1101%2899%2900239-7",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Comparing SiC switching power devices: MOSFET, NPN transistor and GTO thyristor",
+    "authors": [
+      "Alex Q. Huang",
+      "Bo Zhang"
+    ],
+    "venue": "Solid-State Electronics",
+    "year": 2000,
+    "update_to": [],
+    "metadata_sha256": "603671d4030d6a0b775bce39042577c1430b4428a4a39d3c1c07dcabdf307dc0"
+  },
+  {
+    "paper_id": "P142",
+    "doi": "10.1109/ted.2017.2657579",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2017.2657579",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "GaN-on-Si Power Technology: Devices and Applications",
+    "authors": [
+      "Kevin J. Chen",
+      "Oliver Haberlen",
+      "Alex Lidow",
+      "Chun lin Tsai",
+      "Tetsuzo Ueda",
+      "Yasuhiro Uemoto",
+      "Yifeng Wu"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "6c38e6293d0ff0f19358273a746647026f23c3fe68562ce5281ab406f513ea20"
+  },
+  {
+    "paper_id": "P143",
+    "doi": "10.1109/ted.2015.2481886",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2015.2481886",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Emission–Diffusion Theory of the MOSFET",
+    "authors": [
+      "Mark Lundstrom",
+      "Supriyo Datta",
+      "Xingshu Sun"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "0a95e04b15aaa874c6001bd432e05a2b55e2d2808d79a93ddb602de01debb327"
+  },
+  {
+    "paper_id": "P144",
+    "doi": "10.1109/led.2019.2914026",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fled.2019.2914026",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Demonstration of Nitrogen Polar Gallium Nitride Current Aperture Vertical Electron Transistor",
+    "authors": [
+      "Saba Rajabi",
+      "Saptarshi Mandal",
+      "Burcu Ercan",
+      "Haoran Li",
+      "Matthew A. Laurent",
+      "Stacia Keller",
+      "Srabanti Chowdhury"
+    ],
+    "venue": "IEEE Electron Device Letters",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "29c106bba9d6462d1528dbeb3d399aca7c5320b04353af25d132eb2224c5a4e7"
+  },
+  {
+    "paper_id": "P145",
+    "doi": "10.1109/ted.2010.2067732",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2010.2067732",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Understanding LER-Induced MOSFET V_{T} Variability—Part II: Reconstructing the Distribution",
+    "authors": [
+      "Dave Reid",
+      "Campbell Millar",
+      "Scott Roy",
+      "Asen Asenov"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2010,
+    "update_to": [],
+    "metadata_sha256": "4903c7f462cad4bbfb67e37fea78dc85f566fd99369215ebd9250c1b1ff6a5be"
+  },
+  {
+    "paper_id": "P146",
+    "doi": "10.1109/led.2015.2436922",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fled.2015.2436922",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "The Role of the Base Stack on the AC Performance of GaN Hot Electron Transistor",
+    "authors": [
+      "Riccardo Soligo",
+      "Srabanti Chowdhury",
+      "Geetak Gupta",
+      "Umesh Mishra",
+      "Marco Saraniti"
+    ],
+    "venue": "IEEE Electron Device Letters",
+    "year": 2015,
+    "update_to": [],
+    "metadata_sha256": "758ae8fac4f7a5bc53cceef04b738421ddae7537f971f35de427fd0275c406db"
+  },
+  {
+    "paper_id": "P147",
+    "doi": "10.1109/ted.2009.2030711",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2009.2030711",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Scale-Length Assessment of the Trigate Bulk MOSFET Design",
+    "authors": [
+      "Xin Sun",
+      "Tsu-Jae King Liu"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "8f5e7fae430c86ec7a344b6a61476f1afe7ce56ea8d876930e3f2a4310985682"
+  },
+  {
+    "paper_id": "P148",
+    "doi": "10.1016/0011-2275(90)90204-p",
+    "metadata_url": "https://api.crossref.org/works/10.1016%2F0011-2275%2890%2990204-p",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Silicon bipolar transistor: a viable candidate for high speed applications at liquid nitrogen temperature",
+    "authors": [
+      "John D. Cressler"
+    ],
+    "venue": "Cryogenics",
+    "year": 1990,
+    "update_to": [],
+    "metadata_sha256": "12949c64b43ae07ecf7b7739964842615e038d36ec5f93b44a5621afea744941"
+  },
+  {
+    "paper_id": "P149",
+    "doi": "10.1109/tcpmt.2010.2101890",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftcpmt.2010.2101890",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "High-Frequency Scalable Electrical Model and Analysis of a Through Silicon Via (TSV)",
+    "authors": [
+      "Joohee Kim",
+      "Jun So Pak",
+      "Jonghyun Cho",
+      "Eakhwan Song",
+      "Jeonghyeon Cho",
+      "Heegon Kim",
+      "Taigon Song",
+      "Junho Lee",
+      "Hyungdong Lee",
+      "Kunwoo Park",
+      "Seungtaek Yang",
+      "Min-Suk Suh",
+      "Kwang-Yoo Byun",
+      "Joungho Kim"
+    ],
+    "venue": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
+    "year": 2011,
+    "update_to": [],
+    "metadata_sha256": "0003359efa8d3f31a561928c8ea821afc6771708190d65a59dddb5c0f8964dd2"
+  },
+  {
+    "paper_id": "P150",
+    "doi": "10.1109/mcse.2009.210",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fmcse.2009.210",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Atomistic Modeling of Realistically extended Semiconductor Devices with NEMO / OMEN",
+    "authors": [
+      "Gerhard Klimeck",
+      "Mathieu Luisier"
+    ],
+    "venue": "Computing in Science & Engineering",
+    "year": 2011,
+    "update_to": [],
+    "metadata_sha256": "cd75cc2760c8e7ddaafec1c8e0b07f807d4f79501873e44ce8bd8e2c5dcc122b"
+  },
+  {
+    "paper_id": "P151",
+    "doi": "10.1016/j.mejo.2005.09.007",
+    "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.mejo.2005.09.007",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Evaluation of graded-channel SOI MOSFET operation at high temperatures",
+    "authors": [
+      "Milene Galeti",
+      "Marcelo Antonio Pavanello",
+      "João Antonio Martino"
+    ],
+    "venue": "Microelectronics Journal",
+    "year": 2006,
+    "update_to": [],
+    "metadata_sha256": "e6d2621178082ef69975a88a18dddd84420a622e692640e10942f70d63c08cb8"
+  },
+  {
+    "paper_id": "P152",
+    "doi": "10.1116/1.5022160",
+    "metadata_url": "https://api.crossref.org/works/10.1116%2F1.5022160",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Electrolyte-insulator-semiconductor devices with different integrated reference electrodes for p H detection",
+    "authors": [
+      "Rodrigo Reigota César",
+      "Aline Maria Pascon",
+      "Ioshiaki Doi",
+      "José Alexandre Diniz"
+    ],
+    "venue": "Journal of Vacuum Science & Technology B, Nanotechnology and Microelectronics: Materials, Processing, Measurement, and Phenomena",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "f78d3f8c7518e28c7d2f8d41cb0d0f43e4d19d6d8d21b4dacfae36a8580a099f"
+  },
+  {
+    "paper_id": "P153",
+    "doi": "10.1109/mspec.1979.6368097",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fmspec.1979.6368097",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Circuit techniques: Enhancing MOS/LSI's role in analog design: High-density amplifiers, A/D and D/A converters, filters, and coder-decoder circuits can now be fabricated",
+    "authors": [
+      "David A. Hodges",
+      "Paul R. Gray",
+      "Robert W. Broderson"
+    ],
+    "venue": "IEEE Spectrum",
+    "year": 1979,
+    "update_to": [],
+    "metadata_sha256": "cf39942d720959e7a6cad6eb2e6f3fcd74656e2a6e9817d4ba0480db30098ad9"
+  },
+  {
+    "paper_id": "P154",
+    "doi": "10.1002/cta.4490230411",
+    "metadata_url": "https://api.crossref.org/works/10.1002%2Fcta.4490230411",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Analysis and simulation of substrate coupling in integrated circuits",
+    "authors": [
+      "Ranjit Gharpurey",
+      "Robert G. Meyer"
+    ],
+    "venue": "International Journal of Circuit Theory and Applications",
+    "year": 1995,
+    "update_to": [],
+    "metadata_sha256": "559e4d45f62f613bc42b955a1da5294f8c5faf64853e298f6e912fb095b794d9"
+  },
+  {
+    "paper_id": "P155",
+    "doi": "10.1109/tpel.2015.2474738",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Ftpel.2015.2474738",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "An Integrated High-Density Power Management Solution for Portable Applications Based on a Multioutput Switched-Capacitor Circuit",
+    "authors": [
+      "S. M. Ahsanuzzaman",
+      "Aleksandar Prodic",
+      "David A. Johns"
+    ],
+    "venue": "IEEE Transactions on Power Electronics",
+    "year": 2016,
+    "update_to": [],
+    "metadata_sha256": "495e1ca6c9e5cb161880688c98af3522a072e17ed0bae89f0ab93d9f28192feb"
+  },
+  {
+    "paper_id": "P156",
+    "doi": "10.1109/jssc.2012.2200529",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2012.2200529",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A High-Speed Fully-Integrated POF Receiver With Large-Area Photo Detectors in 65 nm CMOS",
+    "authors": [
+      "Yunzhi Dong",
+      "Kenneth W. Martin"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2012,
+    "update_to": [],
+    "metadata_sha256": "fb12f9918868fa0af8f6c7fd6fca8a45e4649c0f16b3ae8f748c3bc0455e5ae2"
+  },
+  {
+    "paper_id": "P157",
+    "doi": "10.1109/jssc.2009.2021918",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2009.2021918",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "An 8-Bit Flash Analog-to-Digital Converter in Standard CMOS Technology Functional From 4.2 K to 300 K",
+    "authors": [
+      "Ybe Creten",
+      "Patrick Merken",
+      "Willy Sansen",
+      "Robert P. Mertens",
+      "Chris Van Hoof"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "cb0f3359ebaecf21bf4adb8e072699118dcd625c69875295610997a42070459f"
+  },
+  {
+    "paper_id": "P158",
+    "doi": "10.1007/bf00142408",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fbf00142408",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "An integrated CMOS telephone line adapter",
+    "authors": [
+      "Oluf Alminde",
+      "Umberto Gatti",
+      "Valentino Liberali",
+      "Franco Maloberti",
+      "Paul O'Leary"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 1992,
+    "update_to": [],
+    "metadata_sha256": "3a37c5a17d377a345aecb99197ae9067105b034c8a093f1b01e582e9f8a7757d"
+  },
+  {
+    "paper_id": "P159",
+    "doi": "10.1007/s10470-018-1261-y",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-018-1261-y",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 0.9 V 3rd-order single-opamp analog filter in 28 nm bulk-CMOS",
+    "authors": [
+      "Stefano D’Amico",
+      "Marcello De Matteis",
+      "Andrea Donno",
+      "Andrea Baschirotto"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "112dd0bd1bc1bb794cb8ac937a531792d818a9c8c45360d36494215f449eff91"
+  },
+  {
+    "paper_id": "P160",
+    "doi": "10.1007/bf01239381",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fbf01239381",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "An analytical MOS transistor model valid in all regions of operation and dedicated to low-voltage and low-current applications",
+    "authors": [
+      "Christian C. Enz",
+      "Fran�ois Krummenacher",
+      "Eric A. Vittoz"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 1995,
+    "update_to": [],
+    "metadata_sha256": "b4f6487fe4fa9034c141d8c27c260922d5898d0cf734a83e2e0cfede5c31d3d7"
+  },
+  {
+    "paper_id": "P161",
+    "doi": "10.1007/s10470-014-0440-8",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-014-0440-8",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Fully integrated inductive ring oscillators operating at VDD below 2kT/q",
+    "authors": [
+      "Marcio Bender Machado",
+      "Marcio Cherem Schneider",
+      "Carlos Galup-Montoro"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2014,
+    "update_to": [],
+    "metadata_sha256": "f0a7581353cc7a4553cc24d6793ab2bd707b73647ad53e32efb80f4e8feb6103"
+  },
+  {
+    "paper_id": "P162",
+    "doi": "10.1109/ted.2017.2650241",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fted.2017.2650241",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Circuit Model for Double-Energy-Level Trap Centers in GaN HEMTs",
+    "authors": [
+      "Sayed Ali Albahrani",
+      "Anthony Parker",
+      "Michael Heimlich"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "de8341fb42244b0806c5b7c13c6e6e8ade4a3b9f0fb6727c414f13821f1c861e"
+  },
+  {
+    "paper_id": "P163",
+    "doi": "10.1109/jssc.1974.1050532",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.1974.1050532",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A simple three-terminal IC bandgap reference",
+    "authors": [
+      "A.P. Brokaw"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 1974,
+    "update_to": [],
+    "metadata_sha256": "2abf05e83ee75d47e78d63bf8d182d7c6e8801a251d361afd611185cd3b414a9"
+  },
+  {
+    "paper_id": "P164",
+    "doi": "10.1109/jssc.1989.572629",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.1989.572629",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Matching properties of MOS transistors",
+    "authors": [
+      "M.J.M. Pelgrom",
+      "A.C.J. Duinmaijer",
+      "A.P.G. Welbers"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 1989,
+    "update_to": [],
+    "metadata_sha256": "74c37d3041a1c1b02a4ba6cfc087694df539a62b91948bbee5de16f8cadc48d1"
+  },
+  {
+    "paper_id": "P165",
+    "doi": "10.1109/jssc.2008.917470",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2008.917470",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 0.5-V 8-bit 10-Ms/s Pipelined ADC in 90-nm CMOS",
+    "authors": [
+      "Junhua Shen",
+      "Peter R. Kinget"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2008,
+    "update_to": [],
+    "metadata_sha256": "8ee2f56f6a6b90ca425ae878ff9316762910c24961ed620c0269563644492283"
+  },
+  {
+    "paper_id": "P166",
+    "doi": "10.1109/jssc.2025.3622309",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2025.3622309",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "AACIM: A 2785-TOPS/W, 161-TOP/mm 2 , <1.17%-RMSE, Analog-In Analog-Out Computing-In-Memory Macro in 28 nm",
+    "authors": [
+      "Rentao Wan",
+      "Chuan-Tung Lin",
+      "Bo Zhang",
+      "Yannis Tsividis",
+      "Mingoo Seok"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2026,
+    "update_to": [],
+    "metadata_sha256": "c19df47b41918a9091210b5ed730d1aea2bbdcd38e9d4a783f6adcc34f95f398"
+  },
+  {
+    "paper_id": "P167",
+    "doi": "10.1007/s10470-017-0993-4",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-017-0993-4",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A simple circuit technique to relax the feedback timing of ΔΣ ADC for high-speed and high-accuracy applications",
+    "authors": [
+      "Youngho Jung",
+      "Gabor C. Temes"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "6324565234fb024bbf79671d73cbe200aa45cb42aa0e9decbe4a24a583425d9d"
+  },
+  {
+    "paper_id": "P168",
+    "doi": "10.1109/4.823446",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2F4.823446",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "CMOS high-frequency switched-capacitor filters for telecommunication applications",
+    "authors": [
+      "Un-Ku Moon"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2000,
+    "update_to": [],
+    "metadata_sha256": "f34c4748e5be497c97afec90adbd722adba3a5b0f6693aaaa99a228ca704e72a"
+  },
+  {
+    "paper_id": "P169",
+    "doi": "10.1109/jssc.2014.2364829",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2014.2364829",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Continuous-Time 0–3 MASH ADC Achieving 88 dB DR With 53 MHz BW in 28 nm CMOS",
+    "authors": [
+      "Yunzhi Dong",
+      "William Yang",
+      "Richard Schreier",
+      "Ali Sheikholeslami",
+      "Sudhir Korrapati"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2014,
+    "update_to": [],
+    "metadata_sha256": "b2cd0de23294ee667cff4a80588464f95383719a2b9e593c49387920daf37c14"
+  },
+  {
+    "paper_id": "P170",
+    "doi": "10.1109/jssc.2018.2859415",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2018.2859415",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 66-dB SNDR Pipelined Split-ADC in 40-nm CMOS Using a Class-AB Residue Amplifier",
+    "authors": [
+      "Md Shakil Akter",
+      "Rohan Sehgal",
+      "Frank van der Goes",
+      "Kofi A. A. Makinwa",
+      "Klaas Bult"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "b7a8e8e5e00f64b874301b0317bf719819c38005d2f78a64aa488e275808a2bc"
+  },
+  {
+    "paper_id": "P171",
+    "doi": "10.1109/jssc.2022.3204871",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2022.3204871",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 158-mW 360-MHz BW 68-dB DR Continuous-Time 1-1-1 Filtering MASH ADC in 40-nm CMOS",
+    "authors": [
+      "Qilong Liu",
+      "Lucien J. Breems",
+      "Shagun Bajoria",
+      "Muhammed Bolatkale",
+      "Robert Rutten",
+      "Georgi Radulov"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2022,
+    "update_to": [],
+    "metadata_sha256": "b82afbf97b52ebbf4760e06341e7421bbab3065d7c8504687e3efd3adef8e80f"
+  },
+  {
+    "paper_id": "P172",
+    "doi": "10.1109/jssc.2009.2014731",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2009.2014731",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1 Gb/s Mixed-Signal Baseband Analog Front-End for a 60 GHz Wireless Receiver",
+    "authors": [
+      "David Amory Sobel",
+      "Robert W. Brodersen"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "44d4ea918f5ee020b0ec751f4a8132246c834d94ae754463c9e7d07986d0f0a3"
+  },
+  {
+    "paper_id": "P173",
+    "doi": "10.1109/mssc.2018.2844609",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fmssc.2018.2844609",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Calibration and Dynamic Matching in Data Converters: Part 2: Time-Interleaved Analog-to-Digital Converters and Background-Calibration Challenges",
+    "authors": [
+      "Kenneth C. Dyer",
+      "John P. Keane",
+      "Stephen Lewis"
+    ],
+    "venue": "IEEE Solid-State Circuits Magazine",
+    "year": 2018,
+    "update_to": [],
+    "metadata_sha256": "0ac4346f612370ccdba7b8c1944466aa73419960e0cea51214b20ff1bcaea391"
+  },
+  {
+    "paper_id": "P174",
+    "doi": "10.1007/s10470-009-9352-4",
+    "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10470-009-9352-4",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Sub 1 V CMOS bandgap reference design techniques: a survey",
+    "authors": [
+      "Christian Jésus B. Fayomi",
+      "Gilson I. Wirth",
+      "Hervé Facpong Achigui",
+      "Akira Matsuzawa"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "b9e47cec99d8228aec56815c61d20625f90affcc9775551c0231e2d2ad2e72fe"
+  },
+  {
+    "paper_id": "P175",
+    "doi": "10.1109/4.654935",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2F4.654935",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A low-voltage, low quiescent current, low drop-out regulator",
+    "authors": [
+      "G.A. Rincon-Mora",
+      "P.E. Allen"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 1998,
+    "update_to": [],
+    "metadata_sha256": "c66d85e4a8ba521c404254f281151724284080cbcdf9fcd59c42900b114bfbc5"
+  },
+  {
+    "paper_id": "P176",
+    "doi": "10.1109/jssc.2018.2886320",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2018.2886320",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1-mW Class-AB Amplifier With −101 dB THD+N for High-Fidelity 16 Ω Headphones in 65-nm CMOS",
+    "authors": [
+      "Nandish Mehta",
+      "Johan H. Huijsing",
+      "Vladimir Stojanovic"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2019,
+    "update_to": [],
+    "metadata_sha256": "6558691320b6c93002587d1e0556b7397b05b68a53c55d821b850d9a1bac4c6d"
+  },
+  {
+    "paper_id": "P177",
+    "doi": "10.1109/jssc.2025.3561578",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2025.3561578",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Fully Integrated Optical Injection Locking With Schottky Photodiodes in 65-nm CMOS",
+    "authors": [
+      "Arnaud Van Mieghem",
+      "Michiel Steyaert",
+      "Filip Tavernier"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2025,
+    "update_to": [],
+    "metadata_sha256": "61b954bf7cf8c0cef6209c7146160194b4495537a4aa6a28422cfe4137c20459"
+  },
+  {
+    "paper_id": "P178",
+    "doi": "10.1109/jssc.2009.2032713",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2009.2032713",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A 1 mhz bandwidth, 6 ghz 0.18 μm cmos type-i Δ Σ fractional-n synthesizer for wimax applications",
+    "authors": [
+      "Hiva Hedayati",
+      "Waleed Khalil",
+      "Bertan Bakkaloglu"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2009,
+    "update_to": [],
+    "metadata_sha256": "36789b7f5fa7ca91ee63b8d66c6424fea0a25c7447d7bbd856987c3063036164"
+  },
+  {
+    "paper_id": "P179",
+    "doi": "10.1109/jssc.2011.2126370",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2011.2126370",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A Micropower Low-Noise Neural Recording Front-End Circuit for Epileptic Seizure Detection",
+    "authors": [
+      "Chengliang Qian",
+      "Jordi Parramon",
+      "Edgar Sanchez-Sinencio"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2011,
+    "update_to": [],
+    "metadata_sha256": "6e0b6c2d2a47ea40d7f72e09ccdff32f1af472e1f2d789283f9108aa7db89a52"
+  },
+  {
+    "paper_id": "P180",
+    "doi": "10.1109/4.658619",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2F4.658619",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "A general theory of phase noise in electrical oscillators",
+    "authors": [
+      "A. Hajimiri",
+      "T.H. Lee"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 1998,
+    "update_to": [],
+    "metadata_sha256": "ee5700b046c77fa3a7b4190ebc935aaeeb19bfbaad627c96fb53a067be4aa194"
+  },
+  {
+    "paper_id": "P181",
+    "doi": "10.1109/jssc.2017.2759118",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2017.2759118",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Arbitrary Analog/RF Spatial Filtering for Digital MIMO Receiver Arrays",
+    "authors": [
+      "Linxiao Zhang",
+      "Harish Krishnaswamy"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2017,
+    "update_to": [],
+    "metadata_sha256": "ff9f513344362df1ee5f5833ffbac7b35d72aacd716ca7ee79c4efac46c6a848"
+  },
+  {
+    "paper_id": "P182",
+    "doi": "10.1023/a:1008386116423",
+    "metadata_url": "https://api.crossref.org/works/10.1023%2Fa%3A1008386116423",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Layout Dependent Matching Analysis of CMOS Circuits",
+    "authors": [
+      "Kenichi OKADA",
+      "Hidetoshi ONODERA",
+      "Keikichi TAMARU"
+    ],
+    "venue": "Analog Integrated Circuits and Signal Processing",
+    "year": 2000,
+    "update_to": [],
+    "metadata_sha256": "8488c5a113dddffa6c8208276af3cf5432c349bdb22890ee284f66d7a3eeb090"
+  },
+  {
+    "paper_id": "P183",
+    "doi": "10.1109/jeds.2022.3157785",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjeds.2022.3157785",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "Analog Read Noise and Quantizer Threshold Estimation From Quanta Image Sensor Bit Density",
+    "authors": [
+      "Eric R. Fossum"
+    ],
+    "venue": "IEEE Journal of the Electron Devices Society",
+    "year": 2022,
+    "update_to": [],
+    "metadata_sha256": "05d511fc92bc160294bd749a9e4194aadc2100e06031c1f295d4a739909f7334"
+  },
+  {
+    "paper_id": "P184",
+    "doi": "10.1109/jssc.2012.2214851",
+    "metadata_url": "https://api.crossref.org/works/10.1109%2Fjssc.2012.2214851",
+    "checked": "2026-11-01",
+    "doi_matches": true,
+    "title": "CMOS Image Sensor With Per-Column ΣΔ ADC and Programmable Compressed Sensing",
+    "authors": [
+      "Yusuke Oike",
+      "Abbas El Gamal"
+    ],
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "year": 2013,
+    "update_to": [],
+    "metadata_sha256": "3b256b1a2f965698c7a26f2c9495c414499f52bd98839fe315b2a55d88acfc6b"
+  }
+]

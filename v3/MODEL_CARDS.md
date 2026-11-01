@@ -1,0 +1,322 @@
+# Model cards
+
+# 模型卡
+
+Each card separates equations, assumptions and excluded physics. References identify mechanisms; their reported chip performance is not used as simulated performance.
+
+每张卡区分方程、假设和未覆盖物理。引用用于标识机理，不把论文芯片性能当作本次仿真结果。
+
+## A01 Four-terminal MOS interpolation
+
+四端MOS连续插值
+
+Id = 2 n beta Ut^2 (softplus(xs)^2 - softplus(xd)^2) (1 + lambda |Vds|). Pair-capacitor charges sum to zero.
+
+弱反型至强反型连续电流，另用守恒的固定互电容网络表示端口电荷。
+
+```json
+{
+  "n": 1.5,
+  "beta_25_A_per_V2": 0.001,
+  "Vth_25_V": 0.55,
+  "dVth_dT_V_per_K": -0.001,
+  "mobility_T_exponent": -1.5,
+  "lambda_per_V": 0.03,
+  "Cgs_F": 2e-12,
+  "Cgd_F": 2e-13,
+  "Cgb_F": 1e-13,
+  "Cdb_Csb_F": 3e-13
+}
+```
+
+0–1.8 V low-voltage demonstration. No avalanche, oxide leakage, DIBL, velocity saturation, intrinsic charge partition or measured fit. Not full EKV/BSIM.
+
+仅0–1.8V低压示意；无雪崩、栅漏、DIBL、速度饱和、内禀电荷分配或实测拟合；不是完整EKV/BSIM。
+
+Sources / 来源: [B01](research/key_sources.json). 9 computed cases / 个计算工况。
+
+## A02 Junction charge and varactor
+
+结电荷与变容二极管
+
+C(V)=C0(1-V/phi)^(-m); Q(V)=C0 phi [1-(1-V/phi)^(1-m)]/(1-m); Idisplacement=C(V)dV/dt.
+
+从C(V)积分得到Q(V)，瞬态位移电流为C(V)dV/dt。
+
+```json
+{
+  "C0_25_F": 2e-12,
+  "C0_TC_per_K": 0.0002,
+  "phi_V": 0.7,
+  "m": 0.5,
+  "transient_bias_V": -2,
+  "transient_amplitude_V": 1,
+  "frequency_Hz": 1000000.0
+}
+```
+
+Depletion capacitance only, -20 <= V < 0.35 V. No forward diffusion charge, breakdown or series resistance. Reverse leakage is an assumed 1 pA.
+
+仅耗尽电容，-20≤V<0.35V；不含正向扩散电荷、击穿和串联电阻；反向漏电假设为1pA。
+
+Sources / 来源: [B07](research/key_sources.json). 6 computed cases / 个计算工况。
+
+## A03 Reciprocal NPN Ebers–Moll
+
+满足互易关系的NPN Ebers–Moll
+
+Ic=alphaF IF-IR; Ib=(1-alphaF)IF+(1-alphaR)IR; Ie=-IF+alphaR IR; alphaF IES=alphaR ICS=IS.
+
+分别求解正、反向结注入，三端电流满足KCL和互易关系。
+
+```json
+{
+  "IS_25_A": 1e-15,
+  "betaF": 100,
+  "betaR": 2,
+  "Eg_eV": 1.11,
+  "IS_T_exponent": 3
+}
+```
+
+Generic silicon NPN, not a SiGe HBT. Low-injection DC only; no Early effect, high injection, transit time, RF fT or breakdown.
+
+通用硅NPN，不是SiGe HBT；仅低注入直流，不含Early效应、大注入、渡越时间、fT及击穿。
+
+Sources / 来源: [B07](research/key_sources.json). 6 computed cases / 个计算工况。
+
+## A04 MOS pair mismatch and correlation
+
+MOS配对失配与相关性
+
+sigma(pair)=A_VT sqrt((1-rho)/(WL)); individual uncorrelated sigma=A_VT/sqrt(2WL).
+
+区分配对标准差和单管标准差，并演示共同偏移的抵消。
+
+```json
+{
+  "A_VT_pair_V_um": 0.003,
+  "rho": 0.25,
+  "samples": 20000,
+  "global_sigma_V": 0.02,
+  "areas_um2": [
+    1,
+    4,
+    16,
+    64
+  ],
+  "seed": 20261101
+}
+```
+
+Assumed Gaussian local mismatch and correlation. No foundry statistics, spatial-gradient fit, yield certification or temperature-dependent mismatch law.
+
+高斯局部失配和相关系数为假设；无工艺统计、空间梯度拟合、良率认证或温度失配律。
+
+Sources / 来源: [B02](research/key_sources.json). 4 computed cases / 个计算工况。
+
+## B01 MOS differential pair
+
+MOS差分对
+
+Solve Id1(Vs)+Id2(Vs)=Itail with bisection using A01; Vg1/2=Vcm +/- Vdiff/2.
+
+用A01求解共同源极电压，使两支路之和等于尾电流。
+
+```json
+{
+  "Vcm_V": 0.85,
+  "Vd1_Vd2_V": 1.8,
+  "Itail_A": 0.0001,
+  "bisection_steps": 80
+}
+```
+
+Fixed drain biases and ideal tail source. No amplifier load, common-mode feedback, frequency compensation or finite tail impedance.
+
+固定漏端偏置、理想尾电流源；不含放大器负载、共模反馈、频率补偿及尾源有限阻抗。
+
+Sources / 来源: [B01](research/key_sources.json). 3 computed cases / 个计算工况。
+
+## B02 CTAT/PTAT reference sum
+
+CTAT/PTAT基准合成
+
+Vbe=Vg0+(Vbe0-Vg0)T/T0-eta Ut ln(T/T0); deltaVbe=Ut ln(N); Vref=Vbe+a deltaVbe; dVref/dT|T0=0.
+
+一阶温漂在25°C相消，并保留VBE曲率；输出PTAT电流为deltaVbe/R1。
+
+```json
+{
+  "Vg0_V": 1.205,
+  "Vbe0_V": 0.68,
+  "eta": 3,
+  "area_ratio": 8,
+  "R1_ohm": 10000,
+  "T0_K": 298.15
+}
+```
+
+Ideal voltage sum inspired by bandgap principles, not the 2.5 V Brokaw circuit reproduction. No start-up, PSRR, trimming, resistor TC, mismatch or output load.
+
+按带隙原理的理想电压合成，并非复现Brokaw的2.5V电路；不含启动、PSRR、修调、电阻温漂、失配及输出负载。
+
+Sources / 来源: [B03](research/key_sources.json). 1 computed cases / 个计算工况。
+
+## B03 Input noise and sampled kT/C
+
+输入噪声与采样kT/C
+
+Splain=en^2(1+fc/f); Ssuppressed=en^2(2+fc/(f+fchop)); variance=integral S(f)df; sampled variance=kT/C.
+
+演示抑制低频噪声时的白噪声代价；另列采样热噪声。
+
+```json
+{
+  "en_25_V_per_sqrtHz": 1e-08,
+  "fc_Hz": 100,
+  "fchop_Hz": 20000,
+  "sample_C_F": 1e-12,
+  "integration_band_Hz": [
+    1,
+    1000000.0
+  ]
+}
+```
+
+Illustrative spectral shaping, not a switched chopper circuit or measured op amp. No current noise, source resistance, aliasing, ripple or charge injection.
+
+仅示意频谱整形，不是开关斩波电路或实测运放；不含电流噪声、源阻、混叠、纹波和电荷注入。
+
+Sources / 来源: [B08](research/key_sources.json). 3 computed cases / 个计算工况。
+
+## B04 Capacitor DAC and SAR ADC
+
+电容DAC与SAR ADC
+
+Binary CDAC plus dummy capacitor; sequential bit decisions; DNL from code widths; endpoint INL; coherent 16384-point FFT at bin 503.
+
+二进制电容阵列逐位比较，分别计算码宽DNL、端点INL及相干FFT动态指标。
+
+```json
+{
+  "bits": 10,
+  "Vref_V": 1.8,
+  "fs_Hz": 2000000.0,
+  "samples": 16384,
+  "tone_bin": 503,
+  "input_amplitude_fraction_of_Vref": 0.49,
+  "unit_sigma_cases": [
+    0,
+    0.02
+  ],
+  "seed": 20261101
+}
+```
+
+Ideal comparator and full settling. No aperture jitter, thermal/comparator noise, switch leakage, reference droop or supply-current prediction. Capacitor mismatch is assumed.
+
+比较器理想且完全建立；不含采样抖动、热噪声/比较器噪声、开关漏电、参考跌落及供电电流预测；电容失配为假设。
+
+Sources / 来源: [B05](research/key_sources.json), [B02](research/key_sources.json). 2 computed cases / 个计算工况。
+
+## B05 LDO loop and load step
+
+LDO环路与负载阶跃
+
+C dv/dt=ip-v/R-dIload; dip/dt=wa(-Gv-ip). L(s)=G/[(Cs+1/R)(1+s/wa)].
+
+二状态线性反馈模型，输出负载阶跃、环路增益和相位裕度。
+
+```json
+{
+  "Vin_V": 3.3,
+  "Vout_nom_V": 1.8,
+  "Iload_nom_A": 0.02,
+  "delta_Iload_A": 0.01,
+  "Cout_F": 1e-05,
+  "Rload_ohm": 90,
+  "G_25_A_per_V": 0.5,
+  "G_T_exponent": -1.2,
+  "amplifier_pole_Hz": 20000,
+  "Iq_A": 3e-05,
+  "dt_s": 1e-07
+}
+```
+
+Small perturbation around a biased operating point; no dropout, current limit, start-up, ESR zero or transistor netlist. Not a reproduction of the cited measured LDO.
+
+围绕偏置点的小扰动模型；无压差极限、限流、启动、ESR零点或晶体管网表；并非复现引用论文的实测LDO。
+
+Sources / 来源: [B06](research/key_sources.json). 3 computed cases / 个计算工况。
+
+## B06 Phase loop and noise transfer
+
+相位环路与噪声传递
+
+H(s)=wn^2/(s^2+2 zeta wn s+wn^2); Sout=|H|^2 Sref+|1-H|^2 Svco; jitter=sqrt(integral Sout df)/(2 pi fcarrier).
+
+典型二阶相位响应与互补噪声传递，区分单边相位PSD和SSB噪声。
+
+```json
+{
+  "natural_frequency_Hz": 100000.0,
+  "zeta_cases": [
+    0.3,
+    0.7,
+    1.2
+  ],
+  "phase_step_rad": 0.1,
+  "carrier_Hz": 1000000000.0,
+  "integration_band_Hz": [
+    100,
+    10000000.0
+  ],
+  "Sref_rad2_per_Hz": 1e-13,
+  "Svco_floor_rad2_per_Hz": 1e-16
+}
+```
+
+Canonical phase-domain abstraction without a loop zero. Not a transistor VCO, a full type-II PLL, ISF extraction, cycle-slip or acquisition simulation.
+
+无环路零点的典型相位域抽象；不是晶体管VCO、完整二型PLL、ISF提取、周跳或捕获仿真。
+
+Sources / 来源: [B09](research/key_sources.json). 3 computed cases / 个计算工况。
+
+## B07 40–150 V synchronous buck
+
+40–150V同步降压
+
+L di/dt=u Vin-(Rsw+RL)i-v; C dv/dt=i-v/Rload. Exact period-map initialization; event-aligned RK4; input-output-loss-energy balance.
+
+用解析周期映射初始化，再在每个开关边沿精确分段，校核输入、输出、导通损耗和储能变化。
+
+```json
+{
+  "Vin_max_classes_V": [
+    40,
+    60,
+    80,
+    100,
+    120,
+    150
+  ],
+  "Vout_target_V": 12,
+  "L_H": 0.0001,
+  "C_F": 2.2e-05,
+  "Rload_ohm": 12,
+  "Rsw_25_ohm": 0.18,
+  "RL_25_ohm": 0.12,
+  "resistance_TC_per_K": 0.004,
+  "fs_Hz": 250000.0,
+  "steps_per_cycle": 200,
+  "warmup_cycles": 35,
+  "saved_cycles": 5
+}
+```
+
+Forced CCM with ideal instantaneous switches. Efficiency includes conduction loss only; no switching/gate/core loss, dead time, ringing, control-loop start-up, SOA or validated voltage rating.
+
+强制连续导通、理想瞬时开关；效率仅含导通损耗；无开关/栅极/磁芯损耗、死区、振铃、控制启动、SOA或已验证耐压。
+
+Sources / 来源: [D01](research/key_sources.json). 18 computed cases / 个计算工况。
