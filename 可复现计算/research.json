@@ -1,0 +1,286 @@
+{
+  "processes": [
+    [
+      "P01",
+      "华虹",
+      "BCD平台总览",
+      "0.35μm～55nm；8/12英寸",
+      "1.5～800V（家族范围）",
+      "BCD器件家族；未逐电压给型号",
+      "官网当前展示；页未标更新日",
+      "不可把800V家族上限赋给任意0.18μm工艺；40～150V要逐器件确认",
+      "https://www.huahonggrace.com/s/business_ap_management.php"
+    ],
+    [
+      "P02",
+      "华虹",
+      "0.5μm 700V BCD",
+      "0.5μm",
+      "700V LDMOS；200～700V是JFET应用范围",
+      "700V LDMOS、启动JFET",
+      "2016-05-03报道2015量产",
+      "200V明确属于JFET，不能宣称有200V低Ron功率LDMOS；高压高频DC/DC适配待确认",
+      "https://www.huahong.com.cn/?id=443&m=detail"
+    ],
+    [
+      "P03",
+      "芯联集成",
+      "Bulk/SOI BCD",
+      "0.35/0.18μm",
+      "5～150V；250～650V（平台区间）",
+      "BCD、SOI、BCD+eFlash、IPS；结隔离/DTI/SOI",
+      "英文官方旧版页仍可访问；当前组合需确认",
+      "150V输入需更高档；250V系列可询，但无公开具体LDMOS参数",
+      "https://www.unt-c.com/html/pro5/"
+    ],
+    [
+      "P04",
+      "芯联集成",
+      "模拟IC技术平台",
+      "180/90/55nm",
+      "该新官网页未列电压",
+      "PDK/SPICE/IP支持；车规G0制造体系",
+      "2026-11-01访问",
+      "不可把旧版150V范围直接赋给55nm；需确切版本",
+      "https://cn.unt-c.com/solution"
+    ],
+    [
+      "P05",
+      "东部 DB HiTek",
+      "80V BCDMOS",
+      "0.18μm",
+      "NLDMOS/PLDMOS最高80V",
+      "1.8/5/6V CMOS、完全隔离器件、NVM",
+      "当前官方产品列表；具体供货确认",
+      "适合40/60V输入候选；80V输入在本示例裕量下不足",
+      "https://dbhitek.com/en/technology/portfolio/bcdmos"
+    ],
+    [
+      "P06",
+      "东部 DB HiTek",
+      "120V BCDMOS",
+      "0.18μm",
+      "HS NLDMOS/PLDMOS最高120V",
+      "1.8/5/6V CMOS、完全隔离、NVM",
+      "当前官方产品列表",
+      "适合80V输入候选；100V输入需检查尖峰；按本例裕量不满足",
+      "https://dbhitek.com/en/technology/portfolio/bcdmos"
+    ],
+    [
+      "P07",
+      "东部 DB HiTek",
+      "120V BCDMOS DTI可选",
+      "0.13μm",
+      "HS NLDMOS/PLDMOS最高120V",
+      "1.5/5V CMOS、最多8层金属、完全隔离、NVM",
+      "当前官方产品列表",
+      "120V是器件平台标称，不是120V输入保证",
+      "https://dbhitek.com/en/technology/portfolio/bcdmos"
+    ],
+    [
+      "P08",
+      "东部 DB HiTek",
+      "UHV非外延BCD",
+      "0.35μm",
+      "LDMOS 200～700V",
+      "7.5V CMOS、30V DECMOS、集成JFET LDMOS、UHV电阻",
+      "当前官方产品列表",
+      "100/120/150V输入可询200V选件；Ron/Qg/频率/隔离兼容待证",
+      "https://dbhitek.com/en/technology/portfolio/bcdmos"
+    ],
+    [
+      "P09",
+      "东部 DB HiTek",
+      "UHV外延BCD",
+      "0.35μm",
+      "LDMOS 200～900V；页面另述900V击穿",
+      "5/7V CMOS、30V HV-CMOS、自举二极管",
+      "当前官方产品列表",
+      "不得把900V击穿当连续工作额定；200V支路待PDK确认",
+      "https://dbhitek.com/en/technology/portfolio/bcdmos"
+    ],
+    [
+      "P10",
+      "台积电",
+      "Gen-2 100V扩展",
+      "0.18μm",
+      "100V；面向48V系统",
+      "高压BCD家族，具体器件表未公开",
+      "官方称PDK于2025发布",
+      "60V输入可候选；80V及以上在本例裕量下需更高档",
+      "https://www.tsmc.com/japanese/dedicatedFoundry/technology/specialty/bcd"
+    ],
+    [
+      "P11",
+      "联电",
+      "BCD家族",
+      "0.5μm～55nm（总览表述）",
+      "最高200V工作电压",
+      "LV MOS、HV DMOS、模拟/无源、eNVM",
+      "当前官方总览",
+      "200V所属具体节点/隔离/极性未逐项公开，不能都归55nm",
+      "https://www.umc.com/en/Product/technologies/Detail/bcd"
+    ],
+    [
+      "P12",
+      "联电",
+      "55nm EPI BCD",
+      "55nm",
+      "最高150V工作电压",
+      "EPI/Non-EPI/SOI路线；UTM、eFlash、RRAM",
+      "2025-10-22发布；EPI Grade0",
+      "150V仅明确给EPI；本例只覆盖到100V输入，不能覆盖150V输入",
+      "https://www.umc.com/en/News/press_release/Content/technology_related/20251022"
+    ],
+    [
+      "P13",
+      "海力士 system ic（无锡）",
+      "60V BCD Gen2",
+      "0.18μm",
+      "DMOS最高60V",
+      "1.8/5/6V CMOS；多种选配器件",
+      "官网称有量产历史",
+      "40V输入候选；不能直接以60V档支持60V输入",
+      "https://www.skhynixsystemic.cn/foundry/bcdmos?lang=en_US"
+    ],
+    [
+      "P14",
+      "海力士 system ic（无锡）",
+      "120V BCD",
+      "0.18μm",
+      "DMOS最高120V",
+      "1.8/5V CMOS、结/深沟槽双隔离选项",
+      "官网称Grade1 PDK已发布",
+      "本例80V输入候选；不是SK Hynix存储工艺，也不与Key Foundry自动等同",
+      "https://www.skhynixsystemic.cn/foundry/bcdmos?lang=en_US"
+    ],
+    [
+      "P15",
+      "美格纳（历史参考）",
+      "200V SOI BCD",
+      "0.18μm",
+      "200V工作电压",
+      "低Rsp/宽SOA两类LDMOS；BJT、Zener、Schottky、高阻poly、MIM/MOM、eFuse、MTP",
+      "2018-11-12官方发布；历史Grade0",
+      "历史技术对标，不证明美格纳当前仍接此工艺新单；代工业务2020售予Key Foundry",
+      "https://investors.magnachip.com/node/10451/pdf"
+    ],
+    [
+      "P16",
+      "美格纳（主体变更）",
+      "Foundry Services Group和Fab4出售",
+      "不适用",
+      "不适用",
+      "业务转让给Key Foundry",
+      "2020-09-01完成",
+      "引用历史美格纳能力时，当前合同主体、工艺沿革、可用PDK需重新确认",
+      "https://www.magnachip.com/magnachip-completes-sale-of-foundry-services-group-and-fab-4/"
+    ]
+  ],
+  "mapping": [
+    [
+      40,
+      "P01待细表；P02功率开关过规格",
+      "P03至少60V选件待确认",
+      "P05 80V候选",
+      "P10 100V；P11；P13 60V；P15历史"
+    ],
+    [
+      60,
+      "P01至少80V选件待确认",
+      "P03至少80V选件待确认",
+      "P05 80V候选；裕量较紧",
+      "P10 100V；P11；P14 120V；P15历史"
+    ],
+    [
+      80,
+      "P01至少120V选件待确认",
+      "P03至少120V选件待确认",
+      "P06/P07 120V候选",
+      "P12 150V；P14 120V；P15历史；P10 100V不足"
+    ],
+    [
+      100,
+      "P01至少150V选件待确认",
+      "P03 150V选件待确认",
+      "P08/P09 200V候选；120V不足",
+      "P12 150V；P11 200V家族；P15历史"
+    ],
+    [
+      120,
+      "P01至少200V功率器件待确认",
+      "P03 250V高压族候选；150V不足",
+      "P08/P09 200V候选",
+      "P11 200V家族；P15历史；P12 150V不足"
+    ],
+    [
+      150,
+      "P01至少200V功率器件待确认；200V JFET不能替代主开关",
+      "P03 250V高压族候选；150V不足",
+      "P08/P09 200V候选",
+      "P11 200V家族；P15历史；台积电/海力士所查证据不足"
+    ]
+  ],
+  "limits": [
+    [
+      "依据",
+      "公开资料检索截至2026-11-01。公开范围不是完整PDK器件列表，候选不等于已通过签核。"
+    ],
+    [
+      "电压定义",
+      "用户指定40/60/80/100/120/150V均为DC/DC最高输入电压。器件VDS工作等级、BV、VGS与隔离额定分别核对。"
+    ],
+    [
+      "筛选假设",
+      "示例Vpeak=Vin×1.15，允许利用率90%，最低器件工作档=Vpeak/0.9。15%尖峰与10%降额仅为可改工程假设，不是标准或厂商规则。"
+    ],
+    [
+      "应用假设",
+      "同步Buck：Vout=12V、Iout=1A、fs=200kHz、L=100μH、Cout=47μF、ESR=20mΩ。用户尚未给定功率/频率，例子不能替代实际规格。"
+    ],
+    [
+      "模型级别",
+      "24类通用解析/数值示意模型，每类6输入电压×3温度点，共432个独立测试。未使用晶圆厂SPICE或TCAD，不产生厂商性能排名。"
+    ],
+    [
+      "温度扫描",
+      "−40/25/125°C为模型温度敏感性扫描，不是工艺corner或统计蒙特卡洛；各温漂系数为假设。"
+    ],
+    [
+      "3D解释",
+      "几何为归一化示意尺寸；旋转模型展示层次和端口，色带只对端电压做线性插值，箭头示意电流方向。未求解掺杂、Poisson、漂移扩散、自热、局部电场或电流密度。"
+    ],
+    [
+      "曲线刷新",
+      "Excel的器件/系统曲线为本次计算快照；修改选型表输入只更新电压筛选公式，不重跑模型。离线演示选择已计算的工况；重跑须执行交付脚本。"
+    ],
+    [
+      "Buck方法",
+      "波形按理想CCM稳态分段积分，输出纹波由电容电流积分+ESR求得；导通/开关损耗为独立粗估，没有闭环启动、死区、寄生尖峰和反向恢复。"
+    ],
+    [
+      "未得参数",
+      "Rds面积积、Qg/Coss非线性、Qrr、BV分布、SOA、HCI/TDDB、ESD It2、失配/噪声、EM与封装热模型未公开，不能用示意数值代替。"
+    ],
+    [
+      "器件要求",
+      "高侧/低侧开关、HV检测/移位器件需匹配总线；LV CMOS/BJT/MIM/MOM保持在低压域；自举电容差模低压但共模隔离高压。"
+    ],
+    [
+      "工艺选项",
+      "P沟道功率管、JFET、Schottky、eNVM并非每种拓扑必需，亦不保证每工艺同时具备。替代架构可用异步Buck/外置MOS/两级变换。"
+    ],
+    [
+      "签核前置",
+      "获取准确工艺版本及授权模型，逐端子DC/AC限制、温度/寿命降额、动态SOA、浮地/负瞬态隔离、闩锁、DRC/LVS/PEX、金属电流、封装热和ESD规则。"
+    ],
+    [
+      "后续仿真",
+      "PDK下单器件DC/AC/transient、PVT、Monte Carlo、SOA和自热；系统启动/关断/短路/过载/浪涌/负载跃变，最终版图寄生后仿。"
+    ],
+    [
+      "审查重点",
+      "主开关不要用启动JFET替代；不能仅凭高BV或平台上限证明工作电压；不把不同代工厂/节点的数值拼成一个真实器件。"
+    ]
+  ]
+}
