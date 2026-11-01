@@ -1,0 +1,14 @@
+{
+  "people": 100,
+  "original_papers": 96,
+  "original_missing": 4,
+  "key_papers_read": 24,
+  "unique_representative_dois": 95,
+  "scope": "逐人代表论文筛查；24篇关键原始来源重点阅读。不是100人全部论文的系统综述。",
+  "ranking": "沿用2026-10-11内部证据分榜单，不是外部官方TOP100排名",
+  "evidence_counts": {
+    "代表论文题录初筛，未逐篇阅读全文": 56,
+    "复用2026-10-11出版商摘要缓存": 18,
+    "本轮核对关键论文原始页": 26
+  }
+}

@@ -1,5 +1,48 @@
 # mixed-signal simulation
 
+## V2 更新 — 2026-11-01
+
+**49类器件 + 6项机制扩展，600个测试工况，另含六档Buck。** 原版资料保留在下方。论文用于识别器件与机制；全部数值参数为演示假设，未进行论文曲线拟合，无晶圆厂PDK。
+
+- [新版Excel](40至150V_DC_DC工艺器件与仿真_V2.xlsx)：保留原版31页，加入TOP100对照、关键论文、模型假设、全部新增工况指标及31个独立模型页。
+- [新版离线3D演示](index.html)：下载后用Edge/Chrome打开。支持旋转结构、选择模型/温度/适用Vin、播放扫描，查看端电压、电流、功率及状态量，导出CSV/图片。
+- [V2完整交付包](mixed-signal-simulation_V2_20261101.zip)：解压后打开index.html；包含两版Excel/HTML、代码、结果、OBJ与论文对照。
+- [论文对照与模型缺口报告](v2/论文对照与模型缺口.md) · [100人逐行台账](v2/research/top100_screening.csv) · [24篇关键来源](v2/research/papers.json) · [全部模型参数](v2/models/model_catalog.json)。
+
+### 补充范围
+
+| 类别 | 新增模型 |
+|---|---|
+| N01–N05 功率器件 | SiC MOSFET、增强型GaN HEMT、硅超结MOSFET、IGBT、SiC JBS |
+| N06–N11 新型晶体管 | FinFET、IGZO TFT、有机TFT、MoS2、石墨烯、CNT FET |
+| N12–N16 存储与铁电 | FeFET、RRAM、PCM、MTJ、铁电电容 |
+| N17–N21、N24–N25 光电与能量转换 | 氮化物LED、量子点LED、PIN光探测器、单结光伏、热电、MZI调制器、激光二极管 |
+| N22–N23 无源与互连 | 片上耦合变压器、TSV |
+| X01–X06 原器件机制扩展 | 栅电荷/Miller、PN反向恢复、自热、NBTI、噪声、参数统计分散 |
+
+N01–N05：5×6输入×3温度=90工况；N06–N25：20×3=60；X01–X06：6×3=18。新增168；原版432已重新运行。
+
+TOP100来自2026-10-11的内部证据分榜单，并非官方世界排名。逐人筛查代表论文，补齐原缺失4条，共95个不同代表DOI；本轮重点核对24篇原始来源。56人仅题录初筛、18人复用既有出版商摘要、26人关联本轮关键来源。**不等于通读100人全部论文或复现100篇论文。** 逐行记录实际证据层级。
+
+低压、存储和光电器件不可直接连接40–150V功率节点。SiC/GaN/IGBT等是外接功率器件研究对照，不证明BCD平台已提供。650V阻断等级为假设，IGBT及650V器件不是针对40–150V DC/DC的选型建议。
+
+### V2复现与验证
+
+```bash
+python -m pip install -r requirements.txt
+python 可复现计算/simulate.py
+python 可复现计算/finalize_viewer.py
+python v2/models/simulate_v2.py
+python v2/models/build_geometry.py
+python v2/models/build_viewer.py
+```
+
+新增结果在`v2/results/`；结构在`v2/models/OBJ/`。Excel与ZIP是本次运行快照，命令不会自动重建。Excel各N/X页为25°C代表工况全采样，功率列有ΣVI公式；完整168工况在HTML/JSON中。修改Excel参数文本不会自动重算非线性模型。
+
+[数值校核](v2/results/validation.json) · [浏览器检查](v2/validation/viewer_validation.json) · [工作簿检查](v2/validation/workbook_validation.json) · [数据与模型约定](v2/数据与模型约定.md)。3D只显示概念结构、电极电压和端电流方向，无局部电场/电流密度/真实尺寸。新增自热为集总模型，不是TCAD热场。校核说明内部一致性，不构成实测精度或工艺签核。
+
+## 原版资料（V1）
+
 40–150V DC/DC 工艺、器件与通用示意仿真资料。首批研究与计算日期：2026-11-01。
 
 研究华虹、芯联集成、东部 DB HiTek，并参考台积电、联电、海力士 system ic 及美格纳历史工艺。40V、60V、80V、100V、120V、150V 均表示 DC/DC 最高输入电压。

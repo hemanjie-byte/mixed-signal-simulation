@@ -1,0 +1,401 @@
+[
+  {
+    "id": "P01",
+    "top100_ranks": [
+      52
+    ],
+    "doi": "10.1109/TED.2017.2657579",
+    "title": "GaN-on-Si Power Technology: Devices and Applications",
+    "url": "https://ieeexplore.ieee.org/document/7862945/",
+    "read_level": "摘要及引言",
+    "finding": "常关GaN异质结功率器件；并对照Si超结MOS和SiC MOS。",
+    "models": [
+      "N01",
+      "N02",
+      "N03"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P02",
+    "top100_ranks": [
+      39
+    ],
+    "doi": "10.1109/TIE.2017.2652401",
+    "title": "Review of Silicon Carbide Power Devices and Their Applications",
+    "url": "https://ieeexplore.ieee.org/document/7815312/",
+    "read_level": "摘要及引言",
+    "finding": "SiC功率器件及应用综述；补充材料区别、垂直电流路径和功率开关机理。",
+    "models": [
+      "N01",
+      "N04",
+      "N05",
+      "X02",
+      "X03"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P04",
+    "top100_ranks": [
+      3,
+      35
+    ],
+    "doi": "10.48550/arXiv.2005.02580",
+    "title": "Compact Device Models for FinFET and Beyond",
+    "url": "https://arxiv.org/abs/2005.02580",
+    "read_level": "作者预印本摘要",
+    "finding": "区分FinFET/UTBB标准紧凑模型与RRAM模型；本项目不宣称实现BSIM-CMG。",
+    "models": [
+      "N06"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P05",
+    "top100_ranks": [
+      4
+    ],
+    "doi": "10.1038/nature03090",
+    "title": "Room-temperature fabrication of transparent flexible thin-film transistors using amorphous oxide semiconductors",
+    "url": "https://www.nature.com/articles/nature03090",
+    "read_level": "期刊摘要及图题",
+    "finding": "a-IGZO有源沟道和柔性TFT；区别于硅体MOS。",
+    "models": [
+      "N07"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P06",
+    "top100_ranks": [
+      11,
+      81
+    ],
+    "doi": "10.1038/nature25494",
+    "title": "Skin electronics from scalable fabrication of an intrinsically stretchable transistor array",
+    "url": "https://www.nature.com/articles/nature25494",
+    "read_level": "期刊摘要",
+    "finding": "可拉伸聚合物晶体管阵列，需明确机械应变与材料机制。",
+    "models": [
+      "N08"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P07",
+    "top100_ranks": [
+      77
+    ],
+    "doi": "10.1021/nl303583v",
+    "title": "High Performance Multilayer MoS2 Transistors with Scandium Contacts",
+    "url": "https://pubs.acs.org/doi/10.1021/nl303583v",
+    "read_level": "出版商摘要页",
+    "finding": "MoS2 FET与金属接触；本版用接触串联电阻显示接触对转移特性的影响。",
+    "models": [
+      "N09"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P08",
+    "top100_ranks": [
+      8,
+      12
+    ],
+    "doi": "10.1126/science.1102896",
+    "title": "Electric field effect in atomically thin carbon films",
+    "url": "https://www.science.org/doi/10.1126/science.1102896",
+    "read_level": "期刊摘要",
+    "finding": "石墨烯双极性场效应；不得用有带隙MOS关断模型替代。",
+    "models": [
+      "N10"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P09",
+    "top100_ranks": [
+      42
+    ],
+    "doi": "10.1038/s41928-020-00492-7",
+    "title": "The future of ferroelectric field-effect transistor technology",
+    "url": "https://www.nature.com/articles/s41928-020-00492-7",
+    "read_level": "期刊摘要及图题",
+    "finding": "铁电极化与阈值窗口使单器件兼具逻辑和记忆。",
+    "models": [
+      "N12",
+      "N16"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P10",
+    "top100_ranks": [
+      90
+    ],
+    "doi": "10.1038/s41928-018-0092-2",
+    "title": "In-memory computing with resistive switching devices",
+    "url": "https://www.nature.com/articles/s41928-018-0092-2",
+    "read_level": "期刊摘要及图题",
+    "finding": "RRAM和PCM用于存内计算；状态依赖和写入历史在V1中缺失。",
+    "models": [
+      "N13",
+      "N14"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P11",
+    "top100_ranks": [
+      73
+    ],
+    "doi": "10.1016/j.mattod.2017.07.007",
+    "title": "Spintronics based random access memory: a review",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1369702117304285",
+    "read_level": "开放全文重点章节",
+    "finding": "MTJ平行/反平行电阻与STT写入；需区分读电流和写入机制。",
+    "models": [
+      "N15"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P12",
+    "top100_ranks": [
+      2,
+      15
+    ],
+    "doi": "10.1038/nphoton.2009.32",
+    "title": "Prospects for LED lighting",
+    "url": "https://www.nature.com/articles/nphoton.2009.32",
+    "read_level": "期刊导语及图题",
+    "finding": "III族氮化物LED的发光转换；普通PN二极管不含光功率。",
+    "models": [
+      "N17"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P13",
+    "top100_ranks": [
+      22
+    ],
+    "doi": "10.1038/370354a0",
+    "title": "Light-emitting diodes made from cadmium selenide nanocrystals and a semiconducting polymer",
+    "url": "https://www.nature.com/articles/370354a0",
+    "read_level": "期刊摘要",
+    "finding": "纳米晶/聚合物异质结构电致发光；量子点尺寸改变发射颜色。",
+    "models": [
+      "N18"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P14",
+    "top100_ranks": [
+      24
+    ],
+    "doi": "10.1126/science.1228604",
+    "title": "Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites",
+    "url": "https://www.science.org/doi/10.1126/science.1228604",
+    "read_level": "期刊摘要",
+    "finding": "光吸收与光生载流子输出；增加光伏端口IV和最大功率点。",
+    "models": [
+      "N20"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P15",
+    "top100_ranks": [
+      50
+    ],
+    "doi": "10.1038/nmat2090",
+    "title": "Complex thermoelectric materials",
+    "url": "https://www.nature.com/articles/nmat2090",
+    "read_level": "期刊摘要及图题",
+    "finding": "Seebeck/Peltier热电耦合；增加热流和电功率平衡。",
+    "models": [
+      "N21"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P16",
+    "top100_ranks": [
+      35
+    ],
+    "doi": "10.1109/4.720393",
+    "title": "Analysis, design, and optimization of spiral inductors and transformers for Si RF ICs",
+    "url": "https://ieeexplore.ieee.org/document/720393/",
+    "read_level": "出版商摘要",
+    "finding": "片上变压器需要互感、绕组损耗和基底损耗；V1只有独立外接电感。",
+    "models": [
+      "N22"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P17",
+    "top100_ranks": [
+      86
+    ],
+    "doi": "10.1109/TED.2009.2034508",
+    "title": "Electrical Modeling and Characterization of Through Silicon via for Three-Dimensional ICs",
+    "url": "https://ieeexplore.ieee.org/document/5340655/",
+    "read_level": "出版商摘要及引言",
+    "finding": "TSV的RLC与几何、材料有关；V1隔离RC不是TSV传输模型。",
+    "models": [
+      "N23"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P18",
+    "top100_ranks": [
+      58
+    ],
+    "doi": "10.1038/s41467-024-44750-0",
+    "title": "Roadmapping the next generation of silicon photonics",
+    "url": "https://www.nature.com/articles/s41467-024-44750-0",
+    "read_level": "开放全文器件段",
+    "finding": "硅光平台包含光探测器、MZI调制器及异质激光器。",
+    "models": [
+      "N19",
+      "N24",
+      "N25"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P19",
+    "top100_ranks": [
+      59
+    ],
+    "doi": "10.1038/nature22994",
+    "title": "Three-dimensional integration of nanotechnologies for computing and data storage on a single chip",
+    "url": "https://www.nature.com/articles/nature22994",
+    "read_level": "期刊摘要",
+    "finding": "垂直集成CNTFET与RRAM；不是普通几何堆叠即可表示的电学模型。",
+    "models": [
+      "N11",
+      "N13"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P20",
+    "top100_ranks": [
+      21
+    ],
+    "doi": "10.1016/j.microrel.2004.03.019",
+    "title": "A comprehensive model of PMOS NBTI degradation",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0026271404001751",
+    "read_level": "出版商摘要及引言",
+    "finding": "NBTI造成阈值及电流退化；本版只作经验幂律演示，不复现反应扩散方程。",
+    "models": [
+      "X04"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P21",
+    "top100_ranks": [
+      98
+    ],
+    "doi": "10.1109/16.34242",
+    "title": "A 1/f noise technique to extract the oxide trap density near the conduction band edge of silicon",
+    "url": "https://ieeexplore.ieee.org/document/34242/",
+    "read_level": "出版商摘要",
+    "finding": "陷阱影响MOS低频噪声；本版补充噪声谱和带内积分。",
+    "models": [
+      "X05"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P22",
+    "top100_ranks": [
+      93
+    ],
+    "doi": "10.1109/TED.2003.813457",
+    "title": "Intrinsic parameter fluctuations in decananometer MOSFETs introduced by gate line edge roughness",
+    "url": "https://ieeexplore.ieee.org/document/1210771/",
+    "read_level": "出版商摘要及引言",
+    "finding": "几何粗糙度和离散掺杂引起器件统计分散；本版仅作参数蒙特卡洛。",
+    "models": [
+      "X06"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P23",
+    "top100_ranks": [
+      92
+    ],
+    "doi": "10.1126/science.1169678",
+    "title": "A Ferroelectric Oxide Made Directly on Silicon",
+    "url": "https://www.science.org/doi/10.1126/science.1169678",
+    "read_level": "期刊摘要",
+    "finding": "硅上铁电氧化物存在极化状态；单独建立铁电电容行为测试。",
+    "models": [
+      "N16"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P24",
+    "top100_ranks": [
+      76
+    ],
+    "doi": "10.1109/TED.2003.815366",
+    "title": "Theory of ballistic nanotransistors",
+    "url": "https://ieeexplore.ieee.org/document/1224486/",
+    "read_level": "出版商摘要及引言",
+    "finding": "弹道输运与量子电容区别于长沟道平方律；本版单子带Landauer示意。",
+    "models": [
+      "N11"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  },
+  {
+    "id": "P25",
+    "top100_ranks": [
+      52
+    ],
+    "doi": "10.1109/LED.2015.2450695",
+    "title": "Dynamic Performance of AlN-Passivated AlGaN/GaN MIS-High Electron Mobility Transistors under Hard Switching Operation",
+    "url": "https://researchportal.hkust.edu.hk/en/publications/dynamic-performance-of-aln-passivated-algangan-mis-high-electron-/",
+    "read_level": "作者机构摘要",
+    "finding": "硬开关、钝化和俘获影响动态导通电阻；本版单状态陷阱参数为假设。",
+    "models": [
+      "N02"
+    ],
+    "read_date": "2026-11-01",
+    "parameter_origin": "论文用于器件/机制识别；未从文中提取参数拟合"
+  }
+]

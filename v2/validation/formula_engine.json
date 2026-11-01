@@ -1,0 +1,11 @@
+{
+  "test": "X01代表采样端电压增加1V后，ΣVI随之增加I_D；恢复后与原值一致",
+  "old_V": 42.05327639459799,
+  "delta_V": 1,
+  "I_A": 1.0000000000000007,
+  "old_power_W": 42.39179287531147,
+  "changed_power_W": 43.39179287531147,
+  "error_W": 6.661338147750939e-16,
+  "restored": true,
+  "engine": "Artifact Tool; disposable in-memory copy, no export"
+}

@@ -1,0 +1,52 @@
+{
+  "sheets": 68,
+  "original_sheets": 31,
+  "new_sheets": 37,
+  "native_charts": 58,
+  "scatter_charts": 31,
+  "embedded_images": 55,
+  "original_cell_differences": [],
+  "original_style_differences": [],
+  "original_object_count_differences": [],
+  "formula_errors": [],
+  "missing_cached_powers": [],
+  "representative_power_cells_checked": 18430,
+  "power_formula_max_absolute_error_W": 0.0,
+  "summary": {
+    "7": 100,
+    "8": 24,
+    "9": 25,
+    "10": 6,
+    "11": 168,
+    "12": 24,
+    "13": 49,
+    "14": 432,
+    "15": 600
+  },
+  "numerical_checks": [
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过",
+    "通过"
+  ],
+  "engine": "Artifact Tool recalculation/render + saved OOXML/openpyxl readback; desktop Excel not exercised",
+  "baseline_hashes_unchanged": {
+    "40至150V_DC_DC工艺器件与仿真.xlsx": true,
+    "DC_DC_3D器件演示.html": true,
+    "DC_DC工艺器件_完整交付_20261101.zip": true,
+    "可复现计算/data.json": true,
+    "可复现计算/device_runs.csv": true
+  },
+  "pass": true
+}

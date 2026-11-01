@@ -1,0 +1,679 @@
+[
+  {
+    "id": "N01",
+    "name": "SiC垂直MOSFET",
+    "group": "功率器件",
+    "shape": "vertical",
+    "paper_ids": [
+      "P01",
+      "P02"
+    ],
+    "formula": "C(V)=C0/(1+V/V0)^m；Q=∫C dV；Eoss=∫V C dV；关断漏电为线性假设",
+    "parameters": {
+      "R25_ohm": 0.08,
+      "Vth_V": 3,
+      "Beta_A_V2": 2,
+      "gate_V": 15,
+      "C0_F": 4e-10,
+      "V0_V": 20,
+      "m": 0.5,
+      "leak_25_A": 1e-08,
+      "blocking_assumption_V": 650
+    },
+    "scope": "外接功率器件研究对照；不能据此认定BCD平台支持。IGBT/650V器件并非40–150V的默认选型。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N02",
+    "name": "增强型GaN HEMT",
+    "group": "功率器件",
+    "shape": "hemt",
+    "paper_ids": [
+      "P01",
+      "P25"
+    ],
+    "formula": "C(V)=C0/(1+V/V0)^m；Q=∫C dV；Eoss=∫V C dV；关断漏电为线性假设",
+    "parameters": {
+      "R25_ohm": 0.06,
+      "Vth_V": 1.5,
+      "Beta_A_V2": 3,
+      "gate_V": 5,
+      "C0_F": 1.8e-10,
+      "V0_V": 15,
+      "m": 0.5,
+      "leak_25_A": 2e-08,
+      "trap_amplitude": 0.5,
+      "trap_tau_s": 4e-06,
+      "blocking_assumption_V": 650
+    },
+    "scope": "外接功率器件研究对照；不能据此认定BCD平台支持。IGBT/650V器件并非40–150V的默认选型。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N03",
+    "name": "硅超结MOSFET",
+    "group": "功率器件",
+    "shape": "superjunction",
+    "paper_ids": [
+      "P01"
+    ],
+    "formula": "C(V)=C0/(1+V/V0)^m；Q=∫C dV；Eoss=∫V C dV；关断漏电为线性假设",
+    "parameters": {
+      "R25_ohm": 0.1,
+      "Vth_V": 3,
+      "Beta_A_V2": 1.5,
+      "gate_V": 10,
+      "C0_F": 7e-10,
+      "V0_V": 12,
+      "m": 0.65,
+      "leak_25_A": 5e-09,
+      "blocking_assumption_V": 650
+    },
+    "scope": "外接功率器件研究对照；不能据此认定BCD平台支持。IGBT/650V器件并非40–150V的默认选型。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N04",
+    "name": "IGBT",
+    "group": "功率器件",
+    "shape": "igbt",
+    "paper_ids": [
+      "P02"
+    ],
+    "formula": "C(V)=C0/(1+V/V0)^m；Q=∫C dV；Eoss=∫V C dV；关断漏电为线性假设",
+    "parameters": {
+      "R25_ohm": 0.15,
+      "Vknee_V": 0.8,
+      "gate_V": 15,
+      "C0_F": 5e-10,
+      "V0_V": 20,
+      "m": 0.5,
+      "leak_25_A": 1e-08,
+      "tail_tau_s": 6e-07,
+      "blocking_assumption_V": 650
+    },
+    "scope": "外接功率器件研究对照；不能据此认定BCD平台支持。IGBT/650V器件并非40–150V的默认选型。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N05",
+    "name": "SiC JBS整流二极管",
+    "group": "功率器件",
+    "shape": "jbs",
+    "paper_ids": [
+      "P02"
+    ],
+    "formula": "C(V)=C0/(1+V/V0)^m；Q=∫C dV；Eoss=∫V C dV；关断漏电为线性假设",
+    "parameters": {
+      "Is25_A": 1e-16,
+      "n": 1.3,
+      "Rs_ohm": 0.15,
+      "C0_F": 1.4e-10,
+      "V0_V": 5,
+      "m": 0.5,
+      "leak_25_A": 1e-08,
+      "blocking_assumption_V": 650
+    },
+    "scope": "外接功率器件研究对照；不能据此认定BCD平台支持。IGBT/650V器件并非40–150V的默认选型。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N06",
+    "name": "FinFET",
+    "group": "低压新型晶体管",
+    "shape": "fin",
+    "paper_ids": [
+      "P04"
+    ],
+    "formula": "平滑有效过驱动u=2nUT·log(1+exp((VG−Vth)/2nUT))；沟道分段平方律＋串联接触电阻",
+    "parameters": {
+      "vt": 0.35,
+      "beta": 0.003,
+      "rs": 100,
+      "vgmax": 1,
+      "vd": 0.7,
+      "n": 1.1
+    },
+    "scope": "低压控制/传感研究；不接入40–150V开关节点；非BSIM/TCAD，FinFET只示意多栅器件端口。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N07",
+    "name": "a-IGZO TFT",
+    "group": "低压新型晶体管",
+    "shape": "tft",
+    "paper_ids": [
+      "P05"
+    ],
+    "formula": "平滑有效过驱动u=2nUT·log(1+exp((VG−Vth)/2nUT))；沟道分段平方律＋串联接触电阻",
+    "parameters": {
+      "vt": 1,
+      "beta": 2e-05,
+      "rs": 1000,
+      "vgmax": 10,
+      "vd": 1,
+      "n": 2
+    },
+    "scope": "低压控制/传感研究；不接入40–150V开关节点；非BSIM/TCAD，FinFET只示意多栅器件端口。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N08",
+    "name": "有机聚合物TFT",
+    "group": "低压新型晶体管",
+    "shape": "organic",
+    "paper_ids": [
+      "P06"
+    ],
+    "formula": "平滑有效过驱动u=2nUT·log(1+exp((VG−Vth)/2nUT))；沟道分段平方律＋串联接触电阻",
+    "parameters": {
+      "vt": 2,
+      "beta": 5e-06,
+      "rs": 5000,
+      "vgmax": 15,
+      "vd": 1,
+      "n": 2.5,
+      "strain": 0.3
+    },
+    "scope": "低压控制/传感研究；不接入40–150V开关节点；非BSIM/TCAD，FinFET只示意多栅器件端口。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N09",
+    "name": "MoS2接触受限FET",
+    "group": "低压新型晶体管",
+    "shape": "2d",
+    "paper_ids": [
+      "P07"
+    ],
+    "formula": "平滑有效过驱动u=2nUT·log(1+exp((VG−Vth)/2nUT))；沟道分段平方律＋串联接触电阻",
+    "parameters": {
+      "vt": 0.6,
+      "beta": 0.001,
+      "rs": 2000,
+      "vgmax": 3,
+      "vd": 0.5,
+      "n": 1.6
+    },
+    "scope": "低压控制/传感研究；不接入40–150V开关节点；非BSIM/TCAD，FinFET只示意多栅器件端口。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N10",
+    "name": "石墨烯双极性FET",
+    "group": "低压新型晶体管",
+    "shape": "2d",
+    "paper_ids": [
+      "P08"
+    ],
+    "formula": "G=Gmin+k·sqrt((VG−VDirac)^2+Vs^2)；ID=G·VD",
+    "parameters": {
+      "Gmin_S": 2e-05,
+      "k_S_V": 8e-05,
+      "Vdirac_V": 0.4,
+      "Vs_V": 0.2,
+      "Vd_V": 0.1
+    },
+    "scope": "仅双极性电导示意；无带隙、量子霍尔和高场输运模型",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N11",
+    "name": "碳纳米管弹道FET",
+    "group": "低压新型晶体管",
+    "shape": "cnt",
+    "paper_ids": [
+      "P19",
+      "P24"
+    ],
+    "formula": "I=(4q²/h)·UT·[log(1+exp(ηS))−log(1+exp(ηD))]；ηS=(αVG−ΦB)/UT",
+    "parameters": {
+      "alpha": 0.8,
+      "barrier_eV": 0.25,
+      "Vd_V": 0.5,
+      "tubes": 1
+    },
+    "scope": "单子带理想弹道示意；没有散射、接触肖特基势垒求解和真实CNT直径分布",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N12",
+    "name": "FeFET铁电存储晶体管",
+    "group": "非易失存储",
+    "shape": "fefet",
+    "paper_ids": [
+      "P09"
+    ],
+    "formula": "Vth=Vth0−ΔV·p；p由分布矫顽电压双稳态继电单元给出；ID=FET(VG,Vth)",
+    "parameters": {
+      "Vth0_V": 0.5,
+      "window_half_V": 0.35,
+      "beta": 0.002,
+      "Vd_V": 0.1,
+      "coercive_V": [
+        0.65,
+        1.2
+      ],
+      "Cgate_F": 1e-12,
+      "Qpolar_C": 1e-12
+    },
+    "scope": "低压存储；率无关极化滞回，无畴动力学、保持/疲劳或概率开关预测",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N13",
+    "name": "氧化物RRAM",
+    "group": "非易失存储",
+    "shape": "rram",
+    "paper_ids": [
+      "P10",
+      "P19"
+    ],
+    "formula": "G=Goff+(Gon−Goff)w；正向超过阈值dw/dt=k(V−Vset)(1−w)，反向复位；精确单步指数更新",
+    "parameters": {
+      "Goff_S": 1e-06,
+      "Gon_S": 0.001,
+      "Vset_V": 0.8,
+      "Vreset_V": -0.8,
+      "k_per_Vs": 200000.0,
+      "w0": 0.05
+    },
+    "scope": "低压双极性行为模型；无随机细丝、成形和耐久性预测",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N14",
+    "name": "PCM相变存储单元",
+    "group": "非易失存储",
+    "shape": "pcm",
+    "paper_ids": [
+      "P10"
+    ],
+    "formula": "Cth dT/dt=I²R−(T−Ta)/Rth；晶态比例x决定R；热阈值控制结晶/熔融状态更新",
+    "parameters": {
+      "Rcrystal_ohm": 1000,
+      "Ramorphous_ohm": 10000,
+      "Rth_K_W": 1000000.0,
+      "Cth_J_K": 3e-13,
+      "Tmelt_K": 900,
+      "Tcrystal_range_K": [
+        450,
+        800
+      ],
+      "reset_V": 3,
+      "set_A": 0.0002
+    },
+    "scope": "RESET施加3V、SET施加0.2mA；低压电热相变行为；无潜热、成核或空间温度求解，热阈值不代表特定合金",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N15",
+    "name": "MTJ磁隧道结",
+    "group": "非易失存储",
+    "shape": "mtj",
+    "paper_ids": [
+      "P11"
+    ],
+    "formula": "R=RP[1+TMR(1−m)/2]；超过正/负写入阈值时m切换；V=IR",
+    "parameters": {
+      "Rp_ohm": 1000,
+      "TMR": 1.0,
+      "Iwrite_A": 0.00015
+    },
+    "scope": "确定性双态读写；不实现LLG、热噪声、写入误码率和磁化空间纹理",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N16",
+    "name": "铁电电容",
+    "group": "非易失存储",
+    "shape": "fecap",
+    "paper_ids": [
+      "P09",
+      "P23"
+    ],
+    "formula": "Q=Clinear·V+Qsat·p；I=dQ/dt，p由矫顽阈值分布给出",
+    "parameters": {
+      "Clinear_F": 5e-12,
+      "Qsat_C": 2e-11,
+      "coercive_V": [
+        0.65,
+        1.2
+      ]
+    },
+    "scope": "双稳态极化示意；不是Landau–Khalatnikov或真实SrTiO3参数拟合",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N17",
+    "name": "氮化物LED",
+    "group": "光电与能量转换",
+    "shape": "led",
+    "paper_ids": [
+      "P12"
+    ],
+    "formula": "V=nUT ln(1+I/Is)+I Rs；Popt=EQE(I)·I·hc/(qλ)，EQE带经验高注入衰减",
+    "parameters": {
+      "wavelength_m": 4.5e-07,
+      "Is_A": 1e-24,
+      "n": 2,
+      "Rs_ohm": 3,
+      "EQE0": 0.35,
+      "Idroop_A": 0.05
+    },
+    "scope": "仅电光端口模型；不模拟能带/光谱/激子或论文器件效率。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N18",
+    "name": "量子点LED",
+    "group": "光电与能量转换",
+    "shape": "qdled",
+    "paper_ids": [
+      "P13"
+    ],
+    "formula": "V=nUT ln(1+I/Is)+I Rs；Popt=EQE(I)·I·hc/(qλ)，EQE带经验高注入衰减",
+    "parameters": {
+      "wavelength_m": 6.2e-07,
+      "Is_A": 1e-28,
+      "n": 2,
+      "Rs_ohm": 20,
+      "EQE0": 0.1,
+      "Idroop_A": 0.05
+    },
+    "scope": "仅电光端口模型；不模拟能带/光谱/激子或论文器件效率。",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N19",
+    "name": "PIN光电探测器",
+    "group": "光电与能量转换",
+    "shape": "pin",
+    "paper_ids": [
+      "P18"
+    ],
+    "formula": "IA=−Idark−Responsivity·Popt；阶跃光流的一阶低通响应；反偏电容为常数",
+    "parameters": {
+      "responsivity_A_W": 0.7,
+      "dark_A": 1e-09,
+      "tau_s": 3e-09,
+      "bias_V": -3,
+      "Cj_F": 5e-13
+    },
+    "scope": "光输入到电流输出；不含倍增、量子噪声和波长依赖",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N20",
+    "name": "单结光伏电池",
+    "group": "光电与能量转换",
+    "shape": "pv",
+    "paper_ids": [
+      "P14"
+    ],
+    "formula": "Iout=Iph−I0[exp((V+Iout Rs)/(nUT))−1]−(V+Iout Rs)/Rsh；二分法求解",
+    "parameters": {
+      "Iph25_A": 0.025,
+      "I025_A": 1e-12,
+      "n": 1.4,
+      "Rs_ohm": 1,
+      "Rsh_ohm": 1000,
+      "Pin_W": 0.1
+    },
+    "scope": "电流进入器件为负表示发电；单二极管参数为假设，非特定钙钛矿/有机电池拟合",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N21",
+    "name": "热电发电单元",
+    "group": "光电与能量转换",
+    "shape": "teg",
+    "paper_ids": [
+      "P15"
+    ],
+    "formula": "V=α(Th−Tc)−IR；Qh=αTh I−I²R/2+KΔT；Qc=αTc I+I²R/2+KΔT",
+    "parameters": {
+      "alpha_V_K": 0.02,
+      "R_ohm": 4,
+      "K_W_K": 0.02,
+      "deltaT_K": 30
+    },
+    "scope": "定常集总热电转换；不含温度依赖材料系数或汤姆孙效应",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N22",
+    "name": "片上耦合变压器",
+    "group": "片上无源与互连",
+    "shape": "transformer",
+    "paper_ids": [
+      "P16"
+    ],
+    "formula": "Z1=R1+jωL1；Z2=R2+RL+jωL2；I1=V1/(Z1+ω²M²/Z2)；I2=−jωM I1/Z2",
+    "parameters": {
+      "L1_H": 5e-09,
+      "L2_H": 5e-09,
+      "k": 0.7,
+      "R1_ohm": 2,
+      "R2_ohm": 2,
+      "RL_ohm": 50,
+      "Rsub_ohm": 1000,
+      "Csub_F": 1e-13,
+      "Vin_rms_V": 1
+    },
+    "scope": "频域RMS相量；含基底并联RC；不是实际金属版图电磁提取",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N23",
+    "name": "TSV硅通孔",
+    "group": "片上无源与互连",
+    "shape": "tsv",
+    "paper_ids": [
+      "P17"
+    ],
+    "formula": "Vout=Vin/[1+(R+jωL)(G+jωC+1/RL)]；Iin=(Vin−Vout)/(R+jωL)",
+    "parameters": {
+      "R_ohm": 0.1,
+      "L_H": 5e-11,
+      "C_F": 5e-14,
+      "G_S": 1e-06,
+      "RL_ohm": 50,
+      "Vin_rms_V": 1
+    },
+    "scope": "集总RLCG幅频模型；不做多TSV耦合、电磁传播和真实几何提取",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N24",
+    "name": "MZI电光调制器",
+    "group": "光电与能量转换",
+    "shape": "mzi",
+    "paper_ids": [
+      "P18"
+    ],
+    "formula": "Pout=Pin·loss·[1+cos(πV/Vπ)]/2；Ig=C·dV/dt+V/Rleak",
+    "parameters": {
+      "Pin_W": 0.001,
+      "transmission": 0.5,
+      "Vpi_V": 3,
+      "C_F": 1e-12,
+      "Rleak_ohm": 1000000000.0,
+      "f_Hz": 1000000.0
+    },
+    "scope": "集总相移/干涉模型；不求解波导光场、pn载流子或行波电极",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "N25",
+    "name": "半导体激光二极管",
+    "group": "光电与能量转换",
+    "shape": "laser",
+    "paper_ids": [
+      "P18"
+    ],
+    "formula": "Pout=ηs·max(I−Ith(T),0)；Ith=Ith25·exp((T−25)/T0)；V=V0+IRs",
+    "parameters": {
+      "Ith25_A": 0.02,
+      "T0_K": 100,
+      "slope_W_A": 0.5,
+      "V0_V": 1.2,
+      "Rs_ohm": 3
+    },
+    "scope": "静态L-I-V阈值模型；无速率方程、模式竞争、线宽或腔内场",
+    "kind": "new",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "X01",
+    "name": "MOS栅电荷与Miller耦合",
+    "group": "已有器件扩展",
+    "shape": "mos",
+    "paper_ids": [
+      "P04"
+    ],
+    "formula": "[Cgs+Cgd,−Cgd;−Cgd,Cds+Cgd]·d[VG,VD]/dt=[(Vdrv−VG)/Rg, Iload−Ich]；后向欧拉＋Newton",
+    "parameters": {
+      "Cgs_F": 1e-09,
+      "Cgd_F": 2e-10,
+      "Cds_F": 3e-10,
+      "Rg_ohm": 10,
+      "Vdrv_V": 5,
+      "Vbus_V": 100,
+      "Iload_A": 1,
+      "Vth_V": 2,
+      "beta_A_V2": 0.5
+    },
+    "scope": "固定电容、1A钳位电感等效测试台；含Miller反馈但无栅电容非线性/封装寄生",
+    "kind": "extension",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "X02",
+    "name": "PN二极管反向恢复",
+    "group": "已有器件扩展",
+    "shape": "diode",
+    "paper_ids": [
+      "P02"
+    ],
+    "formula": "外部规定dI/dt；三角形恢复电流满足Qrr=Irr·trr/2，trr=2sqrt(Qrr/a)",
+    "parameters": {
+      "Qrr25_C": 5e-08,
+      "di_dt_A_s": 50000000.0,
+      "Vreverse_V": 100
+    },
+    "scope": "电荷约束行为模型；Qrr为输入假设，无少子连续性方程或实测恢复数据",
+    "kind": "extension",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "X03",
+    "name": "MOS导通损耗自热反馈",
+    "group": "已有器件扩展",
+    "shape": "vertical",
+    "paper_ids": [
+      "P02",
+      "P19"
+    ],
+    "formula": "Cth dθ/dt=I²R25[1+α(Ta+θ−25)]−θ/Rth；恒流一阶闭式解",
+    "parameters": {
+      "I_A": 2,
+      "R25_ohm": 0.2,
+      "alpha_K_inv": 0.004,
+      "Rth_K_W": 40,
+      "Cth_J_K": 0.02
+    },
+    "scope": "单节点热RC与电阻反馈；不是器件内部三维温度场或热失效寿命",
+    "kind": "extension",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "X04",
+    "name": "PMOS NBTI老化",
+    "group": "已有器件扩展",
+    "shape": "mos",
+    "paper_ids": [
+      "P20"
+    ],
+    "formula": "Δ|Vth|=A·exp[(Ea/k)(1/Tref−1/T)]·(t/tref)^n；|ID|∝max(VSG−|Vth|,0)^2",
+    "parameters": {
+      "A_V": 0.02,
+      "Ea_eV": 0.1,
+      "Tref_K": 398.15,
+      "tref_s": 1000,
+      "n": 0.2,
+      "Vsg_V": 3.3,
+      "Vth0_V": 0.7,
+      "beta_A_V2": 0.01
+    },
+    "scope": "经验幂律定压应力；不解反应扩散，不含恢复/工艺标定，不作寿命预测",
+    "kind": "extension",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "X05",
+    "name": "MOS 1/f与热噪声",
+    "group": "已有器件扩展",
+    "shape": "mos",
+    "paper_ids": [
+      "P21"
+    ],
+    "formula": "Si(f)=Kf/f+4kTγgm；irms²=Kf ln(f2/f1)+4kTγgm(f2−f1)",
+    "parameters": {
+      "Kf_A2": 1e-18,
+      "gm_S": 0.001,
+      "gamma": 0.6666666666666666,
+      "fmin_Hz": 1,
+      "fmax_Hz": 1000000.0
+    },
+    "scope": "频域PSD与积分；不伪造时间随机波形或陷阱密度；端口为DC偏置",
+    "kind": "extension",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  },
+  {
+    "id": "X06",
+    "name": "MOS阈值及电阻统计分散",
+    "group": "已有器件扩展",
+    "shape": "fin",
+    "paper_ids": [
+      "P22"
+    ],
+    "formula": "固定随机种子；Vth~N(μ,σ)，R为正值对数正态；每样本求解独立FET偏置点",
+    "parameters": {
+      "seed": 20261101,
+      "samples": 1000,
+      "sigma_Vth_V": 0.03,
+      "R_median_ohm": 100,
+      "R_log_sigma": 0.1,
+      "Vd_V": 0.7,
+      "Vg_V": 1
+    },
+    "scope": "参数Monte Carlo；不复现论文LER/离散掺杂的3D随机几何，不给制造良率",
+    "kind": "extension",
+    "parameter_origin": "全部数值为人为演示假设，未拟合论文曲线，无工艺/产品耐压认证"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "test": "新增模型数",
+    "value": 25.0,
+    "limit": 25.0,
+    "pass_": true
+  },
+  {
+    "test": "扩展效应数",
+    "value": 6.0,
+    "limit": 6.0,
+    "pass_": true
+  },
+  {
+    "test": "新增测试台工况数",
+    "value": 168.0,
+    "limit": 168.0,
+    "pass_": true
+  },
+  {
+    "test": "端口KCL最大残差(A)",
+    "value": 6.938893903907228e-18,
+    "limit": 1e-12,
+    "pass_": true
+  },
+  {
+    "test": "非有限数组数",
+    "value": 0.0,
+    "limit": 0.0,
+    "pass_": true
+  },
+  {
+    "test": "N21能量平衡残差(W)",
+    "value": 6.106226635438361e-16,
+    "limit": 1e-12,
+    "pass_": true
+  },
+  {
+    "test": "N22能量平衡残差(W)",
+    "value": 4.440892098500626e-16,
+    "limit": 1e-12,
+    "pass_": true
+  },
+  {
+    "test": "N23能量平衡残差(W)",
+    "value": 2.11148373091552e-17,
+    "limit": 1e-12,
+    "pass_": true
+  },
+  {
+    "test": "X03能量平衡残差(W)",
+    "value": 4.440892098500626e-16,
+    "limit": 1e-12,
+    "pass_": true
+  },
+  {
+    "test": "恢复电荷积分相对误差",
+    "value": 2.220446049250313e-16,
+    "limit": 1e-05,
+    "pass_": true
+  },
+  {
+    "test": "铁电电荷守恒残差(C)",
+    "value": 1.1632227364026952e-25,
+    "limit": 1e-18,
+    "pass_": true
+  },
+  {
+    "test": "噪声积分相对误差",
+    "value": 2.7251171380138217e-05,
+    "limit": 0.001,
+    "pass_": true
+  },
+  {
+    "test": "门极瞬态dt减半最大VDS差(V)",
+    "value": 0.6858704748782909,
+    "limit": 1.0,
+    "pass_": true
+  },
+  {
+    "test": "PCM dt减半峰温相对差",
+    "value": 0.0009782514817046185,
+    "limit": 0.03,
+    "pass_": true
+  },
+  {
+    "test": "状态变量[0,1]越界数",
+    "value": 0.0,
+    "limit": 0.0,
+    "pass_": true
+  }
+]
