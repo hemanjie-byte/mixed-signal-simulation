@@ -16,6 +16,6 @@ class Recorder(unittest.TextTestResult):
 
 suite=unittest.defaultTestLoader.discover(str(Path(__file__).resolve().parent),pattern='test_*.py')
 start=time.time();result=unittest.TextTestRunner(verbosity=2,resultclass=Recorder).run(suite)
-report={'date':'2026-11-01','python':platform.python_version(),'numpy':np.__version__,'tests_run':result.testsRun,'passed':result.wasSuccessful(),'elapsed_s':round(time.time()-start,3),'tests':result.records,'scope':'Analytical limits, conservation, numerical convergence and artifacts. No measured/PDK accuracy certification.'}
+report={'date':'2026-11-02','python':platform.python_version(),'numpy':np.__version__,'tests_run':result.testsRun,'passed':result.wasSuccessful(),'elapsed_s':round(time.time()-start,3),'tests':result.records,'scope':'Analytical limits, conservation, numerical convergence and artifacts. No measured/PDK accuracy certification.'}
 (ROOT/'results/validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 sys.exit(0 if result.wasSuccessful()else 1)

@@ -185,8 +185,8 @@
       "B05",
       "B02"
     ],
-    "equation_en": "Binary CDAC plus dummy capacitor; sequential bit decisions; DNL from code widths; endpoint INL; coherent 16384-point FFT at bin 503.",
-    "equation_zh": "二进制电容阵列逐位比较，分别计算码宽DNL、端点INL及相干FFT动态指标。",
+    "equation_en": "Binary CDAC with dummy; actual sequential-decision transition search; DNL from code widths; INL fitted to first/last internal transitions; coherent 16384-point FFT, bin 503, one-sided power with DC/Nyquist counted once.",
+    "equation_zh": "含dummy的二进制CDAC逐位比较；搜索实际转换码边界计算DNL，首末内部转换点端点拟合计算INL；相干FFT单边功率对直流与奈奎斯特点只计一次。",
     "parameters": {
       "bits": 10,
       "Vref_V": 1.8,

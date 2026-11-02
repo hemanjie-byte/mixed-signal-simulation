@@ -5,7 +5,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2007.914300",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2007.914300"
   },
   {
     "candidate_id": "PB2F75B2D953",
@@ -13,7 +17,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2025.3612157",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2025.3612157"
   },
   {
     "candidate_id": "PBF560512982",
@@ -21,7 +29,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2007.908743",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2007.908743"
   },
   {
     "candidate_id": "PEDF80222C86",
@@ -29,7 +41,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2008.922405",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2008.922405"
   },
   {
     "candidate_id": "PDB930849A06",
@@ -37,7 +53,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2008.917405",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2008.917405"
   },
   {
     "candidate_id": "PC2F737E8F0A",
@@ -45,7 +65,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsi.2014.2334812",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsi.2014.2334812"
   },
   {
     "candidate_id": "P86A8870265A",
@@ -53,7 +77,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2015.2463110",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2015.2463110"
   },
   {
     "candidate_id": "P82DBBEA7AC4",
@@ -61,7 +89,11 @@
     "decision": "selected",
     "doi": "10.1109/4.735542",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/4.735542"
   },
   {
     "candidate_id": "PF118D9724D8",
@@ -69,7 +101,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2014.2302793",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2014.2302793"
   },
   {
     "candidate_id": "PE933F34B340",
@@ -77,7 +113,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2017.2697412",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2017.2697412"
   },
   {
     "candidate_id": "PF07E2EEA50E",
@@ -85,7 +125,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2006.884330",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2006.884330"
   },
   {
     "candidate_id": "PEA2AB08B7AB",
@@ -93,7 +137,11 @@
     "decision": "selected",
     "doi": "10.1109/tcad.2018.2848590",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcad.2018.2848590"
   },
   {
     "candidate_id": "P3AEBB939539",
@@ -101,7 +149,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2020220",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2009.2020220"
   },
   {
     "candidate_id": "P8A413F7FC1A",
@@ -109,7 +161,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2012.2217832",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2012.2217832"
   },
   {
     "candidate_id": "P313F859F849",
@@ -117,7 +173,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2012.2191325",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2012.2191325"
   },
   {
     "candidate_id": "P6B1C8BDDC04",
@@ -125,7 +185,11 @@
     "decision": "selected",
     "doi": "10.1109/tmtt.2013.2255621",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tmtt.2013.2255621"
   },
   {
     "candidate_id": "P4B51459FCA2",
@@ -133,7 +197,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-008-9222-5",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-008-9222-5"
   },
   {
     "candidate_id": "PD964E629D4C",
@@ -141,7 +209,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2012.2204475",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2012.2204475"
   },
   {
     "candidate_id": "P2D155FE98BB",
@@ -149,7 +221,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2012.2191325",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2012.2191325"
   },
   {
     "candidate_id": "P1FF50513FB0",
@@ -157,7 +233,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-014-0412-z",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-014-0412-z"
   },
   {
     "candidate_id": "PF1C26ADFFEA",
@@ -165,7 +245,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2013.2273181",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2013.2273181"
   },
   {
     "candidate_id": "P49A17227AEB",
@@ -173,7 +257,11 @@
     "decision": "selected",
     "doi": "10.1109/tmtt.2017.2671359",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tmtt.2020.3018141"
   },
   {
     "candidate_id": "PB3936C7ED57",
@@ -181,7 +269,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2032273",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2009.2032273"
   },
   {
     "candidate_id": "PEE19CBAF0E7",
@@ -189,7 +281,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2017.2693229",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2017.2693229"
   },
   {
     "candidate_id": "P3ED0F5507C3",
@@ -197,7 +293,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2019.2916418",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2019.2916418"
   },
   {
     "candidate_id": "P6F32F6ADB68",
@@ -205,7 +305,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2014.2354048",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2014.2354048"
   },
   {
     "candidate_id": "PA7E584A4245",
@@ -213,7 +317,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-007-9062-8",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-007-9062-8"
   },
   {
     "candidate_id": "PC2345B6F76E",
@@ -221,7 +329,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2016.2607338",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2016.2607338"
   },
   {
     "candidate_id": "PFAB4C372C3A",
@@ -229,7 +341,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2023.3311673",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2023.3311673"
   },
   {
     "candidate_id": "PE332D250D02",
@@ -237,7 +353,11 @@
     "decision": "selected",
     "doi": "10.1080/09500340.2015.1049572",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1080/09500340.2015.1049572"
   },
   {
     "candidate_id": "P00996A21D9C",
@@ -245,7 +365,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2008.916680",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/ted.2008.916680"
   },
   {
     "candidate_id": "PDFED271F85F",
@@ -253,7 +377,11 @@
     "decision": "selected",
     "doi": "10.1007/bf01239077",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/bf01239077"
   },
   {
     "candidate_id": "P646D691DDF5",
@@ -261,7 +389,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsi.2024.3524949",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsi.2024.3524949"
   },
   {
     "candidate_id": "P61F893DB286",
@@ -269,7 +401,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2017.2743174",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2017.2743174"
   },
   {
     "candidate_id": "PC4E4130D1A5",
@@ -277,7 +413,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2011.2178723",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2011.2178723"
   },
   {
     "candidate_id": "PF469CB88951",
@@ -285,21 +425,33 @@
     "decision": "selected",
     "doi": "10.1080/09500340.2015.1049572",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1080/09500340.2015.1049572"
   },
   {
     "candidate_id": "P8C6CC6FC8F9",
     "name": "Clark Nguyen",
     "decision": "not_selected",
     "reason_en": "Only author initials matched; primary identity confirmation pending.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P40A6F55A528",
     "name": "Abdulrahman Alhamed",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P2E9042BAED6",
@@ -307,7 +459,11 @@
     "decision": "selected",
     "doi": "10.1109/30.793412",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/30.793412"
   },
   {
     "candidate_id": "P271E9BCDF81",
@@ -315,7 +471,11 @@
     "decision": "selected",
     "doi": "10.4071/hitec-tp16",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P694E6E57459",
@@ -323,7 +483,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-011-9771-x",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-011-9771-x"
   },
   {
     "candidate_id": "P107FBBDA79B",
@@ -331,7 +495,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2020.3028811",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2020.3028811"
   },
   {
     "candidate_id": "P7206D0C845B",
@@ -339,7 +507,11 @@
     "decision": "selected",
     "doi": "10.1109/4.406403",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/4.406403"
   },
   {
     "candidate_id": "P5FE4CA3A378",
@@ -347,7 +519,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsii.2024.3374052",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsii.2024.3374052"
   },
   {
     "candidate_id": "P4E044B18E3C",
@@ -355,7 +531,11 @@
     "decision": "selected",
     "doi": "10.1166/jolpe.2013.1287",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1166/jolpe.2013.1287"
   },
   {
     "candidate_id": "P0022180B1CD",
@@ -363,7 +543,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2018.2866374",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2018.2866374"
   },
   {
     "candidate_id": "P1144798FC6A",
@@ -371,7 +555,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2013.2252516",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2013.2252516"
   },
   {
     "candidate_id": "PDD9B1138EB9",
@@ -379,7 +567,11 @@
     "decision": "selected",
     "doi": "10.1109/jmems.2013.2262589",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jmems.2013.2262589"
   },
   {
     "candidate_id": "P739335FA1CB",
@@ -387,7 +579,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2013.2273181",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2013.2273181"
   },
   {
     "candidate_id": "P262ACBECAB6",
@@ -395,7 +591,11 @@
     "decision": "selected",
     "doi": "10.1109/mssc.2012.2203171",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/mssc.2012.2203171"
   },
   {
     "candidate_id": "P5C3E8E4A95D",
@@ -403,7 +603,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2007.897131",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2007.897131"
   },
   {
     "candidate_id": "P2E0904057D6",
@@ -411,7 +615,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2010.2058150",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2010.2058150"
   },
   {
     "candidate_id": "PD9A239140A8",
@@ -419,7 +627,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2023.3243305",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2023.3243305"
   },
   {
     "candidate_id": "PE3D37873A99",
@@ -427,7 +639,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2022.3149916",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2022.3149916"
   },
   {
     "candidate_id": "PC4470756176",
@@ -435,7 +651,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2012.2225738",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2012.2225738"
   },
   {
     "candidate_id": "P1B1B3AB177A",
@@ -443,14 +663,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2013.2273181",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2013.2273181"
   },
   {
     "candidate_id": "PC7329CB1B13",
     "name": "Khurram Khan Afridi",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PBB741336CD4",
@@ -458,7 +686,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2013.2273823",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2013.2273823"
   },
   {
     "candidate_id": "P5504EA478CD",
@@ -466,7 +698,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2008.925605",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2008.925605"
   },
   {
     "candidate_id": "P523353D5634",
@@ -474,7 +710,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2019.2954232",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2019.2954232"
   },
   {
     "candidate_id": "P3582F95FB78",
@@ -482,7 +722,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2018.2862892",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2018.2862892"
   },
   {
     "candidate_id": "P68E9E66430D",
@@ -490,7 +734,11 @@
     "decision": "selected",
     "doi": "10.1109/led.2005.860889",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/led.2005.860889"
   },
   {
     "candidate_id": "PB097350F6E0",
@@ -498,14 +746,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2025.3570656",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2025.3570656"
   },
   {
     "candidate_id": "PD6FE0C1459B",
     "name": "Franco De Flaviis",
     "decision": "not_selected",
     "reason_en": "Selected papers concern antennas/PCBs rather than semiconductor IC design.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P4663F881989",
@@ -513,7 +769,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2022.3218558",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2022.3218558"
   },
   {
     "candidate_id": "P6A0AB49F3E4",
@@ -521,7 +781,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2013.2245058",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2013.2245058"
   },
   {
     "candidate_id": "P520B3346D91",
@@ -529,14 +793,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2014.2368132",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2014.2368132"
   },
   {
     "candidate_id": "P2345ED3D46C",
     "name": "George Jie YUAN",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PC15FD83280E",
@@ -544,7 +816,11 @@
     "decision": "selected",
     "doi": "10.1049/iet-cds.2018.5252",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1049/iet-cds.2018.5252"
   },
   {
     "candidate_id": "P37BB7673CBB",
@@ -552,7 +828,11 @@
     "decision": "selected",
     "doi": "10.1109/tcad.2021.3081405",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcad.2021.3081405"
   },
   {
     "candidate_id": "P7E9876E1FA2",
@@ -560,7 +840,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2020203",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2009.2020203"
   },
   {
     "candidate_id": "P2DC2A320CF2",
@@ -568,14 +852,22 @@
     "decision": "selected",
     "doi": "10.1007/s10470-007-9083-3",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-007-9083-3"
   },
   {
     "candidate_id": "PAC2E1BFF47A",
     "name": "Sensen Li",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PC890D5E1A7F",
@@ -583,7 +875,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsi.2007.904597",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsi.2007.904597"
   },
   {
     "candidate_id": "P116CF6678C4",
@@ -591,21 +887,33 @@
     "decision": "selected",
     "doi": "10.1109/4.910481",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/4.910481"
   },
   {
     "candidate_id": "PCE5C340177B",
     "name": "David Orser",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P5787416CE2B",
     "name": "Derek Wright",
     "decision": "not_selected",
     "reason_en": "Reserve: narrow compute-in-memory topic; prioritize established analog circuit evidence.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PE672E1F6C32",
@@ -613,7 +921,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2019.2948171",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2019.2948171"
   },
   {
     "candidate_id": "P0CCF89F892D",
@@ -621,7 +933,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2007.903050",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2007.903050"
   },
   {
     "candidate_id": "P8235B5EE153",
@@ -629,7 +945,11 @@
     "decision": "selected",
     "doi": "10.1023/a:1008379914498",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1023/a:1008379914498"
   },
   {
     "candidate_id": "P20E9314897A",
@@ -637,7 +957,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-015-0528-9",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-015-0528-9"
   },
   {
     "candidate_id": "PBFC19BDFC34",
@@ -645,7 +969,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2015.2420597",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/ted.2015.2420597"
   },
   {
     "candidate_id": "PE26B40984C8",
@@ -653,7 +981,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2010.2091322",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2010.2091322"
   },
   {
     "candidate_id": "P7266C7A2480",
@@ -661,7 +993,11 @@
     "decision": "selected",
     "doi": "10.1023/a:1020769913779",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1023/a:1020769913779"
   },
   {
     "candidate_id": "P124CE3F0FDE",
@@ -669,7 +1005,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-015-0657-1",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-015-0657-1"
   },
   {
     "candidate_id": "P8270DC4A3A8",
@@ -677,7 +1017,11 @@
     "decision": "selected",
     "doi": "10.1109/tvlsi.2018.2861769",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/43.21830"
   },
   {
     "candidate_id": "PA6536E3ABDF",
@@ -685,7 +1029,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsi.2016.2598184",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsi.2016.2598184"
   },
   {
     "candidate_id": "PCF5D095F93F",
@@ -693,7 +1041,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2018.2820147",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2018.2820147"
   },
   {
     "candidate_id": "PD05A07E5289",
@@ -701,7 +1053,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2019.2914576",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2019.2914576"
   },
   {
     "candidate_id": "PF6CD208E68E",
@@ -709,7 +1065,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2017.2650409",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2017.2650409"
   },
   {
     "candidate_id": "P1706193332A",
@@ -717,7 +1077,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2013.2273181",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2013.2273181"
   },
   {
     "candidate_id": "PF51A440DF87",
@@ -725,7 +1089,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2008.2004863",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2008.2004863"
   },
   {
     "candidate_id": "PCC0EA4B34E3",
@@ -733,7 +1101,11 @@
     "decision": "selected",
     "doi": "10.1109/tmtt.2025.3617568",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tmtt.2025.3617568"
   },
   {
     "candidate_id": "P87DDD6E0049",
@@ -741,7 +1113,11 @@
     "decision": "selected",
     "doi": "10.1109/tuffc.2022.3147973",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tuffc.2022.3147973"
   },
   {
     "candidate_id": "P0BC9D401091",
@@ -749,14 +1125,22 @@
     "decision": "selected",
     "doi": "10.1002/mop.29586",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1002/mop.29586"
   },
   {
     "candidate_id": "P03AAC564B42",
     "name": "Dinesh Bharadia",
     "decision": "not_selected",
     "reason_en": "Selected paper does not establish an integrated semiconductor implementation.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P6A04650CF09",
@@ -764,7 +1148,11 @@
     "decision": "selected",
     "doi": "10.4071/001c.81980",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PEA8BA00E073",
@@ -772,7 +1160,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2012.2186301",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/ted.2012.2186301"
   },
   {
     "candidate_id": "P633F7984582",
@@ -780,7 +1172,11 @@
     "decision": "selected",
     "doi": "10.1080/09500340.2015.1049572",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1080/09500340.2015.1049572"
   },
   {
     "candidate_id": "PE4D07EC81CB",
@@ -788,7 +1184,11 @@
     "decision": "selected",
     "doi": "10.1109/tbcas.2017.2743685",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tbcas.2017.2743685"
   },
   {
     "candidate_id": "P15E5350C1AD",
@@ -796,7 +1196,11 @@
     "decision": "selected",
     "doi": "10.1109/lssc.2022.3172992",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/lssc.2022.3172992"
   },
   {
     "candidate_id": "P593D1E256E9",
@@ -804,7 +1208,11 @@
     "decision": "selected",
     "doi": "10.1109/tpel.2020.3040553",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tpel.2020.3040553"
   },
   {
     "candidate_id": "P9BEC854D51E",
@@ -812,7 +1220,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2011.2104961",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/ted.2011.2104961"
   },
   {
     "candidate_id": "PB577B9FA24E",
@@ -820,7 +1232,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2026.3659771",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2026.3659771"
   },
   {
     "candidate_id": "P008D43A8326",
@@ -828,7 +1244,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2011.2159054",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2011.2159054"
   },
   {
     "candidate_id": "P5E305662B8D",
@@ -836,7 +1256,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2025.3612157",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2025.3612157"
   },
   {
     "candidate_id": "PEBD224906B5",
@@ -844,7 +1268,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsi.2005.862068",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsi.2005.862068"
   },
   {
     "candidate_id": "P63EA4126415",
@@ -852,21 +1280,33 @@
     "decision": "selected",
     "doi": "10.1007/s10470-021-01814-1",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-021-01814-1"
   },
   {
     "candidate_id": "P171CE7B2A67",
     "name": "Hua Wang",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PF8CC3A1A815",
     "name": "Hyeonmin Bae",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P867F918680F",
@@ -874,7 +1314,11 @@
     "decision": "selected",
     "doi": "10.1109/lpt.2018.2867805",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/lpt.2018.2867805"
   },
   {
     "candidate_id": "P43DE48FA048",
@@ -882,7 +1326,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2017973",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2009.2017973"
   },
   {
     "candidate_id": "P366518D4A77",
@@ -890,7 +1338,11 @@
     "decision": "selected",
     "doi": "10.1023/a:1008219807175",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1023/a:1008219807175"
   },
   {
     "candidate_id": "P6B5B9A01EFC",
@@ -898,7 +1350,11 @@
     "decision": "selected",
     "doi": "10.1109/lssc.2022.3172992",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/lssc.2022.3172992"
   },
   {
     "candidate_id": "P4A916042EB1",
@@ -906,7 +1362,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsi.2024.3355070",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsi.2024.3355070"
   },
   {
     "candidate_id": "P08BA8ED5A02",
@@ -914,14 +1374,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2016.2639536",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2016.2639536"
   },
   {
     "candidate_id": "P09B7AE7916D",
     "name": "Karen Dowling",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PC7FE83758E9",
@@ -929,7 +1397,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsi.2020.3000745",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsi.2020.3000745"
   },
   {
     "candidate_id": "P86F6594BE12",
@@ -937,7 +1409,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2019.2940332",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2019.2940332"
   },
   {
     "candidate_id": "PD7612CA5DFC",
@@ -945,7 +1421,11 @@
     "decision": "selected",
     "doi": "10.1109/tbcas.2019.2926836",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tbcas.2019.2926836"
   },
   {
     "candidate_id": "PF196649BD69",
@@ -953,14 +1433,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2012.2223951",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2012.2223951"
   },
   {
     "candidate_id": "P993B40AF986",
     "name": "Mathiazhagan C",
     "decision": "not_selected",
     "reason_en": "Clock/data switching reduction is outside the primary analog emphasis.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P8E379C91746",
@@ -968,7 +1456,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2025.3570656",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2025.3570656"
   },
   {
     "candidate_id": "PCA8C4FBD383",
@@ -976,14 +1468,22 @@
     "decision": "selected",
     "doi": "10.1109/ted.2018.2831719",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/ted.2018.2831719"
   },
   {
     "candidate_id": "PDABBC9C1C1F",
     "name": "Mustafijur Rahman",
     "decision": "not_selected",
     "reason_en": "Homonym/affiliation disambiguation remains unresolved.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PF33DB47EEC8",
@@ -991,14 +1491,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2017.2647924",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2017.2647924"
   },
   {
     "candidate_id": "P3DD36EA9E22",
     "name": "Nitesh Singhal",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P201B4915013",
@@ -1006,14 +1514,22 @@
     "decision": "selected",
     "doi": "10.1109/tpel.2024.3395126",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tpel.2024.3395126"
   },
   {
     "candidate_id": "P68953581C4C",
     "name": "Ömer Oralkan",
     "decision": "not_selected",
     "reason_en": "Only author initials matched; primary identity confirmation pending.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P2C0FEBC9B35",
@@ -1021,7 +1537,11 @@
     "decision": "selected",
     "doi": "10.1109/tmtt.2012.2231430",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tmtt.2012.2231430"
   },
   {
     "candidate_id": "P08E48C461A7",
@@ -1029,7 +1549,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2011.2143610",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2011.2143610"
   },
   {
     "candidate_id": "P0215EC4C9F2",
@@ -1037,7 +1561,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-018-1291-5",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-018-1291-5"
   },
   {
     "candidate_id": "P4ACF4138A15",
@@ -1045,7 +1573,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2020.2967554",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2020.2967554"
   },
   {
     "candidate_id": "P3CB9B07BC03",
@@ -1053,21 +1585,33 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2018.2820708",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2018.2820708"
   },
   {
     "candidate_id": "P83120CDC43F",
     "name": "Rick Carley",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P90C683F7F6C",
     "name": "Robert Bruce Darling",
     "decision": "not_selected",
     "reason_en": "Only author initials matched; primary identity confirmation pending.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PFB3BA2B6443",
@@ -1075,7 +1619,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2014730",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2009.2014730"
   },
   {
     "candidate_id": "PDC077302972",
@@ -1083,7 +1631,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2013.2272864",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2013.2272864"
   },
   {
     "candidate_id": "PD4401C9E65A",
@@ -1091,7 +1643,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-006-9003-y",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-006-9003-y"
   },
   {
     "candidate_id": "P0E5A07CDCF6",
@@ -1099,7 +1655,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsi.2020.3038360",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsi.2020.3038360"
   },
   {
     "candidate_id": "PB0148EEEB1D",
@@ -1107,7 +1667,11 @@
     "decision": "selected",
     "doi": "10.1109/tpel.2024.3349417",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tpel.2024.3349417"
   },
   {
     "candidate_id": "P0CF93C5988F",
@@ -1115,14 +1679,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2008.920360",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2008.920360"
   },
   {
     "candidate_id": "PDC5C71BB624",
     "name": "Sashank Krishnamurthy",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P5E8D4D8D241",
@@ -1130,14 +1702,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2022.3149391",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2022.3149391"
   },
   {
     "candidate_id": "PBF92ABD0F54",
     "name": "Shalabh Gupta",
     "decision": "not_selected",
     "reason_en": "Photonic signal processing is outside this edition's primary analog electronic IC emphasis.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P6AD73D383C8",
@@ -1145,7 +1725,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2016.2594026",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2016.2594026"
   },
   {
     "candidate_id": "P54465B57F2A",
@@ -1153,7 +1737,11 @@
     "decision": "selected",
     "doi": "10.1109/tpel.2026.3672488",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tpel.2026.3672488"
   },
   {
     "candidate_id": "PAE924D1E399",
@@ -1161,14 +1749,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2025.3631053",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2025.3631053"
   },
   {
     "candidate_id": "PEDF8FEC1BF1",
     "name": "Stef van Zanten",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P8E116846DF6",
@@ -1176,7 +1772,11 @@
     "decision": "selected",
     "doi": "10.1109/tns.2009.2015298",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tns.2009.2015298"
   },
   {
     "candidate_id": "P39D9A8D85F7",
@@ -1184,7 +1784,11 @@
     "decision": "selected",
     "doi": "10.1080/002072198134256",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1080/002072198134256"
   },
   {
     "candidate_id": "PBC4F21A34F1",
@@ -1192,7 +1796,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-006-9006-8",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-006-9006-8"
   },
   {
     "candidate_id": "P0B8219F4DDA",
@@ -1200,7 +1808,11 @@
     "decision": "selected",
     "doi": "10.1109/jmems.2010.2067197",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jmems.2010.2067197"
   },
   {
     "candidate_id": "P4441F39B6B1",
@@ -1208,7 +1820,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2025.3647024",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2025.3647024"
   },
   {
     "candidate_id": "P8839F1E138C",
@@ -1216,7 +1832,11 @@
     "decision": "selected",
     "doi": "10.1109/tbcas.2017.2743685",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tbcas.2017.2743685"
   },
   {
     "candidate_id": "P464301DD98E",
@@ -1224,7 +1844,11 @@
     "decision": "selected",
     "doi": "10.3390/math8050829",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.3390/math8050829"
   },
   {
     "candidate_id": "PD8637AB0C8A",
@@ -1232,7 +1856,11 @@
     "decision": "selected",
     "doi": "10.1109/tbcas.2019.2920294",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tbcas.2019.2920294"
   },
   {
     "candidate_id": "PFF40215A1D4",
@@ -1240,14 +1868,22 @@
     "decision": "selected",
     "doi": "10.1109/tcsii.2007.898472",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tcsii.2007.898472"
   },
   {
     "candidate_id": "P78733DB4706",
     "name": "Vinita Vasudevan",
     "decision": "not_selected",
     "reason_en": "Only author initials matched; primary identity confirmation pending.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P0F1A413E0A3",
@@ -1255,7 +1891,11 @@
     "decision": "selected",
     "doi": "10.5573/ieie.2023.60.11.104",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.5573/ieie.2023.60.11.104"
   },
   {
     "candidate_id": "PE60EF4E6C89",
@@ -1263,7 +1903,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2010.2056833",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2010.2056833"
   },
   {
     "candidate_id": "PD40901AEDC2",
@@ -1271,14 +1915,22 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2022.3171545",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2022.3171545"
   },
   {
     "candidate_id": "P737D4EA9B2C",
     "name": "Xilin Liu",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P5EEC1D88B3B",
@@ -1286,21 +1938,33 @@
     "decision": "selected",
     "doi": "10.1109/mssc.2023.3305589",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/mssc.2023.3305589"
   },
   {
     "candidate_id": "P4BC146A4D34",
     "name": "Yihan ZHANG",
     "decision": "not_selected",
     "reason_en": "Homonym/affiliation disambiguation remains unresolved.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P6DFB71B67DF",
     "name": "Zhi Jackie Yao",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P625E7735F1C",
@@ -1308,7 +1972,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-018-1210-9",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-018-1210-9"
   },
   {
     "candidate_id": "P73458F0BBFD",
@@ -1316,7 +1984,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-014-0483-x",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-014-0483-x"
   },
   {
     "candidate_id": "PF7D830A2648",
@@ -1324,7 +1996,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2023.3314401",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P3CFE024ACD7",
@@ -1332,7 +2008,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-014-0479-6",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-014-0479-6"
   },
   {
     "candidate_id": "P78F3BF48E06",
@@ -1340,14 +2020,22 @@
     "decision": "selected",
     "doi": "10.1007/s10470-012-9829-4",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-012-9829-4"
   },
   {
     "candidate_id": "P1D79C998528",
     "name": "Na Yan",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PF3E7714AA04",
@@ -1355,7 +2043,11 @@
     "decision": "selected",
     "doi": "10.1109/tpel.2020.3043281",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P504FDE56395",
@@ -1363,7 +2055,11 @@
     "decision": "selected",
     "doi": "10.1109/t-ed.1983.21452",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/cicc.2019.8780155"
   },
   {
     "candidate_id": "P715BBBDBE35",
@@ -1371,7 +2067,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2018.2829125",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P0E78C68EEBD",
@@ -1379,7 +2079,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2018.2842129",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PC134762BA1F",
@@ -1387,7 +2091,11 @@
     "decision": "selected",
     "doi": "10.1016/s0038-1101(99)00239-7",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PC2A2DFB5A76",
@@ -1395,7 +2103,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2017.2657579",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P4FF72CB302D",
@@ -1403,7 +2115,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2015.2481886",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P1EC181F78E9",
@@ -1411,7 +2127,11 @@
     "decision": "selected",
     "doi": "10.1109/led.2019.2914026",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PFCD232D5B37",
@@ -1419,7 +2139,11 @@
     "decision": "selected",
     "doi": "10.1109/ted.2010.2067732",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P1CD5EDF9B8B",
@@ -1427,14 +2151,22 @@
     "decision": "selected",
     "doi": "10.1109/led.2015.2436922",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PC8FF4164635",
     "name": "Yu [Kevin] Cao",
     "decision": "not_selected",
     "reason_en": "Potential conflation of Yu Cao identities; do not infer identity from name alone.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P3FD9E330BC2",
@@ -1442,14 +2174,22 @@
     "decision": "selected",
     "doi": "10.1109/ted.2009.2030711",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P0B8F02A5FEE",
     "name": "Man Hoi WONG",
     "decision": "not_selected",
     "reason_en": "Display TFT research deprioritized for analog IC design coverage.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "PD43C5668AAF",
@@ -1457,7 +2197,11 @@
     "decision": "selected",
     "doi": "10.1016/0011-2275(90)90204-p",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/lmwc.2014.2369992"
   },
   {
     "candidate_id": "P39A3B557C6B",
@@ -1465,7 +2209,11 @@
     "decision": "selected",
     "doi": "10.1109/tcpmt.2010.2101890",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P2BF79C61509",
@@ -1473,21 +2221,33 @@
     "decision": "selected",
     "doi": "10.1109/mcse.2009.210",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P91DD8D9B9EA",
     "name": "Chih-I Wu",
     "decision": "not_selected",
     "reason_en": "Materials/display scope deprioritized for analog IC design coverage.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P46E7B98C414",
     "name": "Marco Roberto Cavallari",
     "decision": "not_selected",
     "reason_en": "No suitable paper with a matching author in this bounded search; retained in reserve, not declared unqualified.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P56BE6A647A6",
@@ -1495,7 +2255,11 @@
     "decision": "selected",
     "doi": "10.1016/j.mejo.2005.09.007",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1016/j.mejo.2005.09.007"
   },
   {
     "candidate_id": "PE6059908816",
@@ -1503,7 +2267,11 @@
     "decision": "selected",
     "doi": "10.1116/1.5022160",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "P94235A18619",
@@ -1511,7 +2279,11 @@
     "decision": "selected",
     "doi": "10.1016/j.mejo.2005.09.007",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1016/j.mejo.2005.09.007"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-01",
@@ -1519,7 +2291,11 @@
     "decision": "selected",
     "doi": "10.1109/mspec.1979.6368097",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/mspec.1979.6368097"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-02",
@@ -1527,14 +2303,22 @@
     "decision": "selected",
     "doi": "10.1002/cta.4490230411",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1002/cta.4490230411"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-03",
     "name": "Paul J. Hurst",
     "decision": "not_selected",
     "reason_en": "Only author initials matched; primary identity confirmation pending.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-04",
@@ -1542,7 +2326,11 @@
     "decision": "selected",
     "doi": "10.1109/tpel.2015.2474738",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/tpel.2015.2474738"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-05",
@@ -1550,7 +2338,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2012.2200529",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2012.2200529"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-06",
@@ -1558,7 +2350,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2021918",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2009.2021918"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-07",
@@ -1566,7 +2362,11 @@
     "decision": "selected",
     "doi": "10.1007/bf00142408",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/bf00142408"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-08",
@@ -1574,7 +2374,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-018-1261-y",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-018-1261-y"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-09",
@@ -1582,7 +2386,11 @@
     "decision": "selected",
     "doi": "10.1007/bf01239381",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/bf01239381"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-10",
@@ -1590,7 +2398,11 @@
     "decision": "selected",
     "doi": "10.1007/bf01239381",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/bf01239381"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-11",
@@ -1598,7 +2410,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-014-0440-8",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-014-0440-8"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-12",
@@ -1606,7 +2422,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-014-0440-8",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-014-0440-8"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-13",
@@ -1614,14 +2434,22 @@
     "decision": "selected",
     "doi": "10.1109/ted.2017.2650241",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/ted.2017.2650241"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-14",
     "name": "Barry Gilbert",
     "decision": "not_selected",
     "reason_en": "Only author initials matched; primary identity confirmation pending.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-15",
@@ -1629,21 +2457,33 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2007.905236",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.1974.1050532"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-16",
     "name": "Robert J. Widlar",
     "decision": "not_selected",
     "reason_en": "Only author initials matched; primary identity confirmation pending.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-17",
     "name": "James E. Solomon",
     "decision": "not_selected",
     "reason_en": "Only author initials matched; primary identity confirmation pending.",
-    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。"
+    "reason_zh": "本轮未纳入：证据不足、身份待澄清或不属于本版模拟芯片重点；不评价学术水平。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": false,
+    "current_doi": ""
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-18",
@@ -1651,7 +2491,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2019.2960476",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.1989.572629"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-19",
@@ -1659,7 +2503,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2008.917470",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2008.917470"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-20",
@@ -1667,7 +2515,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2025.3622309",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2025.3622309"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-21",
@@ -1675,7 +2527,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-017-0993-4",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-017-0993-4"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-22",
@@ -1683,7 +2539,11 @@
     "decision": "selected",
     "doi": "10.1109/4.823446",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/4.823446"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-23",
@@ -1691,7 +2551,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2014.2364829",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2014.2364829"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-24",
@@ -1699,7 +2563,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2018.2859415",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2018.2859415"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-25",
@@ -1707,7 +2575,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2022.3204871",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2022.3204871"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-26",
@@ -1715,7 +2587,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2014731",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2009.2014731"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-27",
@@ -1723,7 +2599,11 @@
     "decision": "selected",
     "doi": "10.1109/mssc.2018.2844609",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/mssc.2018.2844609"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-28",
@@ -1731,7 +2611,11 @@
     "decision": "selected",
     "doi": "10.1007/s10470-009-9352-4",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/s10470-009-9352-4"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-29",
@@ -1739,7 +2623,11 @@
     "decision": "selected",
     "doi": "10.1109/tcsii.2019.2922683",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1007/bf01239381"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-30",
@@ -1747,7 +2635,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2014.2342721",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/4.654935"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-31",
@@ -1755,7 +2647,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2008.2010786",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/4.654935"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-32",
@@ -1763,7 +2659,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2018.2886320",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2018.2886320"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-33",
@@ -1771,7 +2671,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2025.3561578",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2025.3561578"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-34",
@@ -1779,7 +2683,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2032713",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2009.2032713"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-35",
@@ -1787,7 +2695,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2011.2126370",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2011.2126370"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-36",
@@ -1795,7 +2707,11 @@
     "decision": "selected",
     "doi": "10.1023/b:alog.0000042328.60366.69",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/4.658619"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-37",
@@ -1803,7 +2719,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2009.2032271",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/4.658619"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-38",
@@ -1811,7 +2731,11 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2017.2759118",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2017.2759118"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-39",
@@ -1819,7 +2743,11 @@
     "decision": "selected",
     "doi": "10.1023/a:1008386116423",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1023/a:1008386116423"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-40",
@@ -1827,7 +2755,11 @@
     "decision": "selected",
     "doi": "10.1109/jeds.2022.3157785",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jeds.2022.3157785"
   },
   {
     "candidate_id": "ANALOG-FOUNDATION-41",
@@ -1835,6 +2767,10 @@
     "decision": "selected",
     "doi": "10.1109/jssc.2012.2214851",
     "reason_en": "Semiconductor/analog circuit scope; full-name byline match.",
-    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。"
+    "reason_zh": "题名、期刊与完整署名符合本版半导体/模拟芯片范围。",
+    "original_decision_release": "v3.0.0",
+    "current_release": "v3.1.0",
+    "current_selected": true,
+    "current_doi": "10.1109/jssc.2012.2214851"
   }
 ]

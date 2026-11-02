@@ -135,22 +135,50 @@ def sar_convert(vin,weights,vref=1.8):
     return codes
 
 
+def sar_transition_levels(weights,vref=1.8):
+    """Actual monotonic ADC code transitions, including coincident missing codes.
+
+    An imperfect CDAC can have nonmonotonic DAC code levels. Those levels are
+    not interchangeable with the decision-tree thresholds of a SAR converter.
+    Bisection locates inf{Vin: output code >= k} for k=1..2**N-1.
+    """
+    weights=np.asarray(weights,dtype=float)
+    if vref<=0 or np.any(weights<=0) or weights.sum()>=1:
+        raise ValueError('Positive CDAC weights with a positive dummy are required')
+    target=np.arange(1,2**len(weights));lo=np.zeros(len(target));hi=np.full(len(target),vref)
+    for _ in range(60):
+        mid=(lo+hi)/2;below=sar_convert(mid,weights,vref)<target
+        lo=np.where(below,mid,lo);hi=np.where(below,hi,mid)
+    return np.r_[0.,hi,vref]
+
+
+def one_sided_bin_power(samples):
+    """Mean-square per FFT bin; DC and (even-N) Nyquist bins are not doubled."""
+    x=np.asarray(samples,dtype=float);n=len(x)
+    if n<2:raise ValueError('At least two samples required')
+    p=abs(np.fft.rfft(x))**2/n**2
+    p[1:-1 if n%2==0 else None]*=2
+    return p
+
+
 def adc_metrics(bits=10,unit_sigma=.02,samples=16384,tone_bin=503):
     weights=cdac_weights(bits,unit_sigma);vref=1.8;ncode=2**bits;lsb=vref/ncode
     levels=dac_voltage(np.arange(ncode),weights,vref)
-    widths=np.diff(np.r_[levels,vref]);dnl=widths/lsb-1
-    ideal_line=np.arange(ncode)*levels[-1]/(ncode-1)
-    inl=(levels-ideal_line)/lsb
+    edges=sar_transition_levels(weights,vref);widths=np.diff(edges);dnl=widths/lsb-1
+    # Endpoint fit through the first and last INTERNAL ADC transitions.
+    transitions=edges[1:-1]
+    ideal_line=np.linspace(transitions[0],transitions[-1],ncode-1)
+    inl=(transitions-ideal_line)/lsb
     t=np.arange(samples)/2e6;vin=vref*(.5+.49*np.sin(2*np.pi*tone_bin*np.arange(samples)/samples))
     codes=sar_convert(vin,weights,vref);vout=(codes+.5)*lsb
-    spectrum=np.abs(np.fft.rfft(vout-vout.mean()))**2
+    spectrum=one_sided_bin_power(vout-vout.mean())
     signal=spectrum[tone_bin];other=spectrum.copy();other[0]=0;other[tone_bin]=0
     sndr=10*np.log10(signal/other.sum());sfdr=10*np.log10(signal/other.max())
     no_harm=other.copy()
     for h in range(2,6):
         k=(h*tone_bin)%samples;k=min(k,samples-k);no_harm[k]=0
     snr=10*np.log10(signal/no_harm.sum())
-    return dict(t=t,vin=vin,vout=vout,codes=codes,levels=levels,dnl=dnl,inl=inl,weights=weights,
+    return dict(t=t,vin=vin,vout=vout,codes=codes,levels=levels,transitions=edges,dnl=dnl,inl=inl,weights=weights,
                 freq=np.fft.rfftfreq(samples,1/2e6),spectrum_dbc=10*np.log10(np.maximum(spectrum/signal,1e-20)),
                 metrics={'SNDR_dB':float(sndr),'SNR_excluding_harmonics_2_to_5_dB':float(snr),'SFDR_dBc':float(sfdr),
                          'ENOB_bits':float((sndr-1.76)/6.02),'DNL_max_abs_LSB':float(np.max(np.abs(dnl))),

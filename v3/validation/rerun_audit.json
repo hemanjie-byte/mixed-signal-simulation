@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-02",
+  "release": "3.1.0",
+  "current_cases": 58,
+  "unchanged_cases": 56,
+  "changed_cases": [
+    {
+      "id": "B04_ideal",
+      "changed_metrics": {
+        "SNDR_dB": {
+          "previous": 61.849325802199786,
+          "current": 61.84932599895336
+        },
+        "SNR_excluding_harmonics_2_to_5_dB": {
+          "previous": 61.850457236369365,
+          "current": 61.850457433174206
+        },
+        "ENOB_bits": {
+          "previous": 9.981615581760764,
+          "current": 9.981615614444081
+        }
+      },
+      "changed_fields": [
+        "plots",
+        "metrics"
+      ]
+    },
+    {
+      "id": "B04_mismatch",
+      "changed_metrics": {
+        "SNDR_dB": {
+          "previous": 59.5752894217837,
+          "current": 59.5753314665427
+        },
+        "SNR_excluding_harmonics_2_to_5_dB": {
+          "previous": 60.1965918605148,
+          "current": 60.196640371761376
+        },
+        "ENOB_bits": {
+          "previous": 9.603868674714901,
+          "current": 9.603875658894138
+        },
+        "endpoint_INL_max_abs_LSB": {
+          "previous": 0.6285107645507853,
+          "current": 0.6331895534362452
+        }
+      },
+      "changed_fields": [
+        "plots",
+        "metrics"
+      ]
+    }
+  ],
+  "legacy_reruns": [
+    {
+      "version": "V1",
+      "device_cases": 432,
+      "extra_buck_examples": 6,
+      "semantic_match_previous": true,
+      "byte_match_previous": true,
+      "sha256_rerun": "be8ee173db4e45e9d6afdc2de6dfb488b904f2bd4abd98b00c1b572f0fed1f5d",
+      "checks": [
+        {
+          "test": "432个独立器件测试覆盖",
+          "value": 432,
+          "limit": 432,
+          "pass": true
+        },
+        {
+          "test": "所有器件KCL最大残差(A)",
+          "value": 1.0164395367051604e-19,
+          "limit": 1e-10,
+          "pass": true
+        },
+        {
+          "test": "曲线均为有限数",
+          "value": 1,
+          "limit": 1,
+          "pass": true
+        },
+        {
+          "test": "Buck电容周期电荷残差(C)",
+          "value": 5.293955920339377e-22,
+          "limit": 1e-12,
+          "pass": true
+        },
+        {
+          "test": "Buck六工况均处于CCM",
+          "value": 0.724,
+          "limit": 0,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "version": "V2",
+      "device_cases": 168,
+      "extra_buck_examples": 0,
+      "semantic_match_previous": true,
+      "byte_match_previous": true,
+      "sha256_rerun": "0a70f8768978141e24f09cc53b33815fc3812317fe41158bc36c65722b49ddd7",
+      "checks": [
+        {
+          "test": "新增模型数",
+          "value": 25.0,
+          "limit": 25.0,
+          "pass_": true
+        },
+        {
+          "test": "扩展效应数",
+          "value": 6.0,
+          "limit": 6.0,
+          "pass_": true
+        },
+        {
+          "test": "新增测试台工况数",
+          "value": 168.0,
+          "limit": 168.0,
+          "pass_": true
+        },
+        {
+          "test": "端口KCL最大残差(A)",
+          "value": 6.938893903907228e-18,
+          "limit": 1e-12,
+          "pass_": true
+        },
+        {
+          "test": "非有限数组数",
+          "value": 0.0,
+          "limit": 0.0,
+          "pass_": true
+        },
+        {
+          "test": "N21能量平衡残差(W)",
+          "value": 6.106226635438361e-16,
+          "limit": 1e-12,
+          "pass_": true
+        },
+        {
+          "test": "N22能量平衡残差(W)",
+          "value": 4.440892098500626e-16,
+          "limit": 1e-12,
+          "pass_": true
+        },
+        {
+          "test": "N23能量平衡残差(W)",
+          "value": 2.11148373091552e-17,
+          "limit": 1e-12,
+          "pass_": true
+        },
+        {
+          "test": "X03能量平衡残差(W)",
+          "value": 4.440892098500626e-16,
+          "limit": 1e-12,
+          "pass_": true
+        },
+        {
+          "test": "恢复电荷积分相对误差",
+          "value": 2.220446049250313e-16,
+          "limit": 1e-05,
+          "pass_": true
+        },
+        {
+          "test": "铁电电荷守恒残差(C)",
+          "value": 1.1632227364026952e-25,
+          "limit": 1e-18,
+          "pass_": true
+        },
+        {
+          "test": "噪声积分相对误差",
+          "value": 2.7251171380138217e-05,
+          "limit": 0.001,
+          "pass_": true
+        },
+        {
+          "test": "门极瞬态dt减半最大VDS差(V)",
+          "value": 0.6858704748782909,
+          "limit": 1.0,
+          "pass_": true
+        },
+        {
+          "test": "PCM dt减半峰温相对差",
+          "value": 0.0009782514817046185,
+          "limit": 0.03,
+          "pass_": true
+        },
+        {
+          "test": "状态变量[0,1]越界数",
+          "value": 0.0,
+          "limit": 0.0,
+          "pass_": true
+        }
+      ]
+    }
+  ],
+  "total_device_and_benchmark_cases": 658,
+  "additional_v1_buck_examples": 6,
+  "limitation_en": "Legacy reruns check computational reproducibility only; they do not reclassify broad historical papers as analog evidence or establish physical accuracy.",
+  "limitation_zh": "历史重跑仅检查计算复现性；不把历史宽范围论文改列为模拟证据，也不证明物理精度。"
+}

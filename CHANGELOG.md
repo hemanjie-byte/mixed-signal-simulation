@@ -2,6 +2,16 @@
 
 # 更新记录
 
+## V3.1.0 — 2026-11-02
+
+Re-audited all 200 representative associations; replaced 16 people and four papers. Current evidence: 182 distinct analog-related papers, 22 affiliation regions, explicit circuit/method/component scope, reading depth and conservative model links.
+
+重新审计200条代表关联；替换16位人员和4篇论文。当前182篇模拟相关论文、22个机构背景地区；明确电路/方法/元件范围、阅读层级及从严模型关联。
+
+Corrected SAR transition/endpoint INL and FFT DC/Nyquist power. Reran 58 current cases with 36 passing tests, plus 600 historical cases and six V1 buck examples. Updated bilingual viewer, model cards, Excel and audit records.
+
+修正SAR转换边界/端点INL及FFT直流/奈奎斯特功率；重跑58个当前工况并通过36项测试，另重跑历史600工况及6个V1 Buck示例。同步双语演示、模型卡、Excel与审计记录。
+
 ## V3.0.0 — 2026-11-01
 
 - Refocused the cohort on semiconductor and analog IC research: 200 people, 184 distinct DOI papers, 20 affiliation countries/regions. Added explicit selection decisions and reconciliation with the former TOP100; 23 former entries remain.

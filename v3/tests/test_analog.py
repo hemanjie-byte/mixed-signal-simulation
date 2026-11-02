@@ -71,6 +71,45 @@ class DeviceTests(unittest.TestCase):
 
 
 class CircuitTests(unittest.TestCase):
+    def test_sar_actual_transition_edges_with_missing_code(self):
+        weights=np.array([.45,.30,.20])
+        edges=sar_transition_levels(weights,1.)
+        np.testing.assert_allclose(edges,[0,.2,.3,.45,.45,.65,.75,.95,1],atol=2e-16)
+        self.assertEqual(np.count_nonzero(np.diff(edges)==0),1)
+        self.assertAlmostEqual(np.diff(edges).sum(),1.)
+        v=(np.arange(200000)+.5)/200000
+        hist=np.bincount(sar_convert(v,weights,1.),minlength=8)/len(v)
+        np.testing.assert_allclose(hist,np.diff(edges),atol=1/len(v))
+
+    def test_fft_power_parseval_dc_nyquist_and_odd_length(self):
+        for n in [1023,1024]:
+            t=np.arange(n);x=1.7+.3*np.cos(2*np.pi*17*t/n)+.2*(-1.)**t
+            self.assertAlmostEqual(one_sided_bin_power(x).sum(),np.mean(x*x),places=13)
+        self.assertAlmostEqual(one_sided_bin_power((-1.)**np.arange(1024))[-1],1.)
+
+    def test_adc_inl_endpoint_definition(self):
+        d=adc_metrics(unit_sigma=.02)
+        self.assertEqual(len(d['inl']),1023)
+        self.assertAlmostEqual(d['inl'][0],0.,places=14)
+        self.assertAlmostEqual(d['inl'][-1],0.,places=14)
+        self.assertTrue(np.all(np.diff(d['transitions'])>=0))
+
+    def test_ldo_unity_frequency_against_quadratic_solution(self):
+        for temp in [-40,25,125]:
+            d=ldo_response(temp);c=10e-6;r=90.;g=.5*((temp+273.15)/T0)**-1.2;wa=2*np.pi*20000
+            # |L(jw)|=1 gives a quadratic in w**2, independently of log interpolation.
+            a=c*c/wa**2;b=c*c+1/(r*r*wa**2);cc=1/r**2-g*g
+            w2=2*(-cc)/(b+np.sqrt(b*b-4*a*cc));hz=np.sqrt(w2)/(2*np.pi)
+            self.assertLess(abs(d['unity_hz']/hz-1),1e-4)
+
+    def test_buck_all_voltage_temperature_grid_convergence(self):
+        for vin in [40,60,80,100,120,150]:
+            for temp in [-40,25,125]:
+                a=buck_response(vin,temp,200);b=buck_response(vin,temp,400)
+                self.assertLess(abs(a['metrics']['mean_Vout_V']-b['metrics']['mean_Vout_V']),1e-5)
+                self.assertLess(abs(a['metrics']['conduction_only_efficiency']-b['metrics']['conduction_only_efficiency']),1e-5)
+                self.assertLess(abs(a['metrics']['energy_residual_J']),2e-8)
+
     def test_differential_pair_symmetry_and_tail(self):
         x=np.linspace(-.3,.3,21)
         for t in [-40,25,125]:
@@ -167,7 +206,19 @@ class ArtifactTests(unittest.TestCase):
             n=len(c['x']);self.assertTrue(np.isfinite(c['x']).all())
             for s in c['signals']:
                 self.assertEqual(len(s['y']),n);self.assertTrue(np.isfinite(s['y']).all())
+            for p in c['plots']:
+                self.assertTrue(np.isfinite(p['x']).all())
+                for s in p['series']:
+                    self.assertEqual(len(s['y']),len(p['x']))
+                    self.assertTrue(np.isfinite(s['y']).all())
             if c['terminals']:
+                for t in c['terminals']:
+                    for k in ['v','i']:
+                        self.assertEqual(len(t[k]),n);self.assertTrue(np.isfinite(t[k]).all())
+                currents=np.array([t['i']for t in c['terminals']])
+                voltages=np.array([t['v']for t in c['terminals']])
+                self.assertLess(np.max(abs(currents.sum(axis=0))),1e-12)
+                np.testing.assert_allclose(c['port_power_W'],(currents*voltages).sum(axis=0),atol=1e-14,rtol=1e-12)
                 self.assertLess(c['metrics']['max_KCL_residual_A'],1e-12)
             else:self.assertIsNone(c['port_power_W'])
 

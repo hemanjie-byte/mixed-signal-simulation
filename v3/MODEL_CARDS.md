@@ -2,9 +2,9 @@
 
 # 模型卡
 
-Each card separates equations, assumptions and excluded physics. References identify mechanisms; their reported chip performance is not used as simulated performance.
+V3.1.0. Equations, assumptions and exclusions are separate. Source IDs identify limited mechanisms, not reproduced chip performance.
 
-每张卡区分方程、假设和未覆盖物理。引用用于标识机理，不把论文芯片性能当作本次仿真结果。
+V3.1.0。方程、假设和缺项分列；来源编号仅关联受限机理，不表示复现芯片性能。
 
 ## A01 Four-terminal MOS interpolation
 
@@ -33,7 +33,7 @@ Id = 2 n beta Ut^2 (softplus(xs)^2 - softplus(xd)^2) (1 + lambda |Vds|). Pair-ca
 
 仅0–1.8V低压示意；无雪崩、栅漏、DIBL、速度饱和、内禀电荷分配或实测拟合；不是完整EKV/BSIM。
 
-Sources / 来源: [B01](research/key_sources.json). 9 computed cases / 个计算工况。
+Sources / 来源: B01
 
 ## A02 Junction charge and varactor
 
@@ -59,7 +59,7 @@ Depletion capacitance only, -20 <= V < 0.35 V. No forward diffusion charge, brea
 
 仅耗尽电容，-20≤V<0.35V；不含正向扩散电荷、击穿和串联电阻；反向漏电假设为1pA。
 
-Sources / 来源: [B07](research/key_sources.json). 6 computed cases / 个计算工况。
+Sources / 来源: B07
 
 ## A03 Reciprocal NPN Ebers–Moll
 
@@ -83,7 +83,7 @@ Generic silicon NPN, not a SiGe HBT. Low-injection DC only; no Early effect, hig
 
 通用硅NPN，不是SiGe HBT；仅低注入直流，不含Early效应、大注入、渡越时间、fT及击穿。
 
-Sources / 来源: [B07](research/key_sources.json). 6 computed cases / 个计算工况。
+Sources / 来源: B07
 
 ## A04 MOS pair mismatch and correlation
 
@@ -113,7 +113,7 @@ Assumed Gaussian local mismatch and correlation. No foundry statistics, spatial-
 
 高斯局部失配和相关系数为假设；无工艺统计、空间梯度拟合、良率认证或温度失配律。
 
-Sources / 来源: [B02](research/key_sources.json). 4 computed cases / 个计算工况。
+Sources / 来源: B02
 
 ## B01 MOS differential pair
 
@@ -136,7 +136,7 @@ Fixed drain biases and ideal tail source. No amplifier load, common-mode feedbac
 
 固定漏端偏置、理想尾电流源；不含放大器负载、共模反馈、频率补偿及尾源有限阻抗。
 
-Sources / 来源: [B01](research/key_sources.json). 3 computed cases / 个计算工况。
+Sources / 来源: B01
 
 ## B02 CTAT/PTAT reference sum
 
@@ -161,7 +161,7 @@ Ideal voltage sum inspired by bandgap principles, not the 2.5 V Brokaw circuit r
 
 按带隙原理的理想电压合成，并非复现Brokaw的2.5V电路；不含启动、PSRR、修调、电阻温漂、失配及输出负载。
 
-Sources / 来源: [B03](research/key_sources.json). 1 computed cases / 个计算工况。
+Sources / 来源: B03
 
 ## B03 Input noise and sampled kT/C
 
@@ -188,15 +188,15 @@ Illustrative spectral shaping, not a switched chopper circuit or measured op amp
 
 仅示意频谱整形，不是开关斩波电路或实测运放；不含电流噪声、源阻、混叠、纹波和电荷注入。
 
-Sources / 来源: [B08](research/key_sources.json). 3 computed cases / 个计算工况。
+Sources / 来源: B08
 
 ## B04 Capacitor DAC and SAR ADC
 
 电容DAC与SAR ADC
 
-Binary CDAC plus dummy capacitor; sequential bit decisions; DNL from code widths; endpoint INL; coherent 16384-point FFT at bin 503.
+Binary CDAC with dummy; actual sequential-decision transition search; DNL from code widths; INL fitted to first/last internal transitions; coherent 16384-point FFT, bin 503, one-sided power with DC/Nyquist counted once.
 
-二进制电容阵列逐位比较，分别计算码宽DNL、端点INL及相干FFT动态指标。
+含dummy的二进制CDAC逐位比较；搜索实际转换码边界计算DNL，首末内部转换点端点拟合计算INL；相干FFT单边功率对直流与奈奎斯特点只计一次。
 
 ```json
 {
@@ -218,7 +218,7 @@ Ideal comparator and full settling. No aperture jitter, thermal/comparator noise
 
 比较器理想且完全建立；不含采样抖动、热噪声/比较器噪声、开关漏电、参考跌落及供电电流预测；电容失配为假设。
 
-Sources / 来源: [B05](research/key_sources.json), [B02](research/key_sources.json). 2 computed cases / 个计算工况。
+Sources / 来源: B05, B02
 
 ## B05 LDO loop and load step
 
@@ -248,7 +248,7 @@ Small perturbation around a biased operating point; no dropout, current limit, s
 
 围绕偏置点的小扰动模型；无压差极限、限流、启动、ESR零点或晶体管网表；并非复现引用论文的实测LDO。
 
-Sources / 来源: [B06](research/key_sources.json). 3 computed cases / 个计算工况。
+Sources / 来源: B06
 
 ## B06 Phase loop and noise transfer
 
@@ -281,7 +281,7 @@ Canonical phase-domain abstraction without a loop zero. Not a transistor VCO, a 
 
 无环路零点的典型相位域抽象；不是晶体管VCO、完整二型PLL、ISF提取、周跳或捕获仿真。
 
-Sources / 来源: [B09](research/key_sources.json). 3 computed cases / 个计算工况。
+Sources / 来源: B09
 
 ## B07 40–150 V synchronous buck
 
@@ -319,4 +319,4 @@ Forced CCM with ideal instantaneous switches. Efficiency includes conduction los
 
 强制连续导通、理想瞬时开关；效率仅含导通损耗；无开关/栅极/磁芯损耗、死区、振铃、控制启动、SOA或已验证耐压。
 
-Sources / 来源: [D01](research/key_sources.json). 18 computed cases / 个计算工况。
+Sources / 来源: D01

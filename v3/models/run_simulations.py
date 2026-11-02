@@ -54,8 +54,8 @@ def catalog():
      'Illustrative spectral shaping, not a switched chopper circuit or measured op amp. No current noise, source resistance, aliasing, ripple or charge injection.',
      '仅示意频谱整形，不是开关斩波电路或实测运放；不含电流噪声、源阻、混叠、纹波和电荷注入。','amplifier'),
     ('B04','Capacitor DAC and SAR ADC','电容DAC与SAR ADC','circuit_benchmark','B05 B02',
-     'Binary CDAC plus dummy capacitor; sequential bit decisions; DNL from code widths; endpoint INL; coherent 16384-point FFT at bin 503.',
-     '二进制电容阵列逐位比较，分别计算码宽DNL、端点INL及相干FFT动态指标。',
+     'Binary CDAC with dummy; actual sequential-decision transition search; DNL from code widths; INL fitted to first/last internal transitions; coherent 16384-point FFT, bin 503, one-sided power with DC/Nyquist counted once.',
+     '含dummy的二进制CDAC逐位比较；搜索实际转换码边界计算DNL，首末内部转换点端点拟合计算INL；相干FFT单边功率对直流与奈奎斯特点只计一次。',
      {'bits':10,'Vref_V':1.8,'fs_Hz':2e6,'samples':16384,'tone_bin':503,'input_amplitude_fraction_of_Vref':.49,'unit_sigma_cases':[0,.02],'seed':20261101},
      'Ideal comparator and full settling. No aperture jitter, thermal/comparator noise, switch leakage, reference droop or supply-current prediction. Capacitor mismatch is assumed.',
      '比较器理想且完全建立；不含采样抖动、热噪声/比较器噪声、开关漏电、参考跌落及供电电流预测；电容失配为假设。','adc'),
@@ -138,12 +138,12 @@ def main():
     add('B02','temperature',temp,'Temperature / 温度 (degC)',[signal('Vref / 基准','V',ref),signal('Vbe / CTAT','V',vbe),signal('Scaled PTAT / 加权PTAT','V',scale*dv),signal('IPTAT / PTAT电流','A',dv/10000)],temp=None,metrics={'PTAT_scale':float(scale),'Vref_25_V':float(bandgap(25)[2]),'Vref_max_min_span_V':float(np.ptp(ref))},plots=[plot('Reference curvature','基准曲率',temp,'Temperature (degC)',[signal('Vref','V',ref)]),plot('CTAT and PTAT','CTAT与PTAT',temp,'Temperature (degC)',[signal('Vbe','V',vbe),signal('Scaled PTAT','V',scale*dv)])])
     for mismatch in [0,.02]:
         d=adc_metrics(unit_sigma=mismatch);label='ideal' if mismatch==0 else 'mismatch';x=d['t']
-        add('B04',label,x,'Time / 时间 (s)',[signal('Vin / 输入','V',d['vin']),signal('Reconstructed / 重建','V',d['vout']),signal('Output code / 输出码','code',d['codes'])],metrics=d['metrics'],plots=[plot('Sampled sine','采样正弦',x[:256],'Time (s)',[signal('Input','V',d['vin'][:256]),signal('Reconstructed','V',d['vout'][:256])]),plot('DNL','微分非线性',np.arange(1024),'Code',[signal('DNL','LSB',d['dnl'])]),plot('Endpoint INL','端点积分非线性',np.arange(1024),'Code',[signal('INL','LSB',d['inl'])]),plot('Coherent FFT','相干FFT',d['freq'][1:],'Frequency (Hz)',[signal('Amplitude / 幅度','dBc',d['spectrum_dbc'][1:])])])
+        add('B04',label,x,'Time / 时间 (s)',[signal('Vin / 输入','V',d['vin']),signal('Reconstructed / 重建','V',d['vout']),signal('Output code / 输出码','code',d['codes'])],metrics=d['metrics'],plots=[plot('Sampled sine','采样正弦',x[:256],'Time (s)',[signal('Input','V',d['vin'][:256]),signal('Reconstructed','V',d['vout'][:256])]),plot('DNL','微分非线性',np.arange(1024),'Code',[signal('DNL','LSB',d['dnl'])]),plot('Endpoint INL','端点积分非线性',np.arange(1,1024),'Code',[signal('INL','LSB',d['inl'])]),plot('Coherent FFT','相干FFT',d['freq'][1:],'Frequency (Hz)',[signal('Amplitude / 幅度','dBc',d['spectrum_dbc'][1:])])])
     for zeta in [.3,.7,1.2]:
         d=pll_response(zeta);t=d['t']
         add('B06',f'zeta{zeta}',t,'Time / 时间 (s)',[signal('Output phase / 输出相位','rad',d['phase']),signal('Frequency deviation / 频偏','Hz',d['frequency_error'])],metrics={'zeta':zeta,'integrated_jitter_s':float(d['jitter_s']),'final_phase_rad':float(d['phase'][-1])},plots=[plot('Phase step','相位阶跃',t,'Time (s)',[signal('Output phase','rad',d['phase'])]),plot('SSB phase noise','单边带相位噪声',d['f'],'Offset frequency (Hz)',[signal('L(f)','dBc/Hz',10*np.log10(d['noise']/2))],True)])
     cases.sort(key=lambda c:(c['model_id'],c['id']))
-    result=dict(version='3.0.0',date='2026-11-01',python=platform.python_version(),numpy=np.__version__,models=models,cases=cases,
+    result=dict(version='3.1.0',date='2026-11-02',python=platform.python_version(),numpy=np.__version__,models=models,cases=cases,
                 conventions={'current':'Positive into the modeled device/block. Unmodeled electrical ports are absent, never silently zero.','power':'sum(Vterminal * Iterminal), W; includes storage and dissipation; not automatically heat.','source':'All numerical parameters assumed; no PDK, TCAD or measured-fit validation.'})
     (OUT/'simulation_v3.json').write_text(json.dumps(result,ensure_ascii=False,separators=(',',':'),allow_nan=False),encoding='utf-8')
     (ROOT/'models/model_catalog.json').write_text(json.dumps(models,ensure_ascii=False,indent=2),encoding='utf-8')

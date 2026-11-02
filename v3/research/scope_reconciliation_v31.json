@@ -1,0 +1,2002 @@
+[
+  {
+    "previous_index": 1,
+    "previous_id": "ANALOG-FOUNDATION-15",
+    "name": "A. Paul Brokaw",
+    "previous_doi": "10.1109/jssc.1974.1050532",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.1974.1050532",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 2,
+    "previous_id": "ANALOG-FOUNDATION-41",
+    "name": "Abbas El Gamal",
+    "previous_doi": "10.1109/jssc.2012.2214851",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2012.2214851",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 3,
+    "previous_id": "PDFED271F85F",
+    "name": "Abhijit Chatterjee",
+    "previous_doi": "10.1007/bf01239077",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/bf01239077",
+    "reason_en": "The representative work directly addresses analog design automation and testing.",
+    "reason_zh": "代表作直接涉及模拟设计自动化与测试。"
+  },
+  {
+    "previous_index": 4,
+    "previous_id": "ANALOG-FOUNDATION-28",
+    "name": "Akira Matsuzawa",
+    "previous_doi": "10.1007/s10470-009-9352-4",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-009-9352-4",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 5,
+    "previous_id": "PE332D250D02",
+    "name": "Alberto Tosi",
+    "previous_doi": "10.1080/09500340.2015.1049572",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1080/09500340.2015.1049572",
+    "reason_en": "Analog silicon photomultiplier response and circuit-level sensor modeling.",
+    "reason_zh": "模拟硅光电倍增器响应与传感元件建模。"
+  },
+  {
+    "previous_index": 6,
+    "previous_id": "PC134762BA1F",
+    "name": "Alex Q. Huang",
+    "previous_doi": "10.1016/s0038-1101(99)00239-7",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 7,
+    "previous_id": "ANALOG-FOUNDATION-37",
+    "name": "Ali Hajimiri",
+    "previous_doi": "10.1109/4.658619",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/4.658619",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 8,
+    "previous_id": "PBF560512982",
+    "name": "Ali Niknejad",
+    "previous_doi": "10.1109/jssc.2007.908743",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2007.908743",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 9,
+    "previous_id": "PF6CD208E68E",
+    "name": "Alyssa B. Apsel",
+    "previous_doi": "10.1109/jssc.2017.2650409",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2017.2650409",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 10,
+    "previous_id": "ANALOG-FOUNDATION-08",
+    "name": "Andrea Baschirotto",
+    "previous_doi": "10.1007/s10470-018-1261-y",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-018-1261-y",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 11,
+    "previous_id": "P1706193332A",
+    "name": "Andrea Bonfanti",
+    "previous_doi": "10.1109/jssc.2013.2273181",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2013.2273181",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 12,
+    "previous_id": "PF1C26ADFFEA",
+    "name": "Andrea Lacaita",
+    "previous_doi": "10.1109/jssc.2013.2273181",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2013.2273181",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 13,
+    "previous_id": "P5504EA478CD",
+    "name": "Andrea Mazzanti",
+    "previous_doi": "10.1109/jssc.2008.925605",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2008.925605",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 14,
+    "previous_id": "PCF5D095F93F",
+    "name": "Anne-Johan Annema",
+    "previous_doi": "10.1109/jssc.2018.2820147",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2018.2820147",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 15,
+    "previous_id": "ANALOG-FOUNDATION-13",
+    "name": "Anthony E. Parker",
+    "previous_doi": "10.1109/ted.2017.2650241",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/ted.2017.2650241",
+    "reason_en": "Trap-center equivalent circuits affect GaN HEMT analog/RF large-signal behavior.",
+    "reason_zh": "陷阱等效电路影响GaN HEMT模拟/射频大信号行为。"
+  },
+  {
+    "previous_index": 16,
+    "previous_id": "PD05A07E5289",
+    "name": "Antonio Liscidini",
+    "previous_doi": "10.1109/jssc.2019.2914576",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2019.2914576",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 17,
+    "previous_id": "PDB930849A06",
+    "name": "Asad A. Abidi",
+    "previous_doi": "10.1109/jssc.2008.917405",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2008.917405",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 18,
+    "previous_id": "PFCD232D5B37",
+    "name": "Asen Asenov",
+    "previous_doi": "10.1109/ted.2010.2067732",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 19,
+    "previous_id": "P6B1C8BDDC04",
+    "name": "Atif Shamim",
+    "previous_doi": "10.1109/tmtt.2013.2255621",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tmtt.2013.2255621",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 20,
+    "previous_id": "PF51A440DF87",
+    "name": "Aydin Babakhani",
+    "previous_doi": "10.1109/jssc.2008.2004863",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2008.2004863",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 21,
+    "previous_id": "PF3E7714AA04",
+    "name": "B. Jayant Baliga",
+    "previous_doi": "10.1109/tpel.2020.3043281",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 22,
+    "previous_id": "PD186A3BF0C0",
+    "name": "Behzad Razavi",
+    "previous_doi": "10.1109/jssc.2007.914300",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2007.914300",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 23,
+    "previous_id": "ANALOG-FOUNDATION-34",
+    "name": "Bertan Bakkaloglu",
+    "previous_doi": "10.1109/jssc.2009.2032713",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2009.2032713",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 24,
+    "previous_id": "P520B3346D91",
+    "name": "Boon Chirn Chye",
+    "previous_doi": "10.1109/jssc.2014.2368132",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2014.2368132",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 25,
+    "previous_id": "P86A8870265A",
+    "name": "Boris Murmann",
+    "previous_doi": "10.1109/jssc.2015.2463110",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2015.2463110",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 26,
+    "previous_id": "PB2F75B2D953",
+    "name": "Bram Nauta",
+    "previous_doi": "10.1109/jssc.2025.3612157",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2025.3612157",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 27,
+    "previous_id": "P1B1B3AB177A",
+    "name": "Carlo Samori",
+    "previous_doi": "10.1109/jssc.2013.2273181",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2013.2273181",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 28,
+    "previous_id": "ANALOG-FOUNDATION-11",
+    "name": "Carlos Galup-Montoro",
+    "previous_doi": "10.1007/s10470-014-0440-8",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-014-0440-8",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 29,
+    "previous_id": "PF07E2EEA50E",
+    "name": "Charles Sodini",
+    "previous_doi": "10.1109/jssc.2006.884330",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2006.884330",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 30,
+    "previous_id": "P504FDE56395",
+    "name": "Chenming Hu",
+    "previous_doi": "10.1109/t-ed.1983.21452",
+    "decision": "paper_replaced",
+    "current_doi": "10.1109/cicc.2019.8780155",
+    "reason_en": "The representative work directly addresses analog device modeling and matching.",
+    "reason_zh": "代表作直接涉及模拟器件建模与失配。"
+  },
+  {
+    "previous_index": 31,
+    "previous_id": "ANALOG-FOUNDATION-09",
+    "name": "Christian C. Enz",
+    "previous_doi": "10.1007/bf01239381",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/bf01239381",
+    "reason_en": "The representative work directly addresses analog device modeling and matching.",
+    "reason_zh": "代表作直接涉及模拟器件建模与失配。"
+  },
+  {
+    "previous_index": 32,
+    "previous_id": "PCC0EA4B34E3",
+    "name": "Chun-Hsing Li",
+    "previous_doi": "10.1109/tmtt.2025.3617568",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tmtt.2025.3617568",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 33,
+    "previous_id": "P87DDD6E0049",
+    "name": "Dana Weinstein",
+    "previous_doi": "10.1109/tuffc.2022.3147973",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tuffc.2022.3147973",
+    "reason_en": "The author abstract explicitly targets RF frequency generation/filtering and circuit-simulator integration.",
+    "reason_zh": "作者摘要明确面向射频频率产生/滤波以及电路仿真器集成。"
+  },
+  {
+    "previous_index": 34,
+    "previous_id": "ANALOG-FOUNDATION-04",
+    "name": "David A. Johns",
+    "previous_doi": "10.1109/tpel.2015.2474738",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tpel.2015.2474738",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 35,
+    "previous_id": "P00996A21D9C",
+    "name": "David Cumming",
+    "previous_doi": "10.1109/ted.2008.916680",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/ted.2008.916680",
+    "reason_en": "ISFET transconductance matching is a sensor analog-front-end issue.",
+    "reason_zh": "ISFET跨导匹配属于传感模拟前端问题。"
+  },
+  {
+    "previous_index": 36,
+    "previous_id": "P313F859F849",
+    "name": "David Perreault",
+    "previous_doi": "10.1109/jssc.2012.2191325",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2012.2191325",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 37,
+    "previous_id": "P0BC9D401091",
+    "name": "David Ricketts",
+    "previous_doi": "10.1002/mop.29586",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1002/mop.29586",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 38,
+    "previous_id": "P715BBBDBE35",
+    "name": "Debdeep Jena",
+    "previous_doi": "10.1109/ted.2018.2829125",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 39,
+    "previous_id": "P6A04650CF09",
+    "name": "Douglas C. Hopkins",
+    "previous_doi": "10.4071/001c.81980",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 40,
+    "previous_id": "P6A0AB49F3E4",
+    "name": "Drew A. Hall",
+    "previous_doi": "10.1109/jssc.2013.2245058",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2013.2245058",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 41,
+    "previous_id": "ANALOG-FOUNDATION-35",
+    "name": "Edgar Sanchez-Sinencio",
+    "previous_doi": "10.1109/jssc.2011.2126370",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2011.2126370",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 42,
+    "previous_id": "PEA8BA00E073",
+    "name": "Emmanuel Pistono",
+    "previous_doi": "10.1109/ted.2012.2186301",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/ted.2012.2186301",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 43,
+    "previous_id": "PA6536E3ABDF",
+    "name": "Emmanuel Simeu",
+    "previous_doi": "10.1109/tcsi.2016.2598184",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsi.2016.2598184",
+    "reason_en": "The representative work directly addresses analog design automation and testing.",
+    "reason_zh": "代表作直接涉及模拟设计自动化与测试。"
+  },
+  {
+    "previous_index": 44,
+    "previous_id": "ANALOG-FOUNDATION-10",
+    "name": "Eric A. Vittoz",
+    "previous_doi": "10.1007/bf01239381",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/bf01239381",
+    "reason_en": "The representative work directly addresses analog device modeling and matching.",
+    "reason_zh": "代表作直接涉及模拟器件建模与失配。"
+  },
+  {
+    "previous_index": 45,
+    "previous_id": "P107FBBDA79B",
+    "name": "Eric Klumperink",
+    "previous_doi": "10.1109/jssc.2020.3028811",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2020.3028811",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 46,
+    "previous_id": "ANALOG-FOUNDATION-40",
+    "name": "Eric R. Fossum",
+    "previous_doi": "10.1109/jeds.2022.3157785",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jeds.2022.3157785",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 47,
+    "previous_id": "P633F7984582",
+    "name": "Federica Villa",
+    "previous_doi": "10.1080/09500340.2015.1049572",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1080/09500340.2015.1049572",
+    "reason_en": "Analog silicon photomultiplier response and circuit-level sensor modeling.",
+    "reason_zh": "模拟硅光电倍增器响应与传感元件建模。"
+  },
+  {
+    "previous_index": 48,
+    "previous_id": "PE4D07EC81CB",
+    "name": "Filipe Arroyo Cardoso",
+    "previous_doi": "10.1109/tbcas.2017.2743685",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tbcas.2017.2743685",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 49,
+    "previous_id": "P15E5350C1AD",
+    "name": "Florence Podevin",
+    "previous_doi": "10.1109/lssc.2022.3172992",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/lssc.2022.3172992",
+    "reason_en": "Integrated shunt capacitors are explicit millimeter-wave analog circuit elements.",
+    "reason_zh": "集成并联电容是毫米波模拟电路元件。"
+  },
+  {
+    "previous_index": 50,
+    "previous_id": "P5C3E8E4A95D",
+    "name": "Francesco Svelto",
+    "previous_doi": "10.1109/jssc.2007.897131",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2007.897131",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 51,
+    "previous_id": "ANALOG-FOUNDATION-07",
+    "name": "Franco Maloberti",
+    "previous_doi": "10.1007/bf00142408",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/bf00142408",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 52,
+    "previous_id": "PF469CB88951",
+    "name": "Franco Zappa",
+    "previous_doi": "10.1080/09500340.2015.1049572",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1080/09500340.2015.1049572",
+    "reason_en": "Analog silicon photomultiplier response and circuit-level sensor modeling.",
+    "reason_zh": "模拟硅光电倍增器响应与传感元件建模。"
+  },
+  {
+    "previous_index": 53,
+    "previous_id": "ANALOG-FOUNDATION-29",
+    "name": "Francois Krummenacher",
+    "previous_doi": "10.1007/bf01239381",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/bf01239381",
+    "reason_en": "The representative work directly addresses analog device modeling and matching.",
+    "reason_zh": "代表作直接涉及模拟器件建模与失配。"
+  },
+  {
+    "previous_index": 54,
+    "previous_id": "P593D1E256E9",
+    "name": "Fu-Chen Hsiao",
+    "previous_doi": "10.1109/tpel.2020.3040553",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tpel.2020.3040553",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 55,
+    "previous_id": "ANALOG-FOUNDATION-21",
+    "name": "Gabor C. Temes",
+    "previous_doi": "10.1007/s10470-017-0993-4",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-017-0993-4",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 56,
+    "previous_id": "ANALOG-FOUNDATION-30",
+    "name": "Gabriel A. Rincon-Mora",
+    "previous_doi": "10.1109/4.654935",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/4.654935",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 57,
+    "previous_id": "PDD9B1138EB9",
+    "name": "Gary Fedder",
+    "previous_doi": "10.1109/jmems.2013.2262589",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jmems.2013.2262589",
+    "reason_en": "The paper models a nonlinear CMOS-MEMS resonator in a composable mixed MEMS/analog simulation.",
+    "reason_zh": "论文对混合MEMS/模拟仿真中的非线性CMOS-MEMS谐振器建模。"
+  },
+  {
+    "previous_index": 58,
+    "previous_id": "P3AEBB939539",
+    "name": "Georges Gielen",
+    "previous_doi": "10.1109/jssc.2009.2020220",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2009.2020220",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 59,
+    "previous_id": "PC2F737E8F0A",
+    "name": "Giacomo Indiveri",
+    "previous_doi": "10.1109/tcsi.2014.2334812",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsi.2014.2334812",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 60,
+    "previous_id": "P9BEC854D51E",
+    "name": "Gianluca (Gian) Piazza",
+    "previous_doi": "10.1109/ted.2011.2104961",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/ted.2011.2104961",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 61,
+    "previous_id": "P262ACBECAB6",
+    "name": "Giuseppe Bertuccio",
+    "previous_doi": "10.1109/mssc.2012.2203171",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/mssc.2012.2203171",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 62,
+    "previous_id": "P271E9BCDF81",
+    "name": "Grigory Simin",
+    "previous_doi": "10.4071/hitec-tp16",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 63,
+    "previous_id": "P82DBBEA7AC4",
+    "name": "Hae-Seung Lee",
+    "previous_doi": "10.1109/4.735542",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/4.735542",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 64,
+    "previous_id": "PB577B9FA24E",
+    "name": "Hamidreza Aghasi",
+    "previous_doi": "10.1109/jssc.2026.3659771",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2026.3659771",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 65,
+    "previous_id": "P008D43A8326",
+    "name": "Hanh-Phuc Le",
+    "previous_doi": "10.1109/jssc.2011.2159054",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2011.2159054",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 66,
+    "previous_id": "P2E9042BAED6",
+    "name": "Hao Min",
+    "previous_doi": "10.1109/30.793412",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/30.793412",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 67,
+    "previous_id": "P5E305662B8D",
+    "name": "Harijot Singh Bindra",
+    "previous_doi": "10.1109/jssc.2025.3612157",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2025.3612157",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 68,
+    "previous_id": "ANALOG-FOUNDATION-38",
+    "name": "Harish Krishnaswamy",
+    "previous_doi": "10.1109/jssc.2017.2759118",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2017.2759118",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 69,
+    "previous_id": "P68E9E66430D",
+    "name": "Hongtao Xu",
+    "previous_doi": "10.1109/led.2005.860889",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/led.2005.860889",
+    "reason_en": "Gate leakage changes RF noise figure; the Fudan profile also explicitly describes GaN MMIC/LNA work.",
+    "reason_zh": "栅漏电影响射频噪声系数；复旦主页亦明确列出GaN MMIC/LNA工作。"
+  },
+  {
+    "previous_index": 70,
+    "previous_id": "P523353D5634",
+    "name": "Howard Cam LUONG",
+    "previous_doi": "10.1109/jssc.2019.2954232",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2019.2954232",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 71,
+    "previous_id": "PEBD224906B5",
+    "name": "Hsin-Chia Lu",
+    "previous_doi": "10.1109/tcsi.2005.862068",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsi.2005.862068",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 72,
+    "previous_id": "P63EA4126415",
+    "name": "Hsin-Shu Chen",
+    "previous_doi": "10.1007/s10470-021-01814-1",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-021-01814-1",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 73,
+    "previous_id": "P646D691DDF5",
+    "name": "Ian A. Galton",
+    "previous_doi": "10.1109/tcsi.2024.3524949",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsi.2024.3524949",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 74,
+    "previous_id": "P867F918680F",
+    "name": "Ivan Rech",
+    "previous_doi": "10.1109/lpt.2018.2867805",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/lpt.2018.2867805",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 75,
+    "previous_id": "P43DE48FA048",
+    "name": "Jaeha Kim",
+    "previous_doi": "10.1109/jssc.2009.2017973",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2009.2017973",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 76,
+    "previous_id": "P366518D4A77",
+    "name": "James Barby",
+    "previous_doi": "10.1023/a:1008219807175",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1023/a:1008219807175",
+    "reason_en": "The representative work directly addresses analog design automation and testing.",
+    "reason_zh": "代表作直接涉及模拟设计自动化与测试。"
+  },
+  {
+    "previous_index": 77,
+    "previous_id": "PC4E4130D1A5",
+    "name": "James Buckwalter",
+    "previous_doi": "10.1109/jssc.2011.2178723",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2011.2178723",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 78,
+    "previous_id": "PE672E1F6C32",
+    "name": "Jane Gu",
+    "previous_doi": "10.1109/jssc.2019.2948171",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2019.2948171",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 79,
+    "previous_id": "P6B5B9A01EFC",
+    "name": "Jean-Daniel Arnould",
+    "previous_doi": "10.1109/lssc.2022.3172992",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/lssc.2022.3172992",
+    "reason_en": "Integrated shunt capacitors are explicit millimeter-wave analog circuit elements.",
+    "reason_zh": "集成并联电容是毫米波模拟电路元件。"
+  },
+  {
+    "previous_index": 80,
+    "previous_id": "P4A916042EB1",
+    "name": "Jennifer Olson Hasler",
+    "previous_doi": "10.1109/tcsi.2024.3355070",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsi.2024.3355070",
+    "reason_en": "The representative work directly addresses analog device modeling and matching.",
+    "reason_zh": "代表作直接涉及模拟器件建模与失配。"
+  },
+  {
+    "previous_index": 81,
+    "previous_id": "P08BA8ED5A02",
+    "name": "Jerald Yoo",
+    "previous_doi": "10.1109/jssc.2016.2639536",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2016.2639536",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 82,
+    "previous_id": "P56BE6A647A6",
+    "name": "João Antonio Martino",
+    "previous_doi": "10.1016/j.mejo.2005.09.007",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1016/j.mejo.2005.09.007",
+    "reason_en": "Publisher abstract reports gm/Id, Early voltage and analog open-loop gain.",
+    "reason_zh": "出版商摘要明确讨论gm/Id、Early电压和模拟开环增益。"
+  },
+  {
+    "previous_index": 83,
+    "previous_id": "ANALOG-FOUNDATION-32",
+    "name": "Johan H. Huijsing",
+    "previous_doi": "10.1109/jssc.2018.2886320",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2018.2886320",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 84,
+    "previous_id": "PD43C5668AAF",
+    "name": "John D Cressler",
+    "previous_doi": "10.1016/0011-2275(90)90204-p",
+    "decision": "paper_replaced",
+    "current_doi": "10.1109/lmwc.2014.2369992",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 85,
+    "previous_id": "PE6059908816",
+    "name": "José Alexandre Diniz",
+    "previous_doi": "10.1116/1.5022160",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 86,
+    "previous_id": "P39A3B557C6B",
+    "name": "Joungho Kim",
+    "previous_doi": "10.1109/tcpmt.2010.2101890",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 87,
+    "previous_id": "P0CCF89F892D",
+    "name": "Jun-Chau Chien",
+    "previous_doi": "10.1109/jssc.2007.903050",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2007.903050",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 88,
+    "previous_id": "P4B51459FCA2",
+    "name": "Junyan Ren",
+    "previous_doi": "10.1007/s10470-008-9222-5",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-008-9222-5",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 89,
+    "previous_id": "ANALOG-FOUNDATION-39",
+    "name": "Kenichi Okada",
+    "previous_doi": "10.1023/a:1008386116423",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1023/a:1008386116423",
+    "reason_en": "The representative work directly addresses analog device modeling and matching.",
+    "reason_zh": "代表作直接涉及模拟器件建模与失配。"
+  },
+  {
+    "previous_index": 90,
+    "previous_id": "ANALOG-FOUNDATION-05",
+    "name": "Kenneth W. Martin",
+    "previous_doi": "10.1109/jssc.2012.2200529",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2012.2200529",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 91,
+    "previous_id": "PC2A2DFB5A76",
+    "name": "Kevin Jing CHEN",
+    "previous_doi": "10.1109/ted.2017.2657579",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 92,
+    "previous_id": "P8235B5EE153",
+    "name": "Khaled Salama",
+    "previous_doi": "10.1023/a:1008379914498",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1023/a:1008379914498",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 93,
+    "previous_id": "ANALOG-FOUNDATION-24",
+    "name": "Klaas Bult",
+    "previous_doi": "10.1109/jssc.2018.2859415",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2018.2859415",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 94,
+    "previous_id": "PEDF80222C86",
+    "name": "Kofi Makinwa",
+    "previous_doi": "10.1109/jssc.2008.922405",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2008.922405",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 95,
+    "previous_id": "PC7FE83758E9",
+    "name": "Laxmeesha Somappa",
+    "previous_doi": "10.1109/tcsi.2020.3000745",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsi.2020.3000745",
+    "reason_en": "The representative work directly addresses analog design automation and testing.",
+    "reason_zh": "代表作直接涉及模拟设计自动化与测试。"
+  },
+  {
+    "previous_index": 96,
+    "previous_id": "PB097350F6E0",
+    "name": "Leo de Vreede",
+    "previous_doi": "10.1109/jssc.2025.3570656",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2025.3570656",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 97,
+    "previous_id": "P7E9876E1FA2",
+    "name": "Liang-Hung Lu",
+    "previous_doi": "10.1109/jssc.2009.2020203",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2009.2020203",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 98,
+    "previous_id": "P8270DC4A3A8",
+    "name": "Linda S Milor",
+    "previous_doi": "10.1109/tvlsi.2018.2861769",
+    "decision": "paper_replaced",
+    "current_doi": "10.1109/43.21830",
+    "reason_en": "The representative work directly addresses analog design automation and testing.",
+    "reason_zh": "代表作直接涉及模拟设计自动化与测试。"
+  },
+  {
+    "previous_index": 99,
+    "previous_id": "P86F6594BE12",
+    "name": "Luca Bertulessi",
+    "previous_doi": "10.1109/jssc.2019.2940332",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2019.2940332",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 100,
+    "previous_id": "ANALOG-FOUNDATION-25",
+    "name": "Lucien Breems",
+    "previous_doi": "10.1109/jssc.2022.3204871",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2022.3204871",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 101,
+    "previous_id": "P8A413F7FC1A",
+    "name": "M.-C. Frank Chang",
+    "previous_doi": "10.1109/jssc.2012.2217832",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2012.2217832",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 102,
+    "previous_id": "P61F893DB286",
+    "name": "Makoto TAKAMIYA",
+    "previous_doi": "10.1109/jssc.2017.2743174",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2017.2743174",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 103,
+    "previous_id": "P73458F0BBFD",
+    "name": "Maliang Liu",
+    "previous_doi": "10.1007/s10470-014-0483-x",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-014-0483-x",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 104,
+    "previous_id": "PA7E584A4245",
+    "name": "Manoj Sachdev",
+    "previous_doi": "10.1007/s10470-007-9062-8",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-007-9062-8",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 105,
+    "previous_id": "PD7612CA5DFC",
+    "name": "Marc Dandin",
+    "previous_doi": "10.1109/tbcas.2019.2926836",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tbcas.2019.2926836",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 106,
+    "previous_id": "ANALOG-FOUNDATION-18",
+    "name": "Marcel Pelgrom",
+    "previous_doi": "10.1109/jssc.1989.572629",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.1989.572629",
+    "reason_en": "The representative work directly addresses analog device modeling and matching.",
+    "reason_zh": "代表作直接涉及模拟器件建模与失配。"
+  },
+  {
+    "previous_index": 107,
+    "previous_id": "P94235A18619",
+    "name": "Marcelo Antonio Pavanello",
+    "previous_doi": "10.1016/j.mejo.2005.09.007",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1016/j.mejo.2005.09.007",
+    "reason_en": "Publisher abstract reports gm/Id, Early voltage and analog open-loop gain.",
+    "reason_zh": "出版商摘要明确讨论gm/Id、Early电压和模拟开环增益。"
+  },
+  {
+    "previous_index": 108,
+    "previous_id": "ANALOG-FOUNDATION-12",
+    "name": "Marcio Cherem Schneider",
+    "previous_doi": "10.1007/s10470-014-0440-8",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-014-0440-8",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 109,
+    "previous_id": "PC2345B6F76E",
+    "name": "Marco Sampietro",
+    "previous_doi": "10.1109/jssc.2016.2607338",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2016.2607338",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 110,
+    "previous_id": "PF196649BD69",
+    "name": "Mark Oude Alink",
+    "previous_doi": "10.1109/jssc.2012.2223951",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2012.2223951",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 111,
+    "previous_id": "PB3936C7ED57",
+    "name": "Mark Rodwell",
+    "previous_doi": "10.1109/jssc.2009.2032273",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2009.2032273",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 112,
+    "previous_id": "P4FF72CB302D",
+    "name": "Mark S. Lundstrom",
+    "previous_doi": "10.1109/ted.2015.2481886",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 113,
+    "previous_id": "P4E044B18E3C",
+    "name": "Maryam Shojaei Baghini",
+    "previous_doi": "10.1166/jolpe.2013.1287",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1166/jolpe.2013.1287",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 114,
+    "previous_id": "PBB741336CD4",
+    "name": "Masoud Babaie",
+    "previous_doi": "10.1109/jssc.2013.2273823",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2013.2273823",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 115,
+    "previous_id": "P2BF79C61509",
+    "name": "Mathieu Luisier",
+    "previous_doi": "10.1109/mcse.2009.210",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 116,
+    "previous_id": "P20E9314897A",
+    "name": "Michael Green",
+    "previous_doi": "10.1007/s10470-015-0528-9",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-015-0528-9",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 117,
+    "previous_id": "P0022180B1CD",
+    "name": "Michiel Pertijs",
+    "previous_doi": "10.1109/jssc.2018.2866374",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2018.2866374",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 118,
+    "previous_id": "ANALOG-FOUNDATION-33",
+    "name": "Michiel Steyaert",
+    "previous_doi": "10.1109/jssc.2025.3561578",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2025.3561578",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 119,
+    "previous_id": "P8E379C91746",
+    "name": "Morteza Alavi",
+    "previous_doi": "10.1109/jssc.2025.3570656",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2025.3570656",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 120,
+    "previous_id": "PCA8C4FBD383",
+    "name": "Mukul Sarkar",
+    "previous_doi": "10.1109/ted.2018.2831719",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/ted.2018.2831719",
+    "reason_en": "Pinned-photodiode capacitance determines charge storage and the analog image-sensor front-end response.",
+    "reason_zh": "钉扎光电二极管电容影响储存电荷与图像传感模拟前端响应。"
+  },
+  {
+    "previous_index": 121,
+    "previous_id": "PEE19CBAF0E7",
+    "name": "Nagendra Krishnapura",
+    "previous_doi": "10.1109/jssc.2017.2693229",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2017.2693229",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 122,
+    "previous_id": "P37BB7673CBB",
+    "name": "Nan Sun",
+    "previous_doi": "10.1109/tcad.2021.3081405",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcad.2021.3081405",
+    "reason_en": "The representative work directly addresses analog design automation and testing.",
+    "reason_zh": "代表作直接涉及模拟设计自动化与测试。"
+  },
+  {
+    "previous_index": 123,
+    "previous_id": "P6F32F6ADB68",
+    "name": "Naresh R Shanbhag",
+    "previous_doi": "10.1109/jssc.2014.2354048",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2014.2354048",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 124,
+    "previous_id": "PF33DB47EEC8",
+    "name": "Negar Reiskarimian",
+    "previous_doi": "10.1109/jssc.2017.2647924",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2017.2647924",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 125,
+    "previous_id": "P201B4915013",
+    "name": "Olivier Trescases",
+    "previous_doi": "10.1109/tpel.2024.3395126",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tpel.2024.3395126",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 126,
+    "previous_id": "P2DC2A320CF2",
+    "name": "Pamela Abshire",
+    "previous_doi": "10.1007/s10470-007-9083-3",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-007-9083-3",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 127,
+    "previous_id": "P3ED0F5507C3",
+    "name": "Patrick P. Mercier",
+    "previous_doi": "10.1109/jssc.2019.2916418",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2019.2916418",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 128,
+    "previous_id": "PFAB4C372C3A",
+    "name": "Patrick Reynaert",
+    "previous_doi": "10.1109/jssc.2023.3311673",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2023.3311673",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 129,
+    "previous_id": "ANALOG-FOUNDATION-01",
+    "name": "Paul R. Gray",
+    "previous_doi": "10.1109/mspec.1979.6368097",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/mspec.1979.6368097",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 130,
+    "previous_id": "PC4470756176",
+    "name": "Pavan Kumar Hanumolu",
+    "previous_doi": "10.1109/jssc.2012.2225738",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2012.2225738",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 131,
+    "previous_id": "ANALOG-FOUNDATION-19",
+    "name": "Peter R. Kinget",
+    "previous_doi": "10.1109/jssc.2008.917470",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2008.917470",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 132,
+    "previous_id": "P2C0FEBC9B35",
+    "name": "Philippe Ferrari",
+    "previous_doi": "10.1109/tmtt.2012.2231430",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tmtt.2012.2231430",
+    "reason_en": "The integrated CPW equivalent circuit represents RF interconnect loss and phase.",
+    "reason_zh": "集成共面波导等效电路表征射频互连损耗与相位。"
+  },
+  {
+    "previous_index": 133,
+    "previous_id": "ANALOG-FOUNDATION-31",
+    "name": "Phillip E. Allen",
+    "previous_doi": "10.1109/4.654935",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/4.654935",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 134,
+    "previous_id": "P08E48C461A7",
+    "name": "Qinwen Fan",
+    "previous_doi": "10.1109/jssc.2011.2143610",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2011.2143610",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 135,
+    "previous_id": "P49A17227AEB",
+    "name": "Raafat Mansour",
+    "previous_doi": "10.1109/tmtt.2017.2671359",
+    "decision": "paper_replaced",
+    "current_doi": "10.1109/tmtt.2020.3018141",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 136,
+    "previous_id": "P0215EC4C9F2",
+    "name": "Rajeev Kumar Ranjan",
+    "previous_doi": "10.1007/s10470-018-1291-5",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-018-1291-5",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 137,
+    "previous_id": "P4ACF4138A15",
+    "name": "Ralf Brederlow",
+    "previous_doi": "10.1109/jssc.2020.2967554",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2020.2967554",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 138,
+    "previous_id": "P3CB9B07BC03",
+    "name": "Raveesh Magod",
+    "previous_doi": "10.1109/jssc.2018.2820708",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2018.2820708",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 139,
+    "previous_id": "ANALOG-FOUNDATION-23",
+    "name": "Richard Schreier",
+    "previous_doi": "10.1109/jssc.2014.2364829",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2014.2364829",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 140,
+    "previous_id": "ANALOG-FOUNDATION-02",
+    "name": "Robert G. Meyer",
+    "previous_doi": "10.1002/cta.4490230411",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1002/cta.4490230411",
+    "reason_en": "Substrate-coupling simulation directly supports analog/mixed-signal noise isolation.",
+    "reason_zh": "衬底耦合仿真直接支撑模拟/混合信号噪声隔离。"
+  },
+  {
+    "previous_index": 141,
+    "previous_id": "P2D155FE98BB",
+    "name": "Robert Pilawa-Podgurski",
+    "previous_doi": "10.1109/jssc.2012.2191325",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2012.2191325",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 142,
+    "previous_id": "ANALOG-FOUNDATION-26",
+    "name": "Robert W. Brodersen",
+    "previous_doi": "10.1109/jssc.2009.2014731",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2009.2014731",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 143,
+    "previous_id": "PFB3BA2B6443",
+    "name": "Ronan van der Zee",
+    "previous_doi": "10.1109/jssc.2009.2014730",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2009.2014730",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 144,
+    "previous_id": "PDC077302972",
+    "name": "Ruonan Han",
+    "previous_doi": "10.1109/jssc.2013.2272864",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2013.2272864",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 145,
+    "previous_id": "P0CF93C5988F",
+    "name": "S. Aniruddhan",
+    "previous_doi": "10.1109/jssc.2008.920360",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2008.920360",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 146,
+    "previous_id": "PAE924D1E399",
+    "name": "S. Ramprasath",
+    "previous_doi": "10.1109/jssc.2025.3631053",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2025.3631053",
+    "reason_en": "The representative work directly addresses analog device modeling and matching.",
+    "reason_zh": "代表作直接涉及模拟器件建模与失配。"
+  },
+  {
+    "previous_index": 147,
+    "previous_id": "PD4401C9E65A",
+    "name": "Saeed Mohammadi",
+    "previous_doi": "10.1007/s10470-006-9003-y",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-006-9003-y",
+    "reason_en": "Integrated high-Q inductors are RF analog matching/resonator elements.",
+    "reason_zh": "集成高Q电感是射频模拟匹配/谐振元件。"
+  },
+  {
+    "previous_index": 148,
+    "previous_id": "PBFC19BDFC34",
+    "name": "Saeed Zeinolabedinzadeh",
+    "previous_doi": "10.1109/ted.2015.2420597",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/ted.2015.2420597",
+    "reason_en": "The paper explicitly studies analog RF performance loss caused by device interconnects.",
+    "reason_zh": "论文明确研究器件互连导致的模拟射频性能退化。"
+  },
+  {
+    "previous_index": 149,
+    "previous_id": "P0E5A07CDCF6",
+    "name": "Sahil Shah",
+    "previous_doi": "10.1109/tcsi.2020.3038360",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsi.2020.3038360",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 150,
+    "previous_id": "P739335FA1CB",
+    "name": "Salvatore Levantino",
+    "previous_doi": "10.1109/jssc.2013.2273181",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2013.2273181",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 151,
+    "previous_id": "PB0148EEEB1D",
+    "name": "Sandeep Anand",
+    "previous_doi": "10.1109/tpel.2024.3349417",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tpel.2024.3349417",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 152,
+    "previous_id": "P5E8D4D8D241",
+    "name": "Saurabh Saxena",
+    "previous_doi": "10.1109/jssc.2022.3149391",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2022.3149391",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 153,
+    "previous_id": "PD964E629D4C",
+    "name": "Seonghwan Cho",
+    "previous_doi": "10.1109/jssc.2012.2204475",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2012.2204475",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 154,
+    "previous_id": "P1144798FC6A",
+    "name": "Seung-Tak Ryu",
+    "previous_doi": "10.1109/jssc.2013.2252516",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2013.2252516",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 155,
+    "previous_id": "PE3D37873A99",
+    "name": "Shahriar Mirabbasi",
+    "previous_doi": "10.1109/jssc.2022.3149916",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2022.3149916",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 156,
+    "previous_id": "PE933F34B340",
+    "name": "Shanthi Pavan",
+    "previous_doi": "10.1109/jssc.2017.2697412",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2017.2697412",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 157,
+    "previous_id": "P7206D0C845B",
+    "name": "Shen-Iuan Liu",
+    "previous_doi": "10.1109/4.406403",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/4.406403",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 158,
+    "previous_id": "P6AD73D383C8",
+    "name": "Shiyu Su",
+    "previous_doi": "10.1109/jssc.2016.2594026",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2016.2594026",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 159,
+    "previous_id": "P625E7735F1C",
+    "name": "Shubin Liu",
+    "previous_doi": "10.1007/s10470-018-1210-9",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-018-1210-9",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 160,
+    "previous_id": "P54465B57F2A",
+    "name": "Sijun Du",
+    "previous_doi": "10.1109/tpel.2026.3672488",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tpel.2026.3672488",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 161,
+    "previous_id": "P694E6E57459",
+    "name": "Simon Wong",
+    "previous_doi": "10.1007/s10470-011-9771-x",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-011-9771-x",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 162,
+    "previous_id": "P5FE4CA3A378",
+    "name": "Slim Boumaiza",
+    "previous_doi": "10.1109/tcsii.2024.3374052",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsii.2024.3374052",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 163,
+    "previous_id": "P2E0904057D6",
+    "name": "Sorin P. Voinigescu",
+    "previous_doi": "10.1109/jssc.2010.2058150",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2010.2058150",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 164,
+    "previous_id": "P0E78C68EEBD",
+    "name": "Souvik Mahapatra",
+    "previous_doi": "10.1109/ted.2018.2842129",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 165,
+    "previous_id": "P1EC181F78E9",
+    "name": "Srabanti Chowdhury",
+    "previous_doi": "10.1109/led.2019.2914026",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 166,
+    "previous_id": "ANALOG-FOUNDATION-27",
+    "name": "Stephen H. Lewis",
+    "previous_doi": "10.1109/mssc.2018.2844609",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/mssc.2018.2844609",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 167,
+    "previous_id": "P8E116846DF6",
+    "name": "Stuart Kleinfelder",
+    "previous_doi": "10.1109/tns.2009.2015298",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tns.2009.2015298",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 168,
+    "previous_id": "P3582F95FB78",
+    "name": "Sudhakar Pamarti",
+    "previous_doi": "10.1109/jssc.2018.2862892",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2018.2862892",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 169,
+    "previous_id": "PD9A239140A8",
+    "name": "Sudip Shekhar",
+    "previous_doi": "10.1109/jssc.2023.3243305",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2023.3243305",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 170,
+    "previous_id": "P39D9A8D85F7",
+    "name": "Sung-Wan Hong",
+    "previous_doi": "10.1080/002072198134256",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1080/002072198134256",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 171,
+    "previous_id": "PBC4F21A34F1",
+    "name": "Sylvain Bourdel",
+    "previous_doi": "10.1007/s10470-006-9006-8",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-006-9006-8",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 172,
+    "previous_id": "P0B8219F4DDA",
+    "name": "Tamal Mukherjee",
+    "previous_doi": "10.1109/jmems.2010.2067197",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jmems.2010.2067197",
+    "reason_en": "Tunable CMOS-MEMS capacitors support analog RF tuning; this is component research, not a complete IC.",
+    "reason_zh": "可调CMOS-MEMS电容支撑模拟射频调谐；属于元件研究而非完整芯片设计。"
+  },
+  {
+    "previous_index": 173,
+    "previous_id": "P4441F39B6B1",
+    "name": "Tetsuya IIZUKA",
+    "previous_doi": "10.1109/jssc.2025.3647024",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2025.3647024",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 174,
+    "previous_id": "ANALOG-FOUNDATION-36",
+    "name": "Thomas H. Lee",
+    "previous_doi": "10.1109/4.658619",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/4.658619",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 175,
+    "previous_id": "P8839F1E138C",
+    "name": "Tiago Costa",
+    "previous_doi": "10.1109/tbcas.2017.2743685",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tbcas.2017.2743685",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 176,
+    "previous_id": "PE26B40984C8",
+    "name": "Tim Piessens",
+    "previous_doi": "10.1109/jssc.2010.2091322",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2010.2091322",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 177,
+    "previous_id": "P3CFE024ACD7",
+    "name": "Ting Yi",
+    "previous_doi": "10.1007/s10470-014-0479-6",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-014-0479-6",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 178,
+    "previous_id": "PC15FD83280E",
+    "name": "Tinus Stander",
+    "previous_doi": "10.1049/iet-cds.2018.5252",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1049/iet-cds.2018.5252",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 179,
+    "previous_id": "P4663F881989",
+    "name": "Tony Chan Carusone",
+    "previous_doi": "10.1109/jssc.2022.3218558",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2022.3218558",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 180,
+    "previous_id": "P3FD9E330BC2",
+    "name": "Tsu-Jae King Liu",
+    "previous_doi": "10.1109/ted.2009.2030711",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 181,
+    "previous_id": "P116CF6678C4",
+    "name": "Tsung-Hsien Lin",
+    "previous_doi": "10.1109/4.910481",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/4.910481",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 182,
+    "previous_id": "P7266C7A2480",
+    "name": "Tzu-Chien Hsueh",
+    "previous_doi": "10.1023/a:1020769913779",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1023/a:1020769913779",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 183,
+    "previous_id": "P1CD5EDF9B8B",
+    "name": "Umesh Mishra",
+    "previous_doi": "10.1109/led.2015.2436922",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 184,
+    "previous_id": "ANALOG-FOUNDATION-22",
+    "name": "Un-Ku Moon",
+    "previous_doi": "10.1109/4.823446",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/4.823446",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 185,
+    "previous_id": "P464301DD98E",
+    "name": "Vanessa Chen",
+    "previous_doi": "10.3390/math8050829",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.3390/math8050829",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 186,
+    "previous_id": "PD8637AB0C8A",
+    "name": "Vasiliki Giagka",
+    "previous_doi": "10.1109/tbcas.2019.2920294",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tbcas.2019.2920294",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 187,
+    "previous_id": "PFF40215A1D4",
+    "name": "Vincent Gaudet",
+    "previous_doi": "10.1109/tcsii.2007.898472",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsii.2007.898472",
+    "reason_en": "The representative work directly addresses analog design automation and testing.",
+    "reason_zh": "代表作直接涉及模拟设计自动化与测试。"
+  },
+  {
+    "previous_index": 188,
+    "previous_id": "P0F1A413E0A3",
+    "name": "Wanyeong Jung",
+    "previous_doi": "10.5573/ieie.2023.60.11.104",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.5573/ieie.2023.60.11.104",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 189,
+    "previous_id": "ANALOG-FOUNDATION-06",
+    "name": "Willy Sansen",
+    "previous_doi": "10.1109/jssc.2009.2021918",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2009.2021918",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  },
+  {
+    "previous_index": 190,
+    "previous_id": "PE60EF4E6C89",
+    "name": "Wooram Lee",
+    "previous_doi": "10.1109/jssc.2010.2056833",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2010.2056833",
+    "reason_en": "The representative work directly addresses frequency synthesis and clocking.",
+    "reason_zh": "代表作直接涉及频率合成与时钟。"
+  },
+  {
+    "previous_index": 191,
+    "previous_id": "PD40901AEDC2",
+    "name": "Wooyeol Choi",
+    "previous_doi": "10.1109/jssc.2022.3171545",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2022.3171545",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 192,
+    "previous_id": "PF118D9724D8",
+    "name": "Wouter Serdijn",
+    "previous_doi": "10.1109/jssc.2014.2302793",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2014.2302793",
+    "reason_en": "The representative work directly addresses power management ics.",
+    "reason_zh": "代表作直接涉及电源管理电路。"
+  },
+  {
+    "previous_index": 193,
+    "previous_id": "PF7D830A2648",
+    "name": "Xiaowu Gong",
+    "previous_doi": "10.1109/ted.2023.3314401",
+    "decision": "excluded_from_current_cohort",
+    "current_doi": "",
+    "reason_en": "Previous selected evidence covered general semiconductor physics, power-device reliability or packaging without a sufficiently direct analog-circuit link. Scope decision; not a judgment of the researcher.",
+    "reason_zh": "旧代表证据主要涉及一般半导体物理、功率器件可靠性或封装，未充分建立与模拟电路的直接联系；为范围决定，不评价研究者水平。"
+  },
+  {
+    "previous_index": 194,
+    "previous_id": "PEA2AB08B7AB",
+    "name": "Xuan Zeng",
+    "previous_doi": "10.1109/tcad.2018.2848590",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcad.2018.2848590",
+    "reason_en": "The representative work directly addresses analog design automation and testing.",
+    "reason_zh": "代表作直接涉及模拟设计自动化与测试。"
+  },
+  {
+    "previous_index": 195,
+    "previous_id": "ANALOG-FOUNDATION-20",
+    "name": "Yannis Tsividis",
+    "previous_doi": "10.1109/jssc.2025.3622309",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/jssc.2025.3622309",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 196,
+    "previous_id": "P5EEC1D88B3B",
+    "name": "Yaoyao Jia",
+    "previous_doi": "10.1109/mssc.2023.3305589",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/mssc.2023.3305589",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 197,
+    "previous_id": "PC890D5E1A7F",
+    "name": "Yi-Jan Chen",
+    "previous_doi": "10.1109/tcsi.2007.904597",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1109/tcsi.2007.904597",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 198,
+    "previous_id": "P124CE3F0FDE",
+    "name": "Zhangming Zhu",
+    "previous_doi": "10.1007/s10470-015-0657-1",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-015-0657-1",
+    "reason_en": "The representative work directly addresses precision analog and sensor interfaces.",
+    "reason_zh": "代表作直接涉及精密模拟与传感接口。"
+  },
+  {
+    "previous_index": 199,
+    "previous_id": "P1FF50513FB0",
+    "name": "Zheng Yuanjin",
+    "previous_doi": "10.1007/s10470-014-0412-z",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-014-0412-z",
+    "reason_en": "The representative work directly addresses rf and high-speed analog ics.",
+    "reason_zh": "代表作直接涉及射频与高速模拟芯片。"
+  },
+  {
+    "previous_index": 200,
+    "previous_id": "P78F3BF48E06",
+    "name": "Zhiliang Hong",
+    "previous_doi": "10.1007/s10470-012-9829-4",
+    "decision": "retained_scope_rechecked",
+    "current_doi": "10.1007/s10470-012-9829-4",
+    "reason_en": "The representative work directly addresses data converters.",
+    "reason_zh": "代表作直接涉及数据转换器。"
+  }
+]

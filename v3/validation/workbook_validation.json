@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-01",
-  "workbook": "Mixed_Signal_Simulation_V3_EN_ZH.xlsx",
-  "sheets": 22,
+  "date": "2026-11-02",
+  "workbook": "Mixed_Signal_Simulation_V3_1_EN_ZH.xlsx",
+  "sheets": 23,
   "charts": 12,
   "images": 11,
   "people": 200,
-  "papers": 184,
+  "papers": 182,
   "representative_cases": 11,
   "power_formulas_checked": 5620,
   "max_power_error_W": 0,
@@ -18,6 +18,6 @@
     "engine": "artifact-tool",
     "native_Excel_engine_tested": false
   },
-  "sha256": "cf40e0046f10d9ff132a300f9f8ae9eab311a1088c5b17b3d221de8165278ab0",
+  "sha256": "25e7c4a0133d002c8a89e3bbdb727ab8e5b7cd5c3f989051730b177c17204519",
   "engine_note": "Exported workbook inspected with openpyxl read-only analysis; authoring and recalculation used artifact-tool. Native Microsoft Excel engine was not tested."
 }

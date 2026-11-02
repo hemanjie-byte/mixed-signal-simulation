@@ -1,13 +1,17 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "python": "3.12.14",
   "numpy": "2.3.5",
-  "tests_run": 29,
+  "tests_run": 36,
   "passed": true,
-  "elapsed_s": 2.556,
+  "elapsed_s": 22.928,
   "tests": [
     {
       "test": "test_analog.ArtifactTests.test_published_cases_finite_complete_and_kcl",
+      "status": "PASS"
+    },
+    {
+      "test": "test_analog.CircuitTests.test_adc_inl_endpoint_definition",
       "status": "PASS"
     },
     {
@@ -27,6 +31,10 @@
       "status": "PASS"
     },
     {
+      "test": "test_analog.CircuitTests.test_buck_all_voltage_temperature_grid_convergence",
+      "status": "PASS"
+    },
+    {
       "test": "test_analog.CircuitTests.test_buck_event_alignment_and_convergence",
       "status": "PASS"
     },
@@ -36,6 +44,10 @@
     },
     {
       "test": "test_analog.CircuitTests.test_differential_pair_symmetry_and_tail",
+      "status": "PASS"
+    },
+    {
+      "test": "test_analog.CircuitTests.test_fft_power_parseval_dc_nyquist_and_odd_length",
       "status": "PASS"
     },
     {
@@ -55,6 +67,10 @@
       "status": "PASS"
     },
     {
+      "test": "test_analog.CircuitTests.test_ldo_unity_frequency_against_quadratic_solution",
+      "status": "PASS"
+    },
+    {
       "test": "test_analog.CircuitTests.test_noise_integral_against_analytic_reference",
       "status": "PASS"
     },
@@ -64,6 +80,10 @@
     },
     {
       "test": "test_analog.CircuitTests.test_pll_step_against_closed_form",
+      "status": "PASS"
+    },
+    {
+      "test": "test_analog.CircuitTests.test_sar_actual_transition_edges_with_missing_code",
       "status": "PASS"
     },
     {
@@ -107,11 +127,19 @@
       "status": "PASS"
     },
     {
+      "test": "test_research.ResearchTests.test_analog_scope_evidence_and_byline",
+      "status": "PASS"
+    },
+    {
       "test": "test_research.ResearchTests.test_complete_join_and_bilingual_topics",
       "status": "PASS"
     },
     {
       "test": "test_research.ResearchTests.test_dates_and_metadata_status",
+      "status": "PASS"
+    },
+    {
+      "test": "test_research.ResearchTests.test_reconciliation_and_conservative_model_mapping",
       "status": "PASS"
     },
     {
