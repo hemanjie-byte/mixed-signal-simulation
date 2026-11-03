@@ -1,3 +1,9 @@
+# V3.3.0 — 2026-11-03
+
+All 20 models gain individual English GIFs with diagrams and data plots. All 211 cases regenerated. 12 numerical-error benchmarks meet the 10% relative-reduction target; 7 roundoff/analytic-floor cases and 1 sampling-only case are separately reported. 96 checks pass. Workbook/viewer add per-model animation access and auditable before/after errors. Physical accuracy remains unverified.
+
+20项模型均补齐英文GIF，包含图示与数据曲线；211工况重跑。12项数值误差基准满足相对下降10%的目标；7项解析/浮点下限及1项仅统计采样分别报告。96项检查通过。工作簿和演示页增加逐模型动画入口及前后误差核算。物理准确性仍未验证。
+
 # V3.2.0 — 2026-11-03
 
 Nine DC/DC mechanism benches add 153 cases; total 20 model views/211 cases. Nonlinear gate charge, matched-pair Coss commutation, recovery, bootstrap, level shift, low-side sensing, startup/UVLO, series-RLC damping, loss/thermal accounting and average-current-limited control are explicit. 61 implementation checks pass. New evidence: four papers/eight manufacturer documents; original TOP200/182-paper V3.1 audit is preserved. Added English-only GIF, bilingual undergraduate lesson, and upgraded Excel/offline viewer. No PDK, silicon fitting or physical 3D field claim.

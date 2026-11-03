@@ -1,0 +1,14 @@
+{
+  "review_completed_local": "2026-11-04",
+  "workbook_model_views_reviewed": 20,
+  "additional_views_reviewed": ["Overview", "Accuracy", "Accuracy chart", "Classroom", "GIF index", "Case metrics", "Checks", "Models", "ReadMe", "DC DC comparison"],
+  "repairs_verified": [
+    "Overview animation count explanation row height increased to show both languages",
+    "B02 and B05 voltage axes show four decimal places",
+    "Accuracy chart percentage ticks show one decimal place",
+    "Forty GIF links use native OOXML hyperlinks with readable display labels"
+  ],
+  "animation_posters_reviewed": 20,
+  "method_en": "Rendered workbook ranges and model posters inspected visually. GIF source hashes, frames and case associations are checked separately. This is display QA, not physical validation or native Excel runtime verification.",
+  "method_zh": "目视检查工作簿渲染范围及模型海报。GIF来源哈希、帧与工况关联另行检查。这是展示检查，不是物理验证或原生Excel运行验证。"
+}

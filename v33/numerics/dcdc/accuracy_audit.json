@@ -1,0 +1,1782 @@
+{
+  "version": "3.3.0",
+  "rows": [
+    {
+      "model_id": "P01",
+      "metric_en": "On/off overlap-energy quadrature error",
+      "metric_zh": "导通/关断交叠能量积分误差",
+      "unit": "J",
+      "old_error": 1.2966581883801723e-10,
+      "new_error": 7.411538288475128e-22,
+      "improvement_pct": 99.99999999942841,
+      "status": "target_met",
+      "reference_en": "Closed-form exponential current moments and nonlinear Miller charge/energy primitives; all 18 Vin/temperature cases, both edges.",
+      "reference_zh": "指数电流矩与非线性Miller电荷/能量原函数的闭式积分；18种电压/温度、两个边沿。",
+      "absolute_error_floor": 1e-18,
+      "reference_uncertainty_estimate": 0.0,
+      "case_count": 36,
+      "minimum_eligible_case_improvement_pct": 99.99999962117926,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "Display density is unchanged; improved metrics use stage-wise 32-point Gauss quadrature. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "显示密度不变；改进指标按阶段使用32点Gauss积分。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    },
+    {
+      "model_id": "P02",
+      "metric_en": "Periodic inductor volt-second balance residual",
+      "metric_zh": "周期电感伏秒平衡残差",
+      "unit": "V s",
+      "old_error": 2.710505431213761e-20,
+      "new_error": 2.710505431213761e-20,
+      "improvement_pct": null,
+      "status": "numerical_floor",
+      "reference_en": "Exact piecewise-constant voltage integral is zero by duty construction; all 18 cases.",
+      "reference_zh": "占空比构造使分段常数电压积分精确为零；全部18工况。",
+      "absolute_error_floor": 1e-15,
+      "reference_uncertainty_estimate": 0.0,
+      "case_count": 18,
+      "minimum_eligible_case_improvement_pct": null,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "Analytical trajectory already at floating-point floor; no meaningful 10% reduction claimed. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "解析轨迹已达浮点误差底限，不宣称有意义的10%降低。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    },
+    {
+      "model_id": "P03",
+      "metric_en": "Periodic bootstrap minimum-voltage residual",
+      "metric_zh": "周期自举最低电压残差",
+      "unit": "V",
+      "old_error": 1.7763568394002505e-15,
+      "new_error": 1.7763568394002505e-15,
+      "improvement_pct": null,
+      "status": "numerical_floor",
+      "reference_en": "Analytical affine cycle-map fixed point versus end-of-run minimum, including finite-cycle settling; all 36 cases.",
+      "reference_zh": "解析仿射周期映射不动点与末周期最低值比较，包含有限周期建立残差；全部36工况。",
+      "absolute_error_floor": 1e-10,
+      "reference_uncertainty_estimate": 0.0,
+      "case_count": 36,
+      "minimum_eligible_case_improvement_pct": null,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "Exact exponential updates already settle below the stated floor. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "精确指数递推的建立残差已低于给定底限。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    },
+    {
+      "model_id": "P04",
+      "metric_en": "Analytical RC disturbance peak error",
+      "metric_zh": "解析RC扰动峰值误差",
+      "unit": "V",
+      "old_error": 8.881784197001252e-16,
+      "new_error": 8.881784197001252e-16,
+      "improvement_pct": null,
+      "status": "numerical_floor",
+      "reference_en": "Linear-RC ramp response evaluated with the stable expm1 expression; all 12 weak/strong-receiver cases.",
+      "reference_zh": "采用数值稳定expm1表达式的线性RC斜坡响应；全部12种强/弱接收端工况。",
+      "absolute_error_floor": 1e-12,
+      "reference_uncertainty_estimate": 0.0,
+      "case_count": 12,
+      "minimum_eligible_case_improvement_pct": null,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "The peak is analytic already; this does not validate real logic clamps or CMTI. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "峰值已为解析值；这不验证实际逻辑钳位或CMTI。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    },
+    {
+      "model_id": "P05",
+      "metric_en": "Exported comparator transition timing error",
+      "metric_zh": "导出比较器跳变时刻误差",
+      "unit": "s",
+      "old_error": 1.4772990801846717e-09,
+      "new_error": 0.0,
+      "improvement_pct": 100.0,
+      "status": "target_met",
+      "reference_en": "Closed-form one-pole threshold crossing plus the same 35ns assumed propagation delay; all three temperatures.",
+      "reference_zh": "单极点阈值交越闭式解加相同35ns假定传播延迟；全部三个温度。",
+      "absolute_error_floor": 1e-15,
+      "reference_uncertainty_estimate": 0.0,
+      "case_count": 3,
+      "minimum_eligible_case_improvement_pct": 100.0,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "This improves sampled waveform event placement; the analytic trip_time_s metric was already exact. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "改善采样波形的事件定位；原解析trip_time_s指标已精确。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    },
+    {
+      "model_id": "P06",
+      "metric_en": "First UVLO-enable timing error",
+      "metric_zh": "首次欠压锁定使能时刻误差",
+      "unit": "s",
+      "old_error": 1.4339622641506428e-06,
+      "new_error": 1.734723475976807e-18,
+      "improvement_pct": 99.99999999987902,
+      "status": "target_met",
+      "reference_en": "Capacitor ramp time Caux*9V/(Istart-Ioff), while original compliance remains inactive; all 18 cases.",
+      "reference_zh": "原模型未进入顺从电压限制时，电容斜坡时间Caux×9V/(Istart−Ioff)；全部18工况。",
+      "absolute_error_floor": 1e-12,
+      "reference_uncertainty_estimate": 0.0,
+      "case_count": 18,
+      "minimum_eligible_case_improvement_pct": 99.99999999870619,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "Event-aligned segments are exact only in the explicitly checked constant-current domain. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "仅在明确检查的恒流工作域内，事件对齐分段解是精确的。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    },
+    {
+      "model_id": "P07",
+      "metric_en": "Integrated damping-energy error",
+      "metric_zh": "阻尼耗散能量积分误差",
+      "unit": "J",
+      "old_error": 1.1754712972124231e-12,
+      "new_error": 1.840931818223091e-14,
+      "improvement_pct": 98.43387769434372,
+      "status": "target_met",
+      "reference_en": "Initial minus final stored LC energy from the analytical free response; all 12 cases.",
+      "reference_zh": "解析自由响应的初始与末时刻LC储能之差；全部12工况。",
+      "absolute_error_floor": 1e-18,
+      "reference_uncertainty_estimate": 0.0,
+      "case_count": 12,
+      "minimum_eligible_case_improvement_pct": 98.43387769434372,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "Energy uses Simpson quadrature on a 4x finer internal grid; saved waveform density and analytical physics are unchanged. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "能量采用加密4倍内部网格上的Simpson积分；保存波形密度与解析物理不变。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    },
+    {
+      "model_id": "P08",
+      "metric_en": "Total loss numerical evaluation error",
+      "metric_zh": "总损耗数值计算误差",
+      "unit": "W",
+      "old_error": 9.245895483633859e-05,
+      "new_error": 4.440892098500626e-16,
+      "improvement_pct": 99.99999999951969,
+      "status": "target_met",
+      "reference_en": "Independent closed-form overlap, exact piecewise-linear RMS moments, same nine loss terms, and bracketed thermal-root bisection; all 18 cases.",
+      "reference_zh": "独立闭式交叠能量、分段线性电流的精确均方矩、相同九项损耗及热根区间二分法；全部18工况。",
+      "absolute_error_floor": 1e-10,
+      "reference_uncertainty_estimate": 0.0,
+      "case_count": 18,
+      "minimum_eligible_case_improvement_pct": 99.99999999854828,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "No new physical loss term or altered Coss/Qrr accounting. The common thermal node is not a MOS junction. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "未新增物理损耗或改变Coss/Qrr核算；共用热节点不是MOS结温。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    },
+    {
+      "model_id": "P09",
+      "metric_en": "Maximum output-voltage trajectory error",
+      "metric_zh": "输出电压轨迹最大误差",
+      "unit": "V",
+      "old_error": 0.002937309281497491,
+      "new_error": 5.707158230450204e-07,
+      "improvement_pct": 99.98057011474276,
+      "status": "target_met",
+      "reference_en": "Independent adaptive Dormand-Prince 5(4), tighter run rtol=1e-11/atol=1e-13, continuous ramp and aligned load event; common 10us times, all 18 cases.",
+      "reference_zh": "独立自适应Dormand-Prince 5(4)，收紧至rtol=1e-11/atol=1e-13，连续斜坡与对齐负载事件；统一10µs时刻，全部18工况。",
+      "absolute_error_floor": 1e-07,
+      "reference_uncertainty_estimate": 6.044764688795112e-11,
+      "case_count": 18,
+      "minimum_eligible_case_improvement_pct": 99.98057011474276,
+      "aggregation_en": "Maximum absolute error over all listed case/metric comparisons.",
+      "aggregation_zh": "所有列出工况及指标比较的最大绝对误差。",
+      "limits_en": "Reference uncertainty is the max difference from a 10x looser tolerance, an empirical convergence estimate, not a rigorous bound. New RK4 uses 0.5us steps and stage-time ramp evaluation; saved traces remain 10us. Same authored coefficients and reduced physics as V3.2; no PDK, silicon data or measured physical-accuracy claim.",
+      "limits_zh": "参考不确定度为容差放宽10倍的最大差异，是经验收敛估计而非严格上界。新版RK4采用0.5µs步长并在子步时刻计算斜坡；保存间隔仍为10µs。 沿用V3.2人为系数与简化物理；无PDK、硅数据或实测物理准确度声明。"
+    }
+  ],
+  "case_details": [
+    {
+      "model_id": "P01",
+      "case_id": "P01_40V_-40C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 1.0028486419289763e-07,
+      "old_value": 1.0028478423619287e-07,
+      "new_value": 1.002848641928976e-07,
+      "old_error": 7.995670475696597e-14,
+      "new_error": 2.6469779601696886e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_40V_-40C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 9.330342022103423e-08,
+      "old_value": 9.33359552019669e-08,
+      "new_value": 9.33034202210342e-08,
+      "old_error": 3.2534980932671313e-11,
+      "new_error": 2.6469779601696886e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_40V_25C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 9.794020278958065e-08,
+      "old_value": 9.794014719882359e-08,
+      "new_value": 9.794020278958055e-08,
+      "old_error": 5.559075706847179e-14,
+      "new_error": 1.0587911840678754e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_40V_25C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 9.635549103477307e-08,
+      "old_value": 9.638830697538749e-08,
+      "new_value": 9.635549103477307e-08,
+      "old_error": 3.2815940614419424e-11,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_40V_125C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 9.452563150895882e-08,
+      "old_value": 9.452561054671222e-08,
+      "new_value": 9.45256315089589e-08,
+      "old_error": 2.0962246600108382e-14,
+      "new_error": 7.940933880509066e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_40V_125C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 1.015003534350971e-07,
+      "old_value": 1.0153282924923799e-07,
+      "new_value": 1.015003534350971e-07,
+      "old_error": 3.2475814140896777e-11,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_60V_-40C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 1.8063194886258635e-07,
+      "old_value": 1.8063226148149963e-07,
+      "new_value": 1.8063194886258624e-07,
+      "old_error": 3.126189132832602e-13,
+      "new_error": 1.0587911840678754e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_60V_-40C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 1.646842330662562e-07,
+      "old_value": 1.6473362355561092e-07,
+      "new_value": 1.6468423306625615e-07,
+      "old_error": 4.939048935471794e-11,
+      "new_error": 5.293955920339377e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_60V_25C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 1.7647379190732322e-07,
+      "old_value": 1.7647413199664313e-07,
+      "new_value": 1.7647379190732304e-07,
+      "old_error": 3.4008931990472377e-13,
+      "new_error": 1.852884572118782e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_60V_25C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 1.700622147259236e-07,
+      "old_value": 1.7011211295845438e-07,
+      "new_value": 1.700622147259236e-07,
+      "old_error": 4.989823253077126e-11,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_60V_125C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 1.7041964252145756e-07,
+      "old_value": 1.704200211214288e-07,
+      "new_value": 1.704196425214577e-07,
+      "old_error": 3.78599971245466e-13,
+      "new_error": 1.3234889800848443e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_60V_125C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 1.7911181953766422e-07,
+      "old_value": 1.7916132832103388e-07,
+      "new_value": 1.7911181953766422e-07,
+      "old_error": 4.9508783369652276e-11,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_80V_-40C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 2.7520947128283603e-07,
+      "old_value": 2.752104693369179e-07,
+      "new_value": 2.752094712828358e-07,
+      "old_error": 9.98054081856421e-13,
+      "new_error": 2.117582368135751e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_80V_-40C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 2.477114925116053e-07,
+      "old_value": 2.4777797819091375e-07,
+      "new_value": 2.477114925116052e-07,
+      "old_error": 6.648567930844065e-11,
+      "new_error": 1.0587911840678754e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_80V_25C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 2.689254462477667e-07,
+      "old_value": 2.6892646808395543e-07,
+      "new_value": 2.6892544624776636e-07,
+      "old_error": 1.0218361887529095e-12,
+      "new_error": 3.1763735522036263e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_80V_25C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 2.5578155423428625e-07,
+      "old_value": 2.558487816616192e-07,
+      "new_value": 2.557815542342862e-07,
+      "old_error": 6.72274273329653e-11,
+      "new_error": 5.293955920339377e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_80V_125C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 2.597775771584608e-07,
+      "old_value": 2.597786315118158e-07,
+      "new_value": 2.5977757715846087e-07,
+      "old_error": 1.0543533549993307e-12,
+      "new_error": 5.293955920339377e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_80V_125C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 2.6934571403820434e-07,
+      "old_value": 2.694125147200208e-07,
+      "new_value": 2.6934571403820423e-07,
+      "old_error": 6.680068181648319e-11,
+      "new_error": 1.0587911840678754e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_100V_-40C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 3.81966928583231e-07,
+      "old_value": 3.8196889203075304e-07,
+      "new_value": 3.819669285832309e-07,
+      "old_error": 1.9634475220494963e-12,
+      "new_error": 1.0587911840678754e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_100V_-40C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 3.407070300704683e-07,
+      "old_value": 3.40790840062623e-07,
+      "new_value": 3.4070703007046823e-07,
+      "old_error": 8.380999215471626e-11,
+      "new_error": 5.293955920339377e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_100V_25C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 3.732887148544785e-07,
+      "old_value": 3.732906919584529e-07,
+      "new_value": 3.7328871485447823e-07,
+      "old_error": 1.977103974430721e-12,
+      "new_error": 2.6469779601696886e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_100V_25C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 3.517817512938924e-07,
+      "old_value": 3.518665439906285e-07,
+      "new_value": 3.5178175129389247e-07,
+      "old_error": 8.479269673605998e-11,
+      "new_error": 5.293955920339377e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_100V_125C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 3.6065702916924954e-07,
+      "old_value": 3.606590234379817e-07,
+      "new_value": 3.606570291692498e-07,
+      "old_error": 1.994268732141508e-12,
+      "new_error": 2.6469779601696886e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_100V_125C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 3.7038103107666833e-07,
+      "old_value": 3.7046537130880047e-07,
+      "new_value": 3.703810310766684e-07,
+      "old_error": 8.434023213213716e-11,
+      "new_error": 5.293955920339377e-23
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_120V_-40C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 4.995165874642862e-07,
+      "old_value": 4.99519782709272e-07,
+      "new_value": 4.995165874642858e-07,
+      "old_error": 3.195244985800166e-12,
+      "new_error": 3.1763735522036263e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_120V_-40C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 4.4253509981211746e-07,
+      "old_value": 4.4263645214697053e-07,
+      "new_value": 4.425350998121173e-07,
+      "old_error": 1.0135233485307662e-10,
+      "new_error": 1.5881867761018131e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_120V_25C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 4.882058355734606e-07,
+      "old_value": 4.882090282550396e-07,
+      "new_value": 4.882058355734601e-07,
+      "old_error": 3.1926815789693087e-12,
+      "new_error": 5.293955920339377e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_120V_25C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 4.5689092785516037e-07,
+      "old_value": 4.5699351049346466e-07,
+      "new_value": 4.5689092785516027e-07,
+      "old_error": 1.02582638304286e-10,
+      "new_error": 1.0587911840678754e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_120V_125C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 4.7174380983441863e-07,
+      "old_value": 4.717469954683106e-07,
+      "new_value": 4.717438098344188e-07,
+      "old_error": 3.1856338919948375e-12,
+      "new_error": 1.5881867761018131e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_120V_125C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 4.809857187286139e-07,
+      "old_value": 4.810878342452327e-07,
+      "new_value": 4.809857187286139e-07,
+      "old_error": 1.0211551661879166e-10,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_150V_-40C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 6.939251597058574e-07,
+      "old_value": 6.93930674849571e-07,
+      "new_value": 6.93925159705857e-07,
+      "old_error": 5.5151437136394154e-12,
+      "new_error": 3.1763735522036263e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_150V_-40C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 6.100775444688082e-07,
+      "old_value": 6.102055967767671e-07,
+      "new_value": 6.100775444688079e-07,
+      "old_error": 1.2805230795885526e-10,
+      "new_error": 3.1763735522036263e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_150V_25C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 6.78265363156002e-07,
+      "old_value": 6.782708406457431e-07,
+      "new_value": 6.782653631560013e-07,
+      "old_error": 5.477489741071842e-12,
+      "new_error": 7.411538288475128e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_150V_25C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 6.298175364059309e-07,
+      "old_value": 6.299472022247689e-07,
+      "new_value": 6.298175364059307e-07,
+      "old_error": 1.2966581883801723e-10,
+      "new_error": 2.117582368135751e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_150V_125C",
+      "quantity": "channel_overlap_on_J",
+      "reference_value": 6.554759437084797e-07,
+      "old_value": 6.554813621873527e-07,
+      "new_value": 6.5547594370848e-07,
+      "old_error": 5.4184788730015905e-12,
+      "new_error": 2.117582368135751e-22
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_150V_125C",
+      "quantity": "channel_overlap_off_J",
+      "reference_value": 6.629258404030707e-07,
+      "old_value": 6.630550367813334e-07,
+      "new_value": 6.629258404030705e-07,
+      "old_error": 1.2919637826271633e-10,
+      "new_error": 1.0587911840678754e-22
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_40V_-40C",
+      "reference_value": 0.0,
+      "old_value": 6.776263578034403e-21,
+      "new_value": 6.776263578034403e-21,
+      "old_error": 6.776263578034403e-21,
+      "new_error": 6.776263578034403e-21
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_40V_25C",
+      "reference_value": 0.0,
+      "old_value": 6.776263578034403e-21,
+      "new_value": 6.776263578034403e-21,
+      "old_error": 6.776263578034403e-21,
+      "new_error": 6.776263578034403e-21
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_40V_125C",
+      "reference_value": 0.0,
+      "old_value": 1.3552527156068805e-20,
+      "new_value": 1.3552527156068805e-20,
+      "old_error": 1.3552527156068805e-20,
+      "new_error": 1.3552527156068805e-20
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_60V_-40C",
+      "reference_value": 0.0,
+      "old_value": 2.710505431213761e-20,
+      "new_value": 2.710505431213761e-20,
+      "old_error": 2.710505431213761e-20,
+      "new_error": 2.710505431213761e-20
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_60V_25C",
+      "reference_value": 0.0,
+      "old_value": 1.3552527156068805e-20,
+      "new_value": 1.3552527156068805e-20,
+      "old_error": 1.3552527156068805e-20,
+      "new_error": 1.3552527156068805e-20
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_60V_125C",
+      "reference_value": 0.0,
+      "old_value": 6.776263578034403e-21,
+      "new_value": 6.776263578034403e-21,
+      "old_error": 6.776263578034403e-21,
+      "new_error": 6.776263578034403e-21
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_80V_-40C",
+      "reference_value": 0.0,
+      "old_value": 0.0,
+      "new_value": 0.0,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_80V_25C",
+      "reference_value": 0.0,
+      "old_value": -6.776263578034403e-21,
+      "new_value": -6.776263578034403e-21,
+      "old_error": 6.776263578034403e-21,
+      "new_error": 6.776263578034403e-21
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_80V_125C",
+      "reference_value": 0.0,
+      "old_value": 1.3552527156068805e-20,
+      "new_value": 1.3552527156068805e-20,
+      "old_error": 1.3552527156068805e-20,
+      "new_error": 1.3552527156068805e-20
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_100V_-40C",
+      "reference_value": 0.0,
+      "old_value": 0.0,
+      "new_value": 0.0,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_100V_25C",
+      "reference_value": 0.0,
+      "old_value": 6.776263578034403e-21,
+      "new_value": 6.776263578034403e-21,
+      "old_error": 6.776263578034403e-21,
+      "new_error": 6.776263578034403e-21
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_100V_125C",
+      "reference_value": 0.0,
+      "old_value": 6.776263578034403e-21,
+      "new_value": 6.776263578034403e-21,
+      "old_error": 6.776263578034403e-21,
+      "new_error": 6.776263578034403e-21
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_120V_-40C",
+      "reference_value": 0.0,
+      "old_value": 1.3552527156068805e-20,
+      "new_value": 1.3552527156068805e-20,
+      "old_error": 1.3552527156068805e-20,
+      "new_error": 1.3552527156068805e-20
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_120V_25C",
+      "reference_value": 0.0,
+      "old_value": 0.0,
+      "new_value": 0.0,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_120V_125C",
+      "reference_value": 0.0,
+      "old_value": -1.3552527156068805e-20,
+      "new_value": -1.3552527156068805e-20,
+      "old_error": 1.3552527156068805e-20,
+      "new_error": 1.3552527156068805e-20
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_150V_-40C",
+      "reference_value": 0.0,
+      "old_value": -6.776263578034403e-21,
+      "new_value": -6.776263578034403e-21,
+      "old_error": 6.776263578034403e-21,
+      "new_error": 6.776263578034403e-21
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_150V_25C",
+      "reference_value": 0.0,
+      "old_value": 1.3552527156068805e-20,
+      "new_value": 1.3552527156068805e-20,
+      "old_error": 1.3552527156068805e-20,
+      "new_error": 1.3552527156068805e-20
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_150V_125C",
+      "reference_value": 0.0,
+      "old_value": 1.3552527156068805e-20,
+      "new_value": 1.3552527156068805e-20,
+      "old_error": 1.3552527156068805e-20,
+      "new_error": 1.3552527156068805e-20
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_40V_-40C",
+      "reference_value": 9.238157563879536,
+      "old_value": 9.238157563879536,
+      "new_value": 9.238157563879536,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_40V_-40C_small_cap",
+      "reference_value": 6.189036131023172,
+      "old_value": 6.189036131023172,
+      "new_value": 6.189036131023172,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_40V_25C",
+      "reference_value": 9.237753121988932,
+      "old_value": 9.237753121988932,
+      "new_value": 9.237753121988932,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_40V_25C_small_cap",
+      "reference_value": 6.1828803517468485,
+      "old_value": 6.1828803517468485,
+      "new_value": 6.1828803517468485,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_40V_125C",
+      "reference_value": 9.237130813893112,
+      "old_value": 9.237130813893112,
+      "new_value": 9.237130813893112,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_40V_125C_small_cap",
+      "reference_value": 6.173407366282341,
+      "old_value": 6.173407366282342,
+      "new_value": 6.173407366282342,
+      "old_error": 8.881784197001252e-16,
+      "new_error": 8.881784197001252e-16
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_60V_-40C",
+      "reference_value": 9.231875168253616,
+      "old_value": 9.231875168253616,
+      "new_value": 9.231875168253616,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_60V_-40C_small_cap",
+      "reference_value": 5.938964186847537,
+      "old_value": 5.938964186847538,
+      "new_value": 5.938964186847538,
+      "old_error": 8.881784197001252e-16,
+      "new_error": 8.881784197001252e-16
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_60V_25C",
+      "reference_value": 9.231556418213103,
+      "old_value": 9.231556418213103,
+      "new_value": 9.231556418213103,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_60V_25C_small_cap",
+      "reference_value": 5.935172043934851,
+      "old_value": 5.935172043934851,
+      "new_value": 5.935172043934851,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_60V_125C",
+      "reference_value": 9.231065945609659,
+      "old_value": 9.231065945609659,
+      "new_value": 9.231065945609659,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_60V_125C_small_cap",
+      "reference_value": 5.929335422106707,
+      "old_value": 5.929335422106707,
+      "new_value": 5.929335422106707,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_80V_-40C",
+      "reference_value": 9.22512353747268,
+      "old_value": 9.22512353747268,
+      "new_value": 9.22512353747268,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_80V_-40C_small_cap",
+      "reference_value": 5.714928572302287,
+      "old_value": 5.714928572302287,
+      "new_value": 5.714928572302287,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_80V_25C",
+      "reference_value": 9.224846079876958,
+      "old_value": 9.224846079876958,
+      "new_value": 9.224846079876958,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_80V_25C_small_cap",
+      "reference_value": 5.712318247571418,
+      "old_value": 5.712318247571418,
+      "new_value": 5.712318247571418,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_80V_125C",
+      "reference_value": 9.224419134783762,
+      "old_value": 9.224419134783762,
+      "new_value": 9.224419134783762,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_80V_125C_small_cap",
+      "reference_value": 5.708299807561456,
+      "old_value": 5.708299807561456,
+      "new_value": 5.708299807561456,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_100V_-40C",
+      "reference_value": 9.218667779392902,
+      "old_value": 9.218667779392902,
+      "new_value": 9.218667779392902,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_100V_-40C_small_cap",
+      "reference_value": 5.51090140596688,
+      "old_value": 5.51090140596688,
+      "new_value": 5.51090140596688,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_100V_25C",
+      "reference_value": 9.21841475622375,
+      "old_value": 9.21841475622375,
+      "new_value": 9.21841475622375,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_100V_25C_small_cap",
+      "reference_value": 5.509000172145103,
+      "old_value": 5.509000172145103,
+      "new_value": 5.509000172145103,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_100V_125C",
+      "reference_value": 9.218025402895371,
+      "old_value": 9.218025402895371,
+      "new_value": 9.218025402895371,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_100V_125C_small_cap",
+      "reference_value": 5.50607264122605,
+      "old_value": 5.50607264122605,
+      "new_value": 5.50607264122605,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_120V_-40C",
+      "reference_value": 9.212582581403312,
+      "old_value": 9.212582581403312,
+      "new_value": 9.212582581403312,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_120V_-40C_small_cap",
+      "reference_value": 5.3225386730879345,
+      "old_value": 5.322538673087935,
+      "new_value": 5.322538673087935,
+      "old_error": 8.881784197001252e-16,
+      "new_error": 8.881784197001252e-16
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_120V_25C",
+      "reference_value": 9.212345732211492,
+      "old_value": 9.212345732211492,
+      "new_value": 9.212345732211492,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_120V_25C_small_cap",
+      "reference_value": 5.321110166538884,
+      "old_value": 5.321110166538884,
+      "new_value": 5.321110166538884,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_120V_125C",
+      "reference_value": 9.211981262128509,
+      "old_value": 9.211981262128509,
+      "new_value": 9.211981262128509,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_120V_125C_small_cap",
+      "reference_value": 5.318909908347104,
+      "old_value": 5.318909908347104,
+      "new_value": 5.318909908347104,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_150V_-40C",
+      "reference_value": 9.204088536162645,
+      "old_value": 9.204088536162647,
+      "new_value": 9.204088536162647,
+      "old_error": 1.7763568394002505e-15,
+      "new_error": 1.7763568394002505e-15
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_150V_-40C_small_cap",
+      "reference_value": 5.062939025710422,
+      "old_value": 5.062939025710422,
+      "new_value": 5.062939025710422,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_150V_25C",
+      "reference_value": 9.203867780820172,
+      "old_value": 9.203867780820172,
+      "new_value": 9.203867780820172,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_150V_25C_small_cap",
+      "reference_value": 5.061983246434099,
+      "old_value": 5.061983246434099,
+      "new_value": 5.061983246434099,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_150V_125C",
+      "reference_value": 9.203528070692286,
+      "old_value": 9.203528070692286,
+      "new_value": 9.203528070692286,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_150V_125C_small_cap",
+      "reference_value": 5.060510260969592,
+      "old_value": 5.060510260969592,
+      "new_value": 5.060510260969592,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_40V_25C_weak",
+      "reference_value": 3.485197549804064,
+      "old_value": 3.485197549804064,
+      "new_value": 3.485197549804064,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_40V_25C_strong",
+      "reference_value": 0.14999999999999986,
+      "old_value": 0.14999999999999988,
+      "new_value": 0.14999999999999988,
+      "old_error": 2.7755575615628914e-17,
+      "new_error": 2.7755575615628914e-17
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_60V_25C_weak",
+      "reference_value": 4.37190333371732,
+      "old_value": 4.371903333717319,
+      "new_value": 4.371903333717319,
+      "old_error": 8.881784197001252e-16,
+      "new_error": 8.881784197001252e-16
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_60V_25C_strong",
+      "reference_value": 0.15,
+      "old_value": 0.15,
+      "new_value": 0.15,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_80V_25C_weak",
+      "reference_value": 4.945961439414753,
+      "old_value": 4.945961439414752,
+      "new_value": 4.945961439414752,
+      "old_error": 8.881784197001252e-16,
+      "new_error": 8.881784197001252e-16
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_80V_25C_strong",
+      "reference_value": 0.14999999999999997,
+      "old_value": 0.15,
+      "new_value": 0.15,
+      "old_error": 2.7755575615628914e-17,
+      "new_error": 2.7755575615628914e-17
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_100V_25C_weak",
+      "reference_value": 5.317609752412746,
+      "old_value": 5.317609752412746,
+      "new_value": 5.317609752412746,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_100V_25C_strong",
+      "reference_value": 0.15,
+      "old_value": 0.15,
+      "new_value": 0.15,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_120V_25C_weak",
+      "reference_value": 5.558216874206537,
+      "old_value": 5.558216874206536,
+      "new_value": 5.558216874206536,
+      "old_error": 8.881784197001252e-16,
+      "new_error": 8.881784197001252e-16
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_120V_25C_strong",
+      "reference_value": 0.15,
+      "old_value": 0.15,
+      "new_value": 0.15,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_150V_25C_weak",
+      "reference_value": 5.769869812132495,
+      "old_value": 5.7698698121324945,
+      "new_value": 5.7698698121324945,
+      "old_error": 8.881784197001252e-16,
+      "new_error": 8.881784197001252e-16
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_150V_25C_strong",
+      "reference_value": 0.15,
+      "old_value": 0.15,
+      "new_value": 0.15,
+      "old_error": 0.0,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P05",
+      "case_id": "P05_-40C",
+      "reference_value": 2.2787739608115873e-07,
+      "old_value": 2.28e-07,
+      "new_value": 2.2787739608115873e-07,
+      "old_error": 1.2260391884127346e-10,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P05",
+      "case_id": "P05_25C",
+      "reference_value": 2.2652912315410716e-07,
+      "old_value": 2.28e-07,
+      "new_value": 2.2652912315410716e-07,
+      "old_error": 1.4708768458928415e-09,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P05",
+      "case_id": "P05_125C",
+      "reference_value": 2.2452270091981534e-07,
+      "old_value": 2.26e-07,
+      "new_value": 2.2452270091981534e-07,
+      "old_error": 1.4772990801846717e-09,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_40V_-40C",
+      "reference_value": 0.01005586592178771,
+      "old_value": 0.010055999999999999,
+      "new_value": 0.010055865921787708,
+      "old_error": 1.3407821228966776e-07,
+      "new_error": 1.734723475976807e-18
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_40V_25C",
+      "reference_value": 0.009375,
+      "old_value": 0.009375999999999999,
+      "new_value": 0.009375,
+      "old_error": 9.999999999992654e-07,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_40V_125C",
+      "reference_value": 0.008490566037735849,
+      "old_value": 0.008492,
+      "new_value": 0.008490566037735849,
+      "old_error": 1.4339622641506428e-06,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_60V_-40C",
+      "reference_value": 0.01005586592178771,
+      "old_value": 0.010055999999999999,
+      "new_value": 0.010055865921787708,
+      "old_error": 1.3407821228966776e-07,
+      "new_error": 1.734723475976807e-18
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_60V_25C",
+      "reference_value": 0.009375,
+      "old_value": 0.009375999999999999,
+      "new_value": 0.009375,
+      "old_error": 9.999999999992654e-07,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_60V_125C",
+      "reference_value": 0.008490566037735849,
+      "old_value": 0.008492,
+      "new_value": 0.008490566037735849,
+      "old_error": 1.4339622641506428e-06,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_80V_-40C",
+      "reference_value": 0.01005586592178771,
+      "old_value": 0.010055999999999999,
+      "new_value": 0.010055865921787708,
+      "old_error": 1.3407821228966776e-07,
+      "new_error": 1.734723475976807e-18
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_80V_25C",
+      "reference_value": 0.009375,
+      "old_value": 0.009375999999999999,
+      "new_value": 0.009375,
+      "old_error": 9.999999999992654e-07,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_80V_125C",
+      "reference_value": 0.008490566037735849,
+      "old_value": 0.008492,
+      "new_value": 0.008490566037735849,
+      "old_error": 1.4339622641506428e-06,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_100V_-40C",
+      "reference_value": 0.01005586592178771,
+      "old_value": 0.010055999999999999,
+      "new_value": 0.010055865921787708,
+      "old_error": 1.3407821228966776e-07,
+      "new_error": 1.734723475976807e-18
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_100V_25C",
+      "reference_value": 0.009375,
+      "old_value": 0.009375999999999999,
+      "new_value": 0.009375,
+      "old_error": 9.999999999992654e-07,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_100V_125C",
+      "reference_value": 0.008490566037735849,
+      "old_value": 0.008492,
+      "new_value": 0.008490566037735849,
+      "old_error": 1.4339622641506428e-06,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_120V_-40C",
+      "reference_value": 0.01005586592178771,
+      "old_value": 0.010055999999999999,
+      "new_value": 0.010055865921787708,
+      "old_error": 1.3407821228966776e-07,
+      "new_error": 1.734723475976807e-18
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_120V_25C",
+      "reference_value": 0.009375,
+      "old_value": 0.009375999999999999,
+      "new_value": 0.009375,
+      "old_error": 9.999999999992654e-07,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_120V_125C",
+      "reference_value": 0.008490566037735849,
+      "old_value": 0.008492,
+      "new_value": 0.008490566037735849,
+      "old_error": 1.4339622641506428e-06,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_150V_-40C",
+      "reference_value": 0.01005586592178771,
+      "old_value": 0.010055999999999999,
+      "new_value": 0.010055865921787708,
+      "old_error": 1.3407821228966776e-07,
+      "new_error": 1.734723475976807e-18
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_150V_25C",
+      "reference_value": 0.009375,
+      "old_value": 0.009375999999999999,
+      "new_value": 0.009375,
+      "old_error": 9.999999999992654e-07,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_150V_125C",
+      "reference_value": 0.008490566037735849,
+      "old_value": 0.008492,
+      "new_value": 0.008490566037735849,
+      "old_error": 1.4339622641506428e-06,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_40V_weak",
+      "reference_value": 6.235382904054115e-09,
+      "old_value": 6.235382615758792e-09,
+      "new_value": 6.235382908552058e-09,
+      "old_error": 2.8829532329047336e-16,
+      "new_error": 4.497942646086735e-18
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_40V_damped",
+      "reference_value": 6.235382907247959e-09,
+      "old_value": 6.23533317998231e-09,
+      "new_value": 6.235383685305561e-09,
+      "old_error": 4.9727265649073024e-14,
+      "new_error": 7.78057601830227e-16
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_60V_weak",
+      "reference_value": 1.2149999993566273e-08,
+      "old_value": 1.2149999344684734e-08,
+      "new_value": 1.215000000368771e-08,
+      "old_error": 6.488815386952857e-16,
+      "new_error": 1.0121436569119275e-17
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_60V_damped",
+      "reference_value": 1.2150000000000001e-08,
+      "old_value": 1.2149870844759843e-08,
+      "new_value": 1.2150002021257571e-08,
+      "old_error": 1.2915524015838512e-13,
+      "new_error": 2.021257569615755e-15
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_80V_weak",
+      "reference_value": 1.931962731464937e-08,
+      "old_value": 1.931962616074359e-08,
+      "new_value": 1.9319627332644695e-08,
+      "old_error": 1.1539057809557592e-15,
+      "new_error": 1.7995324152258468e-17
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_80V_damped",
+      "reference_value": 1.931962732559818e-08,
+      "old_value": 1.9319370684590188e-08,
+      "new_value": 1.9319631342739906e-08,
+      "old_error": 2.5664100799410667e-13,
+      "new_error": 4.0171417246660256e-15
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_100V_weak",
+      "reference_value": 2.7556759590625502e-08,
+      "old_value": 2.7556757787164614e-08,
+      "new_value": 2.7556759618745563e-08,
+      "old_error": 1.8034608878607632e-15,
+      "new_error": 2.812006117202183e-17
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_100V_damped",
+      "reference_value": 2.755675960631076e-08,
+      "old_value": 2.755632043941993e-08,
+      "new_value": 2.755676648165368e-08,
+      "old_error": 4.3916689082977987e-13,
+      "new_error": 6.875342921081425e-15
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_120V_weak",
+      "reference_value": 3.673814675683496e-08,
+      "old_value": 3.673814415920278e-08,
+      "new_value": 3.6738146797330954e-08,
+      "old_error": 2.5976321764730376e-15,
+      "new_error": 4.049599669862786e-17
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_120V_damped",
+      "reference_value": 3.673814677649688e-08,
+      "old_value": 3.6737463861002696e-08,
+      "new_value": 3.673815746949524e-08,
+      "old_error": 6.829154941857191e-13,
+      "new_error": 1.0692998354622593e-14
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_150V_weak",
+      "reference_value": 5.209269520776545e-08,
+      "old_value": 5.209269114759735e-08,
+      "new_value": 5.2092695271047116e-08,
+      "old_error": 4.060168099945678e-15,
+      "new_error": 6.328166605324627e-17
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_150V_damped",
+      "reference_value": 5.2092695237037056e-08,
+      "old_value": 5.209151976573984e-08,
+      "new_value": 5.209271364635524e-08,
+      "old_error": 1.1754712972124231e-12,
+      "new_error": 1.840931818223091e-14
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_40V_-40C",
+      "reference_value": 0.6141879659255551,
+      "reference_hot_node_C": -35.086496272595554,
+      "old_value": 0.6142109088089187,
+      "new_value": 0.6141879659255548,
+      "old_error": 2.294288336357475e-05,
+      "new_error": 3.3306690738754696e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_40V_25C",
+      "reference_value": 0.7315118484342927,
+      "reference_hot_node_C": 30.852094787474343,
+      "old_value": 0.7315361331582845,
+      "new_value": 0.7315118484342926,
+      "old_error": 2.4284723991740975e-05,
+      "new_error": 1.1102230246251565e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_40V_125C",
+      "reference_value": 0.9121786175008813,
+      "reference_hot_node_C": 132.29742894000702,
+      "old_value": 0.9122054260096126,
+      "new_value": 0.9121786175008811,
+      "old_error": 2.6808508731379632e-05,
+      "new_error": 1.1102230246251565e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_60V_-40C",
+      "reference_value": 0.8879079518039752,
+      "reference_hot_node_C": -32.896736385568204,
+      "old_value": 0.88794220790152,
+      "new_value": 0.8879079518039751,
+      "old_error": 3.4256097544815844e-05,
+      "new_error": 1.1102230246251565e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_60V_25C",
+      "reference_value": 1.0257201317393654,
+      "reference_hot_node_C": 33.20576105391493,
+      "old_value": 1.0257561819444403,
+      "new_value": 1.0257201317393652,
+      "old_error": 3.605020507491119e-05,
+      "new_error": 2.220446049250313e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_60V_125C",
+      "reference_value": 1.2380352287172758,
+      "reference_hot_node_C": 134.90428182973818,
+      "old_value": 1.2380746404604897,
+      "new_value": 1.2380352287172758,
+      "old_error": 3.941174321386853e-05,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_80V_-40C",
+      "reference_value": 1.2187212273104067,
+      "reference_hot_node_C": -30.25023018151675,
+      "old_value": 1.2187665510386447,
+      "new_value": 1.2187212273104067,
+      "old_error": 4.532372823806696e-05,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_80V_25C",
+      "reference_value": 1.3770412733554023,
+      "reference_hot_node_C": 36.01633018684322,
+      "old_value": 1.3770886644708116,
+      "new_value": 1.3770412733554018,
+      "old_error": 4.7391115409300966e-05,
+      "new_error": 4.440892098500626e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_80V_125C",
+      "reference_value": 1.6210568136974852,
+      "reference_hot_node_C": 137.96845450957989,
+      "old_value": 1.6211080443874089,
+      "new_value": 1.621056813697485,
+      "old_error": 5.1230689923631445e-05,
+      "new_error": 2.220446049250313e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_100V_-40C",
+      "reference_value": 1.6003433219430405,
+      "reference_hot_node_C": -27.197253424455674,
+      "old_value": 1.6003997833543566,
+      "new_value": 1.6003433219430403,
+      "old_error": 5.646141131609994e-05,
+      "new_error": 2.220446049250313e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_100V_25C",
+      "reference_value": 1.779247098208816,
+      "reference_hot_node_C": 39.233976785670535,
+      "old_value": 1.77930584607085,
+      "new_value": 1.7792470982088155,
+      "old_error": 5.8747862033969867e-05,
+      "new_error": 4.440892098500626e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_100V_125C",
+      "reference_value": 2.0550996944064095,
+      "reference_hot_node_C": 141.44079755525127,
+      "old_value": 2.0551625716074096,
+      "new_value": 2.0550996944064095,
+      "old_error": 6.287720100006666e-05,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_120V_-40C",
+      "reference_value": 2.0283529560117817,
+      "reference_hot_node_C": -23.773176351905747,
+      "old_value": 2.0284207391823297,
+      "new_value": 2.0283529560117817,
+      "old_error": 6.778317054800809e-05,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_120V_25C",
+      "reference_value": 2.227939573714659,
+      "reference_hot_node_C": 42.82351658971727,
+      "old_value": 2.22800986249922,
+      "new_value": 2.227939573714659,
+      "old_error": 7.028878456116772e-05,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_120V_125C",
+      "reference_value": 2.5358003495699597,
+      "reference_hot_node_C": 145.28640279655968,
+      "old_value": 2.5358749312814735,
+      "new_value": 2.5358003495699593,
+      "old_error": 7.458171151375481e-05,
+      "new_error": 4.440892098500626e-16
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_150V_-40C",
+      "reference_value": 2.7503334947536597,
+      "reference_hot_node_C": -17.997332041970722,
+      "old_value": 2.7504187022777606,
+      "new_value": 2.7503334947536597,
+      "old_error": 8.520752410090537e-05,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_150V_25C",
+      "reference_value": 2.981155706433456,
+      "reference_hot_node_C": 48.849245651467655,
+      "old_value": 2.9812438138148227,
+      "new_value": 2.981155706433456,
+      "old_error": 8.810738136677543e-05,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_150V_125C",
+      "reference_value": 3.337387253885552,
+      "reference_hot_node_C": 151.69909803108442,
+      "old_value": 3.337479712840388,
+      "new_value": 3.337387253885552,
+      "old_error": 9.245895483633859e-05,
+      "new_error": 0.0
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_40V_-40C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707158230450204e-07,
+      "reference_uncertainty": 6.034461819126591e-11,
+      "reference_accepted_steps": 1412,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_40V_25C",
+      "old_error": 0.002937309281497491,
+      "new_error": 5.707157484380332e-07,
+      "reference_uncertainty": 6.040323796696612e-11,
+      "reference_accepted_steps": 1411,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_40V_125C",
+      "old_error": 0.0029373092814939383,
+      "new_error": 5.707157377798922e-07,
+      "reference_uncertainty": 6.044764688795112e-11,
+      "reference_accepted_steps": 1418,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_60V_-40C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157715306721e-07,
+      "reference_uncertainty": 6.034994726178411e-11,
+      "reference_accepted_steps": 1415,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_60V_25C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157608725311e-07,
+      "reference_uncertainty": 6.037481625753571e-11,
+      "reference_accepted_steps": 1409,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_60V_125C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157537671037e-07,
+      "reference_uncertainty": 6.037836897121451e-11,
+      "reference_accepted_steps": 1416,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_80V_-40C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707158230450204e-07,
+      "reference_uncertainty": 6.034461819126591e-11,
+      "reference_accepted_steps": 1412,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_80V_25C",
+      "old_error": 0.002937309281497491,
+      "new_error": 5.707157484380332e-07,
+      "reference_uncertainty": 6.040323796696612e-11,
+      "reference_accepted_steps": 1411,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_80V_125C",
+      "old_error": 0.0029373092814939383,
+      "new_error": 5.707157377798922e-07,
+      "reference_uncertainty": 6.044764688795112e-11,
+      "reference_accepted_steps": 1418,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_100V_-40C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157715306721e-07,
+      "reference_uncertainty": 6.034994726178411e-11,
+      "reference_accepted_steps": 1415,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_100V_25C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157608725311e-07,
+      "reference_uncertainty": 6.037481625753571e-11,
+      "reference_accepted_steps": 1411,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_100V_125C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157537671037e-07,
+      "reference_uncertainty": 6.037836897121451e-11,
+      "reference_accepted_steps": 1416,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_120V_-40C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157715306721e-07,
+      "reference_uncertainty": 6.034994726178411e-11,
+      "reference_accepted_steps": 1415,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_120V_25C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157608725311e-07,
+      "reference_uncertainty": 6.037481625753571e-11,
+      "reference_accepted_steps": 1409,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_120V_125C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157537671037e-07,
+      "reference_uncertainty": 6.037836897121451e-11,
+      "reference_accepted_steps": 1416,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_150V_-40C",
+      "old_error": 0.002937309281497491,
+      "new_error": 5.70715728898108e-07,
+      "reference_uncertainty": 6.044409417427232e-11,
+      "reference_accepted_steps": 1409,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_150V_25C",
+      "old_error": 0.0029373092814957147,
+      "new_error": 5.707157537671037e-07,
+      "reference_uncertainty": 6.036771083017811e-11,
+      "reference_accepted_steps": 1412,
+      "comparison_points": 801
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_150V_125C",
+      "old_error": 0.002937309281497491,
+      "new_error": 5.707157360035353e-07,
+      "reference_uncertainty": 6.043876510375412e-11,
+      "reference_accepted_steps": 1410,
+      "comparison_points": 801
+    }
+  ],
+  "claim_en": "Measured reduction of selected numerical errors only; physical accuracy is uncalibrated.",
+  "claim_zh": "仅衡量指定数值误差的降低；物理准确度未经校准。"
+}

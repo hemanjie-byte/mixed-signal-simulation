@@ -1,0 +1,17 @@
+{
+  "version": "3.3.0",
+  "date": "2026-11-03",
+  "model_views": 20,
+  "cases": 211,
+  "plots": 725,
+  "model_gifs": 20,
+  "tests_run": 96,
+  "tests_passed": true,
+  "numerical_target_met": 12,
+  "status_counts": {
+    "target_met": 12,
+    "numerical_floor": 7,
+    "statistical_uncertainty": 1
+  },
+  "physical_accuracy_improvement_verified": false
+}

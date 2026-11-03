@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "baseline_sha256": {
+    "v32\\models\\dcdc_models.py": "70ece680f1e0612da255a644b8082b8a43d301f62da64edf98b10dd947ad3f1d",
+    "v32\\models\\run_simulations.py": "0ae49008682ed74c8717abc4a18f9a2c56fb6b24828de2cc42af42e0e7302ff7",
+    "v32\\results\\simulation_v32.json": "bd782d9f040338f004568d6782badbe53799b65ea1387b42927697320101d10f"
+  },
+  "baseline_unchanged": true,
+  "equations": "V3.2 retained",
+  "models": 9,
+  "cases": 153
+}

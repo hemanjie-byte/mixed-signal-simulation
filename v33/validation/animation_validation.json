@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-03",
+  "models": 20,
+  "gifs": 20,
+  "passed": true,
+  "total_gif_bytes": 3878787,
+  "records": [
+    {
+      "model_id": "A01",
+      "case_id": "A01_transfer_25C",
+      "gif_bytes": 211731,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "A02",
+      "case_id": "A02_CV_25C",
+      "gif_bytes": 215666,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "A03",
+      "case_id": "A03_gummel_25C",
+      "gif_bytes": 200819,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "A04",
+      "case_id": "A04_area16um2",
+      "gif_bytes": 289351,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "B01",
+      "case_id": "B01_25C",
+      "gif_bytes": 232123,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "B02",
+      "case_id": "B02_temperature",
+      "gif_bytes": 220751,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "B03",
+      "case_id": "B03_25C",
+      "gif_bytes": 202770,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "B04",
+      "case_id": "B04_mismatch",
+      "gif_bytes": 237927,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "B05",
+      "case_id": "B05_25C",
+      "gif_bytes": 150621,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "B06",
+      "case_id": "B06_zeta0.7",
+      "gif_bytes": 175350,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "B07",
+      "case_id": "B07_100V_25C",
+      "gif_bytes": 191096,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P01",
+      "case_id": "P01_100V_25C",
+      "gif_bytes": 192860,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P02",
+      "case_id": "P02_100V_25C",
+      "gif_bytes": 157096,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P03",
+      "case_id": "P03_100V_25C",
+      "gif_bytes": 172806,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P04",
+      "case_id": "P04_100V_25C_strong",
+      "gif_bytes": 197605,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P05",
+      "case_id": "P05_25C",
+      "gif_bytes": 150641,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P06",
+      "case_id": "P06_100V_25C",
+      "gif_bytes": 179351,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P07",
+      "case_id": "P07_100V_damped",
+      "gif_bytes": 170593,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P08",
+      "case_id": "P08_100V_25C",
+      "gif_bytes": 154238,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    },
+    {
+      "model_id": "P09",
+      "case_id": "P09_100V_25C",
+      "gif_bytes": 175392,
+      "frames": 48,
+      "duration_ms": 8400,
+      "source_hash_matches": true
+    }
+  ],
+  "note": "Language metadata plus source render strings were reviewed; image decoding alone is not OCR or scientific validation."
+}

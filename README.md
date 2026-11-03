@@ -1,90 +1,90 @@
-# Mixed-Signal Simulation V3.2.0
+# Mixed-Signal Simulation V3.3.0
 
-# 模拟与混合信号仿真 V3.2.0
+# 模拟与混合信号仿真 V3.3.0
 
-2026-11-03 · An undergraduate teaching and engineering exploration library for analog ICs and 40–150 V maximum-input DC/DC converters. English first, Chinese below; animation labels are English only.
+2026-11-03. Every one of the 20 model views now has its own English-annotated GIF: a mechanism diagram, a moving data cursor, explicit units and a recorded representative case. DC sweeps, physical-time transients and statistical displays are clearly distinguished. The viewer and workbook retain English-first, Chinese-second explanations.
 
-2026-11-03 · 面向大学生教学与工程探索的模拟芯片及40～150V最高输入DC/DC仿真库。英文在前、中文在下；动画仅用英文标注。
+2026-11-03。20项模型视图现在各配一份英文标注GIF，含机理图、移动数据光标、明确单位及已记录的代表工况。直流扫描、物理时间瞬态与统计展示分别标注；演示页及Excel保持英文在前、中文对照。
 
-V3.2 adds nine mechanism benches and 153 cases to the V3.1.0 baseline: 20 model views and 211 cases in total. All 61 implementation checks pass (36 baseline + 25 new). These are authored reduced models with public references, not foundry PDK models, measured device fits, paper-circuit reproductions or validated 150 V designs.
+**Accuracy result:** 12 stated numerical benchmarks demonstrate at least 10% relative error reduction. 7 benchmarks are at a numerical/analytic floor and carry no percentage claim; 1 statistical model reports sampling uncertainty separately. We cannot verify a 10% improvement in every device's physical accuracy without measured or authorized PDK reference data. The detailed before/after errors and limitations are published, including unchanged and diagnostic-only cases.
 
-V3.2在V3.1.0基础上增加9项机理测试台、153个工况，合计20项模型视图、211个工况。61项实现检查全部通过（基线36项加新增25项）。这些是有公开依据的人为简化模型，不是晶圆厂PDK、器件实测拟合、论文电路复现或经验证的150V设计。
+**准确性结果：**12项注明的数值基准证明误差相对下降至少10%；7项已到数值/解析精度下限，不赋予提升比例；1项统计模型单独报告采样不确定度。缺少实测或授权PDK参考，无法证明所有器件的物理准确率都提升10%。逐项公开前后误差与限制，包含未变化项和仅诊断测试项。
 
-## Start with the energy-flow lesson
+All 211 cases were regenerated. 96 recorded checks pass, including preserved-model regression and new numerical-improvement tests. Model count is unchanged: six device/parameter extensions and fourteen circuit/system benches. No new foundry-qualified device is claimed.
 
-## 从能量流动开始学习
+211个工况已重新计算。96项记录检查通过，包含旧模型回归及新增数值改进检查。模型数量不变：6项器件/参数增强、14项电路/系统测试台；不声称新增晶圆厂认证器件。
 
-![English-only buck energy-flow lesson](v32/education/buck_energy_flow.gif)
+## Open the demonstrations
 
-The animation shows high-side conduction, diode conduction during dead time, low-side conduction and the duty change from 40 V to 150 V. It uses a computed piecewise CCM trace at 100 V input, 12 V output, 1 A load and 250 kHz. Phase durations are stretched for teaching; arrow speed is not a physical scale. Output voltage is fixed in this lesson; capacitor ripple is not solved.
+## 查看演示
 
-动画展示高侧导通、死区二极管续流、低侧导通，以及40V至150V输入时的占空比变化。依据100V输入、12V输出、1A负载、250kHz下计算的分段连续导通电流。为教学拉伸各阶段时长，箭头速度不表示物理比例；本教学轨迹固定输出电压，未求解输出电容纹波。
+- [Bilingual Excel](Mixed_Signal_Simulation_V3_3_EN_ZH.xlsx) — 双语工作簿，含逐模型GIF链接及误差算式
+- [Offline viewer](index.html) — 离线全模型动画库、曲线、数值与概念3D
+- [Complete delivery ZIP](mixed-signal-simulation_V3_3_20261103.zip) — 完整交付包
+- [Numerical accuracy and limits](v33/ACCURACY_AND_LIMITS.md) — 数值准确性及边界
+- [Model cards](v33/MODEL_CARDS.md) — 模型方程、假设与未覆盖项
+- [Animation guide](v33/education/README.md) — 动画说明
+- [Undergraduate buck lesson](v32/education/UNDERGRADUATE_TUTORIAL.md) — 大学生Buck课程及练习
 
-- [Bilingual Excel workbook](Mixed_Signal_Simulation_V3_2_EN_ZH.xlsx) — 英中对照工作簿
-- [Offline viewer](index.html) — 离线曲线、概念3D、数据导出及课堂动画
-- [Delivery ZIP](mixed-signal-simulation_V3_2_20261103.zip) — 本版完整交付包
-- [Undergraduate lesson and exercises](v32/education/UNDERGRADUATE_TUTORIAL.md) — 大学生课程、练习与答案
-- [Model equations and assumptions](v32/MODEL_CARDS.md) — 模型方程与假设
-- [New references and remaining gaps](v32/SOURCES_AND_GAPS.md) — 新核对来源与尚未完成项
-- [Validation and limitations](v32/VALIDATION_AND_LIMITS.md) — 数值校核与适用边界
+Extract the package and open index.html locally in Edge/Chrome; GitHub does not execute HTML previews. Select **20 model GIFs**, then **Open full teaching view**. In the simulation view, the GIF is tied to its labeled representative case; the case selector and sampled-value controls operate the separate numerical plot. Conceptual 3D is available in an expandable section.
 
-Extract the ZIP and open index.html in Edge or Chrome. GitHub previews do not run HTML. The viewer embeds curve data; the Classroom tab also needs the included v32/education assets. Excel contains static poster/model images and native charts; the separate GIF animates.
+解压后用Edge/Chrome本地打开index.html；GitHub预览不执行HTML。选择“全模型动画”，再打开完整教学视图。仿真页的GIF绑定其标注的代表工况；工况选择和采样控件操作独立数值曲线。概念3D位于可展开区域。
 
-解压ZIP后用Edge或Chrome打开index.html；GitHub预览不执行HTML。曲线数据已内嵌，课堂页还需要包内v32/education资源。Excel提供静态海报/模型图及原生图表；动态演示使用独立GIF。
+![MOS teaching demonstration](v33/education/gifs/A01.gif)
 
-## Added DC/DC coverage
+| ID | Model / 模型 | Animation / 动画 | Display / 展示类型 |
+|---|---|---|---|
+| A01 | Four-terminal MOS interpolation<br>四端MOS连续插值 | [GIF](v33/education/gifs/A01.gif) | DC SWEEP |
+| A02 | Junction charge and varactor<br>结电荷与变容二极管 | [GIF](v33/education/gifs/A02.gif) | DC SWEEP |
+| A03 | Reciprocal NPN Ebers–Moll<br>满足互易关系的NPN Ebers–Moll | [GIF](v33/education/gifs/A03.gif) | DC SWEEP |
+| A04 | MOS pair mismatch and correlation<br>MOS配对失配与相关性 | [GIF](v33/education/gifs/A04.gif) | STATISTICAL SAMPLES |
+| B01 | MOS differential pair<br>MOS差分对 | [GIF](v33/education/gifs/B01.gif) | DC SWEEP |
+| B02 | CTAT/PTAT reference sum<br>CTAT/PTAT基准合成 | [GIF](v33/education/gifs/B02.gif) | TEMPERATURE SWEEP |
+| B03 | Input noise and sampled kT/C<br>输入噪声与采样kT/C | [GIF](v33/education/gifs/B03.gif) | FREQUENCY SWEEP |
+| B04 | Capacitor DAC and SAR ADC<br>电容DAC与SAR ADC | [GIF](v33/education/gifs/B04.gif) | SAMPLED SIGNAL |
+| B05 | LDO loop and load step<br>LDO环路与负载阶跃 | [GIF](v33/education/gifs/B05.gif) | TIME TRANSIENT |
+| B06 | Phase loop and noise transfer<br>相位环路与噪声传递 | [GIF](v33/education/gifs/B06.gif) | TIME TRANSIENT |
+| B07 | 40–150 V synchronous buck<br>40–150V同步降压 | [GIF](v33/education/gifs/B07.gif) | SWITCHED TRANSIENT |
+| P01 | HV MOS gate charge and switching overlap<br>高压MOS栅电荷与开关交叠 | [GIF](v33/education/gifs/P01.gif) | STAGED TRANSIENT |
+| P02 | Dead-time diode and reverse recovery<br>死区二极管与反向恢复 | [GIF](v33/education/gifs/P02.gif) | PIECEWISE TRANSIENT |
+| P03 | Floating bootstrap supply and UVLO margin<br>浮地自举供电与欠压裕量 | [GIF](v33/education/gifs/P03.gif) | TIME TRANSIENT |
+| P04 | Level-shifter common-mode disturbance<br>电平移位接收端共模扰动 | [GIF](v33/education/gifs/P04.gif) | TIME TRANSIENT |
+| P05 | Current-sense amplifier and delayed comparator<br>电流检测放大器与延迟比较器 | [GIF](v33/education/gifs/P05.gif) | TIME TRANSIENT |
+| P06 | HV startup supply and hysteretic UVLO<br>高压启动供电与迟滞欠压锁定 | [GIF](v33/education/gifs/P06.gif) | TIME TRANSIENT |
+| P07 | Switch-node parasitic ringing and damping<br>开关节点寄生振铃与阻尼 | [GIF](v33/education/gifs/P07.gif) | TIME TRANSIENT |
+| P08 | DC/DC separated losses and thermal budget<br>DC/DC分项损耗与热预算 | [GIF](v33/education/gifs/P08.gif) | THERMAL TRANSIENT |
+| P09 | Averaged buck soft-start and current-reference limit<br>平均Buck软启动与电流参考限幅 | [GIF](v33/education/gifs/P09.gif) | AVERAGED TRANSIENT |
 
-## 新增DC/DC覆盖
+## What changed numerically
 
-| ID | Mechanism / 机理 | Cases / 工况 |
-|---|---|---:|
-| P01 | HV MOS gate charge and switching overlap<br>高压MOS栅电荷与开关交叠 | 18 |
-| P02 | Dead-time diode and reverse recovery<br>死区二极管与反向恢复 | 18 |
-| P03 | Floating bootstrap supply and UVLO margin<br>浮地自举供电与欠压裕量 | 36 |
-| P04 | Level-shifter common-mode disturbance<br>电平移位接收端共模扰动 | 12 |
-| P05 | Current-sense amplifier and delayed comparator<br>电流检测放大器与延迟比较器 | 3 |
-| P06 | HV startup supply and hysteretic UVLO<br>高压启动供电与迟滞欠压锁定 | 18 |
-| P07 | Switch-node parasitic ringing and damping<br>开关节点寄生振铃与阻尼 | 12 |
-| P08 | DC/DC separated losses and thermal budget<br>DC/DC分项损耗与热预算 | 18 |
-| P09 | Averaged buck soft-start and current-reference limit<br>平均Buck软启动与电流参考限幅 | 18 |
+## 数值实现改进
 
-P01–P02 are device-mechanism extensions; P03–P09 are circuit or system benches. They improve earlier simplified coverage and are not nine newly qualified process devices. Cases span 40, 60, 80, 100, 120 and 150 V input; temperature sweeps use −40, 25 and 125°C where applicable. P05 is a low-voltage sensing bench, not a 150 V common-mode input. No completeness percentage is claimed.
+Analytic derivatives replace finite differences where available; cancellation-safe junction charge improves near-zero evaluation; exact linear state propagation replaces selected time stepping; PSD and switching-energy integrals use analytic or higher-order evaluation; event insertion resolves comparator/UVLO transitions; averaged-buck integration treats the reference ramp at intermediate stages. The original physical coefficients and simplified mechanisms remain the comparison basis.
 
-P01–P02为器件机理增强，P03–P09为电路或系统测试台；完善早期简化覆盖，不等于新增9种已认证工艺器件。输入工况含40、60、80、100、120、150V；适用模型采用−40、25、125°C温度扫描。P05为低压检测台，不具备150V共模输入资格。不宣称库完整度百分比。
+在可用处以解析导数替代差分；稳定结电荷表达式改进近零计算；部分线性状态采用精确传播；PSD与开关能量采用解析或高阶积分；比较器/欠压锁定插入精确事件点；平均Buck积分在中间阶段计算参考斜坡。原物理系数与简化机理仍为前后比较基础。
 
-## Evidence and boundaries
+Some original errors were already tiny: a large relative reduction may change only far-below-measurement digits. A02's percentage concerns a stated near-zero numerical stress test, not the entire original CV sweep. A04 increases draws from 20,000 to 80,000, halving the asymptotic sampling standard error; this particular realized sigma estimate is farther from the analytic value, so it is not counted as a numerical-accuracy success.
 
-## 依据与边界
+部分旧误差本来已极小，因此较大的下降比例可能只改变远低于测量分辨率的末位数字。A02的比例针对明确列出的近零数值压力测试，并非整个原CV扫描。A04样本从20,000增至80,000，使渐近抽样标准误减半；本次实现的标准差估计反而离解析值更远，因此不计为数值准确度达标项。
 
-This release checks four additional papers (three journal papers and one conference paper) and eight manufacturer documents. Two papers received targeted body-page reading and two abstract-level reading; [the source ledger](v32/research/sources.csv) records authors, DOI, access depth, equation locations and limitations. Coefficients are authored assumptions, not values extracted from those papers.
+## Reproduce
 
-本轮新增核对4篇论文（3篇期刊、1篇会议）与8份厂商文档；其中2篇定向阅读正文、2篇阅读至摘要。[来源台账](v32/research/sources.csv)记录作者、DOI、阅读层级、方程位置与限制。数值系数为人为假设，并非从论文提取。
-
-The [200-person analog research cohort](v3/research/people200.csv) and [182-paper bibliography](v3/research/papers.csv) retain their 2026-11-02 V3.1 audit. They are not a global ranking or a claim of reading every author's papers. The prior 154 circuit/architecture, 14 method/model and 14 component/parasitic classifications remain unchanged. The four new papers supplement this evidence rather than expanding the author cohort.
-
-[200人模拟研究名单](v3/research/people200.csv)与[182篇题录](v3/research/papers.csv)保留2026-11-02的V3.1审计；不是全球排名，也不表示通读每位作者的论文。原154篇电路/架构、14篇方法/模型、14篇元件/寄生分类不变。本轮4篇论文补充依据，不扩充人员名单。
-
-The [foundry context](v3/FOUNDRY_CONTEXT.md) retains its 2026-11-01 public-source date. Exact Hua Hong, UNT/SMEC, DB HiTek, TSMC, UMC, SK hynix and historical Magnachip process options still require foundry confirmation. Maximum converter input is not device breakdown, working voltage or SOA. INA381 (26 V) and LM5116 (up to 100 V) are architecture references only; they do not validate a 150 V implementation.
-
-[晶圆厂背景](v3/FOUNDRY_CONTEXT.md)保留2026-11-01公开来源核对日期。华虹、芯联集成、东部、台积电、联电、海力士及美格纳历史工艺的准确选件仍须厂商确认。转换器最高输入不等于器件击穿、工作电压或安全工作区。INA381（26V）及LM5116（最高100V）仅作架构参考，不证明150V实现可用。
-
-## Reproduce the numerical work
-
-## 复现数值计算
+## 复现
 
 ```bash
-python -m pip install -r v32/requirements.txt
-python v32/models/run_simulations.py
-python v32/tests/run_validation.py
-python v32/validation/run_baseline_checks.py
-python v32/presentation/build_views.py
-python v32/education/render_buck_animation.py
+python -m pip install -r v33/requirements.txt
+python v33/numerics/analog/run.py
+python v33/numerics/analog/validate.py
+python v33/numerics/dcdc/run.py
+python v33/validation/run_legacy_checks.py
+python v33/education/render_all.py
+python v33/presentation/build_views.py
 ```
 
-Recorded environment: Python 3.12.14 and NumPy 2.3.5. GIF rendering also uses Pillow; font availability can change rendered pixels. These commands regenerate numerical data, the viewer and teaching images, not the Excel export snapshot. [Validation records](v32/results/validation.json) and [checksums](v32/validation/release_manifest.json) are included. V3.1 data remain preserved; V1/V2 stay in the full Git repository and are not re-audited in this release.
+The numerical runners export data and comparison audits without modifying V3.1/V3.2 inputs. The separate analog `validate.py` command executes and records its tests; the DC/DC runner executes its own validation. GIF hashes record the exact improved data used; rendering fonts may differ across systems. These commands regenerate calculations/animations/viewer, not the Excel snapshot. [Source checksums](v33/validation/release_manifest.json), [browser QA](v33/validation/viewer_validation.json) and [workbook QA](v33/validation/workbook_validation.json) are included.
 
-记录环境：Python 3.12.14、NumPy 2.3.5；GIF生成还使用Pillow，字体环境会影响像素。上述命令生成数值数据、演示页与教学图像，不重新导出Excel快照。包含[校核记录](v32/results/validation.json)及[文件校验值](v32/validation/release_manifest.json)。保留V3.1数据；V1/V2保留在完整Git仓库，本轮未重新审计。
+数值脚本导出数据与误差审计，不修改V3.1/V3.2输入。模拟系列通过独立的`validate.py`命令执行并记录测试；DC/DC脚本自行执行验证。GIF记录所用改进数据的精确哈希，跨系统字体可能不同。上述命令重建计算、动画与演示页，不重新导出Excel快照。包含[来源校验值](v33/validation/release_manifest.json)、[浏览器检查](v33/validation/viewer_validation.json)及[工作簿检查](v33/validation/workbook_validation.json)。
 
-Third-party papers are linked rather than redistributed. The teaching style aims for clear university-level explanation; no academician, author, foundry or peer-review endorsement is implied.
+The TOP200/182-paper cohort retains its V3.1 audit; the four additional papers and eight manufacturer documents retain their V3.2 reading-depth records. No new full-text literature or foundry-availability audit is claimed. The 40–150 V values mean maximum DC/DC input, not device ratings. Physical accuracy, PDK sign-off, breakdown/SOA, extracted layout and calibrated electrothermal behavior remain unverified.
 
-第三方论文仅提供链接，不分发全文。以清晰的大学课堂讲解为目标，不暗示院士、作者、晶圆厂背书或已通过同行评审。
+TOP200/182篇名单保留V3.1审计；新增4篇论文与8份厂商文档保留V3.2阅读深度记录。不宣称本轮重新全文审查文献或核对工艺供货。40～150V指DC/DC最高输入，不是器件额定；物理准确性、PDK签核、击穿/SOA、提取版图及校准电热行为仍未验证。

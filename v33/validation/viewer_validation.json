@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-03",
+  "model_views": 20,
+  "cases_checked": 211,
+  "plots_checked": 725,
+  "people_displayed": 200,
+  "papers_verified": 182,
+  "scope_evidence_cards": 200,
+  "search_verified": true,
+  "classroom_gif_loaded": true,
+  "model_gifs_loaded": 20,
+  "accuracy_rows": 20,
+  "gallery_navigation": true,
+  "play_sample": 20,
+  "csv_download": true,
+  "obj_download": true,
+  "page_errors": [],
+  "mobile_overflow": false
+}

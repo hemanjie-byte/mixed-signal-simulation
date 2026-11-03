@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-03",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "tests_run": 18,
+  "passed": true,
+  "tests": [
+    {
+      "test": "test_numerics.ArtifactAndAudit.test_all_exported_values_finite_and_port_power_consistent",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.ArtifactAndAudit.test_audit_statuses_and_claim_boundaries",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.ArtifactAndAudit.test_case_identity_schema_and_saved_density",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.ArtifactAndAudit.test_closed_form_floor_models_are_unchanged_within_roundoff",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.ArtifactAndAudit.test_historical_inputs_unchanged_since_generation",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.CircuitNumerics.test_buck_energy_against_independent_eigen_simpson_reference",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.CircuitNumerics.test_buck_integrated_metrics_independent_of_display_density",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.CircuitNumerics.test_buck_periodicity_and_average_balance_all_cases",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.CircuitNumerics.test_ldo_crossing_and_affine_state_initial_condition",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.CircuitNumerics.test_matrix_exponential_against_decimal_taylor",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.CircuitNumerics.test_noise_integrals_against_decimal_antiderivatives",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.CircuitNumerics.test_pll_phase_against_independent_decimal_exponential",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.CircuitNumerics.test_pll_quadrature_refinement_and_positive_variance",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.DeviceNumerics.test_analytic_mos_derivatives_against_decimal_difference",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.DeviceNumerics.test_charge_capacitance_identity_and_validity_domain",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.DeviceNumerics.test_mos_reference_shift_invariance_of_derivatives",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.DeviceNumerics.test_near_zero_charge_against_high_precision",
+      "status": "PASS"
+    },
+    {
+      "test": "test_numerics.DeviceNumerics.test_sampling_size_and_gaussian_sigma_are_separate",
+      "status": "PASS"
+    }
+  ],
+  "elapsed_s": 1.694,
+  "scope_en": "Numerical evaluation of unchanged reduced equations, independent references, conserved quantities and export compatibility; no physical-model or silicon accuracy certification.",
+  "scope_zh": "既有简化方程的数值计算、独立参考、守恒量与导出兼容性；不认证物理模型或硅片精度。"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-03",
+  "workbook": "Mixed_Signal_Simulation_V3_3_EN_ZH.xlsx",
+  "sheets": 36,
+  "charts": 24,
+  "images": 21,
+  "people": 200,
+  "papers": 182,
+  "representative_cases": 20,
+  "power_formulas_checked": 5620,
+  "max_power_error_W": 0,
+  "formula_errors": [],
+  "raw_data_matches": true,
+  "model_gif_links": 20,
+  "accuracy_rows": 20,
+  "formula_recalculation": {
+    "voltage_assumption_recalculated": true,
+    "terminal_power_recalculated": true,
+    "loss_ledger_recalculated": true,
+    "error_reduction_recalculated": true,
+    "temporary_edits_restored": true,
+    "engine": "artifact-tool",
+    "native_Excel_engine_tested": false
+  },
+  "sha256": "1796800f06747843942923f00560a6052edbd9c7f88bcf686223bd6e967bfc62",
+  "engine_note": "Exported workbook inspected with openpyxl read-only analysis; cell authoring and recalculation used artifact-tool. Forty native OOXML hyperlink relationships were added after export because HYPERLINK evaluation is unavailable in that engine. Native Microsoft Excel engine was not tested."
+}
