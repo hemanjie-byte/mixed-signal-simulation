@@ -1,0 +1,374 @@
+[
+  {
+    "id": "S01",
+    "title_en": "Fundamentals of MOSFET and IGBT Gate Driver Circuits",
+    "title_zh": "MOSFET与IGBT栅极驱动电路基础",
+    "authors": [
+      "Laszlo Balogh"
+    ],
+    "year": 2018,
+    "venue": "Texas Instruments, SLUA618A; March 2017, revised October 2018",
+    "kind": "manufacturer_application_note",
+    "url": "https://www.ti.com/lit/ml/slua618a/slua618a.pdf",
+    "doi": "",
+    "read_level_en": "Targeted PDF body: switching intervals, gate loss and bootstrap sizing.",
+    "read_level_zh": "定向阅读PDF正文：开关区间、栅极损耗与自举电容选取。",
+    "equation_locator": "Sections 2.5–2.7, printed pp. 10–13, Eq. (9); section 5.2.2, p. 34, Eq. (31).",
+    "use_en": "Supports gate-charge/Miller intervals and gate-drive energy bookkeeping.",
+    "use_zh": "支持栅电荷、米勒区间及驱动能量核算。",
+    "limitations_en": "P01 is a reduced charge-domain example, not the complete gate-driver circuits or a calibrated MOSFET.",
+    "limitations_zh": "P01为简化电荷域示例，未复现完整驱动电路或校准MOSFET。",
+    "model_ids": [
+      "P01",
+      "P03",
+      "P08"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "document_date": "2018-10"
+  },
+  {
+    "id": "S02",
+    "title_en": "Power Loss Calculation With Common Source Inductance Consideration for Synchronous Buck Converters",
+    "title_zh": "考虑共源电感的同步降压转换器功率损耗计算",
+    "authors": [
+      "David Jauregui",
+      "Bo Wang",
+      "Rengang Chen"
+    ],
+    "year": 2011,
+    "venue": "Texas Instruments, SLPA009A; June 2011, revised July 2011",
+    "kind": "manufacturer_application_note",
+    "url": "https://www.ti.com/lit/an/slpa009a/slpa009a.pdf",
+    "doi": "",
+    "read_level_en": "Targeted PDF body: diode losses, output capacitance and CCM assumptions.",
+    "read_level_zh": "定向阅读PDF正文：二极管损耗、输出电容和CCM假设。",
+    "equation_locator": "Section 3.3, p. 7, Eqs. (32)–(33); section 3.4, p. 8, Eqs. (34)–(35); section 4, p. 8.",
+    "use_en": "Supports dead-time body-diode conduction and a VIN×Qrr commutation-energy estimate.",
+    "use_zh": "支持死区体二极管导通与VIN×Qrr换流能量估算。",
+    "limitations_en": "Its 0.5×Qoss×VIN approximation is not a nonlinear-energy identity. P01 integrates Eoss; P08 independently derives matched-pair hard-turn-on energy VIN×Qoss. No common-source-inductance circuit is reproduced.",
+    "limitations_zh": "文中的0.5×Qoss×VIN近似并非非线性能量恒等式；P01积分Eoss，P08独立推导匹配双管硬开通能量VIN×Qoss；未复现共源电感电路。",
+    "model_ids": [
+      "P01",
+      "P02",
+      "P08"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "document_date": "2011-07"
+  },
+  {
+    "id": "S03",
+    "title_en": "Bootstrap Circuitry Selection for Half-Bridge Configurations",
+    "title_zh": "半桥结构的自举电路选型",
+    "authors": [
+      "Mamadou Diallo"
+    ],
+    "year": 2023,
+    "venue": "Texas Instruments, SLUA887A; August 2018, revised September 2023",
+    "kind": "manufacturer_application_note",
+    "url": "https://www.ti.com/lit/an/slua887a/slua887a.pdf",
+    "doi": "",
+    "read_level_en": "Targeted PDF body: operating paths and capacitor/diode selection.",
+    "read_level_zh": "定向阅读PDF正文：工作电流路径与电容、二极管选取。",
+    "equation_locator": "Section 2, p. 2, Figs. 2-1/2-2; section 3.1, p. 3, Eq. (3); section 3.3, pp. 4–5.",
+    "use_en": "Relates stored bootstrap charge, leakage, high-side on-time and UVLO headroom.",
+    "use_zh": "关联自举储存电荷、漏电、高侧导通时间与欠压锁定余量。",
+    "limitations_en": "P03 uses an assumed RC recharge path. It does not reproduce UCC27710, bootstrap-diode recovery or layout ringing.",
+    "limitations_zh": "P03采用假设RC充电路径，未复现UCC27710、自举二极管反向恢复或布局振铃。",
+    "model_ids": [
+      "P03"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "document_date": "2023-09"
+  },
+  {
+    "id": "S04",
+    "title_en": "A Level Shifter With Almost Full Immunity to Positive dv/dt for Buck Converters",
+    "title_zh": "用于降压转换器、几乎完全抑制正向dv/dt干扰的电平移位器",
+    "authors": [
+      "Yunzhe Yang",
+      "Mo Huang",
+      "Sijun Du",
+      "Rui P. Martins",
+      "Yan Lu"
+    ],
+    "year": 2023,
+    "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers 70(11), 4595–4604",
+    "kind": "peer_reviewed_journal",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10236598",
+    "doi": "10.1109/TCSI.2023.3307869",
+    "read_level_en": "Publisher abstract; TU Delft author/title record; Crossref metadata. Full body not retrieved.",
+    "read_level_zh": "出版商摘要、代尔夫特理工大学作者题录及Crossref元数据；未获取全文正文。",
+    "equation_locator": "Abstract only; no equation-level reproduction claimed.",
+    "use_en": "Analog-IC evidence that dv/dt-induced noise current can upset high-side level shifting.",
+    "use_zh": "提供模拟集成电路依据：dv/dt噪声电流可能扰乱高侧电平移位。",
+    "limitations_en": "The reported circuit is a 20-V buck in 180-nm BCD. P04 is only an RC disturbance surrogate, not the paper's cancellation scheme or a 150-V rating.",
+    "limitations_zh": "原文为180nm BCD的20V降压芯片。P04仅为RC干扰替代模型，不复现抑制方案，也不证明150V耐压。",
+    "model_ids": [
+      "P04"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "published_online": "2023-08-31",
+    "published_issue": "2023-11",
+    "metadata_url": "https://api.crossref.org/works/10.1109/TCSI.2023.3307869",
+    "author_repository_url": "https://repository.tudelft.nl/record/uuid%3Ad3912f8c-8e44-4c97-ace2-6974b8c570bb"
+  },
+  {
+    "id": "S05",
+    "title_en": "INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator",
+    "title_zh": "INA381：26V高速电流检测放大器及集成比较器",
+    "authors": [
+      "Texas Instruments"
+    ],
+    "year": 2019,
+    "venue": "Texas Instruments, SBOS848B; December 2017, revised October 2019",
+    "kind": "manufacturer_datasheet",
+    "url": "https://www.ti.com/lit/ds/symlink/ina381.pdf",
+    "doi": "",
+    "read_level_en": "Targeted PDF body: timing specifications, low-side sensing and comparator hysteresis.",
+    "read_level_zh": "定向阅读PDF正文：时序指标、低侧检测与比较器迟滞。",
+    "equation_locator": "Section 6.5, p. 5; section 7.3, pp. 14–16; section 8.2.2, pp. 27–29.",
+    "use_en": "Separates amplifier bandwidth, comparator-only delay and complete alert delay.",
+    "use_zh": "区分放大器带宽、比较器本体延迟及完整告警链延迟。",
+    "limitations_en": "26-V common-mode capability does not permit direct 150-V high-side sensing. P05 uses an assumed low-side signal chain and is not an INA381 model.",
+    "limitations_zh": "26V共模能力不支持直接150V高侧检测；P05是假设低侧信号链，并非INA381模型。",
+    "model_ids": [
+      "P05"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "document_date": "2019-10"
+  },
+  {
+    "id": "S06",
+    "title_en": "LM5116 Wide Range Synchronous Buck Controller",
+    "title_zh": "LM5116宽输入范围同步降压控制器",
+    "authors": [
+      "Texas Instruments"
+    ],
+    "year": 2023,
+    "venue": "Texas Instruments, SNVS499I; February 2007, revised November 2023",
+    "kind": "manufacturer_datasheet",
+    "url": "https://www.ti.com/lit/ds/symlink/lm5116.pdf",
+    "doi": "",
+    "read_level_en": "Targeted PDF body: startup regulator, UVLO, current limiting and soft start.",
+    "read_level_zh": "定向阅读PDF正文：启动稳压器、欠压锁定、电流限制与软启动。",
+    "equation_locator": "Startup regulator, p. 14; section 6.3.3, p. 15; section 6.4.1, p. 19; section 7.2.2.10, p. 26, Eqs. (22)–(23).",
+    "use_en": "Provides analog-controller architecture context for bias startup, UVLO hysteresis and soft start.",
+    "use_zh": "提供偏置启动、欠压锁定迟滞与软启动的模拟控制器结构依据。",
+    "limitations_en": "LM5116 operates up to 100 V, not 150 V. P06/P09 do not reproduce its internal emulated ramp, hiccup logic or transistor circuits.",
+    "limitations_zh": "LM5116工作输入上限为100V，并非150V。P06/P09不复现其内部仿真斜坡、打嗝逻辑或晶体管电路。",
+    "model_ids": [
+      "P06",
+      "P09"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "document_date": "2023-11"
+  },
+  {
+    "id": "S07",
+    "title_en": "Ringing Reduction Techniques for NexFET High Performance MOSFETs",
+    "title_zh": "NexFET高性能MOSFET的振铃抑制方法",
+    "authors": [
+      "Texas Instruments"
+    ],
+    "year": 2011,
+    "venue": "Texas Instruments, SLPA010, November 2011",
+    "kind": "manufacturer_application_note",
+    "url": "https://www.ti.com/lit/an/slpa010/slpa010.pdf",
+    "doi": "",
+    "read_level_en": "Targeted PDF body: edge-rate tradeoff and switch-node RC snubber.",
+    "read_level_zh": "定向阅读PDF正文：边沿速度权衡与开关节点RC吸收电路。",
+    "equation_locator": "Optimized Boot Resistance, p. 9; Optimized Switch-Node Snubber, pp. 11–13, Fig. 17.",
+    "use_en": "Supports parasitic-L/C ringing and the damping-versus-dissipation tradeoff.",
+    "use_zh": "支持寄生电感、电容振铃及阻尼与损耗之间的权衡。",
+    "limitations_en": "The source approximates a parallel RLC. P07 is a series-RLC surrogate: its critical resistance is 2√(L/C), not the source's 0.5√(L/C). It is not a PCB snubber-design validation.",
+    "limitations_zh": "来源近似为并联RLC；P07为串联RLC替代模型，临界电阻应为2√(L/C)，不是原文的0.5√(L/C)。不构成PCB吸收电路设计验证。",
+    "model_ids": [
+      "P07"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "document_date": "2011-11"
+  },
+  {
+    "id": "S08",
+    "title_en": "Use Thermal Analysis to Predict an IC's Transient Behavior and Avoid Overheating",
+    "title_zh": "运用热分析预测集成电路瞬态行为并避免过热",
+    "authors": [
+      "Analog Devices / Maxim Integrated (corporate publication; no individual byline displayed)"
+    ],
+    "year": 2010,
+    "venue": "Analog Devices / Maxim Integrated technical article, 25 February 2010",
+    "kind": "manufacturer_technical_article",
+    "url": "https://www.analog.com/en/resources/technical-articles/use-thermal-analysis-to-predict-an-ics-transient-behavior-and-avoid-overheating.html",
+    "doi": "",
+    "read_level_en": "Targeted HTML body: heat-flow laws, RC analogy and measurement-based fitting.",
+    "read_level_zh": "定向阅读网页正文：热流定律、RC类比与测量拟合要求。",
+    "equation_locator": "Laws of Thermal Dynamics; RC Network Models Thermal-Transient Differential Equations; Fig. 4 and discussion after Eq. (25).",
+    "use_en": "Supports the heat-capacity/resistance analogy and requirement for transient thermal characterization.",
+    "use_zh": "支持热容、热阻电路类比，以及瞬态热特性实测要求。",
+    "limitations_en": "P08 reduces heat flow to one assumed node; it does not reproduce the article's fitted three-body network, hotspots or board-dependent package behavior.",
+    "limitations_zh": "P08将热流简化为单个假设节点；不复现原文拟合的三体网络、热点或与PCB有关的封装热行为。",
+    "model_ids": [
+      "P08"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "document_date": "2010-02-25"
+  },
+  {
+    "id": "S09",
+    "title_en": "Modelling and analysis of switching DC-to-DC converters in constant-frequency current-programmed mode",
+    "title_zh": "恒频电流编程模式开关DC/DC转换器的建模与分析",
+    "authors": [
+      "Shi-Ping Hsu",
+      "Art Brown",
+      "Loman Rensink",
+      "R. D. Middlebrook"
+    ],
+    "year": 1979,
+    "venue": "1979 IEEE Power Electronics Specialists Conference, pp. 284–301; San Diego, 18–22 June 1979",
+    "kind": "peer_reviewed_conference",
+    "url": "https://authors.library.caltech.edu/records/ac87w-mn171",
+    "doi": "10.1109/PESC.1979.7081037",
+    "read_level_en": "Repository abstract; PDF pp. 284–285 (introduction and start of section 2); Crossref metadata.",
+    "read_level_zh": "机构库摘要、PDF第284–285页（引言及第2节开头）与Crossref元数据。",
+    "equation_locator": "Printed pp. 284–285, Fig. 1, section 2 and Eqs. (1)–(4).",
+    "use_en": "Supports current-programmed control, command-current limiting and the distinction between averaged and cycle-to-cycle dynamics.",
+    "use_zh": "支持电流编程控制、指令电流限制，以及平均动态与逐周期动态的区别。",
+    "limitations_en": "P09 is a simplified averaged teaching plant. It omits sampled-cycle dynamics, slope compensation and subharmonic instability; it does not reproduce this paper's full model.",
+    "limitations_zh": "P09为简化平均教学对象；未建模采样周期动态、斜坡补偿及次谐波失稳，未复现论文完整模型。",
+    "model_ids": [
+      "P09"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "published_issue": "1979-06",
+    "metadata_url": "https://api.crossref.org/works/10.1109/PESC.1979.7081037"
+  },
+  {
+    "id": "S10",
+    "title_en": "A 400-V Half Bridge Gate Driver for Normally-Off GaN HEMTs With Effective Dv/Dt Control and High Dv/Dt Immunity",
+    "title_zh": "适用于常关型GaN HEMT、具有有效dv/dt控制与高抗扰度的400V半桥栅极驱动器",
+    "authors": [
+      "Siyuan Yu",
+      "Qi Zhou",
+      "Gang Shi",
+      "Tianyang Wu",
+      "Jing Zhu",
+      "Long Zhang",
+      "Weifeng Sun",
+      "Sen Zhang",
+      "Nailong He",
+      "Ye Li"
+    ],
+    "year": 2023,
+    "venue": "IEEE Transactions on Industrial Electronics 70(1), 741–751",
+    "kind": "peer_reviewed_journal",
+    "url": "https://ieeexplore.ieee.org/document/9724123/",
+    "doi": "10.1109/TIE.2022.3153808",
+    "read_level_en": "Publisher-indexed abstract and Crossref bibliographic metadata; full text not accessed.",
+    "read_level_zh": "出版商索引摘要与Crossref题录元数据；未访问全文。",
+    "equation_locator": "Abstract only; no equation-level reproduction claimed.",
+    "use_en": "Analog-IC evidence for active gate-drive strength control and level-shifter common-mode-current compensation.",
+    "use_zh": "为有源栅极驱动强度控制、电平移位器共模电流补偿提供模拟集成电路依据。",
+    "limitations_en": "P01/P04 reproduce neither proposed circuit nor measured performance. The paper's 400-V SOI BCD driver does not qualify any named foundry process in this repository.",
+    "limitations_zh": "P01/P04均未复现该电路或实测性能；论文400V SOI BCD驱动器不能证明本库所列晶圆厂工艺具备相同能力。",
+    "model_ids": [
+      "P01",
+      "P04"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "published_online": "2022-03-01",
+    "published_issue": "2023-01",
+    "metadata_url": "https://api.crossref.org/works/10.1109/TIE.2022.3153808"
+  },
+  {
+    "id": "S11",
+    "title_en": "An integrated high-voltage self-powered buck converter with reduced heat generation",
+    "title_zh": "降低发热的集成高压自供电降压转换器",
+    "authors": [
+      "Bin Wang",
+      "Zhiqiang Li",
+      "Xin Liu"
+    ],
+    "year": 2026,
+    "venue": "IEICE Electronics Express 23(9), article 20250401, pp. 1–6",
+    "kind": "peer_reviewed_journal",
+    "url": "https://www.jstage.jst.go.jp/article/elex/23/9/23_22.20250401/_article",
+    "doi": "10.1587/elex.22.20250401",
+    "read_level_en": "Publisher abstract and PDF pp. 1–3 (sections 1–2.3); Crossref metadata.",
+    "read_level_zh": "出版商摘要与PDF第1–3页（第1至2.3节）；Crossref元数据。",
+    "equation_locator": "Section 1, p. 1, Eq. (1); sections 2.2–2.3, pp. 2–3, Figs. 5–7 and Eqs. (4)–(7).",
+    "use_en": "Supports HV JFET bias-supply loss (VIN−VDD)×I and voltage-divider/comparator supply supervision.",
+    "use_zh": "支持高压JFET偏置供电损耗(VIN−VDD)×I，以及分压器、比较器电源监测。",
+    "limitations_en": "This is an AC-DC constant-current buck IC. P06 does not implement its rectified-line valley-supply method or complete 700-V JFET circuit.",
+    "limitations_zh": "原文为AC/DC恒流降压芯片；P06不实现其整流输入谷底供电方法，也不复现完整700V JFET电路。",
+    "model_ids": [
+      "P06"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "published_online": "2025-08-19",
+    "published_issue": "2026-05-10",
+    "metadata_url": "https://api.crossref.org/works/10.1587/elex.22.20250401"
+  },
+  {
+    "id": "S12",
+    "title_en": "AN-1308: Common-Mode Step Response of Current Sense Amplifiers",
+    "title_zh": "AN-1308：电流检测放大器的共模阶跃响应",
+    "authors": [
+      "Paul Blanchard",
+      "Anna Fe Briones"
+    ],
+    "year": 2015,
+    "venue": "Analog Devices, AN-1308 Rev. A; June 2014, revised October 2015",
+    "kind": "manufacturer_application_note",
+    "url": "https://www.analog.com/en/resources/app-notes/an-1308.html",
+    "doi": "",
+    "read_level_en": "HTML body and PDF revision record; targeted common-mode response discussion.",
+    "read_level_zh": "网页正文及PDF修订记录；定向阅读共模响应讨论。",
+    "equation_locator": "Common-Mode Step Response, PDF p. 3; measurement results, pp. 4–5, Fig. 3; revision history p. 2.",
+    "use_en": "Shows why DC CMRR alone is insufficient for switching-node current sensing.",
+    "use_zh": "说明为何仅有直流共模抑制比不足以评价开关节点电流检测。",
+    "limitations_en": "P05 is low-side and does not model high-side common-mode-step recovery, input protection or isolation.",
+    "limitations_zh": "P05为低侧模型，未模拟高侧共模阶跃恢复、输入保护或隔离。",
+    "model_ids": [
+      "P05"
+    ],
+    "retrieved_date": "2026-11-03",
+    "checked_date": "2026-11-03",
+    "parameter_provenance_en": "No numerical model coefficient extracted or fitted from this source.",
+    "parameter_provenance_zh": "未从本来源提取或拟合任何模型数值系数。",
+    "document_date": "2015-10",
+    "pdf_url": "https://www.analog.com/media/en/technical-documentation/app-notes/an-1308.pdf"
+  }
+]

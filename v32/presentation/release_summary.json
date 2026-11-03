@@ -1,0 +1,19 @@
+{
+  "release": "3.2.0",
+  "date": "2026-11-03",
+  "baseline_models": 11,
+  "baseline_cases": 58,
+  "new_models": 9,
+  "new_cases": 153,
+  "total_model_views": 20,
+  "total_cases": 211,
+  "total_plots": 725,
+  "tests_run": 61,
+  "new_tests": 25,
+  "tests_passed": true,
+  "baseline_cohort_people": 200,
+  "baseline_cohort_papers": 182,
+  "cohort_checked_date": "2026-11-02",
+  "new_source_records": 12,
+  "note": "New DC/DC sources supplement the unchanged V3.1 cohort. Models are illustrative, not paper or PDK reproductions."
+}

@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-11-03",
+  "source_count": 12,
+  "peer_reviewed_journal_count": 3,
+  "peer_reviewed_conference_count": 1,
+  "manufacturer_document_count": 8,
+  "new_research_papers_with_targeted_pdf_body_read": 2,
+  "new_research_papers_abstract_only": 2,
+  "source_reported_numeric_parameters_used_in_models": 0,
+  "baseline_people_count": 200,
+  "baseline_papers_count": 182,
+  "baseline_reaudit_en": "V3.1 cohort retained; this targeted audit does not claim a new full-text review of all 182 baseline papers.",
+  "baseline_reaudit_zh": "保留V3.1人员与论文集；此次定向核对不表示重新阅读全文182篇旧论文。",
+  "metadata_verification_en": "All four paper DOIs, author lists, venue, year and pagination checked against publisher/repository records and live Crossref metadata on the checked date.",
+  "metadata_verification_zh": "4篇论文DOI、作者名单、刊会、年份及页码均在核对日期与出版商、机构库及实时Crossref元数据核对。"
+}

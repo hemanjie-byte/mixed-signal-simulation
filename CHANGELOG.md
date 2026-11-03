@@ -1,3 +1,9 @@
+# V3.2.0 — 2026-11-03
+
+Nine DC/DC mechanism benches add 153 cases; total 20 model views/211 cases. Nonlinear gate charge, matched-pair Coss commutation, recovery, bootstrap, level shift, low-side sensing, startup/UVLO, series-RLC damping, loss/thermal accounting and average-current-limited control are explicit. 61 implementation checks pass. New evidence: four papers/eight manufacturer documents; original TOP200/182-paper V3.1 audit is preserved. Added English-only GIF, bilingual undergraduate lesson, and upgraded Excel/offline viewer. No PDK, silicon fitting or physical 3D field claim.
+
+9项DC/DC机理测试台增加153工况，合计20项模型视图/211工况。明确非线性栅电荷、双管Coss换流、恢复、自举、移位、低侧检测、启动/欠压、串联RLC阻尼、损耗/热节点及平均限流控制。61项实现检查通过。新核对4篇论文/8份厂商文档；保留TOP200/182篇的V3.1审计。新增英文GIF、双语大学生课程，升级Excel及离线演示。无PDK、实测拟合或三维物理场认证。
+
 # Changelog
 
 # 更新记录

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "P01",
+    "source_ids": [
+      "S01",
+      "S02",
+      "S10"
+    ],
+    "change_en": "Extends V2 X01's fixed-capacitance Miller example with charge-domain switching and nonlinear Qoss/Eoss bookkeeping.",
+    "change_zh": "在V2 X01固定电容米勒示例基础上，扩展电荷域开关及非线性Qoss/Eoss核算。",
+    "remaining_en": "No measured charge curves, charge-conserving terminal compact model, avalanche or SOA validation.",
+    "remaining_zh": "无实测电荷曲线、电荷守恒端口紧凑模型、雪崩或安全工作区验证。"
+  },
+  {
+    "id": "P02",
+    "source_ids": [
+      "S02"
+    ],
+    "change_en": "Adds an explicit CCM buck dead-time trace; V2 X02 already contained an imposed triangular recovery pulse.",
+    "change_zh": "增加明确的CCM降压死区波形；V2 X02已含外部指定的三角形恢复电流。",
+    "remaining_en": "Qrr is imposed, not predicted by carrier transport; diode recovery and buck trajectory are separate teaching experiments.",
+    "remaining_zh": "Qrr为指定值，不由载流子输运预测；恢复电流与降压轨迹属于分开的教学实验。"
+  },
+  {
+    "id": "P03",
+    "source_ids": [
+      "S01",
+      "S03"
+    ],
+    "change_en": "Adds finite bootstrap recharge, charge depletion and UVLO headroom.",
+    "change_zh": "增加有限自举充电、电荷消耗及欠压余量。",
+    "remaining_en": "No actual driver, leakage corners, diode recovery or full startup/100%-duty strategy.",
+    "remaining_zh": "无真实驱动器、漏电工艺角、二极管恢复或完整启动及100%占空比方案。"
+  },
+  {
+    "id": "P04",
+    "source_ids": [
+      "S04",
+      "S10"
+    ],
+    "change_en": "Adds capacitive common-mode current injection into an RC receiver node.",
+    "change_zh": "增加共模电容注入电流及RC接收节点响应。",
+    "remaining_en": "No transistor latch, differential mismatch, regeneration or cited noise-cancellation circuits.",
+    "remaining_zh": "无晶体管锁存器、差分失配、再生或文献中的噪声抵消电路。"
+  },
+  {
+    "id": "P05",
+    "source_ids": [
+      "S05",
+      "S12"
+    ],
+    "change_en": "Adds a low-side sense amplifier/filter and delayed comparator signal chain.",
+    "change_zh": "增加低侧检测放大器、滤波器与延迟比较器信号链。",
+    "remaining_en": "No high-voltage common-mode input, transistor noise, saturation recovery or actual protection timing qualification.",
+    "remaining_zh": "无高压共模输入、晶体管噪声、饱和恢复或实际保护时序认证。"
+  },
+  {
+    "id": "P06",
+    "source_ids": [
+      "S06",
+      "S11"
+    ],
+    "change_en": "Adds current-limited bias startup with source compliance and UVLO hysteresis.",
+    "change_zh": "增加带输出顺从范围的限流偏置启动及欠压迟滞。",
+    "remaining_en": "Current-source branch is a JFET functional surrogate; no physical JFET extraction, self-bias zero-state or rectified-line valley control.",
+    "remaining_zh": "恒流源支路仅为JFET功能替代，无物理JFET参数提取、自偏置零状态或整流谷底控制。"
+  },
+  {
+    "id": "P07",
+    "source_ids": [
+      "S07"
+    ],
+    "change_en": "Adds passive series-RLC damping sweeps and energy accounting.",
+    "change_zh": "增加无源串联RLC阻尼扫描及能量核算。",
+    "remaining_en": "Series surrogate is not a switch-node shunt-RC snubber; PCB parasitics and EMI require separate validation.",
+    "remaining_zh": "串联替代模型并非开关节点并接RC吸收电路；PCB寄生与EMI需单独验证。"
+  },
+  {
+    "id": "P08",
+    "source_ids": [
+      "S01",
+      "S02",
+      "S08"
+    ],
+    "change_en": "Extends V2 X03 thermal RC with separate conduction, overlap, gate, matched-pair Coss hard-turn-on and recovery loss terms.",
+    "change_zh": "在V2 X03热RC基础上，增加独立的导通、交叠、栅极、匹配双管Coss硬开通及恢复损耗项。",
+    "remaining_en": "One thermal node and an assumed loss ledger are not measured efficiency, multi-die thermal prediction or calorimetric validation.",
+    "remaining_zh": "单热节点和假设损耗表不能替代效率实测、多芯片热预测或量热验证。"
+  },
+  {
+    "id": "P09",
+    "source_ids": [
+      "S06",
+      "S09"
+    ],
+    "change_en": "Extends V3 B07's fixed-duty steady-state buck with an averaged closed-loop teaching experiment.",
+    "change_zh": "在V3 B07固定占空比稳态降压模型基础上，增加平均闭环教学实验。",
+    "remaining_en": "No sampled-data current-mode instability, switching ripple, slope compensation, DCM or coupled transistor-level protection.",
+    "remaining_zh": "无采样电流模式失稳、开关纹波、斜坡补偿、DCM或晶体管级耦合保护。"
+  }
+]

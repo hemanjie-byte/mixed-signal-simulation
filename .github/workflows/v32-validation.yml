@@ -1,0 +1,22 @@
+name: V3.2 DC-DC validation
+on:
+  push:
+    paths: ["v32/**", "v3/**", ".github/workflows/v32-validation.yml"]
+  pull_request:
+    paths: ["v32/**", "v3/**", ".github/workflows/v32-validation.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  numerical-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r v32/requirements.txt
+      - run: python v32/models/run_simulations.py
+      - run: python v32/tests/run_validation.py
+      - run: python v32/validation/run_baseline_checks.py
+      - run: python v32/presentation/build_views.py

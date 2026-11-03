@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-03",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "tests_run": 25,
+  "passed": true,
+  "elapsed_s": 19.918,
+  "tests": [
+    {
+      "test": "test_dcdc.ArtifactTests.test_bilingual_metadata_and_metric_dictionary",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ArtifactTests.test_case_counts_finiteness_and_plot_lengths",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.AuxiliaryTests.test_bootstrap_gate_charge_jump",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.AuxiliaryTests.test_bootstrap_reaches_analytical_periodic_map",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.AuxiliaryTests.test_level_shift_charge_balance",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.AuxiliaryTests.test_level_shift_limit_and_stronger_sink",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.AuxiliaryTests.test_sense_step_against_analytic_crossing",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.AuxiliaryTests.test_startup_first_enable_against_capacitor_ramp",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.AuxiliaryTests.test_startup_time_step_refinement",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.AuxiliaryTests.test_uvlo_brownout_restart_and_hysteresis",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ChargeSwitchTests.test_capacitance_is_derivative_of_charge",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ChargeSwitchTests.test_charge_and_energy_against_dense_integrals",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ChargeSwitchTests.test_deadtime_volt_seconds_and_current_periodicity",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ChargeSwitchTests.test_energy_is_not_half_qv_for_nonlinear_cap",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ChargeSwitchTests.test_gate_charge_and_endpoint_voltages",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ChargeSwitchTests.test_gate_overlap_sampling_convergence",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ChargeSwitchTests.test_recovery_charge_all_voltage_temperature_cases",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.ChargeSwitchTests.test_zero_deadtime_reduces_to_ideal_buck",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.PowerControlTests.test_averaged_control_step_refinement_and_energy",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.PowerControlTests.test_controlled_buck_all_voltage_temperature_cases",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.PowerControlTests.test_loss_budget_sum_and_no_reused_full_switch_energy",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.PowerControlTests.test_matched_half_bridge_coss_source_minus_storage",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.PowerControlTests.test_rlc_damping_removes_energy_faster",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.PowerControlTests.test_series_rlc_critical_resistance_and_decay",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dcdc.PowerControlTests.test_thermal_fixed_point_and_constant_loss_solution",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Independent analytical limits, energy/charge balances, event conditions, step refinement and exported artifacts. No PDK/measurement accuracy certification."
+}
