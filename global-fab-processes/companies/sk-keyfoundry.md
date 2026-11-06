@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Development / planned<br>开发／规划 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Publication date<br>发布日期 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | South Korea<br>韩国 |
 | Business model / 业务类型 | 8-inch pure-play foundry<br>8英寸专业晶圆代工 |
 | Node / 节点 | 0.18 µm<br>0.18微米 |
@@ -20,7 +27,7 @@
 | Devices / 器件 | HV devices; optional thick IMD, NVM and Hall sensors<br>高压器件；可选厚金属间介质、非易失存储及霍尔传感器 |
 | Applications / 应用 | Automotive and AI power ICs<br>汽车及AI电源芯片 |
 | 40–150 V DC/DC relevance / 关联 | Assessment: promising research candidate for 100–150 V input, pending verified operating limits and models.<br>判断：可作为100～150V输入的研究候选，须获取已验证的工作限制和模型。 |
-| Availability wording / 可用性表述 | Launched January 2026; release targets mass production in 2026. Completion unconfirmed.<br>2026年1月宣布推出；公告目标为2026年量产，完成情况未核实。 |
+| Availability / 可用性表述 | Launched January 2026; release targets mass production in 2026. Completion unconfirmed.<br>2026年1月宣布推出；公告目标为2026年量产，完成情况未核实。 |
 | Limits / 限制 | The release mixes a forward production target with promotional wording; no public PDK/SOA evidence establishes 150 V Vin readiness.<br>公告含未来量产目标及宣传措辞；公开PDK/安全工作区证据不足，不能判定已可用于150V输入。 |
 | Reading depth / 阅读深度 | Issuer-authored PRNewswire release body read; corporate site returned 403/502.<br>已读公司发布于美通社的新闻稿正文；公司网站访问返回403/502。 |
 

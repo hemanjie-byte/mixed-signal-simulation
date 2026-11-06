@@ -1,0 +1,276 @@
+{
+  "scope_category": {
+    "analog_power": [
+      "Analog and power ICs",
+      "模拟与电源集成电路"
+    ],
+    "analog_rf": [
+      "RF and high-speed analog",
+      "射频与高速模拟"
+    ],
+    "sensor_mems": [
+      "Sensors, MEMS and photonics",
+      "传感器、MEMS与光子技术"
+    ],
+    "discrete_power": [
+      "Discrete power devices",
+      "功率分立器件"
+    ],
+    "logic_context": [
+      "Logic / memory context",
+      "逻辑／存储背景"
+    ],
+    "research_context": [
+      "Research / integration context",
+      "研究／集成背景"
+    ],
+    "corporate_history": [
+      "Corporate history",
+      "业务沿革"
+    ]
+  },
+  "entity_role": {
+    "foundry": [
+      "Published foundry service",
+      "公开代工服务"
+    ],
+    "idm": [
+      "IDM manufacturing; access per record",
+      "IDM制造；开放性见各条目"
+    ],
+    "research": [
+      "Research institution / line",
+      "研究机构／产线"
+    ],
+    "pilot": [
+      "Pilot / development entity",
+      "试产／开发主体"
+    ],
+    "historical": [
+      "Historical entity / offer",
+      "历史主体／服务"
+    ]
+  },
+  "publication_state": {
+    "listed": [
+      "Listed; production not independently established",
+      "已列示；未独立确认量产"
+    ],
+    "production": [
+      "Source states production",
+      "来源表述为量产"
+    ],
+    "development": [
+      "Development / planned",
+      "开发／规划"
+    ],
+    "pilot": [
+      "Pilot / sampling",
+      "试产／送样"
+    ],
+    "historical": [
+      "Historical statement",
+      "历史资料"
+    ],
+    "mixed": [
+      "Mixed stages; read each option",
+      "阶段混合；须逐选件阅读"
+    ]
+  },
+  "evidence_kind": {
+    "body": [
+      "Official page body read",
+      "已读官方网页正文"
+    ],
+    "pdf": [
+      "Official PDF read",
+      "已读官方PDF"
+    ],
+    "indexed": [
+      "Official indexed excerpt",
+      "官方索引摘要"
+    ],
+    "mixed": [
+      "Mixed official evidence",
+      "多种官方证据"
+    ]
+  },
+  "source_date_kind": {
+    "publication": [
+      "Publication date",
+      "发布日期"
+    ],
+    "revision": [
+      "Document revision",
+      "文件修订日期"
+    ],
+    "metadata_modified": [
+      "Page metadata modification",
+      "页面元数据更新时间"
+    ],
+    "undated": [
+      "Undated / exact date unavailable",
+      "未标日期／准确日期不可得"
+    ],
+    "period_context": [
+      "Reporting / schedule period",
+      "报告／排期所属期间"
+    ]
+  },
+  "gap_status": {
+    "covered_by_current_entity": [
+      "Covered by current entity",
+      "已由现行主体覆盖"
+    ],
+    "site_specific_verification_required": [
+      "Site specific verification required",
+      "待核实具体制造场址"
+    ],
+    "covered_by_parent_group": [
+      "Covered by parent group",
+      "已由集团覆盖"
+    ],
+    "platform_detail_gap": [
+      "Platform detail gap",
+      "平台细节待核实"
+    ],
+    "excluded_materials_supplier": [
+      "Excluded materials supplier",
+      "材料供应商，范围外"
+    ],
+    "pilot_plan_not_mass_production": [
+      "Pilot plan not mass production",
+      "中试规划，非量产确认"
+    ],
+    "quantitative_limits_undisclosed": [
+      "Quantitative limits undisclosed",
+      "定量限制未公开"
+    ],
+    "official_body_unavailable": [
+      "Official body unavailable",
+      "官方正文未取得"
+    ],
+    "identity_and_scope_unresolved": [
+      "Identity and scope unresolved",
+      "主体及范围待核实"
+    ],
+    "pending_fab_identity": [
+      "Pending fab identity",
+      "制造主体待核实"
+    ],
+    "deferred_research_expansion": [
+      "Deferred research expansion",
+      "后续研究平台扩展"
+    ],
+    "excluded_closed": [
+      "Excluded closed",
+      "停业，未作现行服务收录"
+    ],
+    "development_only": [
+      "Development only",
+      "仅开发阶段"
+    ],
+    "group_covered_separate_platform_unverified": [
+      "Group covered separate platform unverified",
+      "集团已覆盖，独立平台未核实"
+    ],
+    "milestone_completion_unverified": [
+      "Milestone completion unverified",
+      "里程碑完成情况待核实"
+    ],
+    "current_access_unverified": [
+      "Current access unverified",
+      "当前准入待核实"
+    ],
+    "deferred_platform_expansion": [
+      "Deferred platform expansion",
+      "后续平台扩展"
+    ],
+    "development_not_completed_evidence": [
+      "Development not completed evidence",
+      "开发转移，未确认完成"
+    ],
+    "not_reviewed": [
+      "Not reviewed",
+      "本轮未核对"
+    ],
+    "development_variant_not_separately_added": [
+      "Development variant not separately added",
+      "开发选件未单列"
+    ],
+    "construction_not_platform": [
+      "Construction not platform",
+      "建设公告，未形成平台依据"
+    ],
+    "insufficient_process_detail": [
+      "Insufficient process detail",
+      "工艺细节不足"
+    ],
+    "current_hv_access_unverified": [
+      "Current hv access unverified",
+      "当前高压工艺准入待核实"
+    ],
+    "development_and_access_gap": [
+      "Development and access gap",
+      "开发状态及准入待核实"
+    ]
+  },
+  "material": {
+    "Silicon": [
+      "Silicon",
+      "硅"
+    ],
+    "Silicon (SOI)": [
+      "Silicon (SOI)",
+      "绝缘体上硅"
+    ],
+    "Silicon (bulk / SOI)": [
+      "Silicon (bulk / SOI)",
+      "体硅／绝缘体上硅"
+    ],
+    "Silicon / SiGe": [
+      "Silicon / SiGe",
+      "硅／硅锗"
+    ],
+    "SiC": [
+      "SiC",
+      "碳化硅"
+    ],
+    "GaAs": [
+      "GaAs",
+      "砷化镓"
+    ],
+    "GaN": [
+      "GaN",
+      "氮化镓"
+    ],
+    "InP": [
+      "InP",
+      "磷化铟"
+    ],
+    "GaN / Silicon": [
+      "GaN / Silicon",
+      "氮化镓／硅集成"
+    ],
+    "GaN-on-Si": [
+      "GaN-on-Si",
+      "硅基氮化镓"
+    ],
+    "GaN-on-SiC": [
+      "GaN-on-SiC",
+      "碳化硅基氮化镓"
+    ],
+    "GaN-on-SiC / GaN-on-Si": [
+      "GaN-on-SiC / GaN-on-Si",
+      "碳化硅基／硅基氮化镓"
+    ],
+    "Not disclosed": [
+      "Not disclosed",
+      "未公开"
+    ],
+    "Not applicable": [
+      "Not applicable",
+      "不适用"
+    ]
+  }
+}

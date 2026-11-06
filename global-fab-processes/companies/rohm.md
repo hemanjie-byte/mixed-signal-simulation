@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | IDM manufacturing; access per record<br>IDM制造；开放性见各条目 |
+| Published state / 公开状态 | Historical statement<br>历史资料 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Undated / exact date unavailable<br>未标日期／准确日期不可得 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Japan<br>日本 |
 | Business model / 业务类型 | IDM internal wafer manufacturing<br>IDM内部晶圆制造 |
 | Node / 节点 | 0.35 µm development described<br>文中描述0.35微米开发 |
@@ -20,11 +27,12 @@
 | Devices / 器件 | BiCDMOS; detailed options unspecified<br>BiCDMOS；具体器件选件未公开 |
 | Applications / 应用 | Analog IC manufacturing<br>模拟芯片制造 |
 | 40–150 V DC/DC relevance / 关联 | Assessment: relevant manufacturing capability; voltage-specific suitability cannot be assigned.<br>判断：属于相关制造能力，但不能指定其适用的输入电压档位。 |
-| Availability wording / 可用性表述 | Official retrospective reports 12-inch BiCDMOS mass production from 2009.<br>官网回顾称12英寸BiCDMOS于2009年开始量产。 |
+| Availability / 可用性表述 | Official retrospective reports 12-inch BiCDMOS mass production from 2009.<br>官网回顾称12英寸BiCDMOS于2009年开始量产。 |
 | Limits / 限制 | No external-foundry offer established. This source does not connect this 0.35 µm line to the separate 80 V product.<br>未证明对外提供代工；资料没有把此0.35微米产线与另列80V产品对应起来。 |
 | Reading depth / 阅读深度 | Official manufacturing story body read.<br>已读取官网制造介绍正文。 |
 
 Source / 来源: [ROHM's New Production System — Wafer Production](https://www.rohm.com/company/about/stories-of-manufacturing/wafer-production). Source date / 来源日期: Undated retrospective. Checked / 核对: 2026-11-06.
+
 
 ## FAB022 · HV BiCDMOS used in BD9G341AEFJ
 
@@ -33,6 +41,13 @@ Source / 来源: [ROHM's New Production System — Wafer Production](https://www
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | IDM manufacturing; access per record<br>IDM制造；开放性见各条目 |
+| Published state / 公开状态 | Historical statement<br>历史资料 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Publication date<br>发布日期 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Japan<br>日本 |
 | Business model / 业务类型 | IDM internal process disclosure<br>IDM自用工艺披露 |
 | Node / 节点 | 0.6 µm<br>0.6微米 |
@@ -42,7 +57,7 @@ Source / 来源: [ROHM's New Production System — Wafer Production](https://www
 | Devices / 器件 | Integrated power MOSFET with analog/control circuitry<br>集成功率MOSFET及模拟/控制电路 |
 | Applications / 应用 | Industrial and communication buck converters<br>工业及通信降压变换器 |
 | 40–150 V DC/DC relevance / 关联 | Assessment: concrete example of why device withstand voltage and maximum DC/DC input differ.<br>判断：这是器件耐压与DC/DC最高输入电压不同的具体实例。 |
-| Availability wording / 可用性表述 | Historical 2015 product/process announcement; not an external foundry offer.<br>2015年的产品/工艺历史公告；不是对外代工邀约。 |
+| Availability / 可用性表述 | Historical 2015 product/process announcement; not an external foundry offer.<br>2015年的产品/工艺历史公告；不是对外代工邀约。 |
 | Limits / 限制 | Check current product datasheet and lifecycle before design-in. No evidence for 100–150 V input or public process access.<br>设计导入前须核查现行数据手册及生命周期；不证明支持100～150V输入或公开工艺获取。 |
 | Reading depth / 阅读深度 | ROHM-authored Mynewsdesk release body read.<br>已读取罗姆发布于Mynewsdesk的新闻稿正文。 |
 

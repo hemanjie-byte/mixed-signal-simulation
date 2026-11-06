@@ -1,9 +1,18 @@
 {
-  "baseline_commit": "010ffc13890443622771e19f9ec59579929beb80",
-  "simulation_embedded_data_byte_identical": true,
-  "embedded_data_sha256": "550c8f920d2f092307d3a30f758c630870090ff61bd1ec69f2386512ba9ca212",
-  "existing_simulation_source_and_data_files_unchanged": true,
-  "original_simulation_zip_byte_identical": true,
+  "review_date": "2026-11-06",
+  "catalogue_version": "2.0",
+  "previous_sharing_commit": "a9f344ea7e1b97e10502335101cf92ea518711fa",
+  "simulation_commit": "010ffc13890443622771e19f9ec59579929beb80",
+  "checked_paths": [
+    "v3",
+    "v32",
+    "v33",
+    "index.html",
+    "Mixed_Signal_Simulation_V3_3_EN_ZH.xlsx",
+    "mixed-signal-simulation_V3_3_20261103.zip",
+    "V3-3_20261106.zip"
+  ],
+  "protected_files_byte_identical_to_previous_sharing": true,
   "simulation_rerun_required": false,
-  "scope": "Sharing navigation, names and a separately sourced FAB catalogue; no numerical model changes."
+  "scope": "Catalogue-only research, navigation and packaging update; no numerical model changes."
 }

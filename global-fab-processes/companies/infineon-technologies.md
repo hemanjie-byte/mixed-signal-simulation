@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | IDM manufacturing; access per record<br>IDM制造；开放性见各条目 |
+| Published state / 公开状态 | Historical statement<br>历史资料 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Publication date<br>发布日期 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Germany; historical partner-transfer announcement concerns Taiwan<br>德国；历史合作转移公告涉及中国台湾 |
 | Business model / 业务类型 | IDM proprietary process with partner manufacturing<br>IDM专有工艺，并有合作方制造安排 |
 | Node / 节点 | 130 nm<br>130纳米 |
@@ -20,7 +27,7 @@
 | Devices / 器件 | Power devices, sensor interfaces and digital/microcontroller integration<br>功率器件、传感器接口及数字/微控制器集成 |
 | Applications / 应用 | Automotive motor control, airbags and audio<br>汽车电机控制、安全气囊及音频 |
 | 40–150 V DC/DC relevance / 关联 | Smart-power reference only; 40–150 V suitability unknown<br>仅作智能功率参考；40–150V适用性未知 |
-| Availability wording / 可用性表述 | Proprietary Infineon platform; partner transfer is not open foundry access<br>英飞凌专有平台；合作转移不等于开放代工准入 |
+| Availability / 可用性表述 | Proprietary Infineon platform; partner transfer is not open foundry access<br>英飞凌专有平台；合作转移不等于开放代工准入 |
 | Limits / 限制 | Announcement planned production for 2018; it does not establish present capacity or PDK availability<br>公告计划2018年生产；不能据此确认当前产能或PDK可用性 |
 | Reading depth / 阅读深度 | Live full joint announcement on official manufacturing-partner site<br>实时完整联合公告，来自制造合作方官方网站 |
 

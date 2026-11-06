@@ -16,4 +16,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: python global-fab-processes/build_catalogue.py
-      - run: python global-fab-processes/validate_catalogue.py
+      - run: python global-fab-processes/validate_catalogue.py --strict-artifacts

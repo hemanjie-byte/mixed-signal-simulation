@@ -1,0 +1,680 @@
+[
+  {
+    "url": "https://www.dbhitek.com/en/technology/portfolio/bcdmos",
+    "title": "BCD process portfolio",
+    "record_ids": [
+      "FAB001",
+      "FAB002"
+    ]
+  },
+  {
+    "url": "https://gf.com/technologies/power/bcd/",
+    "title": "BCD and high-voltage BCD power technology",
+    "record_ids": [
+      "FAB003",
+      "FAB004"
+    ]
+  },
+  {
+    "url": "https://www.huahonggrace.com/s/business_ap_management.php",
+    "title": "Hua Hong — Analog and Power Management / 模拟与电源管理",
+    "record_ids": [
+      "FAB005"
+    ]
+  },
+  {
+    "url": "https://www.huahonggrace.com/s/business_embedded_storage.php",
+    "title": "Hua Hong — Embedded Storage / 嵌入式存储",
+    "record_ids": [
+      "FAB006"
+    ]
+  },
+  {
+    "url": "https://www.umc.com/en/News/press_release/Content/corporate/20141215",
+    "title": "Infineon and UMC extend manufacturing partnership to automotive power semiconductors",
+    "record_ids": [
+      "FAB007"
+    ]
+  },
+  {
+    "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium.html",
+    "title": "Intel Foundry process milestones at VLSI Symposium",
+    "record_ids": [
+      "FAB008",
+      "FAB009"
+    ]
+  },
+  {
+    "url": "https://www.magnachip.com/wp-content/uploads/2021/05/2020_Form_SD.pdf",
+    "title": "Magnachip Semiconductor 2020 Form SD",
+    "record_ids": [
+      "FAB010"
+    ]
+  },
+  {
+    "url": "https://investors.magnachip.com/node/10451/pdf",
+    "title": "MagnaChip offers automotive-grade 0.18-micron BCD with up to 200V operation",
+    "record_ids": [
+      "FAB011"
+    ]
+  },
+  {
+    "url": "https://www.nexchip.com.cn/en-us/Service/Platform",
+    "title": "Nexchip — Process Platform, PMIC section",
+    "record_ids": [
+      "FAB012",
+      "FAB013"
+    ]
+  },
+  {
+    "url": "https://www.onsemi.com/site/pdf/I3T50-D.PDF",
+    "title": "I3T50: 0.35 µm Process Technology",
+    "record_ids": [
+      "FAB014"
+    ]
+  },
+  {
+    "url": "https://www.onsemi.com/products/custom-assp/custom-foundry-services",
+    "title": "Custom Foundry Services",
+    "record_ids": [
+      "FAB014",
+      "FAB015"
+    ]
+  },
+  {
+    "url": "https://www.onsemi.com/site/pdf/I3T80-D.PDF",
+    "title": "I3T80: 0.35 µm Process Technology",
+    "record_ids": [
+      "FAB015"
+    ]
+  },
+  {
+    "url": "https://www.powerchip.com/en-global/services/foundry-services/power-management",
+    "title": "PSMC — Power Management Process",
+    "record_ids": [
+      "FAB016",
+      "FAB017",
+      "FAB018"
+    ]
+  },
+  {
+    "url": "https://www.rapidus.inc/en/news_topics/information/nedo-approves-rapidus-fy2026-plan-and-budget-for-2nm-semiconductor-projects/",
+    "title": "NEDO approves Rapidus FY2026 plan and budget for 2nm projects",
+    "record_ids": [
+      "FAB019"
+    ]
+  },
+  {
+    "url": "https://www.renesas.com/en/products/asic-ip/custom-asics",
+    "title": "Custom ASICs",
+    "record_ids": [
+      "FAB020"
+    ]
+  },
+  {
+    "url": "https://www.rohm.com/company/about/stories-of-manufacturing/wafer-production",
+    "title": "ROHM's New Production System — Wafer Production",
+    "record_ids": [
+      "FAB021"
+    ]
+  },
+  {
+    "url": "https://www.mynewsdesk.com/rohm-co-ltd/pressreleases/ultra-high-efficiency-76v-dc-dc-buck-converter-provides-high-reliability-and-greater-energy-savings-ideal-for-communications-infrastructure-and-1240399",
+    "title": "Ultra-High-Efficiency 76V DC/DC Buck Converter",
+    "record_ids": [
+      "FAB022"
+    ]
+  },
+  {
+    "url": "https://semiconductor.samsung.com/foundry/process-technology/specialty-technology/",
+    "title": "Specialty Technology — BCD (PMIC)",
+    "record_ids": [
+      "FAB023"
+    ]
+  },
+  {
+    "url": "https://semiconductor.samsung.com/foundry/manufacturing/mpw-service/",
+    "title": "MPW Service — 2026 schedule",
+    "record_ids": [
+      "FAB024"
+    ]
+  },
+  {
+    "url": "https://semiconductor.samsung.com/foundry/process-technology/logic-node/",
+    "title": "Logic Node — SF2",
+    "record_ids": [
+      "FAB025"
+    ]
+  },
+  {
+    "url": "https://www.skhynixsystemicwuxisolutions.com/foundry/bcdmos",
+    "title": "BCDmos process portfolio",
+    "record_ids": [
+      "FAB026",
+      "FAB027"
+    ]
+  },
+  {
+    "url": "https://www.skhynixsystemic.com/framework/download/IATF%20760438.pdf",
+    "title": "SK hynix system ic (Wuxi) IATF certificate; Korean Wuxi Solutions remote support site",
+    "record_ids": [
+      "FAB026",
+      "FAB027"
+    ]
+  },
+  {
+    "url": "https://www.skhynixsystemicwuxisolutions.com/company/overview",
+    "title": "Wuxi Solutions corporate overview: Korean subsidiary and corporate address",
+    "record_ids": [
+      "FAB026",
+      "FAB027"
+    ]
+  },
+  {
+    "url": "https://www.prnewswire.com/apac/news-releases/sk-keyfoundry-launches-4th-generation-200v-high-voltage-0-18-micron-bcd-process-accelerating-expansion-into-automotiveai-power-semiconductor-markets-302664305.html",
+    "title": "SK keyfoundry launches fourth-generation 200V 0.18-micron BCD",
+    "record_ids": [
+      "FAB028"
+    ]
+  },
+  {
+    "url": "https://www.skywatertechnology.com/technology/mixed-signal-cmos/",
+    "title": "Mixed-Signal CMOS",
+    "record_ids": [
+      "FAB029",
+      "FAB030"
+    ]
+  },
+  {
+    "url": "https://www.smics.com/en/site/productdetail/2886",
+    "title": "SMIC — Analog & Power",
+    "record_ids": [
+      "FAB031"
+    ]
+  },
+  {
+    "url": "https://www.st.com/content/st_com/en/about/innovation-and-technology/bcd.html",
+    "title": "BCD (Bipolar-CMOS-DMOS)",
+    "record_ids": [
+      "FAB032",
+      "FAB033"
+    ]
+  },
+  {
+    "url": "https://www.ti.com/europe/downloads/Analog%20Process%20Technologies.pdf",
+    "title": "Analog Process Technologies — LBC7",
+    "record_ids": [
+      "FAB034"
+    ]
+  },
+  {
+    "url": "https://e2e.ti.com/support/sensors-group/sensors/f/sensors-forum/1368175/tmp112-new-lbc9-process---feature-size-question",
+    "title": "TMP112: New LBC9 process — feature size question; TI expert answer",
+    "record_ids": [
+      "FAB035"
+    ]
+  },
+  {
+    "url": "https://towersemi.com/technology/power-management/power-management-65nm/",
+    "title": "65nm BCD Power Management Platform",
+    "record_ids": [
+      "FAB036"
+    ]
+  },
+  {
+    "url": "https://towersemi.com/technology/power-management/180nm-power-management/",
+    "title": "180nm BCD Power Management Platform",
+    "record_ids": [
+      "FAB037",
+      "FAB038"
+    ]
+  },
+  {
+    "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/specialty/bcd",
+    "title": "TSMC — Bipolar-CMOS-DMOS (BCD) Technology",
+    "record_ids": [
+      "FAB039",
+      "FAB040"
+    ]
+  },
+  {
+    "url": "https://www.umc.com/upload/media/05_Press_Center/3_Literatures/Process_Technology/PMIC_Brochure.pdf",
+    "title": "UMC — PMIC brochure, Voltages and Offerings (PDF p.3)",
+    "record_ids": [
+      "FAB041",
+      "FAB042"
+    ]
+  },
+  {
+    "url": "https://cn.unt-c.com/news/31",
+    "title": "UNT — 2025 Interim Results Commentary / 芯联集成2025半年报解读",
+    "record_ids": [
+      "FAB043"
+    ]
+  },
+  {
+    "url": "https://cn.unt-c.com/solution",
+    "title": "UNT — One-stop System Technology Platform / 一站式系统技术平台",
+    "record_ids": [
+      "FAB044"
+    ]
+  },
+  {
+    "url": "https://www.vis.com.tw/en/technology",
+    "title": "VIS — Foundry Services & Technologies, BCD/UHV/SOI",
+    "record_ids": [
+      "FAB045",
+      "FAB046",
+      "FAB047"
+    ]
+  },
+  {
+    "url": "https://www.xfab.com/technology/bcd",
+    "title": "BCD-on-SOI — XT011 platform",
+    "record_ids": [
+      "FAB048"
+    ]
+  },
+  {
+    "url": "https://www.xfab.com/news/details/article/x-fab-first-to-market-with-110-nm-bcd-on-soi-foundry-solution",
+    "title": "X-FAB first to market with 110 nm BCD-on-SOI foundry solution",
+    "record_ids": [
+      "FAB048"
+    ]
+  },
+  {
+    "url": "https://www.xfab.com/xt018",
+    "title": "XT018",
+    "record_ids": [
+      "FAB049"
+    ]
+  },
+  {
+    "url": "https://gf.com/news-and-events/news/globalfoundries-acquires-advanced-micro-foundry-accelerating-silicon-photonics-global-leadership-and-expanding-ai-infrastructure-portfolio/",
+    "title": "GlobalFoundries acquires Advanced Micro Foundry",
+    "record_ids": [
+      "FAB050"
+    ]
+  },
+  {
+    "url": "https://www.awsc.com.tw/product_summary.aspx?Lang=English",
+    "title": "AWSC Product Summary",
+    "record_ids": [
+      "FAB051",
+      "FAB052"
+    ]
+  },
+  {
+    "url": "https://www.awsc.com.tw/e_profile.aspx?Lang=English",
+    "title": "AWSC company profile: 6-inch GaAs foundry",
+    "record_ids": [
+      "FAB051",
+      "FAB052"
+    ]
+  },
+  {
+    "url": "https://ams-osram.com/products/full-service-foundry/technology-portfolio",
+    "title": "Foundry technology portfolio",
+    "record_ids": [
+      "FAB053",
+      "FAB055",
+      "FAB056"
+    ]
+  },
+  {
+    "url": "https://ams-osram.com/products/full-service-foundry",
+    "title": "Full-Service Foundry",
+    "record_ids": [
+      "FAB053",
+      "FAB055",
+      "FAB056"
+    ]
+  },
+  {
+    "url": "https://ams-osram.com/news/blog/foundry-mpw-calendar",
+    "title": "Foundry MPW calendar",
+    "record_ids": [
+      "FAB054"
+    ]
+  },
+  {
+    "url": "https://www.analog.com/en/resources/technical-articles/icmos-breakthrough-industrial-sector-electronics.html",
+    "title": "iCMOS: A Breakthrough for Industrial-Sector Electronics",
+    "record_ids": [
+      "FAB057"
+    ]
+  },
+  {
+    "url": "https://www.bosch-semiconductors.com/about-us/where-we-produce/reutlingen/",
+    "title": "Bosch wafer fab in Reutlingen",
+    "record_ids": [
+      "FAB058",
+      "FAB059",
+      "FAB060"
+    ]
+  },
+  {
+    "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-08/1d8816c4-305a-4ddc-836b-25ec6d2039d5.PDF",
+    "title": "CanSemi Technology IPO Prospectus, October 2026",
+    "record_ids": [
+      "FAB061",
+      "FAB062",
+      "FAB063"
+    ]
+  },
+  {
+    "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225190439.PDF",
+    "title": "China Resources Microelectronics 2025 Annual Report, p. 18",
+    "record_ids": [
+      "FAB064",
+      "FAB065",
+      "FAB066",
+      "FAB067"
+    ]
+  },
+  {
+    "url": "https://www.episil.com/en-US/Product/product_view",
+    "title": "Episil — Product Technology",
+    "record_ids": [
+      "FAB068",
+      "FAB069",
+      "FAB070",
+      "FAB071"
+    ]
+  },
+  {
+    "url": "https://www.ims.fraunhofer.de/en/Core-Competence/Technology/Special-Technology/Customized-CMOS-Processes.html",
+    "title": "Customized CMOS processes",
+    "record_ids": [
+      "FAB072"
+    ]
+  },
+  {
+    "url": "https://www.ims.fraunhofer.de/content/dam/ims/de/documents/Downloads/High%20Temperature%20Integrated%20Circuits%20and%20Sensors.pdf",
+    "title": "High Temperature Integrated Circuits and Sensors",
+    "record_ids": [
+      "FAB073"
+    ]
+  },
+  {
+    "url": "https://www.fujielectric.com.my/semiconductor.php",
+    "title": "Fuji Electric Malaysia — Semiconductor",
+    "record_ids": [
+      "FAB074"
+    ]
+  },
+  {
+    "url": "https://www.fujielectric.com/ir/library/detail/ar2025_segment_03_e.html",
+    "title": "Fuji Electric Report 2025 — Semiconductors",
+    "record_ids": [
+      "FAB075"
+    ]
+  },
+  {
+    "url": "https://www.gcsincorp.com/pdf/technology/Technology_Overview.pdf",
+    "title": "GCS Technology Overview, pp.1–2",
+    "record_ids": [
+      "FAB076",
+      "FAB077"
+    ]
+  },
+  {
+    "url": "https://gf.com/news-and-events/news/globalfoundries-announces-production-release-of-130cbic-sige-platform-for-high-performance-smart-mobile-communication-and-industrial-applications/",
+    "title": "130CBIC production release",
+    "record_ids": [
+      "FAB078"
+    ]
+  },
+  {
+    "url": "https://gf.com/technologies/rf/rf-soi/",
+    "title": "RF-SOI technology",
+    "record_ids": [
+      "FAB079"
+    ]
+  },
+  {
+    "url": "https://gf.com/technologies/rf/sige/",
+    "title": "SiGe technology",
+    "record_ids": [
+      "FAB080"
+    ]
+  },
+  {
+    "url": "https://www.gtasemi.com.cn/technology/power-ic",
+    "title": "GTA — Specialty IC: BCD platform development status (Chinese)",
+    "record_ids": [
+      "FAB081",
+      "FAB082",
+      "FAB083",
+      "FAB084",
+      "FAB085"
+    ]
+  },
+  {
+    "url": "https://www.silan.com.cn/en/index.php/about/info/227.html",
+    "title": "Silan — Hangzhou Silan MultiChip subsidiary profile",
+    "record_ids": [
+      "FAB086"
+    ]
+  },
+  {
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225514149.PDF",
+    "title": "Hua Hong Grace 2026 Interim Report, pp.11 and 13",
+    "record_ids": [
+      "FAB087",
+      "FAB088"
+    ]
+  },
+  {
+    "url": "https://www.ihp-microelectronics.com/services/research-and-prototyping-service/open-source-design-enablement",
+    "title": "Open-source design enablement",
+    "record_ids": [
+      "FAB089"
+    ]
+  },
+  {
+    "url": "https://www.innoscience.com/hxjs?tabIndex=0",
+    "title": "Innoscience Core Technologies",
+    "record_ids": [
+      "FAB090"
+    ]
+  },
+  {
+    "url": "https://www.kec.co.kr/cn/company/location.asp",
+    "title": "KEC — Korea FAB, Gumi",
+    "record_ids": [
+      "FAB091"
+    ]
+  },
+  {
+    "url": "https://www.kec.co.kr/cn/company/overview.asp",
+    "title": "KEC company overview",
+    "record_ids": [
+      "FAB091"
+    ]
+  },
+  {
+    "url": "https://www.keccorp.com/en/company/history.asp",
+    "title": "KEC history — MOS FAB",
+    "record_ids": [
+      "FAB091"
+    ]
+  },
+  {
+    "url": "https://www.lfoundry.com/en/technology",
+    "title": "Technology portfolio",
+    "record_ids": [
+      "FAB092",
+      "FAB093"
+    ]
+  },
+  {
+    "url": "https://www.lfoundry.com/en/company",
+    "title": "Company",
+    "record_ids": [
+      "FAB092",
+      "FAB093"
+    ]
+  },
+  {
+    "url": "https://www.macom.com/foundry-services",
+    "title": "MACOM Foundry & Design Services",
+    "record_ids": [
+      "FAB094",
+      "FAB095"
+    ]
+  },
+  {
+    "url": "https://investors.magnachip.com/static-files/9480f7f2-2a7b-4683-9e03-e5172fb6db94",
+    "title": "Magnachip 2025 Form 10-K, filed 16 March 2026",
+    "record_ids": [
+      "FAB096"
+    ]
+  },
+  {
+    "url": "https://www.microchip.com/en-us/products/services/foundry-services",
+    "title": "Foundry services",
+    "record_ids": [
+      "FAB097"
+    ]
+  },
+  {
+    "url": "https://www.nexperia.com/about/worldwide-locations/manufacturing.html",
+    "title": "Manufacturing locations",
+    "record_ids": [
+      "FAB098",
+      "FAB099"
+    ]
+  },
+  {
+    "url": "https://nstic-gan.sg/",
+    "title": "NSTIC (GaN) — Facilities and boutique foundry",
+    "record_ids": [
+      "FAB100"
+    ]
+  },
+  {
+    "url": "https://nstic-gan.sg/about-us/",
+    "title": "NSTIC institutional collaboration and small-volume scope",
+    "record_ids": [
+      "FAB100"
+    ]
+  },
+  {
+    "url": "https://www.nxp.com/docs/en/white-paper/HBRIDGEWP.pdf",
+    "title": "H-Bridge Driver ICs",
+    "record_ids": [
+      "FAB101"
+    ]
+  },
+  {
+    "url": "https://polarsemi.com/technologies/",
+    "title": "Technologies",
+    "record_ids": [
+      "FAB102",
+      "FAB103",
+      "FAB104"
+    ]
+  },
+  {
+    "url": "https://global.epson.com/products_and_drivers/semicon/information/silicon_foundry.html",
+    "title": "Epson Silicon Foundry — COT Process Lineup",
+    "record_ids": [
+      "FAB105"
+    ]
+  },
+  {
+    "url": "https://www.scl.gov.in/cmos.html",
+    "title": "SCL — CMOS Fabrication Facility",
+    "record_ids": [
+      "FAB106"
+    ]
+  },
+  {
+    "url": "https://www.scl.gov.in/",
+    "title": "SCL institutional identity",
+    "record_ids": [
+      "FAB106"
+    ]
+  },
+  {
+    "url": "https://www.silterra.com/technology/180nm-bcdmos-technology-1-8v-core-and-5v-dmos-dual-gate/",
+    "title": "D18V 180nm BCDMOS technology",
+    "record_ids": [
+      "FAB107"
+    ]
+  },
+  {
+    "url": "https://www.silterra.com/manufacturing/",
+    "title": "SilTerra manufacturing: 200 mm facility",
+    "record_ids": [
+      "FAB107"
+    ]
+  },
+  {
+    "url": "https://www.tata.com/newsroom/business/tata-electronics-asml-semiconductor-ecosystem",
+    "title": "Tata Electronics and ASML Announce Strategic Partnership",
+    "record_ids": [
+      "FAB108"
+    ]
+  },
+  {
+    "url": "https://www.teledynedalsa.com/en/products/foundry/mems/foundry-capabilities/processes-and-technologies/",
+    "title": "Processes and technologies",
+    "record_ids": [
+      "FAB109"
+    ]
+  },
+  {
+    "url": "https://www.global.toshiba/content/dam/toshiba/jp/technology/corporate/review/2026/01/a02.pdf",
+    "title": "Toshiba Review 81(1): semiconductor technology trends",
+    "record_ids": [
+      "FAB110"
+    ]
+  },
+  {
+    "url": "https://towersemi.com/technology/rf-and-hpa/sige-bicmos-platform/",
+    "title": "SiGe BiCMOS platform",
+    "record_ids": [
+      "FAB111"
+    ]
+  },
+  {
+    "url": "https://www.ums-rf.com/wp-content/uploads/2025/06/UMS-DS-GH15-1x.pdf",
+    "title": "UMS GH15-1x Process Data Sheet, pp.1–2",
+    "record_ids": [
+      "FAB112"
+    ]
+  },
+  {
+    "url": "https://www.denso.com/global/en/newsroom/news/2023/20230510-g01/",
+    "title": "DENSO and USJC Announce IGBT Mass Production Shipment",
+    "record_ids": [
+      "FAB113"
+    ]
+  },
+  {
+    "url": "https://ir.vishay.com/news-releases/news-release-details/vishay-intertechnology-150-v-mosfet-increases-efficiency",
+    "title": "150 V MOSFET increases efficiency",
+    "record_ids": [
+      "FAB114"
+    ]
+  },
+  {
+    "url": "https://www.winfoundry.com/en-US/Tech/tech_advanced",
+    "title": "MMIC Advanced Technology",
+    "record_ids": [
+      "FAB115",
+      "FAB116"
+    ]
+  },
+  {
+    "url": "https://www.xfab.com/technology/",
+    "title": "Semiconductor technologies",
+    "record_ids": [
+      "FAB117",
+      "FAB118",
+      "FAB119"
+    ]
+  }
+]

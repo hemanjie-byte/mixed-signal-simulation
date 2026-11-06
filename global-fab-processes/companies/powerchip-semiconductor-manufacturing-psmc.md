@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Undated / exact date unavailable<br>未标日期／准确日期不可得 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Taiwan<br>中国台湾 |
 | Business model / 业务类型 | Foundry<br>晶圆代工 |
 | Node / 节点 | 130 nm<br>130纳米 |
@@ -20,11 +27,12 @@
 | Devices / 器件 | BCD: CMOS, DMOS, parasitic BJT and passives<br>BCD：CMOS、DMOS、寄生双极器件及无源器件 |
 | Applications / 应用 | DC/DC and other power ICs<br>DC/DC及其他电源芯片 |
 | 40–150 V DC/DC relevance / 关联 | Candidate only; converter input limit requires PDK/SOA review.<br>仅列候选；转换器输入上限需核查PDK与安全工作区。 |
-| Availability wording / 可用性表述 | Listed; production stage unspecified.<br>已列示；未说明生产阶段。 |
+| Availability / 可用性表述 | Listed; production stage unspecified.<br>已列示；未说明生产阶段。 |
 | Limits / 限制 | No transient margin or application qualification established.<br>未证明瞬态裕量及具体应用认证。 |
 | Reading depth / 阅读深度 | Official body; Technology Node list and platform description read.<br>已读取官网技术节点表与平台说明。 |
 
 Source / 来源: [PSMC — Power Management Process](https://www.powerchip.com/en-global/services/foundry-services/power-management). Source date / 来源日期: Not disclosed / 未公开. Checked / 核对: 2026-11-06.
+
 
 ## FAB017 · Epi BCD with DTI
 
@@ -33,6 +41,13 @@ Source / 来源: [PSMC — Power Management Process](https://www.powerchip.com/e
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Undated / exact date unavailable<br>未标日期／准确日期不可得 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Taiwan<br>中国台湾 |
 | Business model / 业务类型 | Foundry<br>晶圆代工 |
 | Node / 节点 | 80 nm<br>80纳米 |
@@ -42,11 +57,12 @@ Source / 来源: [PSMC — Power Management Process](https://www.powerchip.com/e
 | Devices / 器件 | BCD: CMOS, DMOS, parasitic BJT and passives<br>BCD：CMOS、DMOS、寄生双极器件及无源器件 |
 | Applications / 应用 | DC/DC and other power ICs<br>DC/DC及其他电源芯片 |
 | 40–150 V DC/DC relevance / 关联 | Candidate only; converter input limit requires PDK/SOA review.<br>仅列候选；转换器输入上限需核查PDK与安全工作区。 |
-| Availability wording / 可用性表述 | Listed; production stage unspecified.<br>已列示；未说明生产阶段。 |
+| Availability / 可用性表述 | Listed; production stage unspecified.<br>已列示；未说明生产阶段。 |
 | Limits / 限制 | English list used; Chinese page has a differing duplicated 80 nm line.<br>采用英文节点表；中文页面重复的80纳米条目存在差异。 |
 | Reading depth / 阅读深度 | Official body; Technology Node list and platform description read.<br>已读取官网技术节点表与平台说明。 |
 
 Source / 来源: [PSMC — Power Management Process](https://www.powerchip.com/en-global/services/foundry-services/power-management). Source date / 来源日期: Not disclosed / 未公开. Checked / 核对: 2026-11-06.
+
 
 ## FAB018 · Non-Epi / Epi BCD
 
@@ -55,6 +71,13 @@ Source / 来源: [PSMC — Power Management Process](https://www.powerchip.com/e
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Undated / exact date unavailable<br>未标日期／准确日期不可得 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Taiwan<br>中国台湾 |
 | Business model / 业务类型 | Foundry<br>晶圆代工 |
 | Node / 节点 | 0.18 µm<br>0.18微米 |
@@ -64,7 +87,7 @@ Source / 来源: [PSMC — Power Management Process](https://www.powerchip.com/e
 | Devices / 器件 | BCD: CMOS, DMOS, parasitic BJT and passives<br>BCD：CMOS、DMOS、寄生双极器件及无源器件 |
 | Applications / 应用 | DC/DC and other power ICs<br>DC/DC及其他电源芯片 |
 | 40–150 V DC/DC relevance / 关联 | Candidate only; converter input limit requires PDK/SOA review.<br>仅列候选；转换器输入上限需核查PDK与安全工作区。 |
-| Availability wording / 可用性表述 | Listed; production stage unspecified.<br>已列示；未说明生产阶段。 |
+| Availability / 可用性表述 | Listed; production stage unspecified.<br>已列示；未说明生产阶段。 |
 | Limits / 限制 | No transient margin or application qualification established.<br>未证明瞬态裕量及具体应用认证。 |
 | Reading depth / 阅读深度 | Official body; Technology Node list and platform description read.<br>已读取官网技术节点表与平台说明。 |
 

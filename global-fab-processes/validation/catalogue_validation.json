@@ -1,13 +1,106 @@
 {
+  "status": "PASS",
+  "checks_run": 16,
+  "checks_passed": 16,
+  "checks": [
+    {
+      "check": "canonical_json_readable_no_duplicate_keys",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "top_level_schema",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "taxonomy_bilingual_enumerations",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "required_bilingual_fields_types_enums_and_sources",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "unique_contiguous_ordered_ids",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "no_duplicate_company_platform",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "stable_baseline_ids_and_original_fields",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "company_pages_exact_set",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "coverage_gaps_schema",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "processes.csv_columns_and_cell_values",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "gaps.csv_columns_and_cell_values",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "no_unacknowledged_json_only_fields",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "html_dataset_matches_canonical",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "source_index_complete_and_exact",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "coverage_totals_recomputed",
+      "status": "PASS",
+      "errors": 0
+    },
+    {
+      "check": "local_markdown_links",
+      "status": "PASS",
+      "errors": 0
+    }
+  ],
+  "errors": [],
+  "pending_artifact_links": [],
+  "catalogue_version": "2.0",
   "review_date": "2026-11-06",
-  "records": 49,
-  "process_records": 48,
-  "manufacturers": 25,
-  "bilingual_schema_complete": true,
-  "unknown_fields_retained_as_null": true,
-  "unique_record_ids": true,
-  "local_markdown_links_missing": [],
-  "sharing_display_version": "V3-3",
-  "catalogue_sha256": "90eae42826a92cc0413f3f15cc2fd0acc688a0f8b1268c1181e7ddcabeb5f1d5",
-  "scope": "Structural and local-link checks. Source-reading depth is per record; no PDK qualification or automatic external-link availability guarantee."
+  "records": 119,
+  "entities": 59,
+  "gaps": 28,
+  "source_urls": 90,
+  "baseline_records_verified": 49,
+  "markdown_files_checked": 66,
+  "json_only_metadata": [
+    "research_id",
+    "source_status",
+    "source_status_en",
+    "source_status_zh"
+  ],
+  "catalogue_sha256": "eb0208fd36729dd1e175203d63227ee1f9544c14de93d1956453cfe9d82b6dd3",
+  "strict_artifacts": true,
+  "scope": "Structure, exported fields, source index, baseline fingerprints and local file links. No live URL, PDF content, Excel or device-qualification assertion. Semantic ID stability is locked for fingerprinted baseline records; later records require a future baseline update."
 }

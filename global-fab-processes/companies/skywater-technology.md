@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Page metadata modification<br>页面元数据更新时间 |
+| Process family / 工艺家族 | SOI / Mixed-signal CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | United States<br>美国 |
 | Business model / 业务类型 | External foundry with restricted platform access<br>对外代工，但平台准入受限 |
 | Node / 节点 | 90 nm<br>90纳米 |
@@ -20,11 +27,12 @@
 | Devices / 器件 | Partially depleted SOI CMOS, MIM, resistor options<br>部分耗尽SOI CMOS、MIM及电阻选项 |
 | Applications / 应用 | Aerospace and defense<br>航空航天及国防 |
 | 40–150 V DC/DC relevance / 关联 | Low-voltage control comparison only<br>仅作低压控制对照 |
-| Availability wording / 可用性表述 | Listed platform/MPW; explicitly ITAR restricted<br>列示平台及MPW；明确受ITAR限制 |
+| Availability / 可用性表述 | Listed platform/MPW; explicitly ITAR restricted<br>列示平台及MPW；明确受ITAR限制 |
 | Limits / 限制 | SOI does not imply HV DC/DC suitability; access is not unrestricted<br>SOI不代表适合高压DC/DC；准入并非不受限制 |
 | Reading depth / 阅读深度 | Live HTML; RH90 table and restriction note read<br>实时HTML；已读RH90表及准入限制说明 |
 
 Source / 来源: [Mixed-Signal CMOS](https://www.skywatertechnology.com/technology/mixed-signal-cmos/). Source date / 来源日期: 2026-10-05 (page metadata modification). Checked / 核对: 2026-11-06.
+
 
 ## FAB030 · S130 mixed-signal CMOS / SKY130 relationship
 
@@ -33,6 +41,13 @@ Source / 来源: [Mixed-Signal CMOS](https://www.skywatertechnology.com/technolo
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Page metadata modification<br>页面元数据更新时间 |
+| Process family / 工艺家族 | Mixed-signal CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | United States<br>美国 |
 | Business model / 业务类型 | External technology foundry<br>对外技术代工 |
 | Node / 节点 | 130 nm<br>130纳米 |
@@ -42,7 +57,7 @@ Source / 来源: [Mixed-Signal CMOS](https://www.skywatertechnology.com/technolo
 | Devices / 器件 | CMOS, drain-extended CMOS, MIM, resistors<br>CMOS、漏极扩展CMOS、MIM、电阻 |
 | Applications / 应用 | Mixed-signal ASICs and sensors<br>混合信号ASIC及传感器 |
 | 40–150 V DC/DC relevance / 关联 | Control/education reference; direct 40–150 V power stage unsupported<br>控制及教学参考；无直接40–150V功率级支持证据 |
-| Availability wording / 可用性表述 | Foundry/MPW offering; linked open SKY130 PDK is distinct from production qualification<br>代工及MPW平台；所链接开放SKY130 PDK不同于量产认证 |
+| Availability / 可用性表述 | Foundry/MPW offering; linked open SKY130 PDK is distinct from production qualification<br>代工及MPW平台；所链接开放SKY130 PDK不同于量产认证 |
 | Limits / 限制 | 20+ V is not specified as breakdown or continuous operation<br>20+V未明确标为击穿或连续工作值 |
 | Reading depth / 阅读深度 | Live HTML; platform table and PDK paragraph read<br>实时HTML；已读平台表与PDK段落 |
 

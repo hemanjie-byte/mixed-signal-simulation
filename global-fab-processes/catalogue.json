@@ -1,0 +1,10 @@
+{
+  "version": "2.0",
+  "review_date": "2026-11-06",
+  "sharing_version": "V3-3",
+  "simulation_version": "v3.3.0",
+  "baseline_catalogue_commit": "a9f344ea7e1b97e10502335101cf92ea518711fa",
+  "id_policy": "Preserve FAB001–FAB049. Append IDs for new platform records; never renumber existing records.",
+  "counting_policy": "Catalogue entities include subsidiaries and research institutes. Counts are not independent ownership groups or physical fab sites.",
+  "scope": "Public process coverage with analog/power priority, RF and discrete-device additions, and separately labelled context records. Not a complete global census."
+}

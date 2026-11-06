@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | IDM manufacturing; access per record<br>IDM制造；开放性见各条目 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Undated / exact date unavailable<br>未标日期／准确日期不可得 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Japan<br>日本 |
 | Business model / 业务类型 | IDM/custom-ASIC service using internal and partner fabs<br>采用自有及合作晶圆厂的IDM/定制ASIC服务 |
 | Node / 节点 | 350–40 nm family; specific HV/BCD binding not disclosed<br>350～40纳米系列；具体高压/BCD对应关系未公开 |
@@ -20,7 +27,7 @@
 | Devices / 器件 | Analog/digital integration; HV and BCD options<br>模拟/数字集成；高压及BCD选项 |
 | Applications / 应用 | Industrial, infrastructure, IoT and automotive ASICs<br>工业、基础设施、物联网及汽车ASIC |
 | 40–150 V DC/DC relevance / 关联 | Assessment: custom analog/control ASIC route; high-voltage power-stage capability requires a project quotation and PDK.<br>判断：可作为定制模拟/控制ASIC途径；高压功率级能力须落实具体项目及PDK。 |
-| Availability wording / 可用性表述 | Currently marketed custom-ASIC service.<br>目前公开提供的定制ASIC服务。 |
+| Availability / 可用性表述 | Currently marketed custom-ASIC service.<br>目前公开提供的定制ASIC服务。 |
 | Limits / 限制 | Not proof of an open foundry platform or that every listed node is fabricated internally. No 40–150 V rating established.<br>不证明属于开放代工平台，也不证明全部节点均为自有晶圆厂制造；未确立40～150V额定值。 |
 | Reading depth / 阅读深度 | Official custom-ASIC service and process-solution sections read.<br>已读取官网定制ASIC服务及工艺方案章节。 |
 

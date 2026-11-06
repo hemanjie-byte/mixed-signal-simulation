@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Logic / memory context<br>逻辑／存储背景 |
+| Entity role / 主体角色 | Pilot / development entity<br>试产／开发主体 |
+| Published state / 公开状态 | Pilot / sampling<br>试产／送样 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Publication date<br>发布日期 |
+| Process family / 工艺家族 | GAA logic |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Japan<br>日本 |
 | Business model / 业务类型 | Foundry development and pilot production<br>晶圆代工研发及试制 |
 | Node / 节点 | 2 nm generation (vendor designation)<br>2纳米代（厂商节点名称） |
@@ -20,7 +27,7 @@
 | Devices / 器件 | GAA transistors; pre-release PDK<br>GAA晶体管；预发布PDK |
 | Applications / 应用 | Advanced logic; prototype chip development<br>先进逻辑及芯片原型开发 |
 | 40–150 V DC/DC relevance / 关联 | Assessment: possible future control logic; no demonstrated direct 40–150 V power-stage process.<br>判断：可研究未来控制逻辑应用；尚无证据证明可直接制造40～150V功率级。 |
-| Availability wording / 可用性表述 | Pilot operation and early-adopter PDK reported; mass-production target remains 2027.<br>已报告试验线运行及早期客户PDK；量产目标仍为2027年。 |
+| Availability / 可用性表述 | Pilot operation and early-adopter PDK reported; mass-production target remains 2027.<br>已报告试验线运行及早期客户PDK；量产目标仍为2027年。 |
 | Limits / 限制 | The announcement describes development milestones and plans, not confirmed volume manufacturing or a HV library.<br>公告属于研发进展与计划，不等于已确认规模量产或具备高压器件库。 |
 | Reading depth / 阅读深度 | Official FY2026 project announcement body read.<br>已读取官网2026财年项目公告正文。 |
 

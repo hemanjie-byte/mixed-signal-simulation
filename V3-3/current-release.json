@@ -6,6 +6,9 @@
   "viewer": "../index.html",
   "workbook": "../Mixed_Signal_Simulation_V3_3_EN_ZH.xlsx",
   "process_catalogue": "../global-fab-processes/README.md",
-  "shared_package": "../V3-3_20261106.zip",
-  "package_root_folder": "V3-3"
+  "shared_package": "../V3-3_20261106_catalogue2.zip",
+  "package_root_folder": "V3-3",
+  "catalogue_version": "2.0",
+  "catalogue_entities": 59,
+  "catalogue_records": 119
 }

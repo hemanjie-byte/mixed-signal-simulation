@@ -1,3 +1,13 @@
+# V3-3 · Global FAB catalogue revision 2.0 — 2026-11-06
+
+Catalogue revision **2.0** expands the original 25 entities / 49 records to **59 entities / 119 records**, retaining the original 49 records and adding 70. It includes 118 technical, manufacturing, research or context records and one corporate-history record. The offline catalogue supports eight filters, up to three records side by side, source links, bookmarks and CSV export. The process workbook contains Catalogue, Evidence, Gaps and Guide sheets. Published development, pilot, production and historical states remain distinct.
+
+目录修订版 **2.0** 由原25个主体/49条记录扩展至 **59个主体/119条记录**，保留原49条并新增70条。其中118条属于技术、制造、研究或背景资料，1条属于企业沿革。离线目录支持8类筛选、最多3条并排对比、来源链接、书签与CSV导出；工艺Excel包含目录、依据、缺口、指南四表，并区分开发、试产、量产及历史阶段。
+
+No exhaustive worldwide completeness rate is claimed. The 28 gap items document unresolved evidence, scope exclusions and candidates not reviewed in this edition. This research update does not change numerical models or assert new PDK/silicon calibration.
+
+不声称覆盖全球全部工艺；28项缺口记录尚缺依据、范围排除及本版未核对候选。本次研究更新不修改数值模型，也不增加PDK或实测校准声明。
+
 # V3-3 sharing and global FAB catalogue — 2026-11-06
 
 The current sharing entry and extracted package folder are named V3-3. A separately sourced global FAB public-process catalogue is added. Simulation equations, numerical data and the v3.3.0 tag are preserved.

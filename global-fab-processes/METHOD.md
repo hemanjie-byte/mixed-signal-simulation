@@ -22,6 +22,14 @@ For a 40/60/80/100/120/150 V maximum-input converter, a technology inquiry must 
 
 针对40/60/80/100/120/150V最高输入的转换器，应向厂商确认准确的高低侧器件选件、工作及击穿限制、瞬态过冲、隔离、栅驱动约束、导通电阻、栅电荷、输出电容、二极管恢复、安全工作区及寿命模型。原仿真的电压筛选假设属于教学示例，不是认证规则。因此目录不根据公开工艺名称自动推定“可支持输入电压”。
 
+Catalogue 2.0 preserves the original FAB001–FAB049 identifiers and appends new records. Purpose, material, role and published-state fields are editorial classifications based on each source. An IDM may also advertise external manufacturing services; read the business-model wording rather than treating IDM as synonymous with internal-only. A production label records the source's claim, not an independent fab qualification. A listed platform alone does not establish production or present order availability. Mixed means different named options have different stages.
+
+目录2.0保留原FAB001～FAB049编号并接续新增条目。用途、材料、角色及公开阶段依据各来源作编辑分类。IDM也可能对外提供制造服务，应阅读业务类型表述，不能把IDM等同于仅供内部使用。“量产”标签反映来源声明，不是独立工厂认证；仅列示平台不证明量产或当前可接单。“混合”表示不同具名选件处于不同阶段。
+
+Counts describe catalogue entities, including separately disclosed subsidiaries and research institutes. They do not estimate independent corporate groups, fab sites, market shares or a percentage of global process coverage. The gap register includes unresolved, excluded, merged and not-yet-reviewed candidates. Missing candidates are not evidence of missing supplier capability. Research/prototype and construction announcements remain distinct from commercial process offers.
+
+数量统计针对目录主体，包含单独披露的子公司及研究机构，不估算独立集团、厂址、市场份额或全球工艺覆盖率。缺口表记录未解决、排除、归并及尚未审阅候选；未收录不代表供应商缺少能力。研究／原型及建设公告与商业工艺服务分别保留。
+
 Official source pages are linked, with concise summaries. The collection does not redistribute proprietary PDKs or full third-party brochures. Platform context and published evidence are separate from the authored V3.3 illustrative models; no process calibration was performed in this catalogue update.
 
 目录提供官方来源链接与简要归纳，不分发专有PDK或第三方完整手册。公开工艺背景与V3.3人为示意模型分别记录；本次目录更新未进行工艺参数标定。

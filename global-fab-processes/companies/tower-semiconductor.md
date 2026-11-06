@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Page metadata modification<br>页面元数据更新时间 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Global; site unspecified in this page<br>全球；该页面未指明具体所在地 |
 | Business model / 业务类型 | External specialty foundry<br>对外特色工艺代工 |
 | Node / 节点 | 65 nm<br>65纳米 |
@@ -20,11 +27,12 @@
 | Devices / 器件 | Power LDMOS, 1.2/5 V logic libraries, thick copper<br>功率LDMOS、1.2/5V逻辑库、厚铜 |
 | Applications / 应用 | PMICs, low-voltage DC/DC, load switches<br>PMIC、低压DC/DC、负载开关 |
 | 40–150 V DC/DC relevance / 关联 | Lower-voltage comparison; no direct 40–150 V input support shown<br>低压对照；未显示直接支持40–150V输入 |
-| Availability wording / 可用性表述 | Public foundry platform; access terms not reviewed<br>公开代工平台；未审查准入条款 |
+| Availability / 可用性表述 | Public foundry platform; access terms not reviewed<br>公开代工平台；未审查准入条款 |
 | Limits / 限制 | 45 V floatability does not raise the stated 24 V operating range<br>45V浮置能力不能提高页面标明的24V工作范围 |
 | Reading depth / 阅读深度 | Live full HTML; operating and floating specifications read<br>实时完整HTML；已读工作及浮置电压描述 |
 
 Source / 来源: [65nm BCD Power Management Platform](https://towersemi.com/technology/power-management/power-management-65nm/). Source date / 来源日期: 2023-07-19 (page metadata modification). Checked / 核对: 2026-11-06.
+
 
 ## FAB037 · TS18PM high-voltage bulk BCD
 
@@ -33,6 +41,13 @@ Source / 来源: [65nm BCD Power Management Platform](https://towersemi.com/tech
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Source states production<br>来源表述为量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Page metadata modification<br>页面元数据更新时间 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Global; two manufacturing sites stated, locations unspecified here<br>全球；页面称有两个制造地点，未在该处指明所在地 |
 | Business model / 业务类型 | External specialty foundry<br>对外特色工艺代工 |
 | Node / 节点 | 180 nm<br>180纳米 |
@@ -42,11 +57,12 @@ Source / 来源: [65nm BCD Power Management Platform](https://towersemi.com/tech
 | Devices / 器件 | LDMOS, CMOS, BJT, passives, eNVM, optional DTI<br>LDMOS、CMOS、BJT、无源、eNVM及可选DTI |
 | Applications / 应用 | Power conversion, motors, battery management<br>电源转换、电机和电池管理 |
 | 40–150 V DC/DC relevance / 关联 | Directly relevant; 150 V maximum input is not established<br>直接相关；不能据此认定支持150V最高输入 |
-| Availability wording / 可用性表述 | Production platform; TS18PM PDK described<br>量产平台；页面介绍TS18PM PDK |
+| Availability / 可用性表述 | Production platform; TS18PM PDK described<br>量产平台；页面介绍TS18PM PDK |
 | Limits / 限制 | BVDSS is not continuous operating voltage; PDK not obtained<br>BVDSS不等于连续工作电压；未获取PDK |
 | Reading depth / 阅读深度 | Live HTML; platform and 140 V sections read<br>实时HTML；已读平台及140V章节 |
 
 Source / 来源: [180nm BCD Power Management Platform](https://towersemi.com/technology/power-management/180nm-power-management/). Source date / 来源日期: 2025-06-09 (page metadata modification). Checked / 核对: 2026-11-06.
+
 
 ## FAB038 · TS18SOI BCD
 
@@ -55,6 +71,13 @@ Source / 来源: [180nm BCD Power Management Platform](https://towersemi.com/tec
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Page metadata modification<br>页面元数据更新时间 |
+| Process family / 工艺家族 | SOI / BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Global; platform site unspecified<br>全球；具体平台所在地未披露 |
 | Business model / 业务类型 | External specialty foundry<br>对外特色工艺代工 |
 | Node / 节点 | 180 nm<br>180纳米 |
@@ -64,8 +87,38 @@ Source / 来源: [180nm BCD Power Management Platform](https://towersemi.com/tec
 | Devices / 器件 | BCD, buried oxide, DTI, embedded NVM<br>BCD、埋氧、DTI及嵌入式NVM |
 | Applications / 应用 | Motor control, battery management, gate drivers<br>电机控制、电池管理、栅极驱动 |
 | 40–150 V DC/DC relevance / 关联 | Inference: HV isolation candidate; input rating unproven<br>推断：高压隔离候选；输入额定值未证实 |
-| Availability wording / 可用性表述 | Public platform description; commercial terms unknown<br>公开平台介绍；商业条款未知 |
+| Availability / 可用性表述 | Public platform description; commercial terms unknown<br>公开平台介绍；商业条款未知 |
 | Limits / 限制 | Do not convert 200 V breakdown into 200 V Vin<br>不可将200V击穿转换为200V输入电压 |
 | Reading depth / 阅读深度 | Live HTML; complete TS18SOI section read<br>实时HTML；完整阅读TS18SOI章节 |
 
 Source / 来源: [180nm BCD Power Management Platform — SOI section](https://towersemi.com/technology/power-management/180nm-power-management/). Source date / 来源日期: 2025-06-09 (page metadata modification). Checked / 核对: 2026-11-06.
+
+
+## FAB111 · SiGe BiCMOS family; SBC18H5 reference
+
+## SiGe BiCMOS家族；SBC18H5参考
+
+| Field / 字段 | Published context / 公开信息 |
+|---|---|
+| Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | RF and high-speed analog<br>射频与高速模拟 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Source states production<br>来源表述为量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Undated / exact date unavailable<br>未标日期／准确日期不可得 |
+| Process family / 工艺家族 | SiGe BiCMOS |
+| Material / 材料 | Silicon / SiGe<br>硅／硅锗 |
+| Geographic context / 地域背景 | Israel; global foundry network<br>以色列；全球代工网络 |
+| Business model / 业务类型 | Specialty foundry<br>特色工艺代工 |
+| Node / 节点 | 180 / 130 / 65 nm CMOS family<br>180/130/65纳米CMOS家族 |
+| Wafer / 晶圆尺寸 | Not disclosed / 未公开<br>Not disclosed / 未公开 |
+| Published voltage / 公开电压 | Selected complementary bipolar BVCEO up to 16 V<br>部分互补双极器件BVCEO最高16V |
+| Voltage meaning / 电压含义 | Collector-emitter breakdown; not supply or Vin<br>集电极—发射极击穿；非供电或输入电压 |
+| Devices / 器件 | SiGe HBT, CMOS, RF passives<br>SiGe HBT、CMOS、射频无源器件 |
+| Applications / 应用 | RF / optical communications<br>射频/光通信 |
+| 40–150 V DC/DC relevance / 关联 | Assessment: signal-chain coverage.<br>判断：补充信号链覆盖。 |
+| Availability / 可用性表述 | SBC18H5 stated in volume production.<br>官网称SBC18H5已量产。 |
+| Limits / 限制 | Node and voltage maxima are family options, not universal SBC18H5 specifications.<br>节点及电压上限是家族选项，不是SBC18H5的通用规格。 |
+| Reading depth / 阅读深度 | Official technical body read.<br>已阅读官方技术正文。 |
+
+Source / 来源: [SiGe BiCMOS platform](https://towersemi.com/technology/rf-and-hpa/sige-bicmos-platform/). Source date / 来源日期: Not disclosed / 未公开. Checked / 核对: 2026-11-06.

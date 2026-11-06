@@ -2,9 +2,9 @@
 
 # 模拟与混合信号仿真 V3-3
 
-**Current sharing entry: [V3-3](V3-3/README.md).** The display name is V3-3; the numerical release remains v3.3.0. The [global FAB public-process folder](global-fab-processes/README.md) adds a separately dated official-source catalogue on 2026-11-06. [Download the V3-3 folder package](V3-3_20261106.zip).
+**Current sharing entry: [V3-3](V3-3/README.md).** The display name is V3-3; the numerical release remains v3.3.0. The [global FAB public-process folder](global-fab-processes/README.md) now provides catalogue revision **2.0**: 59 catalogue entities, 119 records and 28 follow-up/exclusion items, reviewed on 2026-11-06. Entities include subsidiaries and research institutes; these are not counts of independent ownership groups or physical fabs. [Download the V3-3 folder package](V3-3_20261106_catalogue2.zip).
 
-**当前分享入口：[V3-3](V3-3/README.md)。** 展示名称统一为V3-3，数值版本仍为v3.3.0。[全球FAB公开工艺文件夹](global-fab-processes/README.md)新增2026-11-06官方来源目录。[下载解压后名为V3-3的分享包](V3-3_20261106.zip)。
+**当前分享入口：[V3-3](V3-3/README.md)。** 展示名称统一为V3-3，数值版本仍为v3.3.0。[全球FAB公开工艺文件夹](global-fab-processes/README.md)现为目录修订版 **2.0**：59个目录主体、119条记录、28项后续核实/排除说明，核对日期为2026-11-06。主体包含子公司与研究机构，不等于独立集团或实体晶圆厂数量。[下载解压后名为V3-3的分享包](V3-3_20261106_catalogue2.zip)。
 
 2026-11-03. Every one of the 20 model views now has its own English-annotated GIF: a mechanism diagram, a moving data cursor, explicit units and a recorded representative case. DC sweeps, physical-time transients and statistical displays are clearly distinguished. The viewer and workbook retain English-first, Chinese-second explanations.
 
@@ -24,7 +24,7 @@ All 211 cases were regenerated. 96 recorded checks pass, including preserved-mod
 
 - [Bilingual Excel](Mixed_Signal_Simulation_V3_3_EN_ZH.xlsx) — 双语工作簿，含逐模型GIF链接及误差算式
 - [Offline viewer](index.html) — 离线全模型动画库、曲线、数值与概念3D
-- [Current V3-3 shared package](V3-3_20261106.zip) — 当前V3-3分享包，含全球FAB工艺目录
+- [Current V3-3 shared package](V3-3_20261106_catalogue2.zip) — 当前V3-3分享包，含全球FAB工艺目录
 - [Original v3.3.0 simulation snapshot](mixed-signal-simulation_V3_3_20261103.zip) — 原始仿真发布快照
 - [Numerical accuracy and limits](v33/ACCURACY_AND_LIMITS.md) — 数值准确性及边界
 - [Model cards](v33/MODEL_CARDS.md) — 模型方程、假设与未覆盖项

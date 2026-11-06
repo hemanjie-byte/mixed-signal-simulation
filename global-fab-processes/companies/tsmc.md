@@ -11,6 +11,13 @@
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Mixed stages; read each option<br>阶段混合；须逐选件阅读 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Undated / exact date unavailable<br>未标日期／准确日期不可得 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Taiwan<br>中国台湾 |
 | Business model / 业务类型 | Foundry<br>晶圆代工 |
 | Node / 节点 | 40 nm<br>40纳米 |
@@ -20,11 +27,12 @@
 | Devices / 器件 | HV components<br>高压器件 |
 | Applications / 应用 | PMICs<br>电源管理芯片 |
 | 40–150 V DC/DC relevance / 关联 | Lower-voltage rails; no support established for the 60–150 V bus range.<br>面向较低电压电源轨；未证明支持60–150伏母线。 |
-| Availability wording / 可用性表述 | Gen-2 PDK released 2025; 45 V extension in reliability verification.<br>第二代PDK于2025年发布；45伏扩展仍在可靠性验证。 |
+| Availability / 可用性表述 | Gen-2 PDK released 2025; 45 V extension in reliability verification.<br>第二代PDK于2025年发布；45伏扩展仍在可靠性验证。 |
 | Limits / 限制 | Do not label the 45 V extension as production-qualified.<br>不得把45伏扩展标为已完成量产认证。 |
 | Reading depth / 阅读深度 | Live official BCD body; Gen-2 and 45 V maturity statements separately read.<br>已读取官网BCD正文；分别核对第二代平台与45伏扩展的成熟度。 |
 
 Source / 来源: [TSMC — Bipolar-CMOS-DMOS (BCD) Technology](https://www.tsmc.com/english/dedicatedFoundry/technology/specialty/bcd). Source date / 来源日期: Not disclosed / 未公开. Checked / 核对: 2026-11-06.
+
 
 ## FAB040 · BCD Gen-2 100 V extension
 
@@ -33,6 +41,13 @@ Source / 来源: [TSMC — Bipolar-CMOS-DMOS (BCD) Technology](https://www.tsmc.
 | Field / 字段 | Published context / 公开信息 |
 |---|---|
 | Record type / 记录类别 | Process / platform<br>工艺/平台 |
+| Scope / 用途分类 | Analog and power ICs<br>模拟与电源集成电路 |
+| Entity role / 主体角色 | Published foundry service<br>公开代工服务 |
+| Published state / 公开状态 | Listed; production not independently established<br>已列示；未独立确认量产 |
+| Evidence read / 已读证据 | Official page body read<br>已读官方网页正文 |
+| Date meaning / 日期含义 | Undated / exact date unavailable<br>未标日期／准确日期不可得 |
+| Process family / 工艺家族 | BCD / HV CMOS |
+| Material / 材料 | Silicon<br>硅 |
 | Geographic context / 地域背景 | Taiwan<br>中国台湾 |
 | Business model / 业务类型 | Foundry<br>晶圆代工 |
 | Node / 节点 | 0.18 µm<br>0.18微米 |
@@ -42,7 +57,7 @@ Source / 来源: [TSMC — Bipolar-CMOS-DMOS (BCD) Technology](https://www.tsmc.
 | Devices / 器件 | BCD power devices<br>BCD功率器件 |
 | Applications / 应用 | 48 V AI-server and EV power systems<br>48伏AI服务器及电动车供电系统 |
 | 40–150 V DC/DC relevance / 关联 | Candidate evidence only; not a qualified converter design.<br>仅作为候选依据，不代表转换器设计通过验证。 |
-| Availability wording / 可用性表述 | PDK released in 2025.<br>2025年已发布PDK。 |
+| Availability / 可用性表述 | PDK released in 2025.<br>2025年已发布PDK。 |
 | Limits / 限制 | PDK release is not evidence of 150 V-input suitability; wafer size not tied to this variant.<br>PDK发布不证明可用于150伏输入；本版本未明确对应晶圆尺寸。 |
 | Reading depth / 阅读深度 | Live official BCD body via Firecrawl, including 0.18 µm paragraph; web text extractor omitted this tab.<br>通过Firecrawl读取官网BCD正文及0.18微米段落；普通网页提取器遗漏该标签内容。 |
 

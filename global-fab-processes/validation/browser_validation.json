@@ -1,14 +1,14 @@
 {
   "date": "2026-11-06",
-  "catalogue_records": 49,
-  "manufacturer_filters_checked": 25,
-  "search": true,
-  "no_match": true,
-  "details": true,
+  "catalogue_version": "2.0",
+  "records": 119,
+  "entities": 59,
+  "filter_values_checked": 180,
+  "combined_filter_bookmark_export": true,
+  "comparison_three_record_limit": true,
+  "search_no_match_permalink": true,
   "mobile_overflow": false,
-  "sharing_navigation": true,
-  "display_version": "V3-3",
-  "baseline": {
+  "simulation_baseline": {
     "version": "3.3.0",
     "cases": 211,
     "models": 20
