@@ -1,6 +1,10 @@
-# Mixed-Signal Simulation V3.3.0
+# Mixed-Signal Simulation V3-3
 
-# 模拟与混合信号仿真 V3.3.0
+# 模拟与混合信号仿真 V3-3
+
+**Current sharing entry: [V3-3](V3-3/README.md).** The display name is V3-3; the numerical release remains v3.3.0. The [global FAB public-process folder](global-fab-processes/README.md) adds a separately dated official-source catalogue on 2026-11-06. [Download the V3-3 folder package](V3-3_20261106.zip).
+
+**当前分享入口：[V3-3](V3-3/README.md)。** 展示名称统一为V3-3，数值版本仍为v3.3.0。[全球FAB公开工艺文件夹](global-fab-processes/README.md)新增2026-11-06官方来源目录。[下载解压后名为V3-3的分享包](V3-3_20261106.zip)。
 
 2026-11-03. Every one of the 20 model views now has its own English-annotated GIF: a mechanism diagram, a moving data cursor, explicit units and a recorded representative case. DC sweeps, physical-time transients and statistical displays are clearly distinguished. The viewer and workbook retain English-first, Chinese-second explanations.
 
@@ -20,7 +24,8 @@ All 211 cases were regenerated. 96 recorded checks pass, including preserved-mod
 
 - [Bilingual Excel](Mixed_Signal_Simulation_V3_3_EN_ZH.xlsx) — 双语工作簿，含逐模型GIF链接及误差算式
 - [Offline viewer](index.html) — 离线全模型动画库、曲线、数值与概念3D
-- [Complete delivery ZIP](mixed-signal-simulation_V3_3_20261103.zip) — 完整交付包
+- [Current V3-3 shared package](V3-3_20261106.zip) — 当前V3-3分享包，含全球FAB工艺目录
+- [Original v3.3.0 simulation snapshot](mixed-signal-simulation_V3_3_20261103.zip) — 原始仿真发布快照
 - [Numerical accuracy and limits](v33/ACCURACY_AND_LIMITS.md) — 数值准确性及边界
 - [Model cards](v33/MODEL_CARDS.md) — 模型方程、假设与未覆盖项
 - [Animation guide](v33/education/README.md) — 动画说明
@@ -81,9 +86,9 @@ python v33/education/render_all.py
 python v33/presentation/build_views.py
 ```
 
-The numerical runners export data and comparison audits without modifying V3.1/V3.2 inputs. The separate analog `validate.py` command executes and records its tests; the DC/DC runner executes its own validation. GIF hashes record the exact improved data used; rendering fonts may differ across systems. These commands regenerate calculations/animations/viewer, not the Excel snapshot. [Source checksums](v33/validation/release_manifest.json), [browser QA](v33/validation/viewer_validation.json) and [workbook QA](v33/validation/workbook_validation.json) are included.
+The numerical runners export data and comparison audits without modifying V3.1/V3.2 inputs. The separate analog `validate.py` command executes and records its tests; the DC/DC runner executes its own validation. GIF hashes record the exact improved data used; rendering fonts may differ across systems. These commands regenerate the numerical viewer with its original v3.3 label, not the sharing navigation or Excel snapshot. [Original release checksums](https://github.com/hemanjie-byte/mixed-signal-simulation/blob/v3.3.0/v33/validation/release_manifest.json), [browser QA](v33/validation/viewer_validation.json) and [workbook QA](v33/validation/workbook_validation.json) describe the original simulation release. [Current sharing checksums](V3-3/package_manifest.json) describe the 2026-11-06 package.
 
-数值脚本导出数据与误差审计，不修改V3.1/V3.2输入。模拟系列通过独立的`validate.py`命令执行并记录测试；DC/DC脚本自行执行验证。GIF记录所用改进数据的精确哈希，跨系统字体可能不同。上述命令重建计算、动画与演示页，不重新导出Excel快照。包含[来源校验值](v33/validation/release_manifest.json)、[浏览器检查](v33/validation/viewer_validation.json)及[工作簿检查](v33/validation/workbook_validation.json)。
+数值脚本导出数据与误差审计，不修改V3.1/V3.2输入。模拟系列通过独立的`validate.py`命令执行并记录测试；DC/DC脚本自行执行验证。GIF记录所用改进数据的精确哈希，跨系统字体可能不同。上述命令重建带原v3.3标签的数值演示页，不重建分享导航或Excel快照。[原发布校验值](https://github.com/hemanjie-byte/mixed-signal-simulation/blob/v3.3.0/v33/validation/release_manifest.json)、[浏览器检查](v33/validation/viewer_validation.json)及[工作簿检查](v33/validation/workbook_validation.json)对应原仿真发布；[当前分享包校验值](V3-3/package_manifest.json)对应2026-11-06分享包。
 
 The TOP200/182-paper cohort retains its V3.1 audit; the four additional papers and eight manufacturer documents retain their V3.2 reading-depth records. No new full-text literature or foundry-availability audit is claimed. The 40–150 V values mean maximum DC/DC input, not device ratings. Physical accuracy, PDK sign-off, breakdown/SOA, extracted layout and calibrated electrothermal behavior remain unverified.
 

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-06",
+  "authoring": "artifact-tool",
+  "independent_validation": "openpyxl (read only)",
+  "records": 49,
+  "worksheets": 3,
+  "all_catalogue_and_evidence_cells_match_source": true,
+  "source_url_hyperlinks": 49,
+  "dates_typed_and_verified": true,
+  "freeze_panes_and_table_ranges_verified": true,
+  "formula_or_error_cells": 0,
+  "sha256": "ed2d2cc0a1657631accc2d4b63b1f93dcd602ac42f3226d18c531579dd45fbd1",
+  "preview_review": "Catalogue start; Evidence middle; Guide start. Rendered start/middle/end ranges also saved privately.",
+  "native_excel_engine_tested": false
+}

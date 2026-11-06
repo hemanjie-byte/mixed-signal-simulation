@@ -1,3 +1,9 @@
+# V3-3 sharing and global FAB catalogue — 2026-11-06
+
+The current sharing entry and extracted package folder are named V3-3. A separately sourced global FAB public-process catalogue is added. Simulation equations, numerical data and the v3.3.0 tag are preserved.
+
+当前分享入口与解压后的文件夹统一命名为V3-3，新增独立核对来源的全球FAB公开工艺目录。保留仿真方程、数值数据及v3.3.0标签。
+
 # V3.3.0 — 2026-11-03
 
 All 20 models gain individual English GIFs with diagrams and data plots. All 211 cases regenerated. 12 numerical-error benchmarks meet the 10% relative-reduction target; 7 roundoff/analytic-floor cases and 1 sampling-only case are separately reported. 96 checks pass. Workbook/viewer add per-model animation access and auditable before/after errors. Physical accuracy remains unverified.

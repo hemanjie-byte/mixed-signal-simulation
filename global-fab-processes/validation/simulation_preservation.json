@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "010ffc13890443622771e19f9ec59579929beb80",
+  "simulation_embedded_data_byte_identical": true,
+  "embedded_data_sha256": "550c8f920d2f092307d3a30f758c630870090ff61bd1ec69f2386512ba9ca212",
+  "existing_simulation_source_and_data_files_unchanged": true,
+  "original_simulation_zip_byte_identical": true,
+  "simulation_rerun_required": false,
+  "scope": "Sharing navigation, names and a separately sourced FAB catalogue; no numerical model changes."
+}

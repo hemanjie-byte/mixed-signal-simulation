@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-06",
+  "catalogue_records": 49,
+  "manufacturer_filters_checked": 25,
+  "search": true,
+  "no_match": true,
+  "details": true,
+  "mobile_overflow": false,
+  "sharing_navigation": true,
+  "display_version": "V3-3",
+  "baseline": {
+    "version": "3.3.0",
+    "cases": 211,
+    "models": 20
+  },
+  "page_errors": []
+}

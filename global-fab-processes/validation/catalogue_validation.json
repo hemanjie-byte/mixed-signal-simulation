@@ -1,0 +1,13 @@
+{
+  "review_date": "2026-11-06",
+  "records": 49,
+  "process_records": 48,
+  "manufacturers": 25,
+  "bilingual_schema_complete": true,
+  "unknown_fields_retained_as_null": true,
+  "unique_record_ids": true,
+  "local_markdown_links_missing": [],
+  "sharing_display_version": "V3-3",
+  "catalogue_sha256": "90eae42826a92cc0413f3f15cc2fd0acc688a0f8b1268c1181e7ddcabeb5f1d5",
+  "scope": "Structural and local-link checks. Source-reading depth is per record; no PDK qualification or automatic external-link availability guarantee."
+}
