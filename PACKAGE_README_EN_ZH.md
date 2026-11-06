@@ -2,9 +2,9 @@
 
 # V3-3分享包
 
-The 2026-11-06 sharing package extracts into **V3-3** and adds `global-fab-processes`. The simulation content remains the v3.3.0 baseline. The older dated ZIP is preserved as the original release snapshot.
+The 2026-11-07 sharing package extracts into **V3-3** and adds `global-fab-processes`. The simulation content remains the v3.3.0 baseline. The older dated ZIP is preserved as the original release snapshot.
 
-2026-11-06分享包解压后的目录为 **V3-3**，新增`global-fab-processes`工艺目录；仿真内容沿用v3.3.0基线。旧日期ZIP保留为原发布快照。
+2026-11-07分享包解压后的目录为 **V3-3**，新增`global-fab-processes`工艺目录；仿真内容沿用v3.3.0基线。旧日期ZIP保留为原发布快照。
 
 Extract all files together and open index.html. Keep the v33/education assets beside the viewer. Every model has an English GIF and a static poster; Excel links to the published GIFs and displays posters, native charts and formula-based error reduction. Numerical values remain authored examples, not measured or PDK-calibrated devices.
 
@@ -21,3 +21,15 @@ Catalogue revision **2.0** expands the original 25 entities / 49 records to **59
 No exhaustive worldwide completeness rate is claimed. The 28 gap items document unresolved evidence, scope exclusions and candidates not reviewed in this edition. This research update does not change numerical models or assert new PDK/silicon calibration.
 
 不声称覆盖全球全部工艺；28项缺口记录尚缺依据、范围排除及本版未核对候选。本次研究更新不修改数值模型，也不增加PDK或实测校准声明。
+
+**Printing edition 1.0 (2026-11-07): [75 egg-size STL teaching models](printable-models/README.md).** Each file corresponds to a documented catalogue entry; devices, passive parts, isolation/interconnect structures, mechanisms and circuit benches remain distinct. Models have 60 × 42 mm footprints and enlarged tactile features. [Download the printing bundle](Semiconductor_Teaching_STL_20261107.zip).
+
+**打印版1.0（2026-11-07）：[75份鸡蛋大小STL教学模型](printable-models/README.md)。** 每份对应明确目录条目，区分器件、无源、隔离/互连结构、机理及电路台；底面60×42毫米，细节为教学放大。[下载打印资料包](Semiconductor_Teaching_STL_20261107.zip)。
+
+The printable source catalogue and referenced legacy geometry are included so the teaching mapping can be inspected. STL uses millimetres by interpretation; select mm and 100% scale in a slicer. These static models do not add semiconductor physics or change numerical accuracy claims.
+
+包内包含打印源目录及引用的历史几何，便于检查教学映射。STL按毫米解释，请在切片软件选择mm与100%比例；静态模型不新增半导体物理机制或改变数值准确性声明。
+
+The complete sharing edition uses two archives: extract the core package to create **V3-3**, then extract **Semiconductor_Teaching_STL_20261107.zip inside that V3-3 folder**. The printing archive also works independently for printing. Its source files overlap some core dependencies with identical bytes; merge folders and keep the matching versions. Both archives and all individual files are available in the repository.
+
+完整分享版采用两个压缩包：先解压核心包得到 **V3-3**，再将 **Semiconductor_Teaching_STL_20261107.zip解压到该V3-3文件夹内部**。打印包也可独立用于打印；其部分源文件与核心依赖字节一致，合并目录并保留匹配版本即可。仓库同时保存两个压缩包及全部单独文件。

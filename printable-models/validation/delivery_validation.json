@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-07",
+  "status": "PASS",
+  "source_id_coverage": "75/75",
+  "group_counts": {"V1": 24, "V2": 31, "V33": 20},
+  "stl_count": 75,
+  "individual_previews": 150,
+  "contact_sheets": 6,
+  "source_mapping_and_stl_heightfield_preview_hashes": "PASS",
+  "independent_STL_geometry_checks": 2025,
+  "models_passed_independent_geometry_validation": 75,
+  "physical_print_tested": false,
+  "printer_specific_slicing_tested": false
+}

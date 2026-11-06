@@ -10,7 +10,7 @@ This is the entry folder for the V3.3 simulation materials and the global FAB pu
 - [All twenty animated lessons](../v33/education/GALLERY.md) — 20个英文动画课程
 - [Offline simulation viewer](../index.html) — 离线仿真演示页
 - [Global FAB public-process catalogue](../global-fab-processes/README.md) — 全球FAB公开工艺目录
-- [Download the V3-3 shared package](../V3-3_20261106_catalogue2.zip) — 下载V3-3分享包
+- [Download the V3-3 core package](../V3-3_20261107_core.zip) — 下载V3-3核心包
 
 The downloaded package extracts into a folder named **V3-3**. Open its `index.html` for simulation or `global-fab-processes/README.md` for process research. GitHub displays HTML source; use the downloaded package to run the viewer.
 
@@ -27,3 +27,11 @@ Catalogue revision **2.0** expands the original 25 entities / 49 records to **59
 No exhaustive worldwide completeness rate is claimed. The 28 gap items document unresolved evidence, scope exclusions and candidates not reviewed in this edition. This research update does not change numerical models or assert new PDK/silicon calibration.
 
 不声称覆盖全球全部工艺；28项缺口记录尚缺依据、范围排除及本版未核对候选。本次研究更新不修改数值模型，也不增加PDK或实测校准声明。
+
+**Printing edition 1.0 (2026-11-07): [75 egg-size STL teaching models](../printable-models/README.md).** Each file corresponds to a documented catalogue entry; devices, passive parts, isolation/interconnect structures, mechanisms and circuit benches remain distinct. Models have 60 × 42 mm footprints and enlarged tactile features. [Download the printing bundle](../Semiconductor_Teaching_STL_20261107.zip).
+
+**打印版1.0（2026-11-07）：[75份鸡蛋大小STL教学模型](../printable-models/README.md)。** 每份对应明确目录条目，区分器件、无源、隔离/互连结构、机理及电路台；底面60×42毫米，细节为教学放大。[下载打印资料包](../Semiconductor_Teaching_STL_20261107.zip)。
+
+The complete sharing edition uses two archives: extract the core package to create **V3-3**, then extract **Semiconductor_Teaching_STL_20261107.zip inside that V3-3 folder**. The printing archive also works independently for printing. Its source files overlap some core dependencies with identical bytes; merge folders and keep the matching versions. Both archives and all individual files are available in the repository.
+
+完整分享版采用两个压缩包：先解压核心包得到 **V3-3**，再将 **Semiconductor_Teaching_STL_20261107.zip解压到该V3-3文件夹内部**。打印包也可独立用于打印；其部分源文件与核心依赖字节一致，合并目录并保留匹配版本即可。仓库同时保存两个压缩包及全部单独文件。

@@ -12,3 +12,6 @@
 *.obj -text
 *.xlsx binary
 *.zip binary
+*.stl binary
+*.npy binary
+*.png binary

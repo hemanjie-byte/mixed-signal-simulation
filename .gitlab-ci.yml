@@ -1,0 +1,16 @@
+image: python:3.12-slim
+stages:
+  - validate
+
+fab_catalogue:
+  stage: validate
+  script:
+    - python global-fab-processes/build_catalogue.py
+    - python global-fab-processes/validate_catalogue.py --strict-artifacts
+
+printable_models:
+  stage: validate
+  script:
+    - python -m pip install numpy==2.3.5
+    - python printable-models/validation/validate_meshes.py
+    - python printable-models/validation/validate_delivery.py

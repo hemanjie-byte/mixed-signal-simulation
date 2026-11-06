@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "model_count": 75,
+  "group_counts": {
+    "V1": 24,
+    "V2": 31,
+    "V33": 20
+  },
+  "individual_png_count": 150,
+  "contact_sheet_count": 6,
+  "all_156_pngs_decoded_and_hash_matched": true,
+  "all_75_heightfield_hashes_match_geometry_exports": true,
+  "all_physical_dimensions_match_final_heightfields": true,
+  "manifest_sha256": "50701720d3287ea8c942b9e5b888650e1af18a68a8e74c884d5cec6da7f7be85",
+  "renderer_sha256": "831de1e5c77a104670604100d2983c624e6bb21ad28f61ec14e80c22b172fc54",
+  "total_png_bytes": 22439393,
+  "individual_png_bytes": 18755565,
+  "contact_sheet_bytes": 3683828,
+  "visual_review": {
+    "all_six_contact_sheets_reviewed": true,
+    "full_size_final_views_reviewed": [
+      "V1_M01_top",
+      "V2_N06",
+      "V2_N06_top",
+      "V2_N21_top",
+      "V2_N23",
+      "V2_N15_top"
+    ],
+    "material_clipping_or_reversed_text_found": false,
+    "finfet_review": "Three raised fins are visible across the lowered source/drain cutaway strips; the gate remains clearly distinguishable.",
+    "scope": "Visual assessment of final-heightfield previews; not physical print verification or semiconductor process validation."
+  }
+}

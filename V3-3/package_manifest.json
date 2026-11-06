@@ -5,17 +5,32 @@
   "simulation_version": "v3.3.0",
   "simulation_commit": "010ffc13890443622771e19f9ec59579929beb80",
   "package_root": "V3-3",
-  "file_count_excluding_manifest": 502,
+  "printing_version": "1.0",
+  "printing_date": "2026-11-07",
+  "package_date": "2026-11-07",
+  "printing_model_count": 75,
+  "package_role": "core",
+  "printing_assets_in_this_archive": false,
+  "companion_printing_package": "Semiconductor_Teaching_STL_20261107.zip",
+  "full_delivery_requires_both_archives": true,
+  "extraction_instructions_en": "Extract V3-3_20261107_core.zip to obtain the V3-3 folder. Extract Semiconductor_Teaching_STL_20261107.zip INTO that V3-3 folder, preserving its repository-relative paths. Both archives together form the complete delivery; the core alone does not include printable assets.",
+  "extraction_instructions_zh": "先解压V3-3_20261107_core.zip，得到V3-3文件夹；再将Semiconductor_Teaching_STL_20261107.zip解压到该V3-3文件夹内，保留仓库相对路径。两包合并才是整套交付，核心包本身不含打印资产。",
+  "file_count_excluding_manifest": 504,
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 222,
-      "sha256": "51330fd01c187db6753e607a2efca5f5b43756bdfcf192acf7027f6d2fa4bcde"
+      "bytes": 261,
+      "sha256": "4cb88483023a06036f0cd3831670f8990615edffe35ccd64734f75f7faf1106f"
     },
     {
       "path": ".github/workflows/fab-catalogue-validation.yml",
       "bytes": 705,
       "sha256": "b57f2f8f84373629eb9d66d426e3ea18e0afb8f78b129ee60233b6e54cbfe7f6"
+    },
+    {
+      "path": ".github/workflows/printable-models.yml",
+      "bytes": 638,
+      "sha256": "939212bc367d663d1e6187cb175624a66223a3d66888263cd124d6f5b23372a5"
     },
     {
       "path": ".github/workflows/v3-validation.yml",
@@ -33,9 +48,14 @@
       "sha256": "7f9b8664174680c1248e07fd50a5d9287317e3183b1514dd357abf959306d3e9"
     },
     {
+      "path": ".gitlab-ci.yml",
+      "bytes": 427,
+      "sha256": "7e1cf277c6712e1bb1cd98b7fd644070d8bb8b52ba60ec406c312de5980741f7"
+    },
+    {
       "path": "CHANGELOG.md",
-      "bytes": 7088,
-      "sha256": "2a3e0dd9f38ffad1b24b5041f51a86faafd4438d34310aca9a5e50c69fe0339a"
+      "bytes": 9251,
+      "sha256": "fe316ac523331c684da09cc62275fbf16a92a0ba3b52baa29c5eb88d995f7369"
     },
     {
       "path": "CITATION.cff",
@@ -49,23 +69,23 @@
     },
     {
       "path": "PACKAGE_README_EN_ZH.md",
-      "bytes": 3199,
-      "sha256": "cca00f6424628bfa377cef564bbaaa9a2ca8b1f9b08c9e46253bf4d3f2ceb89f"
+      "bytes": 5193,
+      "sha256": "4fa28453b1b35235980f487d08487a0b0082b3b9eacc8cc13030d4d18322889f"
     },
     {
       "path": "README.md",
-      "bytes": 11401,
-      "sha256": "463ff714af90bb6920941babadb4b0feefc8b20b575eef093a6cec7c71f7c712"
+      "bytes": 12871,
+      "sha256": "5de144cb642e3cd088423b714676bb1d98328c8c2b42754a6424370f621d854c"
     },
     {
       "path": "V3-3/README.md",
-      "bytes": 3138,
-      "sha256": "5dc393374c530a4e0a8e7c3c5cf1d9768cdaac543a7cdf1a92e66c4f16730e03"
+      "bytes": 4629,
+      "sha256": "97598b340fc65b380a54df066abeaec334502807781a0556cd653c67277ae3e8"
     },
     {
       "path": "V3-3/current-release.json",
-      "bytes": 497,
-      "sha256": "d443ead5f3bcce7b38a544f1860da0f5a62cb8792f47578d363b638f7e511267"
+      "bytes": 805,
+      "sha256": "fb5e2ca4b6f7e5b7d7e61b96b2f99c6b9a9b40e2cae0d334f755863015d1d5bb"
     },
     {
       "path": "V3-3/index.html",

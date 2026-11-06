@@ -1,3 +1,13 @@
+# V3-3 · Printable teaching edition 1.0 — 2026-11-07
+
+**Printing edition 1.0 (2026-11-07): [75 egg-size STL teaching models](printable-models/README.md).** Each file corresponds to a documented catalogue entry; devices, passive parts, isolation/interconnect structures, mechanisms and circuit benches remain distinct. Models have 60 × 42 mm footprints and enlarged tactile features. [Download the printing bundle](Semiconductor_Teaching_STL_20261107.zip).
+
+**打印版1.0（2026-11-07）：[75份鸡蛋大小STL教学模型](printable-models/README.md)。** 每份对应明确目录条目，区分器件、无源、隔离/互连结构、机理及电路台；底面60×42毫米，细节为教学放大。[下载打印资料包](Semiconductor_Teaching_STL_20261107.zip)。
+
+Adds 75 individual binary STL files, final-geometry previews, an offline atlas and source/terminal mappings. Geometry is validated independently from STL; physical printing is not claimed. GitLab CI definitions cover the FAB catalogue and printable artifacts; GitHub workflows are retained. Simulation v3.3.0 and FAB catalogue 2.0 are preserved.
+
+新增75份独立二进制STL、由最终几何生成的预览、离线图册及来源/端口映射。从STL独立核验几何，不声称已实物试打。新增GitLab目录与打印资料检查配置，保留GitHub工作流；仿真v3.3.0及FAB目录2.0保持不变。
+
 # V3-3 · Global FAB catalogue revision 2.0 — 2026-11-06
 
 Catalogue revision **2.0** expands the original 25 entities / 49 records to **59 entities / 119 records**, retaining the original 49 records and adding 70. It includes 118 technical, manufacturing, research or context records and one corporate-history record. The offline catalogue supports eight filters, up to three records side by side, source links, bookmarks and CSV export. The process workbook contains Catalogue, Evidence, Gaps and Guide sheets. Published development, pilot, production and historical states remain distinct.
@@ -69,3 +79,7 @@ The entries below are retained historical notes in their original language.
 ## V1 — 2026-11-01
 
 公开工艺资料、24类器件、432工况、六档理想Buck与离线3D演示。
+
+The complete sharing edition uses two archives: extract the core package to create **V3-3**, then extract **Semiconductor_Teaching_STL_20261107.zip inside that V3-3 folder**. The printing archive also works independently for printing. Its source files overlap some core dependencies with identical bytes; merge folders and keep the matching versions. Both archives and all individual files are available in the repository.
+
+完整分享版采用两个压缩包：先解压核心包得到 **V3-3**，再将 **Semiconductor_Teaching_STL_20261107.zip解压到该V3-3文件夹内部**。打印包也可独立用于打印；其部分源文件与核心依赖字节一致，合并目录并保留匹配版本即可。仓库同时保存两个压缩包及全部单独文件。

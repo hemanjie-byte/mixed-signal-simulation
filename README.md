@@ -2,9 +2,13 @@
 
 # 模拟与混合信号仿真 V3-3
 
-**Current sharing entry: [V3-3](V3-3/README.md).** The display name is V3-3; the numerical release remains v3.3.0. The [global FAB public-process folder](global-fab-processes/README.md) now provides catalogue revision **2.0**: 59 catalogue entities, 119 records and 28 follow-up/exclusion items, reviewed on 2026-11-06. Entities include subsidiaries and research institutes; these are not counts of independent ownership groups or physical fabs. [Download the V3-3 folder package](V3-3_20261106_catalogue2.zip).
+**Current sharing entry: [V3-3](V3-3/README.md).** The display name is V3-3; the numerical release remains v3.3.0. The [global FAB public-process folder](global-fab-processes/README.md) now provides catalogue revision **2.0**: 59 catalogue entities, 119 records and 28 follow-up/exclusion items, reviewed on 2026-11-06. Entities include subsidiaries and research institutes; these are not counts of independent ownership groups or physical fabs. [Download the V3-3 simulation/FAB core package](V3-3_20261107_core.zip).
 
-**当前分享入口：[V3-3](V3-3/README.md)。** 展示名称统一为V3-3，数值版本仍为v3.3.0。[全球FAB公开工艺文件夹](global-fab-processes/README.md)现为目录修订版 **2.0**：59个目录主体、119条记录、28项后续核实/排除说明，核对日期为2026-11-06。主体包含子公司与研究机构，不等于独立集团或实体晶圆厂数量。[下载解压后名为V3-3的分享包](V3-3_20261106_catalogue2.zip)。
+**当前分享入口：[V3-3](V3-3/README.md)。** 展示名称统一为V3-3，数值版本仍为v3.3.0。[全球FAB公开工艺文件夹](global-fab-processes/README.md)现为目录修订版 **2.0**：59个目录主体、119条记录、28项后续核实/排除说明，核对日期为2026-11-06。主体包含子公司与研究机构，不等于独立集团或实体晶圆厂数量。[下载V3-3仿真/FAB核心包](V3-3_20261107_core.zip)。
+
+**Printing edition 1.0 (2026-11-07): [75 egg-size STL teaching models](printable-models/README.md).** Each file corresponds to a documented catalogue entry; devices, passive parts, isolation/interconnect structures, mechanisms and circuit benches remain distinct. Models have 60 × 42 mm footprints and enlarged tactile features. [Download the printing bundle](Semiconductor_Teaching_STL_20261107.zip).
+
+**打印版1.0（2026-11-07）：[75份鸡蛋大小STL教学模型](printable-models/README.md)。** 每份对应明确目录条目，区分器件、无源、隔离/互连结构、机理及电路台；底面60×42毫米，细节为教学放大。[下载打印资料包](Semiconductor_Teaching_STL_20261107.zip)。
 
 2026-11-03. Every one of the 20 model views now has its own English-annotated GIF: a mechanism diagram, a moving data cursor, explicit units and a recorded representative case. DC sweeps, physical-time transients and statistical displays are clearly distinguished. The viewer and workbook retain English-first, Chinese-second explanations.
 
@@ -24,7 +28,7 @@ All 211 cases were regenerated. 96 recorded checks pass, including preserved-mod
 
 - [Bilingual Excel](Mixed_Signal_Simulation_V3_3_EN_ZH.xlsx) — 双语工作簿，含逐模型GIF链接及误差算式
 - [Offline viewer](index.html) — 离线全模型动画库、曲线、数值与概念3D
-- [Current V3-3 shared package](V3-3_20261106_catalogue2.zip) — 当前V3-3分享包，含全球FAB工艺目录
+- [Current V3-3 simulation/FAB core package](V3-3_20261107_core.zip) — 当前V3-3仿真/FAB核心包
 - [Original v3.3.0 simulation snapshot](mixed-signal-simulation_V3_3_20261103.zip) — 原始仿真发布快照
 - [Numerical accuracy and limits](v33/ACCURACY_AND_LIMITS.md) — 数值准确性及边界
 - [Model cards](v33/MODEL_CARDS.md) — 模型方程、假设与未覆盖项
@@ -93,3 +97,7 @@ The numerical runners export data and comparison audits without modifying V3.1/V
 The TOP200/182-paper cohort retains its V3.1 audit; the four additional papers and eight manufacturer documents retain their V3.2 reading-depth records. No new full-text literature or foundry-availability audit is claimed. The 40–150 V values mean maximum DC/DC input, not device ratings. Physical accuracy, PDK sign-off, breakdown/SOA, extracted layout and calibrated electrothermal behavior remain unverified.
 
 TOP200/182篇名单保留V3.1审计；新增4篇论文与8份厂商文档保留V3.2阅读深度记录。不宣称本轮重新全文审查文献或核对工艺供货。40～150V指DC/DC最高输入，不是器件额定；物理准确性、PDK签核、击穿/SOA、提取版图及校准电热行为仍未验证。
+
+The complete sharing edition uses two archives: extract the core package to create **V3-3**, then extract **Semiconductor_Teaching_STL_20261107.zip inside that V3-3 folder**. The printing archive also works independently for printing. Its source files overlap some core dependencies with identical bytes; merge folders and keep the matching versions. Both archives and all individual files are available in the repository.
+
+完整分享版采用两个压缩包：先解压核心包得到 **V3-3**，再将 **Semiconductor_Teaching_STL_20261107.zip解压到该V3-3文件夹内部**。打印包也可独立用于打印；其部分源文件与核心依赖字节一致，合并目录并保留匹配版本即可。仓库同时保存两个压缩包及全部单独文件。

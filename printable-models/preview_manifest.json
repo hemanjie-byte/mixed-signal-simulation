@@ -1,0 +1,2471 @@
+{
+  "schema_version": "1.0",
+  "catalogue_sha256": "6be74581faa5c10c4d61ca2d5013ceacc2b2b6a3161878012f10abe1250bad03",
+  "renderer_sha256": "831de1e5c77a104670604100d2983c624e6bb21ad28f61ec14e80c22b172fc54",
+  "projection": "Orthographic; camera +X,-Y,+Z; elevation 35.26438968 degrees",
+  "top_projection": "Orthographic from +Z; +X right, +Y up; contours at final cell-height discontinuities",
+  "geometry": "Final saved positive cell heights; flat tops; vertical neighbour walls; bottom z=0",
+  "color_meaning": "Cell-top height in mm; walls darkened from their column's top color; independently normalized per model; not material or electrical fields",
+  "microscopic_scope": "Enlarged educational concept; not a dimensionally accurate semiconductor cross-section",
+  "selected_ids": null,
+  "model_count": 75,
+  "png_count": 150,
+  "previews": [
+    {
+      "print_id": "V1_M01",
+      "name_en": "Isolated high-side NLDMOS",
+      "group": "V1",
+      "png": "previews/V1_M01.png",
+      "sha256": "70a4f907c677d7d658f3b580c363c0ed8b27314075d86566e6faff38f7a28bac",
+      "bytes": 190983,
+      "top": "previews/V1_M01_top.png",
+      "top_sha256": "29385c1b9a3a281174cf23aacf8f8b7b9635c8359b6aea09dc9094d9968ead16",
+      "top_bytes": 86872,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_M01.npy",
+      "heightfield_sha256": "c06f893e374d4784c3ff90d66a6309874bc6715693362d502c2b2c45426883c0",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_M02",
+      "name_en": "Low-side NLDMOS",
+      "group": "V1",
+      "png": "previews/V1_M02.png",
+      "sha256": "ddfa756a08b1c5aadfd9aa8e524dc977e7172f174670646197451192ce026d8e",
+      "bytes": 183624,
+      "top": "previews/V1_M02_top.png",
+      "top_sha256": "bdbf6dad19b2a579a7433c22ff0e7ecd60a0652f88a4c6ca35d6219c4866de61",
+      "top_bytes": 84309,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_M02.npy",
+      "heightfield_sha256": "f2726a873ae87ded59b819b1434a4c4f62c4ec11c765eb6265a328630bbbb792",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_M03",
+      "name_en": "High-voltage PLDMOS",
+      "group": "V1",
+      "png": "previews/V1_M03.png",
+      "sha256": "690cb68af79122952f79b1b9559fcc5b66737dc7f8b3fcc92a804e4b356dffc5",
+      "bytes": 186395,
+      "top": "previews/V1_M03_top.png",
+      "top_sha256": "01f5de18d7d13b380e2b8e8b5f3c93d831c2e1f9759f8f671f5f92eb97b95f3d",
+      "top_bytes": 86490,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_M03.npy",
+      "heightfield_sha256": "6747be68a2a969be2afc3041644ae7ba11d94d790e488960aa2b5fa206ff4dd9",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_M04",
+      "name_en": "Drain-extended NMOS",
+      "group": "V1",
+      "png": "previews/V1_M04.png",
+      "sha256": "b563aa553ea05c5c21c63b8218760602794eacf978621f5b8a95ac07cffa8707",
+      "bytes": 184380,
+      "top": "previews/V1_M04_top.png",
+      "top_sha256": "882b6e99741cefd7db3079e4ecbf57a46a5a95008bfcac0c17faf9856893b2b1",
+      "top_bytes": 85359,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_M04.npy",
+      "heightfield_sha256": "8c8cba67aff5338768b9ffea649d49d89b731bba5bd797fce51caf7856aefd0b",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_M05",
+      "name_en": "Low-voltage NMOS",
+      "group": "V1",
+      "png": "previews/V1_M05.png",
+      "sha256": "6f0f32cb7961dc9bef0a665caff81d37cfcd4b577991a271e5d7fdca3283b210",
+      "bytes": 177274,
+      "top": "previews/V1_M05_top.png",
+      "top_sha256": "9f43aecf40691d51f6b40f3b2a674741fbdc45f45cbb5003a0e1b2125efb94bb",
+      "top_bytes": 82668,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_M05.npy",
+      "heightfield_sha256": "d664922786baabd9835d07d6b194fb4b5eece15fb6ea38c0af91a454173ce5a7",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_M06",
+      "name_en": "Low-voltage PMOS",
+      "group": "V1",
+      "png": "previews/V1_M06.png",
+      "sha256": "7683ac1bf312013a59cbf260578e5da5bc17acec4310e508c3d0653d511fa9d2",
+      "bytes": 177177,
+      "top": "previews/V1_M06_top.png",
+      "top_sha256": "ea22eb3bfc16d95452462fdfa4fbef15e9a6f41569394b742440304e3fa9f815",
+      "top_bytes": 82868,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_M06.npy",
+      "heightfield_sha256": "59d6b4bdd587ff012fb3a03edb21121a414ff34d33fe40d95fc82e664f0a5bb2",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_M07",
+      "name_en": "Drain-extended PMOS",
+      "group": "V1",
+      "png": "previews/V1_M07.png",
+      "sha256": "1f2e78d2cfcfabf9cb6bf654b13958438c40b49917cc37a62b53bf2ae60f38c9",
+      "bytes": 184597,
+      "top": "previews/V1_M07_top.png",
+      "top_sha256": "66e65dc09fdec158a9f21459d4c79f435965ac5da5569af602492fcd64d3bde4",
+      "top_bytes": 85298,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_M07.npy",
+      "heightfield_sha256": "e7b034654a6f408fce0a531705b2ee6514eaf137a24ffc0b0f51ca65600deeb5",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_Q01",
+      "name_en": "NPN bipolar transistor",
+      "group": "V1",
+      "png": "previews/V1_Q01.png",
+      "sha256": "202a8b251cdafa485d7cc7d9df0dd34af1076d95f94c643c31ed2235e629b70d",
+      "bytes": 153999,
+      "top": "previews/V1_Q01_top.png",
+      "top_sha256": "ee10330ee3c981160c8a0093ee4df987cc41acd4a58593e9d0afe444830fdf55",
+      "top_bytes": 74862,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_Q01.npy",
+      "heightfield_sha256": "98499a964a48193ceff5183346a5ebf2865138fd1174fabaa84f92d06464c03d",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_Q02",
+      "name_en": "PNP bipolar transistor",
+      "group": "V1",
+      "png": "previews/V1_Q02.png",
+      "sha256": "c5626bed7dc6930f897e2199943b54ab4933fd02a18f4c204e6417c263f79bf8",
+      "bytes": 155701,
+      "top": "previews/V1_Q02_top.png",
+      "top_sha256": "5c582071c667380b73e8052f356506430f398ec5bf8b818175511e793b8c0075",
+      "top_bytes": 75895,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_Q02.npy",
+      "heightfield_sha256": "9e47d064dd041a68a5fb270ce7cded1e8d71071b915998a4d80b1f00cd97a39a",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_D01",
+      "name_en": "MOS body PN freewheel diode",
+      "group": "V1",
+      "png": "previews/V1_D01.png",
+      "sha256": "205aed8b4741c836b5049703d5e17b3b924d252f59ee6204e27840dad34f4871",
+      "bytes": 149880,
+      "top": "previews/V1_D01_top.png",
+      "top_sha256": "0c39540b315971335a4f3140e975578d8ba869ac301480cef881adc7334a16db",
+      "top_bytes": 79330,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_D01.npy",
+      "heightfield_sha256": "d100043846eade884d8a7f3ee7fe08553b7681af0317c40059d1eecb03d76ccb",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        12.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_D02",
+      "name_en": "High-voltage bootstrap PN diode",
+      "group": "V1",
+      "png": "previews/V1_D02.png",
+      "sha256": "bd497a6dbf7f18499fbb55714f5aec00c6115323ab4bd53ad11eef1fbbc504b6",
+      "bytes": 154062,
+      "top": "previews/V1_D02_top.png",
+      "top_sha256": "9fe4609f217c1ab34ff0466ace9223e3f0b8670fc88ac147d7419afcdbb72257",
+      "top_bytes": 82799,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_D02.npy",
+      "heightfield_sha256": "c00e8459e198769f37b1b424acfb5808e6273b52c87e7f2e26c3d66e4b1f60f7",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        12.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_D03",
+      "name_en": "Schottky diode",
+      "group": "V1",
+      "png": "previews/V1_D03.png",
+      "sha256": "e049134cc2c4764f0f634183a792175738805581d579f93084063b599e1c5faa",
+      "bytes": 156856,
+      "top": "previews/V1_D03_top.png",
+      "top_sha256": "09bc5b74a757d5030c6a4497c721b5e009ce5a085a083bce5ae58f2b67e213d2",
+      "top_bytes": 77054,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_D03.npy",
+      "heightfield_sha256": "ab0c449675219b8af45e45ec0f7fa8948dad7d23d8e90fce400ee82a2e8248f9",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        12.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_D04",
+      "name_en": "Gate Zener clamp",
+      "group": "V1",
+      "png": "previews/V1_D04.png",
+      "sha256": "6a73e3c1a5f35bc24c611255d2879523f9601e01b35608b7362050ef1cc9ecca",
+      "bytes": 146038,
+      "top": "previews/V1_D04_top.png",
+      "top_sha256": "984946eff93d3f6b75e2947ebeba20227c8ba0508dbd0d0c73b8452b8bc070df",
+      "top_bytes": 75106,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_D04.npy",
+      "heightfield_sha256": "85b9b532a39258486fa45d22174f519a81374dfb4e2569ead8921acede250195",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        12.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_J01",
+      "name_en": "High-voltage startup JFET",
+      "group": "V1",
+      "png": "previews/V1_J01.png",
+      "sha256": "63a57b3368cd2718a6caa61eaebb2115e20ba879cce3fa2310820a9c7de81344",
+      "bytes": 167244,
+      "top": "previews/V1_J01_top.png",
+      "top_sha256": "11e67b22bde0341a7ab67f397115bd09a1f56d2bb8faf031a45b9c384658e343",
+      "top_bytes": 78878,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_J01.npy",
+      "heightfield_sha256": "86b1697dfa2743ec86151af1dc6b4aad974cdb8455dcea01f3bc58ac5a6d877c",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        11.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_R01",
+      "name_en": "High-voltage polysilicon resistor chain",
+      "group": "V1",
+      "png": "previews/V1_R01.png",
+      "sha256": "231ab963fdfc57bb60f2739b7ab04b998a9f34b33894461daee7d2184b447997",
+      "bytes": 174694,
+      "top": "previews/V1_R01_top.png",
+      "top_sha256": "813b9cd30cf0c0072a67a7265d1b14fa750fb5f6455aa1aad0fa67353e3c8ced",
+      "top_bytes": 81889,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_R01.npy",
+      "heightfield_sha256": "4e2a151605cf839ac77a4682ef291da7a0c5f8eb64a39673468665d2633272a5",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        11.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_R02",
+      "name_en": "Current-sense resistor",
+      "group": "V1",
+      "png": "previews/V1_R02.png",
+      "sha256": "75406cf0a7d29118c130f2a981aa3e6e8b01dde976520b6c689260b7e4e98dfd",
+      "bytes": 156266,
+      "top": "previews/V1_R02_top.png",
+      "top_sha256": "21029a724827f52fc2184374893903f05aea5b12b8bddec872c51471c58b87a9",
+      "top_bytes": 75211,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_R02.npy",
+      "heightfield_sha256": "40921d489f11f42316b5aba1e3635ba0b03906e659371f5af22ee8375547acb9",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        11.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_C01",
+      "name_en": "MIM capacitor",
+      "group": "V1",
+      "png": "previews/V1_C01.png",
+      "sha256": "ce27d6c07515d170d1c51cf81be0702a36a1a0ada6a9ce756d2175735dcfeb43",
+      "bytes": 163617,
+      "top": "previews/V1_C01_top.png",
+      "top_sha256": "83ade05f0d2ac8a737018180c220fb1a5e00381415199b54eebe10c429ccf730",
+      "top_bytes": 73101,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_C01.npy",
+      "heightfield_sha256": "6208bae9f78576f9e154bbc04f06a463c75687134cc16b61419cf7794b6b34d0",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_C02",
+      "name_en": "MOM capacitor",
+      "group": "V1",
+      "png": "previews/V1_C02.png",
+      "sha256": "7265d931d3706f30bde20ebd8159f5cc390265fe20f0fe00fc2d9c4a18fc82f7",
+      "bytes": 158461,
+      "top": "previews/V1_C02_top.png",
+      "top_sha256": "efa9f4cfd96e5ca7e891eaf813a58aa3dde734b81d4f15f95b78f3d3c232a22e",
+      "top_bytes": 75248,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_C02.npy",
+      "heightfield_sha256": "9bf5bc0f0e5b20bdc0cec3326ff9c2dfd206698409e14c578da8bce0400f5d97",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        8.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_I01",
+      "name_en": "Isolation junction and DTI equivalent network",
+      "group": "V1",
+      "png": "previews/V1_I01.png",
+      "sha256": "e6f9771b5337a953ca32a909f5c0e0bd7b95d6ea2a055f7bd8c624a8eeb58ff0",
+      "bytes": 164453,
+      "top": "previews/V1_I01_top.png",
+      "top_sha256": "15b7a39e75c8ae4d0e5372b8547fa48d8afbcee35c62d68c4315329ee21b9afc",
+      "top_bytes": 78862,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_I01.npy",
+      "heightfield_sha256": "dde30d69c1074b7659d451684ff2dd917d99fdbb4fc5844dfffa5337ed5d8430",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        11.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_E01",
+      "name_en": "High-voltage ESD clamp equivalent",
+      "group": "V1",
+      "png": "previews/V1_E01.png",
+      "sha256": "179ea16ded6686af8b63f23326ca283314c26fac113a0c0f14e92f3f7aa5ca79",
+      "bytes": 175045,
+      "top": "previews/V1_E01_top.png",
+      "top_sha256": "f42190937e0315d44c6078812c7cdf78b6a746eee91e1a0ebc45b3486daff438",
+      "top_bytes": 84794,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_E01.npy",
+      "heightfield_sha256": "57dc0671e3b8d98933fa6e81bd54f13c9bab4909e1bb2736dc22ac1c6214a76f",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_L01",
+      "name_en": "External power inductor",
+      "group": "V1",
+      "png": "previews/V1_L01.png",
+      "sha256": "387427a57b879b9d260c53e7b43d48424a3342b6daa219e98ce7b55915204dc4",
+      "bytes": 162495,
+      "top": "previews/V1_L01_top.png",
+      "top_sha256": "9318f61567055256b9ca234c5e44b31b5671c27239e73c9cd72de011787f062f",
+      "top_bytes": 74865,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_L01.npy",
+      "heightfield_sha256": "ffca8035d38a1aff9783c03521b6a26dd40a4fae730f59f2803ca243ff506e50",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        9.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_C03",
+      "name_en": "External output capacitor",
+      "group": "V1",
+      "png": "previews/V1_C03.png",
+      "sha256": "f56e36d52fea19c1f539d33973b1a0f375a11a1597b642e205241a3f25a49030",
+      "bytes": 167860,
+      "top": "previews/V1_C03_top.png",
+      "top_sha256": "5d30ba7397444e100d8eb09f1c7f508d759adf66c5023cef95d4d56b7f688cff",
+      "top_bytes": 77028,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_C03.npy",
+      "heightfield_sha256": "4e6d9d2424bde6054b8af5efce8e737ba1e86a87e2022334ec5174faea2d09e9",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_C04",
+      "name_en": "External input capacitor",
+      "group": "V1",
+      "png": "previews/V1_C04.png",
+      "sha256": "8b54e1a102ff36d77fd4aa752f6f2a3080155f5b0a25fb1117bc71c3ad1a6ec3",
+      "bytes": 167518,
+      "top": "previews/V1_C04_top.png",
+      "top_sha256": "854453d2000ce5d8745e335c226105ea0e3fe6486f7f363c613939d230577116",
+      "top_bytes": 77207,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_C04.npy",
+      "heightfield_sha256": "d507e9c1f9a7e2007b43201feb75404cad421d299f0df93a5c028efd143fbd58",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V1_C05",
+      "name_en": "External bootstrap capacitor",
+      "group": "V1",
+      "png": "previews/V1_C05.png",
+      "sha256": "2a747faa39d143c78d0a482f170d437460e249d8e28ce20074be0064fc30eca8",
+      "bytes": 170898,
+      "top": "previews/V1_C05_top.png",
+      "top_sha256": "5a8cdab429e7e224898d964aa77d561e5b91de3aca425b4a6e7178a6e77b647e",
+      "top_bytes": 79215,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V1_C05.npy",
+      "heightfield_sha256": "f98bae3ae96da69ab0a19b8c20dbb5218f6689612133c775fab93baf224ecd0b",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N01",
+      "name_en": "SiC vertical MOSFET",
+      "group": "V2",
+      "png": "previews/V2_N01.png",
+      "sha256": "b326791ba0b63ce614a35ff8a51fc4eb11d7f6ecb6cb047dab5025aa74c1bfe6",
+      "bytes": 156616,
+      "top": "previews/V2_N01_top.png",
+      "top_sha256": "2f922f12c169f1840a1b85feadf4616046b2a0d17f9e2dddd6e863bddcf56dbf",
+      "top_bytes": 81119,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N01.npy",
+      "heightfield_sha256": "45979503f9c12d55d49dde6227e1bb626b33b50758270183e019bcadfa2e110a",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        17.6
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N02",
+      "name_en": "Enhancement-mode GaN HEMT",
+      "group": "V2",
+      "png": "previews/V2_N02.png",
+      "sha256": "6201459b8b90a086b63b1f2634a7ddcdaed316d54672eba38ae716d7d4c53e87",
+      "bytes": 153148,
+      "top": "previews/V2_N02_top.png",
+      "top_sha256": "ba0ac5697ef86c2f71f4676cdcaa1b83f1034439ef2557703ec5f073e2d9a35f",
+      "top_bytes": 77802,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N02.npy",
+      "heightfield_sha256": "55b4ac9fe6306ecc03c97c1b1c00a1d8a5c3370100ac82d4028544f9e8f0ba44",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N03",
+      "name_en": "Silicon superjunction MOSFET",
+      "group": "V2",
+      "png": "previews/V2_N03.png",
+      "sha256": "e8f74b5f3a1bac7ffb280ed83a7151f8c0857a3ee2935ee706d937613f57cff3",
+      "bytes": 164883,
+      "top": "previews/V2_N03_top.png",
+      "top_sha256": "300858e1dbd8202904ae7dafd1c5667633385ebf60d100f1bb6866d58e136391",
+      "top_bytes": 83826,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N03.npy",
+      "heightfield_sha256": "e2cdc254db91c67ae58d1642967939ff2b17faed907c103bb73892124e3b8534",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        17.6
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N04",
+      "name_en": "IGBT",
+      "group": "V2",
+      "png": "previews/V2_N04.png",
+      "sha256": "5df39742d5ec5f05ab6a2bdc57159166035d25f71ba82116827b98a0c1f935b7",
+      "bytes": 149071,
+      "top": "previews/V2_N04_top.png",
+      "top_sha256": "09f81504c9df7a84fa3f9c395eb3b952ff5e913fe304f7604fc27071c48a2e61",
+      "top_bytes": 73562,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N04.npy",
+      "heightfield_sha256": "8e15f4904681414978da829546c045ac8393e853c56a3345922b994548575af4",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        17.6
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N05",
+      "name_en": "SiC JBS rectifier",
+      "group": "V2",
+      "png": "previews/V2_N05.png",
+      "sha256": "bd83e0d87b9074dcb10edd1b9d8ec6b5c1fb68ea40348727031e8bd3535d34bc",
+      "bytes": 167436,
+      "top": "previews/V2_N05_top.png",
+      "top_sha256": "297848be45be46179317a1ae8fc43abd1ddb74e9f1125d9aa9876a898ed3baac",
+      "top_bytes": 77483,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N05.npy",
+      "heightfield_sha256": "af1192c6ebbf04e5323894ae485ab78119196f52a6c3d3d24203cf119b6fe6f6",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        13.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N06",
+      "name_en": "FinFET",
+      "group": "V2",
+      "png": "previews/V2_N06.png",
+      "sha256": "55c3bd9b545ad4ed53a3148cb242f7414462d6ceb9c7f7906749cd41ac90e109",
+      "bytes": 155076,
+      "top": "previews/V2_N06_top.png",
+      "top_sha256": "bcf8a036d930c4acb9cc16d4e3dfb67c8ac541eda177c2b65e9e65e0db5f9984",
+      "top_bytes": 72798,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N06.npy",
+      "heightfield_sha256": "6a35fac008b7cfcdbfefa49faba6c8fa1507db33316639a3ef682b9608698e86",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        15.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N07",
+      "name_en": "a-IGZO thin-film transistor",
+      "group": "V2",
+      "png": "previews/V2_N07.png",
+      "sha256": "229d5fccb3a8f07ce7fac145a732916a48d4df984f453652301c0929489fe24c",
+      "bytes": 161079,
+      "top": "previews/V2_N07_top.png",
+      "top_sha256": "6f158096ae4cbad465f51a8db6c205e6c79e025aad053c8c48559af5c6acd807",
+      "top_bytes": 80260,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N07.npy",
+      "heightfield_sha256": "1cc8d20a94d9ffa2538f1caa6c0cf5752d91b8783349e2f563c30432b9591a96",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        15.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N08",
+      "name_en": "Organic polymer TFT",
+      "group": "V2",
+      "png": "previews/V2_N08.png",
+      "sha256": "9b1336074fcaea7d0b047d22405824dfb9aa0e2f2f5ad9e87711dee14ddc6d68",
+      "bytes": 168016,
+      "top": "previews/V2_N08_top.png",
+      "top_sha256": "6782c5dace8a6e854aedf810d596e1ee77f586d0de0a7fb058a9faeb2f789a00",
+      "top_bytes": 81768,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N08.npy",
+      "heightfield_sha256": "0c7eff3fab803b383e38776538fbe9b06b1aaee187b322f66783e4a6e222f18c",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        15.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N09",
+      "name_en": "Contact-limited MoS2 FET",
+      "group": "V2",
+      "png": "previews/V2_N09.png",
+      "sha256": "3a9d98ab32481c99676b1a7be39a4c3de3bb56fd1792e0a1e0039e63eaab1d7b",
+      "bytes": 162381,
+      "top": "previews/V2_N09_top.png",
+      "top_sha256": "7636ef5635fbad637d417bbaafb1e9e49df9d006da52ec48b3e0e42838469a5f",
+      "top_bytes": 80595,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N09.npy",
+      "heightfield_sha256": "c6c8022fd01d6dfe0b8784451e7a26255a83ed69792c1debe3c0e5b5681e222a",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        15.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N10",
+      "name_en": "Ambipolar graphene FET",
+      "group": "V2",
+      "png": "previews/V2_N10.png",
+      "sha256": "e6b654739f9dcbf954fbf8e808b7c86f7eccc4a98f2b5d8ac0d70a6da13c8508",
+      "bytes": 164895,
+      "top": "previews/V2_N10_top.png",
+      "top_sha256": "482e121e0bed7ff0c4386cea050628a34700acead9f9f707bb0a091bc1d51173",
+      "top_bytes": 80621,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N10.npy",
+      "heightfield_sha256": "b29d6a237f1af59ccada31789d2be58b90962c022720f6d970c1f8b2a12935fa",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        15.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N11",
+      "name_en": "Ballistic carbon-nanotube FET",
+      "group": "V2",
+      "png": "previews/V2_N11.png",
+      "sha256": "098f0e48af3fae986ad502316c26408b95cce29619a99fa08cfede3d4299ef58",
+      "bytes": 159284,
+      "top": "previews/V2_N11_top.png",
+      "top_sha256": "95228e4c1e80336d3332dc44098d90d18f28e0cbdef1864efc59c72f4cacae72",
+      "top_bytes": 78662,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N11.npy",
+      "heightfield_sha256": "6ac9bc82949c9e3ee78d59e8ff65da5aebfe8ed389431afec2d94ecfcc42bf81",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        15.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N12",
+      "name_en": "Ferroelectric FET memory cell",
+      "group": "V2",
+      "png": "previews/V2_N12.png",
+      "sha256": "5b41c1024b14026258b0f9317cba96668d320aea1f9e01464066217f8d60f3d3",
+      "bytes": 162583,
+      "top": "previews/V2_N12_top.png",
+      "top_sha256": "2cab03dfd24a57433b3ad8a21f9cdb8c7538fe88ef41f0c40303c7bfa47422d2",
+      "top_bytes": 78503,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N12.npy",
+      "heightfield_sha256": "ef0830355d794828d2a1ef55cd1980946688a1a94fcad538640920315ed9a0d2",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        15.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N13",
+      "name_en": "Oxide RRAM cell",
+      "group": "V2",
+      "png": "previews/V2_N13.png",
+      "sha256": "463aba718d662948883c914b4f67e65a9c81d72479d5d347125bfc2e662e7f49",
+      "bytes": 159919,
+      "top": "previews/V2_N13_top.png",
+      "top_sha256": "2644f37b1c5c2c29377a34845fa2b27c84002dea8c87fbba10f5c1a47254141f",
+      "top_bytes": 80425,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N13.npy",
+      "heightfield_sha256": "d671fd74bad8381cf2cc2e64a64911a3c4a8edd5b4b551d49e1f74f6beb0743d",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N14",
+      "name_en": "Phase-change memory cell",
+      "group": "V2",
+      "png": "previews/V2_N14.png",
+      "sha256": "bdbe9d1b1107c559862308f1cd2fbf38b0d48a19c1509c5fa1c0ce3945a34f27",
+      "bytes": 161167,
+      "top": "previews/V2_N14_top.png",
+      "top_sha256": "38fa47a694bc4802eedb787d7acdc60c8774638766e98dc2c89273b01cc39491",
+      "top_bytes": 79627,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N14.npy",
+      "heightfield_sha256": "4740969b8fca42f4bc4a25f8d4c93550aa4f50cb65a12545c3644bacd1f091aa",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N15",
+      "name_en": "Magnetic tunnel junction",
+      "group": "V2",
+      "png": "previews/V2_N15.png",
+      "sha256": "e5c03a8ec0ccc0308ff5df0d46b0d5c9c02f06b59dfac3b4290fcaae341eca64",
+      "bytes": 161048,
+      "top": "previews/V2_N15_top.png",
+      "top_sha256": "7c84aa940a1268949020d9bf43980d950fe318b1b73c0061c2f49205b46ffb51",
+      "top_bytes": 80047,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N15.npy",
+      "heightfield_sha256": "984955344d4ca2818dd638a7efa6581416329a52103d50e0f214a20042813b6b",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N16",
+      "name_en": "Ferroelectric capacitor",
+      "group": "V2",
+      "png": "previews/V2_N16.png",
+      "sha256": "200f7b1d20c15a8326695e20847c084ffa5f205ab3a0a5cea5ab2f763a25052f",
+      "bytes": 166791,
+      "top": "previews/V2_N16_top.png",
+      "top_sha256": "6d7c084f839db13e7e519ffb739c704ceb5d4606a8942454ecf72af3e1b1b47e",
+      "top_bytes": 76554,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N16.npy",
+      "heightfield_sha256": "c8fd803c92326bd2e7bbb1494ab3b54c6224eddfe03be167b9dbcb759a299ec5",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N17",
+      "name_en": "Nitride LED",
+      "group": "V2",
+      "png": "previews/V2_N17.png",
+      "sha256": "5f6bd21c56f816f8c9aa27db3de2bea28cbe8a8bf01b294f0af849bf2125d2d5",
+      "bytes": 160632,
+      "top": "previews/V2_N17_top.png",
+      "top_sha256": "54b9880e8005eed0935884d1b91988077d49c1e7017caecfbd959b4af70263e4",
+      "top_bytes": 72547,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N17.npy",
+      "heightfield_sha256": "9649ef232df68bd49d768c0bb0206218207060d36d21aa2b35213fca38c9e5c2",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N18",
+      "name_en": "Quantum-dot LED",
+      "group": "V2",
+      "png": "previews/V2_N18.png",
+      "sha256": "14837902dc18870fbb55eb4089473035a313d8d3b8f4e0069ceb9a97eb8011de",
+      "bytes": 168932,
+      "top": "previews/V2_N18_top.png",
+      "top_sha256": "8c12ce50584687ce14adfdaf683b163453a7f0bf10c496270e57f37f0e23a53e",
+      "top_bytes": 77046,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N18.npy",
+      "heightfield_sha256": "4ee56deb93c5747a2389affa0f334a1fcdd86a481bef6bb25232de2ee30317ca",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N19",
+      "name_en": "PIN photodetector",
+      "group": "V2",
+      "png": "previews/V2_N19.png",
+      "sha256": "c6996e37f093d9b6895e349de3f08905a59ec1cec3ffe4ab1464aa82ca991411",
+      "bytes": 160737,
+      "top": "previews/V2_N19_top.png",
+      "top_sha256": "e6f925284f7cc847c0de5eb9174f8b980580beac933d618c26929d3801d67fa8",
+      "top_bytes": 76478,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N19.npy",
+      "heightfield_sha256": "56e91f738acfff6285a49c6f023f0286bf90ca1b5295286d02aa0606f025d978",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N20",
+      "name_en": "Single-junction photovoltaic cell",
+      "group": "V2",
+      "png": "previews/V2_N20.png",
+      "sha256": "74f60199e7e4c063667f15b2344740b5180622ac28399906b96ac1b09687a8d6",
+      "bytes": 152802,
+      "top": "previews/V2_N20_top.png",
+      "top_sha256": "e1cfc40082035e956a7e01c9980e336fb69256e05c540c82430714e238bc409f",
+      "top_bytes": 80376,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N20.npy",
+      "heightfield_sha256": "bcacf89fa5749a75cc3839a6577026ef399cb7f2bc7381b16958c071803ede60",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        12.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N21",
+      "name_en": "Thermoelectric generator cell",
+      "group": "V2",
+      "png": "previews/V2_N21.png",
+      "sha256": "da292c835cc313df3253346080659d57904e362d56730ae6c5f3203d29f7787b",
+      "bytes": 168810,
+      "top": "previews/V2_N21_top.png",
+      "top_sha256": "e9fc708f71f498bb048daed163a711c84008ae5ba100f560fbfe24f50966264a",
+      "top_bytes": 79968,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N21.npy",
+      "heightfield_sha256": "381ee89f9b014c7b41e1c0df5a5d9fe79d0ae084fcc643840ea2533e57ba0bc9",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N22",
+      "name_en": "On-chip coupled transformer",
+      "group": "V2",
+      "png": "previews/V2_N22.png",
+      "sha256": "031361c3225cc009e7f4e928c578466379322b7d03394b17c61a0296af004988",
+      "bytes": 177370,
+      "top": "previews/V2_N22_top.png",
+      "top_sha256": "f4cd03d13ed2d97c7a3e5643af54fb4a0e3cb7c297c672f21ee0a58b08d54268",
+      "top_bytes": 79091,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N22.npy",
+      "heightfield_sha256": "c97ecd531d287be1519c2cc184f86b9a9d702d1a25c747ccd3f664d3fb7b3477",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        11.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N23",
+      "name_en": "Through-silicon via",
+      "group": "V2",
+      "png": "previews/V2_N23.png",
+      "sha256": "cff647b7ebfb7b94fb088c3465f370799df34cb78807b6638f3ff4a9741bb6d0",
+      "bytes": 154870,
+      "top": "previews/V2_N23_top.png",
+      "top_sha256": "5fb3a96e4346f0ce875a6655bf13f737f97b1da4207ae836c9de2c69d50e58ea",
+      "top_bytes": 82941,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N23.npy",
+      "heightfield_sha256": "3999cb9d369190e1b83a171cacb57ed5b3dcc86f514a7806a01138544679e770",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N24",
+      "name_en": "Mach-Zehnder electro-optic modulator",
+      "group": "V2",
+      "png": "previews/V2_N24.png",
+      "sha256": "77e664329cc59760f6f4853cb08f93622590b7ce0874ffd0476167a7bd9f2ab6",
+      "bytes": 163282,
+      "top": "previews/V2_N24_top.png",
+      "top_sha256": "f60d679f438a39a00ccf3eadd76d28ee8c51293815e099eeaf76b197358cbdf8",
+      "top_bytes": 85644,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N24.npy",
+      "heightfield_sha256": "eb10174832e9bb06177827eb069d4277f59777ef364abccbcd5c5772b8b6315e",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        11.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_N25",
+      "name_en": "Semiconductor laser diode",
+      "group": "V2",
+      "png": "previews/V2_N25.png",
+      "sha256": "3deb262072227d54ab3194d6dca86f03315b77021dc1e213582817c0d997da46",
+      "bytes": 160151,
+      "top": "previews/V2_N25_top.png",
+      "top_sha256": "3a01add2467ca4e286f7bd83a09987cb25b654e7fc4d159cde018e4b732070c0",
+      "top_bytes": 79624,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_N25.npy",
+      "heightfield_sha256": "19caf2f15e21e622945fd7b11b0964fa06703cb0613c9e0f0f4b01e667c2e435",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        15.200000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_X01",
+      "name_en": "MOS gate charge and Miller coupling",
+      "group": "V2",
+      "png": "previews/V2_X01.png",
+      "sha256": "201628d6ae718d35aa2f05566c0fe3e24b12bd504262437567a167241045fada",
+      "bytes": 181454,
+      "top": "previews/V2_X01_top.png",
+      "top_sha256": "b6b1760e3e7156a858fa16e53671b266aa6dc10421ba46aa7f72f907c7f021e3",
+      "top_bytes": 87183,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_X01.npy",
+      "heightfield_sha256": "1814888373c3079d0cab2bb48ba3097bc6b3844b08c669e2a029c1cc31ac3629",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_X02",
+      "name_en": "PN diode reverse recovery",
+      "group": "V2",
+      "png": "previews/V2_X02.png",
+      "sha256": "78b7f621f354f2aeb4ad41e7924af3a18d502360bba3e258c1b01963a9d9cc91",
+      "bytes": 149991,
+      "top": "previews/V2_X02_top.png",
+      "top_sha256": "2706487ad33fcc2c6f6658d73cf08540ff39cde40be919df718963196aa73d69",
+      "top_bytes": 77720,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_X02.npy",
+      "heightfield_sha256": "8a6761b5dd3464267ebbd3ea72f2878bd0846eddcd642010587e3d5b719ccb5d",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        12.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_X03",
+      "name_en": "MOS conduction-loss thermal feedback",
+      "group": "V2",
+      "png": "previews/V2_X03.png",
+      "sha256": "3747eb6d7f2e0074bfca3de6006f7c4cd6125c64e4d9eb3d7349b2ae5657e4c4",
+      "bytes": 166279,
+      "top": "previews/V2_X03_top.png",
+      "top_sha256": "eac7a0d549fcdb6769c1cffa984a5212babad6863aca66a7701d3bbf2d96fa1a",
+      "top_bytes": 89174,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_X03.npy",
+      "heightfield_sha256": "3a8a0bc4fd0e895bea1e7321292a32ae3025ff183e10bc625cfe73487b715a87",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        17.6
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_X04",
+      "name_en": "PMOS NBTI aging",
+      "group": "V2",
+      "png": "previews/V2_X04.png",
+      "sha256": "4fec7c956b3e68137bd44323087532adfb28d522989296a81ffc26f0bc5cc49f",
+      "bytes": 176515,
+      "top": "previews/V2_X04_top.png",
+      "top_sha256": "e794d10b92214461bdc66e829287cc3fba0ca3c55d8cf4b909cbfbc07522b2d5",
+      "top_bytes": 82547,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_X04.npy",
+      "heightfield_sha256": "68b73935aafef4587e4d69d76fe98ff48b6ded9eb2d6430a55ad10f08a8c1f7c",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_X05",
+      "name_en": "MOS flicker and thermal noise",
+      "group": "V2",
+      "png": "previews/V2_X05.png",
+      "sha256": "3d3c7ec76691565ad5b4968b7430d9c4b2598ba9c280b4d13b7574fa1ce2d172",
+      "bytes": 181620,
+      "top": "previews/V2_X05_top.png",
+      "top_sha256": "67d43f0a74c56d3addd23224ac3c7e9087c04149c765dd18a9cccbd4f63d25ac",
+      "top_bytes": 86318,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_X05.npy",
+      "heightfield_sha256": "4cc8ec7fc178dd57312d8fefccd16870b74c418d9898feebae8a2fd02e1177ab",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V2_X06",
+      "name_en": "MOS threshold and resistance statistics",
+      "group": "V2",
+      "png": "previews/V2_X06.png",
+      "sha256": "73328f8b69a9353b39bbe933d84761f0d7045488b6bc1141c19eb0b6fdfa14d1",
+      "bytes": 186709,
+      "top": "previews/V2_X06_top.png",
+      "top_sha256": "02da83237544e1f3605e4cb798e951f76ae7b0a63e0ef5e1121a7ded4b193116",
+      "top_bytes": 84306,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V2_X06.npy",
+      "heightfield_sha256": "057d8b474d59bcbd29a1d26a74b40412728ebb8b8ae67aa5e12bc5d9d18d3f0c",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        13.600000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_A01",
+      "name_en": "Four-terminal MOS interpolation",
+      "group": "V33",
+      "png": "previews/V33_A01.png",
+      "sha256": "78e3505a6d8e6295d18fa599721dcdc1907cb8b65b705af9a296a8ec7c5c839f",
+      "bytes": 182421,
+      "top": "previews/V33_A01_top.png",
+      "top_sha256": "347dc6300e7a63937d407879fe9354cac06b3f7276c8e05674a4ec48e9588262",
+      "top_bytes": 85806,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_A01.npy",
+      "heightfield_sha256": "dabf7083da07753b6a912f42f98686e410eda34d5fed8c64f06b91ae75ce299a",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_A02",
+      "name_en": "Junction charge and varactor",
+      "group": "V33",
+      "png": "previews/V33_A02.png",
+      "sha256": "d4a4c72d1dd2968fdbfaceec276c392a6f74e88801f6bb17ae77ce6c5cb83a47",
+      "bytes": 154418,
+      "top": "previews/V33_A02_top.png",
+      "top_sha256": "7692c8b711e531c8df2e84379ef111f5f51aef58e6efd8c6d051225c1dd406f4",
+      "top_bytes": 79582,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_A02.npy",
+      "heightfield_sha256": "9cfa6c638b287fb79287f696d5eb0b6cee6255c224d604d91e5753351c08518f",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        12.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_A03",
+      "name_en": "Reciprocal NPN Ebers–Moll",
+      "group": "V33",
+      "png": "previews/V33_A03.png",
+      "sha256": "97a9abe545da93c6f71ebe35623798bae7545374f7f2e1fdad21ae033d9e1dfd",
+      "bytes": 161363,
+      "top": "previews/V33_A03_top.png",
+      "top_sha256": "c76a2b4a070ab7ad628e0a58b4bb17a61b4613d844d10976841158012fd8f4c8",
+      "top_bytes": 78284,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_A03.npy",
+      "heightfield_sha256": "7b4495e21ee84b52509e9265995a20d21f86cd88aa9a7510b82e4db1459c34a3",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        16.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_A04",
+      "name_en": "MOS pair mismatch and correlation",
+      "group": "V33",
+      "png": "previews/V33_A04.png",
+      "sha256": "573e765f8d70db5564841bbcde37133ad9500ebd4b3ec1e91902dd1ea95f1319",
+      "bytes": 187777,
+      "top": "previews/V33_A04_top.png",
+      "top_sha256": "b71941c547210ae8b5124fe893d3363fcf159e857b5ce7a2ca87927b26bef7f0",
+      "top_bytes": 83233,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_A04.npy",
+      "heightfield_sha256": "4f026833320000d164a8653688afd5fa01b104e7af9e8bcbd88627898f7dd410",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        13.600000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_B01",
+      "name_en": "MOS differential pair",
+      "group": "V33",
+      "png": "previews/V33_B01.png",
+      "sha256": "9e00de489c4566ae480d6eb27373bc9fe9ef6b5c16470dce1cfc7b665ec0ac69",
+      "bytes": 183930,
+      "top": "previews/V33_B01_top.png",
+      "top_sha256": "790cd40a95cbe546ec488cc6dc857e55a4b3cf1bbbaab3fe561380442787b33b",
+      "top_bytes": 79609,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_B01.npy",
+      "heightfield_sha256": "18f8635e3c61e71b8095a80e7e8bef34496633a7980ad518cf9dc3116380082e",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        13.600000000000001
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_B02",
+      "name_en": "CTAT/PTAT reference sum",
+      "group": "V33",
+      "png": "previews/V33_B02.png",
+      "sha256": "39e27e82af67cf1c898d17d9dc3e46d16aded0d023a0f91eacc074f4dfeabdd5",
+      "bytes": 175548,
+      "top": "previews/V33_B02_top.png",
+      "top_sha256": "acd1d69b821e6464dbf9c1cb585671f9087f3b095694a3075bac8a1646d1e265",
+      "top_bytes": 81310,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_B02.npy",
+      "heightfield_sha256": "c52aaffe45735788120f421fd6a991436bb02281a892437790ace7d2255454e9",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_B03",
+      "name_en": "Input noise and sampled kT/C",
+      "group": "V33",
+      "png": "previews/V33_B03.png",
+      "sha256": "61cb26d2bde57bc2168e6e3c068a4aed64e205a7443a3a8605659b8affe2f828",
+      "bytes": 178664,
+      "top": "previews/V33_B03_top.png",
+      "top_sha256": "0b4ea0a487c8b39d5d16617e75d4faf69b58286fa46f9a71269b4e2c24851231",
+      "top_bytes": 83647,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_B03.npy",
+      "heightfield_sha256": "30fbc7e847e881caed8ef46571c9423e9955131d18e071e33f3d3961a71e54f8",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_B04",
+      "name_en": "Capacitor DAC and SAR ADC",
+      "group": "V33",
+      "png": "previews/V33_B04.png",
+      "sha256": "af41fe686d17c099fae1ec33a76a466842a00539f7c0310441f268fcec0c797b",
+      "bytes": 177465,
+      "top": "previews/V33_B04_top.png",
+      "top_sha256": "1ed97f09708f3374383559f9f1af5e02c901f404384b7a21d18aa2b16eaec1da",
+      "top_bytes": 83607,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_B04.npy",
+      "heightfield_sha256": "ce5c7c41d287bd1bd00d3eb611b93ab063270c4c033068cf77efbfbef26cc918",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_B05",
+      "name_en": "LDO loop and load step",
+      "group": "V33",
+      "png": "previews/V33_B05.png",
+      "sha256": "a1caa3fe96273fd045eb8251974b692f81a73a23622b6ff0f38d8ee6a602ae98",
+      "bytes": 175602,
+      "top": "previews/V33_B05_top.png",
+      "top_sha256": "4cd5b2616beb8a4f0a6fd29db3462a1f7a7a95e644d7c8d67ab31ff578249dd7",
+      "top_bytes": 81165,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_B05.npy",
+      "heightfield_sha256": "cad904095f9a626d5930053420b5a037098b325ef8bf8eedbd164f6046a94617",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_B06",
+      "name_en": "Phase loop and noise transfer",
+      "group": "V33",
+      "png": "previews/V33_B06.png",
+      "sha256": "e6774e86809e0af6a59b6e2639a5fe593bf55566faf433e157063684b301acfb",
+      "bytes": 176000,
+      "top": "previews/V33_B06_top.png",
+      "top_sha256": "baa6377dfd31a4f61470591800760d732dd50169a68e5905f66f3759af4c7bb5",
+      "top_bytes": 81911,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_B06.npy",
+      "heightfield_sha256": "2a698cea37fe9e4cf0aa665809e3707b61ca46f9c59d1e2da9086481aa28a57e",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_B07",
+      "name_en": "40–150 V synchronous buck",
+      "group": "V33",
+      "png": "previews/V33_B07.png",
+      "sha256": "06a8d7aea8a84438793acfb55209b2331b82315c76fb6a5bb1d602bfeeaf0e78",
+      "bytes": 178777,
+      "top": "previews/V33_B07_top.png",
+      "top_sha256": "87ea833cee5336304dd82ceb459618e8058a86ad1004b88d9b13220b2b14f307",
+      "top_bytes": 84451,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_B07.npy",
+      "heightfield_sha256": "6e81096a0f6dd7f72fea567d19341f37bc95ff8e44cd4fe564ae49d76c96f45c",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P01",
+      "name_en": "HV MOS gate charge and switching overlap",
+      "group": "V33",
+      "png": "previews/V33_P01.png",
+      "sha256": "fa9211537b647cdbf7af2a8195bf73e2c3b82feb1cec9336dc4b1bd4644dc4e6",
+      "bytes": 195185,
+      "top": "previews/V33_P01_top.png",
+      "top_sha256": "68e5ad4756ae1e0ca7a34dbbfaaec1429024f05465f194948f15ead65166b7f2",
+      "top_bytes": 93392,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P01.npy",
+      "heightfield_sha256": "4304bd77606d6f36dbcecda0be063231e475c9a313386d7a07c15dd6ffa727ff",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        14.4
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P02",
+      "name_en": "Dead-time diode and reverse recovery",
+      "group": "V33",
+      "png": "previews/V33_P02.png",
+      "sha256": "5e3d364835e7589d73dc8cdded5556452d3a9618ddbdeb8b1077fda773a45825",
+      "bytes": 155458,
+      "top": "previews/V33_P02_top.png",
+      "top_sha256": "69223a93cd9c37463260a3983538201be4d4aea5d07134bb77ef88203d28b00c",
+      "top_bytes": 80451,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P02.npy",
+      "heightfield_sha256": "fdc991478c44b3717052e65d961b4650f8706ee8f47ad1c13d0d77ea99ab455c",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        12.0
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P03",
+      "name_en": "Floating bootstrap supply and UVLO margin",
+      "group": "V33",
+      "png": "previews/V33_P03.png",
+      "sha256": "e8734140213aa43cb8599b0c91b2dff0fdfcfd2dfd9db4804360ee842af90c61",
+      "bytes": 184133,
+      "top": "previews/V33_P03_top.png",
+      "top_sha256": "f7c243adaaf8f07eecb5226b22db29afe928d9843c87a68dad9fbbfa334d6913",
+      "top_bytes": 88863,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P03.npy",
+      "heightfield_sha256": "c39c9259b1cc094fe0e465f4702cbc4922732d1516bd59cd8da96fa1cd0f67b1",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P04",
+      "name_en": "Level-shifter common-mode disturbance",
+      "group": "V33",
+      "png": "previews/V33_P04.png",
+      "sha256": "e17bab11e6d2ffb8bb8da0ed029287944ae811b0a6c1f4fda028d4f86ba1bb74",
+      "bytes": 179692,
+      "top": "previews/V33_P04_top.png",
+      "top_sha256": "624260aacb1e1313d06f6809732a0675d83878db03c54797043489c2c8575733",
+      "top_bytes": 85838,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P04.npy",
+      "heightfield_sha256": "9ece1dc50d8ff9db2cef74d9fb205c99f668f498a1e97fa188e8a61baef3b4b6",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P05",
+      "name_en": "Current-sense amplifier and delayed comparator",
+      "group": "V33",
+      "png": "previews/V33_P05.png",
+      "sha256": "997d518367da392be4e62dc20ae9af33b66c06ef77dafa38619011ad94fe139a",
+      "bytes": 181591,
+      "top": "previews/V33_P05_top.png",
+      "top_sha256": "da9e06d939ce76197dea027379187a87467e615cf81cd13e7a9657509078c790",
+      "top_bytes": 86936,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P05.npy",
+      "heightfield_sha256": "c0867d9d487f7158acdb66016a2994e4c15c572e42c2d12df4ea24c9f0ff5c49",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P06",
+      "name_en": "HV startup supply and hysteretic UVLO",
+      "group": "V33",
+      "png": "previews/V33_P06.png",
+      "sha256": "b79dfb32cb72dbeffb3a806dfd79efbdc1de07ecb075653898b00002ec2ec035",
+      "bytes": 181686,
+      "top": "previews/V33_P06_top.png",
+      "top_sha256": "fd47e4119d6c1ae00923644529ddf02aaaca2fe8a2bf32eb1ea0bdebcbf12805",
+      "top_bytes": 87370,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P06.npy",
+      "heightfield_sha256": "ba149e414ce259d8052c6b3ae1752428beb3f0754b37ba20798b089b720b3bf5",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P07",
+      "name_en": "Switch-node parasitic ringing and damping",
+      "group": "V33",
+      "png": "previews/V33_P07.png",
+      "sha256": "4be889bd695e0c17660c0a844a95d99552bd1306348354f3d24d5de6cd0884ab",
+      "bytes": 180539,
+      "top": "previews/V33_P07_top.png",
+      "top_sha256": "9f1fdd235e545b68dd568775a0f34db5e83e89113a3f617c28c73d602d1decbf",
+      "top_bytes": 86234,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P07.npy",
+      "heightfield_sha256": "c09da8c7b2b68a2bad08700f8b4795ef956a83589a71f9c3a8a36ad9edd902c7",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P08",
+      "name_en": "DC/DC separated losses and thermal budget",
+      "group": "V33",
+      "png": "previews/V33_P08.png",
+      "sha256": "6edb2dc6eebdc99b4d3c904e306e7c32da22cc657cf7a5ab0db513b1328207cf",
+      "bytes": 180832,
+      "top": "previews/V33_P08_top.png",
+      "top_sha256": "2b1fc9600a292f1e049c7876a5db07a7e1b22b8159e64f98ba21aa8a33728b76",
+      "top_bytes": 86290,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P08.npy",
+      "heightfield_sha256": "49b8e3fbcb507c7204161bff2aad7af1bc859ffc2c632cd57422698d1d249c51",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    },
+    {
+      "print_id": "V33_P09",
+      "name_en": "Averaged buck soft-start and current-reference limit",
+      "group": "V33",
+      "png": "previews/V33_P09.png",
+      "sha256": "c0388746b3ff310c59957a4be2a3e4ef796ff548b271cffe4793e0a08999afb1",
+      "bytes": 184050,
+      "top": "previews/V33_P09_top.png",
+      "top_sha256": "9f0a2d1ca8622cb78ffdc37cd534f0eb35b4b8f2d4fe0ff05a0d81b90f27d7d5",
+      "top_bytes": 89568,
+      "top_png_decode_verified": true,
+      "width_px": 1100,
+      "height_px": 850,
+      "heightfield": "heightfields/V33_P09.npy",
+      "heightfield_sha256": "99e26683e27fd3deca9e78db05e91fedf470732aefc128e718b6a6ce8857fe07",
+      "shape": [
+        105,
+        150
+      ],
+      "pitch_mm": [
+        0.4,
+        0.4
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        10.8
+      ],
+      "minimum_top_mm": 2.4000000000000004,
+      "png_decode_verified": true,
+      "rendered_all_final_cells": true
+    }
+  ],
+  "contact_sheets": [
+    {
+      "group": "V1",
+      "view": "iso",
+      "count": 24,
+      "png": "contact_sheets/V1.png",
+      "width_px": 1760,
+      "height_px": 2406,
+      "sha256": "8abe299bae23557464f3228406dd11d133da64b255de4e3a824cc91c5112cf29"
+    },
+    {
+      "group": "V1",
+      "view": "top",
+      "count": 24,
+      "png": "contact_sheets/V1_top.png",
+      "width_px": 1760,
+      "height_px": 2406,
+      "sha256": "b6cb7b04420f56f1cbc10266f9e4fdf0624b1f91ee3ee5f267cb6e576261c5d5"
+    },
+    {
+      "group": "V2",
+      "view": "iso",
+      "count": 31,
+      "png": "contact_sheets/V2.png",
+      "width_px": 1760,
+      "height_px": 3178,
+      "sha256": "65dd6c60d8bbdc39f7df0474f5289830135ce7e7485b946decb98ce3832a5ae6"
+    },
+    {
+      "group": "V2",
+      "view": "top",
+      "count": 31,
+      "png": "contact_sheets/V2_top.png",
+      "width_px": 1760,
+      "height_px": 3178,
+      "sha256": "3aee1a5e781b4dd95587dd4d43132d00f743624163e9f6266565169d894271c5"
+    },
+    {
+      "group": "V33",
+      "view": "iso",
+      "count": 20,
+      "png": "contact_sheets/V33.png",
+      "width_px": 1760,
+      "height_px": 2020,
+      "sha256": "574d1a995f8044e79048fd06fc312bce0e4c9ce545a6815e007b15f39c5fc3bb"
+    },
+    {
+      "group": "V33",
+      "view": "top",
+      "count": 20,
+      "png": "contact_sheets/V33_top.png",
+      "width_px": 1760,
+      "height_px": 2020,
+      "sha256": "42db9d9a31139872c269844eb4bf41bfba988521847e6aad0ee4e7000bf45fd5"
+    }
+  ]
+}
