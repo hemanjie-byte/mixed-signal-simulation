@@ -16,7 +16,7 @@ Coverage: all 24 V1 entries, 31 V2 entries and 20 current V3.3 entries. Historic
 - [Printing and interpretation guide](PRINT_GUIDE_EN_ZH.md) — 打印及教学阅读说明
 - [Geometry validation](validation/mesh_validation.json) — 从STL回读的几何检查
 - [Structured catalogue](catalogue.json) · [Printable file list](print_index.csv) — 来源、端口及文件映射
-- [Portable printing bundle](../Semiconductor_Teaching_STL_20261107.zip) — 打印资料包
+- [Portable printing bundle](../Semiconductor_Teaching_STL_V3-4_20261107.zip) — 打印资料包
 
 STL coordinates must be interpreted as **millimetres**; STL does not embed a unit setting. Import at 100% scale. The preview colours encode height for readability, not material, doping concentration, voltage or current. Printed raised labels are English abbreviations; detailed notes are bilingual.
 
@@ -104,6 +104,6 @@ Geometry checks address closed meshes and the documented heightfield constructio
 | V33_P08 | DC/DC separated losses and thermal budget<br>DC/DC分项损耗与热预算 | circuit_bench · current | [STL](stl/V33_P08.stl) · [Preview](previews/V33_P08.png) · [Notes](cards/V33_P08.md) |
 | V33_P09 | Averaged buck soft-start and current-reference limit<br>平均Buck软启动与电流参考限幅 | circuit_bench · current | [STL](stl/V33_P09.stl) · [Preview](previews/V33_P09.png) · [Notes](cards/V33_P09.md) |
 
-The complete sharing edition uses two archives: extract the core package to create **V3-3**, then extract **Semiconductor_Teaching_STL_20261107.zip inside that V3-3 folder**. The printing archive also works independently for printing. Its source files overlap some core dependencies with identical bytes; merge folders and keep the matching versions. Both archives and all individual files are available in the repository.
+The complete sharing edition uses two archives: extract the core package to create **V3-4**, then extract **Semiconductor_Teaching_STL_V3-4_20261107.zip inside that V3-4 folder**. The printing archive also works independently for printing. Its source files overlap some core dependencies with identical bytes; merge folders and keep the matching versions. Both archives and all individual files are available in the repository.
 
-完整分享版采用两个压缩包：先解压核心包得到 **V3-3**，再将 **Semiconductor_Teaching_STL_20261107.zip解压到该V3-3文件夹内部**。打印包也可独立用于打印；其部分源文件与核心依赖字节一致，合并目录并保留匹配版本即可。仓库同时保存两个压缩包及全部单独文件。
+完整分享版采用两个压缩包：先解压核心包得到 **V3-4**，再将 **Semiconductor_Teaching_STL_V3-4_20261107.zip解压到该V3-4文件夹内部**。打印包也可独立用于打印；其部分源文件与核心依赖字节一致，合并目录并保留匹配版本即可。仓库同时保存两个压缩包及全部单独文件。

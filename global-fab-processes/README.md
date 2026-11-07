@@ -13,7 +13,7 @@ Reviewed on **2026-11-06**. **59 catalogue entities; 119 evidence records (118 t
 - [Revision changes](CHANGES.md) — 本轮新增与保留条目
 - [Reading method](METHOD.md) — 电压、状态与分类阅读方法
 - [Source-review notes](validation/SOURCE_REVIEW_EN_ZH.md) — 来源复核说明
-- [V3-3 sharing entry](../V3-3/README.md) — V3-3分享入口
+- [V3-4 sharing entry](../V3-4/README.md) — V3-4分享入口
 
 This is a documented public-source coverage review, not an exhaustive census of all fabs or process options worldwide. RF bias, breakdown voltage and maximum converter input are different quantities. Development, pilot, historical and IDM-internal offerings remain separately labelled. No PDK, proprietary production recipe or process-qualified simulation model is redistributed.
 

@@ -10,7 +10,7 @@ def main():
     rows=read(H/'catalogue.json');manifest=read(H/'generated_manifest.json');items=manifest['records']
     expected={'V1_'+x['id'] for x in read(R/'可复现计算/data.json')['devices']}
     expected|={'V2_'+x['id'] for x in read(R/'v2/models/model_catalog.json')}
-    for path in ['v33/numerics/analog/models/model_catalog.json','v33/numerics/dcdc/model_catalog.json']:
+    for path in ['V3.3/numerics/analog/models/model_catalog.json','V3.3/numerics/dcdc/model_catalog.json']:
         expected|={'V33_'+x['id'] for x in read(R/path)}
     ids=[x['print_id'] for x in rows];assert len(ids)==len(set(ids))==75
     assert set(ids)==expected=={x['print_id'] for x in items}

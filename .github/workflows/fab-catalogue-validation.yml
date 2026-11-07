@@ -1,9 +1,9 @@
-name: Global FAB catalogue and V3-3 sharing validation
+name: Global FAB catalogue and V3-4 sharing validation
 on:
   push:
-    paths: ["global-fab-processes/**", "V3-3/**", "README.md", "index.html", ".github/workflows/fab-catalogue-validation.yml"]
+    paths: ["global-fab-processes/**", "V3-4/**", "README.md", "index.html", ".github/workflows/fab-catalogue-validation.yml"]
   pull_request:
-    paths: ["global-fab-processes/**", "V3-3/**", "README.md", "index.html", ".github/workflows/fab-catalogue-validation.yml"]
+    paths: ["global-fab-processes/**", "V3-4/**", "README.md", "index.html", ".github/workflows/fab-catalogue-validation.yml"]
   workflow_dispatch:
 permissions:
   contents: read

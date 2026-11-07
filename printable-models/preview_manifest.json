@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "catalogue_sha256": "6be74581faa5c10c4d61ca2d5013ceacc2b2b6a3161878012f10abe1250bad03",
+  "catalogue_sha256": "9ab445cd3f22185259db48b674c99bebafe5054a639c2d0d70a2c67fdf78378f",
   "renderer_sha256": "831de1e5c77a104670604100d2983c624e6bb21ad28f61ec14e80c22b172fc54",
   "projection": "Orthographic; camera +X,-Y,+Z; elevation 35.26438968 degrees",
   "top_projection": "Orthographic from +Z; +X right, +Y up; contours at final cell-height discontinuities",

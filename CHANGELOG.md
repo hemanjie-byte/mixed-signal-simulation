@@ -1,3 +1,9 @@
+# V3-4 · Directory and integrated delivery update — 2026-11-07
+
+Renames `v32` to `V3-2`, `v33` to `V3.3` and the current `V3-3` sharing entry to `V3-4`. Updates executable paths, source mappings, viewer generation, CI, the bilingual workbook and complementary core/printing packages. Adds a side-by-side version comparison and migration-preservation checks. Numerical baseline v3.3.0, FAB catalogue 2.0 and printing geometry 1.0 retain their scope and evidence dates. Historical tags, ZIPs and workbooks remain intact.
+
+将`v32`改为`V3-2`、`v33`改为`V3.3`，当前`V3-3`分享入口升级为`V3-4`；更新执行路径、来源映射、演示页生成、CI、双语工作簿及核心/打印配套包。新增版本异同对照和迁移保全检查。数值基线v3.3.0、FAB目录2.0和打印几何1.0保留各自范围与证据日期；历史标签、ZIP及原工作簿保持原样。
+
 # V3-3 · Printable teaching edition 1.0 — 2026-11-07
 
 **Printing edition 1.0 (2026-11-07): [75 egg-size STL teaching models](printable-models/README.md).** Each file corresponds to a documented catalogue entry; devices, passive parts, isolation/interconnect structures, mechanisms and circuit benches remain distinct. Models have 60 × 42 mm footprints and enlarged tactile features. [Download the printing bundle](Semiconductor_Teaching_STL_20261107.zip).

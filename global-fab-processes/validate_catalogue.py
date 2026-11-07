@@ -31,8 +31,9 @@ CSV_FIELDS = ['id'] + [f'{k}_{lang}' for k in PAIRS for lang in ('en', 'zh')] + 
     'source_url', 'source_date', 'checked_date', 'catalogue_revision_added']
 JSON_ONLY = {'research_id', 'source_status', 'source_status_en', 'source_status_zh'}
 GAP_FIELDS = ['name', 'status', 'reason_en', 'reason_zh', 'source_url']
-PENDING = {(ROOT / 'V3-3_20261106_catalogue2.zip').resolve(),
-           (ROOT / 'V3-3/package_manifest.json').resolve()}
+PENDING = {(ROOT / 'V3-4_20261107_core.zip').resolve(),
+           (ROOT / 'Semiconductor_Teaching_STL_V3-4_20261107.zip').resolve(),
+           (ROOT / 'V3-4/package_manifest.json').resolve()}
 
 
 def canonical_sha256(value):
@@ -353,7 +354,7 @@ def validate(strict_artifacts=False):
     if not text_value(coverage.get('scope')):
         issues.append('Missing coverage scope')
     audit.check('coverage_totals_recomputed', issues)
-    markdown_files = [ROOT / 'README.md', ROOT / 'V3-3/README.md', *sorted(HERE.rglob('*.md'))]
+    markdown_files = [ROOT / 'README.md', ROOT / 'V3-4/README.md', *sorted(HERE.rglob('*.md'))]
     issues = []
     for path in markdown_files:
         try:
