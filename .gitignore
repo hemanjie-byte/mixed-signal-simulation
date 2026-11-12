@@ -8,3 +8,4 @@ venv/
 *.inspect.ndjson
 .DS_Store
 Thumbs.db
+V3-5/simulation/**/csv/

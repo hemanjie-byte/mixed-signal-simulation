@@ -1,0 +1,3757 @@
+{
+  "schema_version": "1.0.0",
+  "summary": {
+    "date": "2026-11-12",
+    "models": 20,
+    "classification_counts": {
+      "illustrative_device_model": 3,
+      "statistical_parameter_model": 1,
+      "circuit_system_bench": 14,
+      "prescribed_mechanism_bench": 2
+    },
+    "tests_run": 96,
+    "tests_passed": 96,
+    "current_numerical_suite_tests": 35,
+    "historical_suite_tests": 61,
+    "computed_cases": 211,
+    "analog_cases": 58,
+    "dcdc_topic_cases": 153,
+    "dcdc_cases_including_B07": 171,
+    "case_reproduction": "All 211 case objects and both simulation JSON files are byte-identical to the V3.3 numerical baseline.",
+    "new_physics_or_coefficients_changed": false,
+    "physical_calibrated_models": 0,
+    "foundry_qualified_models": 0,
+    "physical_accuracy_percentage_established": false,
+    "new_model_defect_observed_in_recomputed_published_cases": false,
+    "warning_counts": {
+      "bootstrap_negative_uvlo_margin": 15,
+      "level_shift_threshold_crossings": 6,
+      "intentional_averaged_buck_overload_cases": 18,
+      "thermal_coefficient_range_exceeded": 0
+    },
+    "numerical_scope_en": "Checks verify code identities, selected independent analytic/high-precision references, convergence and artifact reproduction. They do not measure silicon-model error or certify 40–150 V devices.",
+    "numerical_scope_zh": "检查验证代码恒等式、部分独立解析/高精度参考、收敛性和结果再现；不测量硅器件模型误差，不认证40–150 V器件。",
+    "fresh_source_access_count": 7,
+    "sources_total": 22,
+    "full_library_paper_reverification_performed": false
+  },
+  "models": [
+    {
+      "model_id": "A01",
+      "name_en": "Four-terminal MOS interpolation",
+      "name_zh": "四端MOS连续插值",
+      "classification": "illustrative_device_model",
+      "legacy_kind": "device_extension",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 9,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Low-voltage MOS: illustrative 0–1.8 V class; three assumed temperatures −40, 25, 125 °C. Terminal ranges below describe only saved sweeps.",
+      "operating_scope_zh": "低压MOS示意0–1.8 V等级；假设温度−40、25、125 °C。下列端口范围仅为已保存扫描。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Vb (V)",
+          "min": -0.5,
+          "max": 0.3
+        },
+        {
+          "axis": "Vd (V)",
+          "min": 0.0,
+          "max": 1.8
+        },
+        {
+          "axis": "Vg (V)",
+          "min": 0.0,
+          "max": 1.8
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Id / 漏电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0007012522897615243
+        },
+        {
+          "quantity": "gm / 跨导",
+          "unit": "S",
+          "min": 0.0,
+          "max": 0.001183548164694676
+        },
+        {
+          "quantity": "gds / 输出电导",
+          "unit": "S",
+          "min": 7.208890676522217e-17,
+          "max": 0.00040928808653009776
+        },
+        {
+          "quantity": "gmb / 体跨导",
+          "unit": "S",
+          "min": 0.0,
+          "max": 0.0005917740823473381
+        },
+        {
+          "quantity": "gm/Id / 跨导效率",
+          "unit": "1/V",
+          "min": 1.4814619536331546,
+          "max": 33.181222936983765
+        },
+        {
+          "quantity": "QG / 端口电荷",
+          "unit": "C",
+          "min": -2.4e-13,
+          "max": 3.9e-12
+        },
+        {
+          "quantity": "QD / 端口电荷",
+          "unit": "C",
+          "min": -1.8000000000000002e-13,
+          "max": 7.200000000000001e-13
+        },
+        {
+          "quantity": "QS / 端口电荷",
+          "unit": "C",
+          "min": -3.6e-12,
+          "max": 0.0
+        },
+        {
+          "quantity": "QB / 端口电荷",
+          "unit": "C",
+          "min": -7.999999999999999e-13,
+          "max": -9.000000000000001e-14
+        },
+        {
+          "quantity": "terminal:G:v",
+          "unit": "V",
+          "min": 0.0,
+          "max": 1.8
+        },
+        {
+          "quantity": "terminal:G:i",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "quantity": "terminal:D:v",
+          "unit": "V",
+          "min": 0.0,
+          "max": 1.8
+        },
+        {
+          "quantity": "terminal:D:i",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0007012522897615243
+        },
+        {
+          "quantity": "terminal:S:v",
+          "unit": "V",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "quantity": "terminal:S:i",
+          "unit": "A",
+          "min": -0.0007012522897615243,
+          "max": -0.0
+        },
+        {
+          "quantity": "terminal:B:v",
+          "unit": "V",
+          "min": -0.5,
+          "max": 0.3
+        },
+        {
+          "quantity": "terminal:B:i",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 7,
+      "test_names": [
+        "v31_baseline:test_capacitive_reciprocity_and_positive_energy",
+        "v31_baseline:test_mos_reference_potential_invariance",
+        "v31_baseline:test_mos_strong_inversion_limit",
+        "v31_baseline:test_mos_weak_inversion_transconductance_limit",
+        "v31_baseline:test_mos_zero_and_source_drain_exchange",
+        "v33_analog:test_analytic_mos_derivatives_against_decimal_difference",
+        "v33_analog:test_mos_reference_shift_invariance_of_derivatives"
+      ],
+      "tests_passed": 7,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_capacitive_reciprocity_and_positive_energy",
+          "qualified_name": "test_analog.DeviceTests.test_capacitive_reciprocity_and_positive_energy",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_mos_reference_potential_invariance",
+          "qualified_name": "test_analog.DeviceTests.test_mos_reference_potential_invariance",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_mos_strong_inversion_limit",
+          "qualified_name": "test_analog.DeviceTests.test_mos_strong_inversion_limit",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_mos_weak_inversion_transconductance_limit",
+          "qualified_name": "test_analog.DeviceTests.test_mos_weak_inversion_transconductance_limit",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_mos_zero_and_source_drain_exchange",
+          "qualified_name": "test_analog.DeviceTests.test_mos_zero_and_source_drain_exchange",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_analytic_mos_derivatives_against_decimal_difference",
+          "qualified_name": "test_numerics.DeviceNumerics.test_analytic_mos_derivatives_against_decimal_difference",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_mos_reference_shift_invariance_of_derivatives",
+          "qualified_name": "test_numerics.DeviceNumerics.test_mos_reference_shift_invariance_of_derivatives",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 2,
+      "historical_direct_test_count": 5,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B01"
+      ],
+      "source_reading_depth": {
+        "B01": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for DC interpolation, analytic small-signal derivatives and fixed-capacitor charge bookkeeping; do not use as an HV MOS or full EKV/BSIM model.",
+      "scope_decision_zh": "保留用于直流插值、小信号导数和固定电容电荷核算；不能当高压MOS或完整EKV/BSIM模型。",
+      "limits_en": "0–1.8 V low-voltage demonstration. No avalanche, oxide leakage, DIBL, velocity saturation, intrinsic charge partition or measured fit. Not full EKV/BSIM.",
+      "limits_zh": "仅0–1.8V低压示意；无雪崩、栅漏、DIBL、速度饱和、内禀电荷分配或实测拟合；不是完整EKV/BSIM。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "n": 1.5,
+        "beta_25_A_per_V2": 0.001,
+        "Vth_25_V": 0.55,
+        "dVth_dT_V_per_K": -0.001,
+        "mobility_T_exponent": -1.5,
+        "lambda_per_V": 0.03,
+        "Cgs_F": 2e-12,
+        "Cgd_F": 2e-13,
+        "Cgb_F": 1e-13,
+        "Cdb_Csb_F": 3e-13,
+        "small_signal_method": "Analytic derivatives of the same DC law"
+      },
+      "equation_en": "Id = 2 n beta Ut^2 (softplus(xs)^2 - softplus(xd)^2) (1 + lambda |Vds|). Pair-capacitor charges sum to zero.",
+      "equation_zh": "弱反型至强反型连续电流，另用守恒的固定互电容网络表示端口电荷。",
+      "conservation_or_domain_metrics_max_abs": {
+        "charge_sum_max_C": 7.068193710780266e-28,
+        "max_KCL_residual_A": 0
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "A02",
+      "name_en": "Junction charge and varactor",
+      "name_zh": "结电荷与变容二极管",
+      "classification": "illustrative_device_model",
+      "legacy_kind": "device_extension",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 6,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Junction law accepts −20 ≤ V < 0.35 V. Published C–V sweep is −10…0.3 V; transient −3…−1 V at 1 MHz; temperatures −40, 25, 125 °C.",
+      "operating_scope_zh": "结模型允许−20 ≤ V < 0.35 V；已发布C–V为−10…0.3 V，瞬态为1 MHz下−3…−1 V；温度−40、25、125 °C。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Va-Vk (V)",
+          "min": -10.0,
+          "max": 0.3
+        },
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 3e-06
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Cj / 结电容",
+          "unit": "F",
+          "min": 5.048987314026076e-13,
+          "max": 2.6986663372858828e-12
+        },
+        {
+          "quantity": "Qj / 结电荷",
+          "unit": "C",
+          "min": -8.31008866165767e-12,
+          "max": 6.970669301712941e-13
+        },
+        {
+          "quantity": "Idc / 直流电流",
+          "unit": "A",
+          "min": -1e-12,
+          "max": 3.053584028185439e-06
+        },
+        {
+          "quantity": "terminal:A:v",
+          "unit": "V",
+          "min": -10.0,
+          "max": 0.3
+        },
+        {
+          "quantity": "terminal:A:i",
+          "unit": "A",
+          "min": -6.645602118092793e-06,
+          "max": 6.645600118092792e-06
+        },
+        {
+          "quantity": "terminal:K:v",
+          "unit": "V",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "quantity": "terminal:K:i",
+          "unit": "A",
+          "min": -6.645600118092792e-06,
+          "max": 6.645602118092793e-06
+        },
+        {
+          "quantity": "Va / 阳极电压",
+          "unit": "V",
+          "min": -3.0,
+          "max": -1.0
+        },
+        {
+          "quantity": "Ia / 阳极电流",
+          "unit": "A",
+          "min": -6.645602118092793e-06,
+          "max": 6.645600118092792e-06
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 4,
+      "test_names": [
+        "v31_baseline:test_junction_derivative_of_charge",
+        "v31_baseline:test_junction_transient_charge_balance",
+        "v33_analog:test_charge_capacitance_identity_and_validity_domain",
+        "v33_analog:test_near_zero_charge_against_high_precision"
+      ],
+      "tests_passed": 4,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_junction_derivative_of_charge",
+          "qualified_name": "test_analog.DeviceTests.test_junction_derivative_of_charge",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_junction_transient_charge_balance",
+          "qualified_name": "test_analog.DeviceTests.test_junction_transient_charge_balance",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_charge_capacitance_identity_and_validity_domain",
+          "qualified_name": "test_numerics.DeviceNumerics.test_charge_capacitance_identity_and_validity_domain",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_near_zero_charge_against_high_precision",
+          "qualified_name": "test_numerics.DeviceNumerics.test_near_zero_charge_against_high_precision",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 2,
+      "historical_direct_test_count": 2,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B07"
+      ],
+      "source_reading_depth": {
+        "B07": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for depletion C(V), integral charge and displacement current; exclude forward diffusion, reverse breakdown and series resistance.",
+      "scope_decision_zh": "保留用于耗尽电容、电荷积分和位移电流；不含正向扩散、反向击穿和串联电阻。",
+      "limits_en": "Depletion capacitance only, -20 <= V < 0.35 V. No forward diffusion charge, breakdown or series resistance. Reverse leakage is an assumed 1 pA.",
+      "limits_zh": "仅耗尽电容，-20≤V<0.35V；不含正向扩散电荷、击穿和串联电阻；反向漏电假设为1pA。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "C0_25_F": 2e-12,
+        "C0_TC_per_K": 0.0002,
+        "phi_V": 0.7,
+        "m": 0.5,
+        "transient_bias_V": -2,
+        "transient_amplitude_V": 1,
+        "frequency_Hz": 1000000.0,
+        "charge_evaluation": "Rationalized m=0.5 expression, unchanged physics"
+      },
+      "equation_en": "C(V)=C0(1-V/phi)^(-m); Q(V)=C0 phi [1-(1-V/phi)^(1-m)]/(1-m); Idisplacement=C(V)dV/dt.",
+      "equation_zh": "从C(V)积分得到Q(V)，瞬态位移电流为C(V)dV/dt。",
+      "conservation_or_domain_metrics_max_abs": {
+        "max_KCL_residual_A": 0
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "A03",
+      "name_en": "Reciprocal NPN Ebers–Moll",
+      "name_zh": "满足互易关系的NPN Ebers–Moll",
+      "classification": "illustrative_device_model",
+      "legacy_kind": "device_extension",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 6,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Reciprocal DC Ebers–Moll low-injection example at −40, 25, 125 °C; no qualified current, voltage or frequency rating.",
+      "operating_scope_zh": "−40、25、125 °C的互易Ebers–Moll低注入直流示例；无经过认证的电流、电压和频率额定值。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Vbe (V)",
+          "min": 0.07591784118495178,
+          "max": 0.8119580125109491
+        },
+        {
+          "axis": "Vce (V)",
+          "min": 0.0,
+          "max": 1.2
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Ic / 集电流",
+          "unit": "A",
+          "min": -5.000000000000002e-05,
+          "max": 0.0010000001842651917
+        },
+        {
+          "quantity": "Ib / 基电流",
+          "unit": "A",
+          "min": -5.142173010475171e-11,
+          "max": 5.100000000000004e-05
+        },
+        {
+          "quantity": "Ie / 发射极电流",
+          "unit": "A",
+          "min": -0.001010000122843462,
+          "max": -1.0100000000028126e-09
+        },
+        {
+          "quantity": "terminal:C:v",
+          "unit": "V",
+          "min": 0.0,
+          "max": 1.2
+        },
+        {
+          "quantity": "terminal:C:i",
+          "unit": "A",
+          "min": -5.000000000000002e-05,
+          "max": 0.0010000001842651917
+        },
+        {
+          "quantity": "terminal:B:v",
+          "unit": "V",
+          "min": 0.07591784118495178,
+          "max": 0.8119580125109491
+        },
+        {
+          "quantity": "terminal:B:i",
+          "unit": "A",
+          "min": -5.142173010475171e-11,
+          "max": 5.100000000000004e-05
+        },
+        {
+          "quantity": "terminal:E:v",
+          "unit": "V",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "quantity": "terminal:E:i",
+          "unit": "A",
+          "min": -0.001010000122843462,
+          "max": -1.0100000000028126e-09
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 2,
+      "test_names": [
+        "v31_baseline:test_bjt_reciprocity_in_saturation",
+        "v31_baseline:test_bjt_zero_bias_and_forward_gain"
+      ],
+      "tests_passed": 2,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_bjt_reciprocity_in_saturation",
+          "qualified_name": "test_analog.DeviceTests.test_bjt_reciprocity_in_saturation",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_bjt_zero_bias_and_forward_gain",
+          "qualified_name": "test_analog.DeviceTests.test_bjt_zero_bias_and_forward_gain",
+          "passed": true,
+          "scope": "historical_baseline"
+        }
+      ],
+      "current_direct_test_count": 0,
+      "historical_direct_test_count": 2,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B07"
+      ],
+      "source_reading_depth": {
+        "B07": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for terminal KCL, forward gain and saturation reciprocity; no high-injection, Early effect, charge storage, breakdown or fT prediction.",
+      "scope_decision_zh": "保留用于端口KCL、正向增益和饱和互易性；不能预测高注入、Early效应、储存电荷、击穿或fT。",
+      "limits_en": "Generic silicon NPN, not a SiGe HBT. Low-injection DC only; no Early effect, high injection, transit time, RF fT or breakdown.",
+      "limits_zh": "通用硅NPN，不是SiGe HBT；仅低注入直流，不含Early效应、大注入、渡越时间、fT及击穿。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "IS_25_A": 1e-15,
+        "betaF": 100,
+        "betaR": 2,
+        "Eg_eV": 1.11,
+        "IS_T_exponent": 3
+      },
+      "equation_en": "Ic=alphaF IF-IR; Ib=(1-alphaF)IF+(1-alphaR)IR; Ie=-IF+alphaR IR; alphaF IES=alphaR ICS=IS.",
+      "equation_zh": "分别求解正、反向结注入，三端电流满足KCL和互易关系。",
+      "conservation_or_domain_metrics_max_abs": {
+        "max_KCL_residual_A": 1.0842021724855044e-19
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "A04",
+      "name_en": "MOS pair mismatch and correlation",
+      "name_zh": "MOS配对失配与相关性",
+      "classification": "statistical_parameter_model",
+      "legacy_kind": "parameter_extension",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 4,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        25
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "25 °C; areas 1, 4, 16, 64 µm²; 80,000 Gaussian samples each; assumed A_VT=3 mV·µm and correlation 0.25.",
+      "operating_scope_zh": "25 °C；面积1、4、16、64 µm²，每组80,000个高斯样本；假设A_VT=3 mV·µm、相关系数0.25。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Sample index / 样本序号",
+          "min": 0,
+          "max": 511
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Device1 deltaVth / 单管1偏移",
+          "unit": "V",
+          "min": -0.05421609313690936,
+          "max": 0.053525200088696684
+        },
+        {
+          "quantity": "Device2 deltaVth / 单管2偏移",
+          "unit": "V",
+          "min": -0.05765882034810294,
+          "max": 0.05326220489057938
+        },
+        {
+          "quantity": "Pair deltaVth / 配对差",
+          "unit": "V",
+          "min": -0.007290694417997639,
+          "max": 0.010346783679524539
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 3,
+      "test_names": [
+        "v31_baseline:test_adc_mismatch_changes_linearity",
+        "v31_baseline:test_mismatch_pair_sigma_and_area",
+        "v33_analog:test_sampling_size_and_gaussian_sigma_are_separate"
+      ],
+      "tests_passed": 3,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_adc_mismatch_changes_linearity",
+          "qualified_name": "test_analog.CircuitTests.test_adc_mismatch_changes_linearity",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_mismatch_pair_sigma_and_area",
+          "qualified_name": "test_analog.DeviceTests.test_mismatch_pair_sigma_and_area",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_sampling_size_and_gaussian_sigma_are_separate",
+          "qualified_name": "test_numerics.DeviceNumerics.test_sampling_size_and_gaussian_sigma_are_separate",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 1,
+      "historical_direct_test_count": 2,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B02"
+      ],
+      "source_reading_depth": {
+        "B02": "Full-text retrieval attempted; IEEE PDF returned 502. No fresh full-text reading; historical targeted-reading record retained."
+      },
+      "scope_decision_en": "Retain as a pair-mismatch statistics lesson. More samples reduce estimator uncertainty, not physical mismatch or guaranteed realized error.",
+      "scope_decision_zh": "保留为配对失配统计教学。增加样本仅降低估计不确定性，不降低器件失配，也不保证本次误差更小。",
+      "limits_en": "Assumed Gaussian local mismatch and correlation. No foundry statistics, spatial-gradient fit, yield certification or temperature-dependent mismatch law.",
+      "limits_zh": "高斯局部失配和相关系数为假设；无工艺统计、空间梯度拟合、良率认证或温度失配律。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "A_VT_pair_V_um": 0.003,
+        "rho": 0.25,
+        "samples": 80000,
+        "global_sigma_V": 0.02,
+        "areas_um2": [
+          1,
+          4,
+          16,
+          64
+        ],
+        "seed": 20261101
+      },
+      "equation_en": "sigma(pair)=A_VT sqrt((1-rho)/(WL)); individual uncorrelated sigma=A_VT/sqrt(2WL).",
+      "equation_zh": "区分配对标准差和单管标准差，并演示共同偏移的抵消。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "B01",
+      "name_en": "MOS differential pair",
+      "name_zh": "MOS差分对",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 3,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "A01 differential pair; 100 µA ideal tail, 0.85 V common mode, 1.8 V drains; differential input ±0.3 V; −40, 25, 125 °C.",
+      "operating_scope_zh": "A01差分对；理想尾电流100 µA、共模0.85 V、漏极1.8 V；差分输入±0.3 V；−40、25、125 °C。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Differential input / 差分输入 (V)",
+          "min": -0.3,
+          "max": 0.3
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "I1 / 支路1",
+          "unit": "A",
+          "min": 8.718435077687917e-06,
+          "max": 9.128156492231206e-05
+        },
+        {
+          "quantity": "I2 / 支路2",
+          "unit": "A",
+          "min": 8.718435077687917e-06,
+          "max": 9.128156492231206e-05
+        },
+        {
+          "quantity": "Vs / 共源电压",
+          "unit": "V",
+          "min": -0.05209511349888156,
+          "max": -0.025773920806764966
+        },
+        {
+          "quantity": "terminal:D1:v",
+          "unit": "V",
+          "min": 1.8,
+          "max": 1.8
+        },
+        {
+          "quantity": "terminal:D1:i",
+          "unit": "A",
+          "min": 8.718435077687917e-06,
+          "max": 9.128156492231206e-05
+        },
+        {
+          "quantity": "terminal:D2:v",
+          "unit": "V",
+          "min": 1.8,
+          "max": 1.8
+        },
+        {
+          "quantity": "terminal:D2:i",
+          "unit": "A",
+          "min": 8.718435077687917e-06,
+          "max": 9.128156492231206e-05
+        },
+        {
+          "quantity": "terminal:G1:v",
+          "unit": "V",
+          "min": 0.7,
+          "max": 1.0
+        },
+        {
+          "quantity": "terminal:G1:i",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "quantity": "terminal:G2:v",
+          "unit": "V",
+          "min": 0.7,
+          "max": 1.0
+        },
+        {
+          "quantity": "terminal:G2:i",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "quantity": "terminal:Tail:v",
+          "unit": "V",
+          "min": -0.05209511349888156,
+          "max": -0.025773920806764966
+        },
+        {
+          "quantity": "terminal:Tail:i",
+          "unit": "A",
+          "min": -0.0001,
+          "max": -0.0001
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 1,
+      "test_names": [
+        "v31_baseline:test_differential_pair_symmetry_and_tail"
+      ],
+      "tests_passed": 1,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_differential_pair_symmetry_and_tail",
+          "qualified_name": "test_analog.CircuitTests.test_differential_pair_symmetry_and_tail",
+          "passed": true,
+          "scope": "historical_baseline"
+        }
+      ],
+      "current_direct_test_count": 0,
+      "historical_direct_test_count": 1,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B01"
+      ],
+      "source_reading_depth": {
+        "B01": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for current steering with an ideal tail; not a complete OTA/op-amp with finite tail resistance, active loads or compensation.",
+      "scope_decision_zh": "保留用于理想尾电流下的电流转向；不是包含有限尾源阻抗、有源负载和补偿的完整OTA/运放。",
+      "limits_en": "Fixed drain biases and ideal tail source. No amplifier load, common-mode feedback, frequency compensation or finite tail impedance.",
+      "limits_zh": "固定漏端偏置、理想尾电流源；不含放大器负载、共模反馈、频率补偿及尾源有限阻抗。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "Vcm_V": 0.85,
+        "Vd1_Vd2_V": 1.8,
+        "Itail_A": 0.0001,
+        "bisection_steps": 80
+      },
+      "equation_en": "Solve Id1(Vs)+Id2(Vs)=Itail with bisection using A01; Vg1/2=Vcm +/- Vdiff/2.",
+      "equation_zh": "用A01求解共同源极电压，使两支路之和等于尾电流。",
+      "conservation_or_domain_metrics_max_abs": {
+        "max_KCL_residual_A": 6.776263578034403e-20
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "B02",
+      "name_en": "CTAT/PTAT reference sum",
+      "name_zh": "CTAT/PTAT基准合成",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 1,
+      "vin_classes_V": [],
+      "temperature_samples_C": [],
+      "temperature_sweep_C": [
+        -40,
+        125
+      ],
+      "temperature_semantics": "continuous sweep",
+      "operating_scope_en": "One continuous −40…125 °C sweep; first derivative cancelled at 25 °C; no supply or load qualification.",
+      "operating_scope_zh": "一个−40…125 °C连续扫描；25 °C处抵消一阶温度导数；未验证供电和负载能力。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Temperature / 温度 (degC)",
+          "min": -40.0,
+          "max": 125.0
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vref / 基准",
+          "unit": "V",
+          "min": 1.2781591527988225,
+          "max": 1.2820777373632577
+        },
+        {
+          "quantity": "Vbe / CTAT",
+          "unit": "V",
+          "min": 0.4741435528284017,
+          "max": 0.8092780576288964
+        },
+        {
+          "quantity": "Scaled PTAT / 加权PTAT",
+          "unit": "V",
+          "min": 0.47081812666860134,
+          "max": 0.8040155999704209
+        },
+        {
+          "quantity": "IPTAT / PTAT电流",
+          "unit": "A",
+          "min": 4.1778709840809256e-06,
+          "max": 7.1345457101086015e-06
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 2,
+      "test_names": [
+        "v31_baseline:test_bandgap_curvature_retained",
+        "v31_baseline:test_bandgap_first_order_cancellation"
+      ],
+      "tests_passed": 2,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_bandgap_curvature_retained",
+          "qualified_name": "test_analog.CircuitTests.test_bandgap_curvature_retained",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_bandgap_first_order_cancellation",
+          "qualified_name": "test_analog.CircuitTests.test_bandgap_first_order_cancellation",
+          "passed": true,
+          "scope": "historical_baseline"
+        }
+      ],
+      "current_direct_test_count": 0,
+      "historical_direct_test_count": 2,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B03"
+      ],
+      "source_reading_depth": {
+        "B03": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for CTAT/PTAT cancellation and residual curvature; not a transistor-level Brokaw circuit or measured precision reference.",
+      "scope_decision_zh": "保留用于CTAT/PTAT抵消与残余曲率；不是晶体管级Brokaw电路或实测精密基准。",
+      "limits_en": "Ideal voltage sum inspired by bandgap principles, not the 2.5 V Brokaw circuit reproduction. No start-up, PSRR, trimming, resistor TC, mismatch or output load.",
+      "limits_zh": "按带隙原理的理想电压合成，并非复现Brokaw的2.5V电路；不含启动、PSRR、修调、电阻温漂、失配及输出负载。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "Vg0_V": 1.205,
+        "Vbe0_V": 0.68,
+        "eta": 3,
+        "area_ratio": 8,
+        "R1_ohm": 10000,
+        "T0_K": 298.15
+      },
+      "equation_en": "Vbe=Vg0+(Vbe0-Vg0)T/T0-eta Ut ln(T/T0); deltaVbe=Ut ln(N); Vref=Vbe+a deltaVbe; dVref/dT|T0=0.",
+      "equation_zh": "一阶温漂在25°C相消，并保留VBE曲率；输出PTAT电流为deltaVbe/R1。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "B03",
+      "name_en": "Input noise and sampled kT/C",
+      "name_zh": "输入噪声与采样kT/C",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 3,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Noise PSD integrated over 1 Hz–1 MHz at −40, 25, 125 °C; 1 pF kT/C example; no terminal I–V operating range.",
+      "operating_scope_zh": "−40、25、125 °C下积分1 Hz–1 MHz噪声谱；1 pF的kT/C示例；无端口I–V适用范围。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Frequency / 频率 (Hz)",
+          "min": 1.0,
+          "max": 1000000.0
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Plain input ASD / 未抑制噪声",
+          "unit": "V/sqrt(Hz)",
+          "min": 8.843455945720205e-09,
+          "max": 1.1613594016938657e-07
+        },
+        {
+          "quantity": "Suppressed input ASD / 抑制后噪声",
+          "unit": "V/sqrt(Hz)",
+          "min": 1.2506216570462367e-08,
+          "max": 1.6363006940412044e-08
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 2,
+      "test_names": [
+        "v31_baseline:test_noise_integral_against_analytic_reference",
+        "v33_analog:test_noise_integrals_against_decimal_antiderivatives"
+      ],
+      "tests_passed": 2,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_noise_integral_against_analytic_reference",
+          "qualified_name": "test_analog.CircuitTests.test_noise_integral_against_analytic_reference",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_noise_integrals_against_decimal_antiderivatives",
+          "qualified_name": "test_numerics.CircuitNumerics.test_noise_integrals_against_decimal_antiderivatives",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 1,
+      "historical_direct_test_count": 1,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B08"
+      ],
+      "source_reading_depth": {
+        "B08": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for PSD units and integration; prescribed noise shaping is not a switching chopper/auto-zero circuit.",
+      "scope_decision_zh": "保留用于噪声谱单位与积分；预设谱形不是开关斩波/自动调零电路。",
+      "limits_en": "Illustrative spectral shaping, not a switched chopper circuit or measured op amp. No current noise, source resistance, aliasing, ripple or charge injection.",
+      "limits_zh": "仅示意频谱整形，不是开关斩波电路或实测运放；不含电流噪声、源阻、混叠、纹波和电荷注入。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "en_25_V_per_sqrtHz": 1e-08,
+        "fc_Hz": 100,
+        "fchop_Hz": 20000,
+        "sample_C_F": 1e-12,
+        "integration_band_Hz": [
+          1,
+          1000000.0
+        ],
+        "integration_method": "Analytic PSD antiderivatives; saved frequency grid unchanged"
+      },
+      "equation_en": "Splain=en^2(1+fc/f); Ssuppressed=en^2(2+fc/(f+fchop)); variance=integral S(f)df; sampled variance=kT/C.",
+      "equation_zh": "演示抑制低频噪声时的白噪声代价；另列采样热噪声。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "B04",
+      "name_en": "Capacitor DAC and SAR ADC",
+      "name_zh": "电容DAC与SAR ADC",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 2,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        25
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "10-bit SAR, 1.8 V reference, 2 MS/s, 25 °C; ideal and 2% unit-capacitor mismatch cases; ideal comparator and full settling.",
+      "operating_scope_zh": "10位SAR、1.8 V基准、2 MS/s、25 °C；理想和单位电容2%失配两种工况；比较器理想且完全建立。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 0.0081915
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vin / 输入",
+          "unit": "V",
+          "min": 0.018000000000000016,
+          "max": 1.782
+        },
+        {
+          "quantity": "Reconstructed / 重建",
+          "unit": "V",
+          "min": 0.018457031250000002,
+          "max": 1.78154296875
+        },
+        {
+          "quantity": "Output code / 输出码",
+          "unit": "code",
+          "min": 10,
+          "max": 1013
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 6,
+      "test_names": [
+        "v31_baseline:test_adc_inl_endpoint_definition",
+        "v31_baseline:test_adc_mismatch_changes_linearity",
+        "v31_baseline:test_adc_quantization_noise_limit",
+        "v31_baseline:test_fft_power_parseval_dc_nyquist_and_odd_length",
+        "v31_baseline:test_ideal_sar_codes_and_linearity",
+        "v31_baseline:test_sar_actual_transition_edges_with_missing_code"
+      ],
+      "tests_passed": 6,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_adc_inl_endpoint_definition",
+          "qualified_name": "test_analog.CircuitTests.test_adc_inl_endpoint_definition",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_adc_mismatch_changes_linearity",
+          "qualified_name": "test_analog.CircuitTests.test_adc_mismatch_changes_linearity",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_adc_quantization_noise_limit",
+          "qualified_name": "test_analog.CircuitTests.test_adc_quantization_noise_limit",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_fft_power_parseval_dc_nyquist_and_odd_length",
+          "qualified_name": "test_analog.CircuitTests.test_fft_power_parseval_dc_nyquist_and_odd_length",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_ideal_sar_codes_and_linearity",
+          "qualified_name": "test_analog.CircuitTests.test_ideal_sar_codes_and_linearity",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_sar_actual_transition_edges_with_missing_code",
+          "qualified_name": "test_analog.CircuitTests.test_sar_actual_transition_edges_with_missing_code",
+          "passed": true,
+          "scope": "historical_baseline"
+        }
+      ],
+      "current_direct_test_count": 0,
+      "historical_direct_test_count": 6,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B05",
+        "B02"
+      ],
+      "source_reading_depth": {
+        "B05": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+        "B02": "Full-text retrieval attempted; IEEE PDF returned 502. No fresh full-text reading; historical targeted-reading record retained."
+      },
+      "scope_decision_en": "Retain for quantization, actual code-transition DNL/INL and spectral metrics; no physical ENOB, reference loading or comparator timing claim.",
+      "scope_decision_zh": "保留用于量化、真实码转换DNL/INL和频谱指标；不宣称物理ENOB、基准负载或比较器时序能力。",
+      "limits_en": "Ideal comparator and full settling. No aperture jitter, thermal/comparator noise, switch leakage, reference droop or supply-current prediction. Capacitor mismatch is assumed.",
+      "limits_zh": "比较器理想且完全建立；不含采样抖动、热噪声/比较器噪声、开关漏电、参考跌落及供电电流预测；电容失配为假设。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "bits": 10,
+        "Vref_V": 1.8,
+        "fs_Hz": 2000000.0,
+        "samples": 16384,
+        "tone_bin": 503,
+        "input_amplitude_fraction_of_Vref": 0.49,
+        "unit_sigma_cases": [
+          0,
+          0.02
+        ],
+        "seed": 20261101
+      },
+      "equation_en": "Binary CDAC with dummy; actual sequential-decision transition search; DNL from code widths; INL fitted to first/last internal transitions; coherent 16384-point FFT, bin 503, one-sided power with DC/Nyquist counted once.",
+      "equation_zh": "含dummy的二进制CDAC逐位比较；搜索实际转换码边界计算DNL，首末内部转换点端点拟合计算INL；相干FFT单边功率对直流与奈奎斯特点只计一次。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "B05",
+      "name_en": "LDO loop and load step",
+      "name_zh": "LDO环路与负载阶跃",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 3,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "3.3 V input, 1.8 V nominal output, 20 mA nominal load plus 10 mA step; 10 µF; −40, 25, 125 °C.",
+      "operating_scope_zh": "3.3 V输入、1.8 V标称输出、20 mA负载叠加10 mA阶跃；10 µF；−40、25、125 °C。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time after load step / 负载阶跃后时间 (s)",
+          "min": 0.0,
+          "max": 0.0003
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vout / 输出",
+          "unit": "V",
+          "min": 1.7725554351197903,
+          "max": 1.8
+        },
+        {
+          "quantity": "Ipass / 调整管电流",
+          "unit": "A",
+          "min": 0.02,
+          "max": 0.030352932361710605
+        },
+        {
+          "quantity": "Iload / 负载电流",
+          "unit": "A",
+          "min": 0.02969506039021989,
+          "max": 0.03
+        },
+        {
+          "quantity": "terminal:IN:v",
+          "unit": "V",
+          "min": 3.3,
+          "max": 3.3
+        },
+        {
+          "quantity": "terminal:IN:i",
+          "unit": "A",
+          "min": 0.02003,
+          "max": 0.030382932361710604
+        },
+        {
+          "quantity": "terminal:OUT:v",
+          "unit": "V",
+          "min": 1.7725554351197903,
+          "max": 1.8
+        },
+        {
+          "quantity": "terminal:OUT:i",
+          "unit": "A",
+          "min": -0.03,
+          "max": -0.02969506039021989
+        },
+        {
+          "quantity": "terminal:GND:v",
+          "unit": "V",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "quantity": "terminal:GND:i",
+          "unit": "A",
+          "min": -0.000554244489357787,
+          "max": 0.009969999999999998
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 6,
+      "test_names": [
+        "v31_baseline:test_ldo_against_matrix_exponential",
+        "v31_baseline:test_ldo_energy_and_positive_phase_margin",
+        "v31_baseline:test_ldo_step_convergence",
+        "v31_baseline:test_ldo_unity_frequency_against_quadratic_solution",
+        "v33_analog:test_ldo_crossing_and_affine_state_initial_condition",
+        "v33_analog:test_matrix_exponential_against_decimal_taylor"
+      ],
+      "tests_passed": 6,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_ldo_against_matrix_exponential",
+          "qualified_name": "test_analog.CircuitTests.test_ldo_against_matrix_exponential",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_ldo_energy_and_positive_phase_margin",
+          "qualified_name": "test_analog.CircuitTests.test_ldo_energy_and_positive_phase_margin",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_ldo_step_convergence",
+          "qualified_name": "test_analog.CircuitTests.test_ldo_step_convergence",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_ldo_unity_frequency_against_quadratic_solution",
+          "qualified_name": "test_analog.CircuitTests.test_ldo_unity_frequency_against_quadratic_solution",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_ldo_crossing_and_affine_state_initial_condition",
+          "qualified_name": "test_numerics.CircuitNumerics.test_ldo_crossing_and_affine_state_initial_condition",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_matrix_exponential_against_decimal_taylor",
+          "qualified_name": "test_numerics.CircuitNumerics.test_matrix_exponential_against_decimal_taylor",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 2,
+      "historical_direct_test_count": 4,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B06"
+      ],
+      "source_reading_depth": {
+        "B06": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain as a two-state linearized loop/load-step bench; dropout, startup, saturation, ESR zeros and current limit are absent.",
+      "scope_decision_zh": "保留为两状态线性化环路/负载阶跃；不含压差、启动、饱和、ESR零点和限流。",
+      "limits_en": "Small perturbation around a biased operating point; no dropout, current limit, start-up, ESR zero or transistor netlist. Not a reproduction of the cited measured LDO.",
+      "limits_zh": "围绕偏置点的小扰动模型；无压差极限、限流、启动、ESR零点或晶体管网表；并非复现引用论文的实测LDO。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "Vin_V": 3.3,
+        "Vout_nom_V": 1.8,
+        "Iload_nom_A": 0.02,
+        "delta_Iload_A": 0.01,
+        "Cout_F": 1e-05,
+        "Rload_ohm": 90,
+        "G_25_A_per_V": 0.5,
+        "G_T_exponent": -1.2,
+        "amplifier_pole_Hz": 20000,
+        "Iq_A": 3e-05,
+        "dt_s": 1e-07,
+        "state_propagation": "Exact real 2x2 matrix exponential",
+        "unity_gain_method": "Stable analytic positive quadratic root"
+      },
+      "equation_en": "C dv/dt=ip-v/R-dIload; dip/dt=wa(-Gv-ip). L(s)=G/[(Cs+1/R)(1+s/wa)].",
+      "equation_zh": "二状态线性反馈模型，输出负载阶跃、环路增益和相位裕度。",
+      "conservation_or_domain_metrics_max_abs": {
+        "max_KCL_residual_A": 1.734723475976807e-18
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "B06",
+      "name_en": "Phase loop and noise transfer",
+      "name_zh": "相位环路与噪声传递",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 3,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        25
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "25 °C; canonical phase-domain second-order system; natural frequency 100 kHz, damping 0.3/0.7/1.2, 0.1 rad step; noise band 100 Hz–10 MHz.",
+      "operating_scope_zh": "25 °C；标准二阶相位域系统；固有频率100 kHz、阻尼0.3/0.7/1.2、0.1 rad阶跃；噪声带100 Hz–10 MHz。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 4e-05
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Output phase / 输出相位",
+          "unit": "rad",
+          "min": 0.0,
+          "max": 0.137232595583165
+        },
+        {
+          "quantity": "Frequency deviation / 频偏",
+          "unit": "Hz",
+          "min": -2500.3259776584882,
+          "max": 6715.393369687424
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 6,
+      "test_names": [
+        "v31_baseline:test_ldo_against_matrix_exponential",
+        "v31_baseline:test_pll_jitter_psd_convention",
+        "v31_baseline:test_pll_step_against_closed_form",
+        "v33_analog:test_matrix_exponential_against_decimal_taylor",
+        "v33_analog:test_pll_phase_against_independent_decimal_exponential",
+        "v33_analog:test_pll_quadrature_refinement_and_positive_variance"
+      ],
+      "tests_passed": 6,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_ldo_against_matrix_exponential",
+          "qualified_name": "test_analog.CircuitTests.test_ldo_against_matrix_exponential",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_pll_jitter_psd_convention",
+          "qualified_name": "test_analog.CircuitTests.test_pll_jitter_psd_convention",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_pll_step_against_closed_form",
+          "qualified_name": "test_analog.CircuitTests.test_pll_step_against_closed_form",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_matrix_exponential_against_decimal_taylor",
+          "qualified_name": "test_numerics.CircuitNumerics.test_matrix_exponential_against_decimal_taylor",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_pll_phase_against_independent_decimal_exponential",
+          "qualified_name": "test_numerics.CircuitNumerics.test_pll_phase_against_independent_decimal_exponential",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_pll_quadrature_refinement_and_positive_variance",
+          "qualified_name": "test_numerics.CircuitNumerics.test_pll_quadrature_refinement_and_positive_variance",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 3,
+      "historical_direct_test_count": 3,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "B09"
+      ],
+      "source_reading_depth": {
+        "B09": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for phase dynamics/noise-transfer lessons; not a complete type-II PLL, transistor VCO, acquisition or ISF paper reproduction.",
+      "scope_decision_zh": "保留用于相位动态和噪声传递；不是完整II型PLL、晶体管VCO、捕获过程或ISF论文复现。",
+      "limits_en": "Canonical phase-domain abstraction without a loop zero. Not a transistor VCO, a full type-II PLL, ISF extraction, cycle-slip or acquisition simulation.",
+      "limits_zh": "无环路零点的典型相位域抽象；不是晶体管VCO、完整二型PLL、ISF提取、周跳或捕获仿真。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "natural_frequency_Hz": 100000.0,
+        "zeta_cases": [
+          0.3,
+          0.7,
+          1.2
+        ],
+        "phase_step_rad": 0.1,
+        "carrier_Hz": 1000000000.0,
+        "integration_band_Hz": [
+          100,
+          10000000.0
+        ],
+        "Sref_rad2_per_Hz": 1e-13,
+        "Svco_floor_rad2_per_Hz": 1e-16,
+        "state_propagation": "Exact real 2x2 matrix exponential",
+        "PSD_integration": "16-point Gauss-Legendre per 32 log-frequency intervals"
+      },
+      "equation_en": "H(s)=wn^2/(s^2+2 zeta wn s+wn^2); Sout=|H|^2 Sref+|1-H|^2 Svco; jitter=sqrt(integral Sout df)/(2 pi fcarrier).",
+      "equation_zh": "典型二阶相位响应与互补噪声传递，区分单边相位PSD和SSB噪声。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "B07",
+      "name_en": "40–150 V synchronous buck",
+      "name_zh": "40–150V同步降压",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 18,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Six input classes 40/60/80/100/120/150 V × −40/25/125 °C; 12 V/1 A, 250 kHz, 100 µH, 22 µF; forced CCM.",
+      "operating_scope_zh": "40/60/80/100/120/150 V六档输入×−40/25/125 °C；12 V/1 A、250 kHz、100 µH、22 µF；强制连续导通。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 2e-05
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vout / 输出",
+          "unit": "V",
+          "min": 11.993383460590024,
+          "max": 12.003738540815773
+        },
+        {
+          "quantity": "IL / 电感电流",
+          "unit": "A",
+          "min": 0.7726899558697742,
+          "max": 1.2283750770360093
+        },
+        {
+          "quantity": "Vsw / 开关节点",
+          "unit": "V",
+          "min": -0.3095505194130744,
+          "max": 149.89667074036822
+        },
+        {
+          "quantity": "Vds_HS / 高侧漏源电压",
+          "unit": "V",
+          "min": 0.10332925963177786,
+          "max": 150.30955051941308
+        },
+        {
+          "quantity": "Vgs_HS / 理想高侧驱动",
+          "unit": "V",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "quantity": "Pin / 输入功率",
+          "unit": "W",
+          "min": 0.0,
+          "max": 184.2562615554014
+        },
+        {
+          "quantity": "Pout / 输出功率",
+          "unit": "W",
+          "min": 11.986770569396198,
+          "max": 12.007478246355499
+        },
+        {
+          "quantity": "Pconduction / 导通损耗",
+          "unit": "W",
+          "min": 0.13359529399461964,
+          "max": 0.6337402385509532
+        },
+        {
+          "quantity": "Stored energy / 储能",
+          "unit": "J",
+          "min": 0.0016123296127444416,
+          "max": 0.0016579268126518992
+        },
+        {
+          "quantity": "terminal:IN:v",
+          "unit": "V",
+          "min": 40.0,
+          "max": 150.0
+        },
+        {
+          "quantity": "terminal:IN:i",
+          "unit": "A",
+          "min": 0.0,
+          "max": 1.2283750770360093
+        },
+        {
+          "quantity": "terminal:OUT:v",
+          "unit": "V",
+          "min": 11.993383460590024,
+          "max": 12.003738540815773
+        },
+        {
+          "quantity": "terminal:OUT:i",
+          "unit": "A",
+          "min": -1.0003115450679811,
+          "max": -0.9994486217158354
+        },
+        {
+          "quantity": "terminal:GND:v",
+          "unit": "V",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "quantity": "terminal:GND:i",
+          "unit": "A",
+          "min": -0.22885450188505863,
+          "max": 1.0003115450679811
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 7,
+      "test_names": [
+        "v31_baseline:test_buck_all_voltage_temperature_grid_convergence",
+        "v31_baseline:test_buck_event_alignment_and_convergence",
+        "v31_baseline:test_buck_integrated_energy_balance",
+        "v32_dcdc:test_controlled_buck_all_voltage_temperature_cases",
+        "v33_analog:test_buck_energy_against_independent_eigen_simpson_reference",
+        "v33_analog:test_buck_integrated_metrics_independent_of_display_density",
+        "v33_analog:test_buck_periodicity_and_average_balance_all_cases"
+      ],
+      "tests_passed": 7,
+      "test_details": [
+        {
+          "suite": "v31_baseline",
+          "name": "test_buck_all_voltage_temperature_grid_convergence",
+          "qualified_name": "test_analog.CircuitTests.test_buck_all_voltage_temperature_grid_convergence",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_buck_event_alignment_and_convergence",
+          "qualified_name": "test_analog.CircuitTests.test_buck_event_alignment_and_convergence",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v31_baseline",
+          "name": "test_buck_integrated_energy_balance",
+          "qualified_name": "test_analog.CircuitTests.test_buck_integrated_energy_balance",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_controlled_buck_all_voltage_temperature_cases",
+          "qualified_name": "test_dcdc.PowerControlTests.test_controlled_buck_all_voltage_temperature_cases",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_buck_energy_against_independent_eigen_simpson_reference",
+          "qualified_name": "test_numerics.CircuitNumerics.test_buck_energy_against_independent_eigen_simpson_reference",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_buck_integrated_metrics_independent_of_display_density",
+          "qualified_name": "test_numerics.CircuitNumerics.test_buck_integrated_metrics_independent_of_display_density",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_analog",
+          "name": "test_buck_periodicity_and_average_balance_all_cases",
+          "qualified_name": "test_numerics.CircuitNumerics.test_buck_periodicity_and_average_balance_all_cases",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 3,
+      "historical_direct_test_count": 4,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "D01"
+      ],
+      "source_reading_depth": {
+        "D01": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for switched KVL/KCL and conduction-only energy balance. Input classes are scenarios, not transistor voltage ratings.",
+      "scope_decision_zh": "保留用于开关KVL/KCL和仅导通损耗能量平衡。输入档位是工况，不是晶体管耐压等级。",
+      "limits_en": "Forced CCM with ideal instantaneous switches. Efficiency includes conduction loss only; no switching/gate/core loss, dead time, ringing, control-loop start-up, SOA or validated voltage rating.",
+      "limits_zh": "强制连续导通、理想瞬时开关；效率仅含导通损耗；无开关/栅极/磁芯损耗、死区、振铃、控制启动、SOA或已验证耐压。",
+      "parameter_origin_en": "Demonstration assumptions; SI constants k and q are exact.",
+      "parameter_origin_zh": "数值为演示假设；SI常数k与q采用精确定义。",
+      "parameters": {
+        "Vin_max_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "Vout_target_V": 12,
+        "L_H": 0.0001,
+        "C_F": 2.2e-05,
+        "Rload_ohm": 12,
+        "Rsw_25_ohm": 0.18,
+        "RL_25_ohm": 0.12,
+        "resistance_TC_per_K": 0.004,
+        "fs_Hz": 250000.0,
+        "steps_per_cycle": 200,
+        "warmup_cycles": 35,
+        "saved_cycles": 5,
+        "state_propagation": "Exact affine exponential; periodic warmup traversal unnecessary",
+        "metric_integration": "16-point Gauss-Legendre separately on on/off intervals"
+      },
+      "equation_en": "L di/dt=u Vin-(Rsw+RL)i-v; C dv/dt=i-v/Rload. Exact period-map initialization; exact piecewise affine propagation and 16-point phasewise Gauss integration; input-output-loss-energy balance.",
+      "equation_zh": "解析周期映射初始化、精确分段仿射传播及16点Gauss积分；校核输入、输出、导通损耗和储能。",
+      "conservation_or_domain_metrics_max_abs": {
+        "energy_residual_J": 2.206965519894761e-17,
+        "max_KCL_residual_A": 0
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P01",
+      "name_en": "HV MOS gate charge and switching overlap",
+      "name_zh": "高压MOS栅电荷与开关交叠",
+      "classification": "prescribed_mechanism_bench",
+      "legacy_kind": "device_extension",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 18,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Six input classes × −40/25/125 °C; 1 A prescribed commutation, 10 V drive, 8/5 Ω gate resistance.",
+      "operating_scope_zh": "六档输入×−40/25/125 °C；预设1 A换流、10 V驱动、8/5 Ω栅电阻。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 4.4264681282411995e-08
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vgs on / 导通栅源电压",
+          "unit": "V",
+          "min": 0.0,
+          "max": 9.961795840515185
+        },
+        {
+          "quantity": "Vds on / 导通漏源电压",
+          "unit": "V",
+          "min": 0.13319999999999999,
+          "max": 150.0
+        },
+        {
+          "quantity": "Ichannel on / 导通沟道电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "quantity": "Igate on / 导通栅电流",
+          "unit": "A",
+          "min": 0.00477551993560188,
+          "max": 1.25
+        },
+        {
+          "quantity": "Overlap power / 交叠功率",
+          "unit": "W",
+          "min": 0.0,
+          "max": 149.8668
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 7,
+      "test_names": [
+        "v32_dcdc:test_bootstrap_gate_charge_jump",
+        "v32_dcdc:test_capacitance_is_derivative_of_charge",
+        "v32_dcdc:test_charge_and_energy_against_dense_integrals",
+        "v32_dcdc:test_energy_is_not_half_qv_for_nonlinear_cap",
+        "v32_dcdc:test_gate_charge_and_endpoint_voltages",
+        "v32_dcdc:test_gate_overlap_sampling_convergence",
+        "v33_dcdc:test_overlap_closed_form_all_edges_and_temperatures"
+      ],
+      "tests_passed": 7,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_bootstrap_gate_charge_jump",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_bootstrap_gate_charge_jump",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_capacitance_is_derivative_of_charge",
+          "qualified_name": "test_dcdc.ChargeSwitchTests.test_capacitance_is_derivative_of_charge",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_charge_and_energy_against_dense_integrals",
+          "qualified_name": "test_dcdc.ChargeSwitchTests.test_charge_and_energy_against_dense_integrals",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_energy_is_not_half_qv_for_nonlinear_cap",
+          "qualified_name": "test_dcdc.ChargeSwitchTests.test_energy_is_not_half_qv_for_nonlinear_cap",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_gate_charge_and_endpoint_voltages",
+          "qualified_name": "test_dcdc.ChargeSwitchTests.test_gate_charge_and_endpoint_voltages",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_gate_overlap_sampling_convergence",
+          "qualified_name": "test_dcdc.ChargeSwitchTests.test_gate_overlap_sampling_convergence",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_overlap_closed_form_all_edges_and_temperatures",
+          "qualified_name": "test_accuracy.NumericalTests.test_overlap_closed_form_all_edges_and_temperatures",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 1,
+      "historical_direct_test_count": 6,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S10"
+      ],
+      "source_reading_depth": {
+        "S01": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+        "S02": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+        "S10": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Reclassify the legacy device_extension as a staged gate-charge/overlap bench. It is not a self-consistent charge-conserving multi-terminal HV MOS compact model.",
+      "scope_decision_zh": "将历史device_extension重分类为分阶段栅电荷/交叠损耗台架；不是自洽、端口电荷守恒的高压MOS紧凑模型。",
+      "limits_en": "Prescribed staged commutation, not a coupled charge-conserving MOS compact model. Ichannel excludes Coss displacement and diode recovery. Fixed-C Miller appeared in V2 X01; this bench adds nonlinear charge, separate overlap/storage energies and temperature sweeps. No breakdown, avalanche, SOA, gate overshoot or layout extraction. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "人为规定阶段的换流模型，非完整电荷守恒MOS紧凑模型；沟道电流不含Coss位移和二极管恢复。V2 X01已有固定电容Miller，本版增强非线性电荷、分离交叠/储能及温度扫描；不含击穿、雪崩、SOA、栅过冲或版图提取。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "input_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "device_temperature_cases_C": [
+          -40,
+          25,
+          125
+        ],
+        "all_coefficients": "Authored illustrative assumptions; same parameterized device across all Vin classes, no rated-voltage certification.",
+        "Vdrive_V": 10,
+        "Cgs_F": 8e-10,
+        "Cgd0_F": 8e-11,
+        "Coss_per_device_C0_F": 6e-10,
+        "capacitance_V0_V": 20,
+        "capacitance_exponent": 0.5,
+        "Rg_on_ohm": 8,
+        "Rg_off_ohm": 5,
+        "gm_S": 0.5,
+        "Iload_A": 1,
+        "Vth_25_V": 2.2,
+        "Vth_TC_V_per_K": -0.002,
+        "Ron_25_ohm": 0.18,
+        "Ron_TC_per_K": 0.004
+      },
+      "equation_en": "Cgd(v)=80pF/(1+v/20V)^0.5; Qgd=integral Cgd dv; plateau gate current=(Vdrive-Vplateau)/Rg; Vds is the inverse charge law. Eoverlap=integral max(Vds Ichannel-Ron Ichannel^2,0)dt. Qoss=integral Coss dv; Eoss=integral v Coss dv.",
+      "equation_zh": "Miller电荷由非线性Cgd积分，平台电流决定漏压转换时间；交叠损耗积分扣除瞬时导通基线；Qoss与Eoss分别积分Coss和vCoss。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P02",
+      "name_en": "Dead-time diode and reverse recovery",
+      "name_zh": "死区二极管与反向恢复",
+      "classification": "prescribed_mechanism_bench",
+      "legacy_kind": "device_extension",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 18,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Six input classes × −40/25/125 °C; 12 V/1 A, 250 kHz, 100 µH, 40 ns dead time; prescribed triangular recovery pulse.",
+      "operating_scope_zh": "六档输入×−40/25/125 °C；12 V/1 A、250 kHz、100 µH、40 ns死区；预设三角形反向恢复脉冲。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 4e-06
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vsw / 开关节点",
+          "unit": "V",
+          "min": -0.865,
+          "max": 150.0
+        },
+        {
+          "quantity": "IL / 电感电流",
+          "unit": "A",
+          "min": 0.77888168,
+          "max": 1.22111832
+        },
+        {
+          "quantity": "Diode forward current / 二极管正向电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 1.22111832
+        },
+        {
+          "quantity": "HS state / 高侧状态",
+          "unit": "1",
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "quantity": "LS state / 低侧状态",
+          "unit": "1",
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "quantity": "Dead time / 死区",
+          "unit": "1",
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "quantity": "Diode loss / 二极管损耗",
+          "unit": "W",
+          "min": 0.0,
+          "max": 1.0562673468
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 3,
+      "test_names": [
+        "v32_dcdc:test_deadtime_volt_seconds_and_current_periodicity",
+        "v32_dcdc:test_recovery_charge_all_voltage_temperature_cases",
+        "v32_dcdc:test_zero_deadtime_reduces_to_ideal_buck"
+      ],
+      "tests_passed": 3,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_deadtime_volt_seconds_and_current_periodicity",
+          "qualified_name": "test_dcdc.ChargeSwitchTests.test_deadtime_volt_seconds_and_current_periodicity",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_recovery_charge_all_voltage_temperature_cases",
+          "qualified_name": "test_dcdc.ChargeSwitchTests.test_recovery_charge_all_voltage_temperature_cases",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_zero_deadtime_reduces_to_ideal_buck",
+          "qualified_name": "test_dcdc.ChargeSwitchTests.test_zero_deadtime_reduces_to_ideal_buck",
+          "passed": true,
+          "scope": "historical_baseline"
+        }
+      ],
+      "current_direct_test_count": 0,
+      "historical_direct_test_count": 3,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S02"
+      ],
+      "source_reading_depth": {
+        "S02": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Reclassify as a mechanism bench. Qrr pulse and inductor commutation are not a coupled minority-carrier diode model; VIN×Qrr is bus energy, not diode heat.",
+      "scope_decision_zh": "重分类为机制台架；Qrr脉冲和电感换流不是耦合少子二极管模型；VIN×Qrr是母线能量，不是二极管发热。",
+      "limits_en": "Periodic ideal CCM waveform; recovery pulse is separate from IL and Vsw. Vin Qrr assumes full bus voltage and is not measured diode heat. No stored-charge transport solution, Coss commutation, gate overlap or ringing. V2 X02 already imposed triangular recovery; V3.2 relates it to dead-time sizing and bus-energy accounting. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "周期理想CCM波形；恢复脉冲与IL、Vsw分别计算。VinQrr假定全母线电压，不等同实测二极管热。无载流子输运、Coss换流、栅交叠或振铃。V2 X02已有三角恢复，本版关联死区选取和母线能量核算。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "input_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "device_temperature_cases_C": [
+          -40,
+          25,
+          125
+        ],
+        "all_coefficients": "Authored illustrative assumptions; same parameterized device across all Vin classes, no rated-voltage certification.",
+        "Vout_V": 12,
+        "Iout_A": 1,
+        "L_H": 0.0001,
+        "fs_Hz": 250000.0,
+        "deadtime_each_s": 4e-08,
+        "Vf_25_V": 0.8,
+        "Vf_TC_V_per_K": -0.001,
+        "Qrr_25_C": 1.2e-08,
+        "Qrr_TC_per_K": 0.005,
+        "trr_25_s": 6e-08,
+        "trr_TC_per_K": 0.002,
+        "recovery_rise_fraction": 0.35
+      },
+      "equation_en": "D=(Vout+2 td fs Vf)/Vin; L dIL/dt=Vsw-Vout in HS/dead/LS/dead phases. Qrr=0.5 Ipk trr. Ecomm=Vin Qrr is a separate prescribed bus-energy estimate.",
+      "equation_zh": "按死区压降补偿占空比，四阶段积分电感电流；三角恢复电流满足Qrr=Ipk trr/2，另列VinQrr换流能量估算。",
+      "conservation_or_domain_metrics_max_abs": {
+        "volt_second_residual_Vs": 2.710505431213761e-20,
+        "periodic_current_residual_A": 9.454242944073599e-17
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P03",
+      "name_en": "Floating bootstrap supply and UVLO margin",
+      "name_zh": "浮地自举供电与欠压裕量",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 36,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Six input classes × −40/25/125 °C × 100 nF/3.3 nF; 10 V supply, 6 V UVLO, 250 kHz; VBS is relative to SW.",
+      "operating_scope_zh": "六档输入×−40/25/125 °C×100 nF/3.3 nF；10 V供电、6 V欠压门槛、250 kHz；VBS相对SW。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 4.8000000000000015e-05
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "VBS / 自举电压",
+          "unit": "V",
+          "min": 5.060510260969592,
+          "max": 9.35
+        },
+        {
+          "quantity": "Recharge current / 充电电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.4289489739030408
+        },
+        {
+          "quantity": "Driver quiescent current / 驱动静态电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.00013000000000000002
+        },
+        {
+          "quantity": "UVLO flag / 欠压标记",
+          "unit": "1",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 2,
+      "test_names": [
+        "v32_dcdc:test_bootstrap_gate_charge_jump",
+        "v32_dcdc:test_bootstrap_reaches_analytical_periodic_map"
+      ],
+      "tests_passed": 2,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_bootstrap_gate_charge_jump",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_bootstrap_gate_charge_jump",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_bootstrap_reaches_analytical_periodic_map",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_bootstrap_reaches_analytical_periodic_map",
+          "passed": true,
+          "scope": "historical_baseline"
+        }
+      ],
+      "current_direct_test_count": 0,
+      "historical_direct_test_count": 2,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "source_reading_depth": {
+        "S01": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+        "S03": "Manufacturer PDF text, pp. 1–3: operating paths, bootstrap charge budget and Eq. (3). Targeted reading, not a complete circuit reproduction."
+      },
+      "scope_decision_en": "Retain for charge-budget/RC recharge margin. UVLO is a diagnostic flag only and does not suppress the prescribed gate pulses.",
+      "scope_decision_zh": "保留用于电荷预算和RC补充电裕量；UVLO只作诊断标志，不会抑制预设栅脉冲。",
+      "limits_en": "VBS is gate-driver supply relative to switching source, not absolute gate voltage. UVLO flags a sizing violation without disabling the prescribed gate-charge pulses. No negative-SW overcharge, diode leakage/recovery, startup recharge sequence, high-side common-mode isolation or high-duty operation qualification. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "VBS相对开关源极，非绝对栅压；欠压仅标记选值失败，不关闭规定栅电荷脉冲。不含负SW过充、二极管漏电/恢复、启动充电序列、高侧共模隔离或高占空比认证。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "input_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "device_temperature_cases_C": [
+          -40,
+          25,
+          125
+        ],
+        "all_coefficients": "Authored illustrative assumptions; same parameterized device across all Vin classes, no rated-voltage certification.",
+        "Cboot_cases_F": [
+          1e-07,
+          3.3e-09
+        ],
+        "driver_supply_V": 10,
+        "bootstrap_diode_drop_V": 0.65,
+        "recharge_R_ohm": 10,
+        "Iq_25_A": 0.0001,
+        "Iq_TC_per_K": 0.003,
+        "driver_UVLO_V": 6,
+        "cycles": 12,
+        "fs_Hz": 250000.0
+      },
+      "equation_en": "Gate event: deltaVbs=-Qg/Cboot. On: dVbs/dt=-Iq/Cboot. Off: Cboot dVbs/dt=(Vsource-Vbs)/Rcharge-Iq. Exact exponential recharge and analytical periodic map.",
+      "equation_zh": "栅极事件消耗Qg使VBS下降，导通期间静态电流放电，关断期间经充电电阻指数恢复；解析周期映射计算最小电压。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [
+        {
+          "case_id": "P03_100V_-40C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_100V_125C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_100V_25C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_120V_-40C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_120V_125C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_120V_25C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_150V_-40C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_150V_125C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_150V_25C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_60V_-40C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_60V_125C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_60V_25C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_80V_-40C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_80V_125C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        },
+        {
+          "case_id": "P03_80V_25C_small_cap",
+          "en": "INTENTIONAL_UVLO_MARGIN_FAILURE: gate pulses continue in this diagnostic bench.",
+          "zh": "有意欠压裕量失效：诊断台架仍继续栅脉冲。"
+        }
+      ],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P04",
+      "name_en": "Level-shifter common-mode disturbance",
+      "name_zh": "电平移位接收端共模扰动",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 12,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        25
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Six common-mode steps at 10 V/ns; 25 °C only; receiver R=20 kΩ/500 Ω, threshold 0.7 V; unclamped linear RC.",
+      "operating_scope_zh": "六档共模阶跃、10 V/ns；仅25 °C；接收电阻20 kΩ/500 Ω、门槛0.7 V；无钳位线性RC。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 6.1e-08
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Common mode / 共模电压",
+          "unit": "V",
+          "min": 0.0,
+          "max": 150.0
+        },
+        {
+          "quantity": "Receiver disturbance / 接收端扰动",
+          "unit": "V",
+          "min": 0.0,
+          "max": 5.7698698121324945
+        },
+        {
+          "quantity": "Injected current / 注入电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0003
+        },
+        {
+          "quantity": "Receiver discharge / 接收端泄放",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0003
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 2,
+      "test_names": [
+        "v32_dcdc:test_level_shift_charge_balance",
+        "v32_dcdc:test_level_shift_limit_and_stronger_sink"
+      ],
+      "tests_passed": 2,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_level_shift_charge_balance",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_level_shift_charge_balance",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_level_shift_limit_and_stronger_sink",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_level_shift_limit_and_stronger_sink",
+          "passed": true,
+          "scope": "historical_baseline"
+        }
+      ],
+      "current_direct_test_count": 0,
+      "historical_direct_test_count": 2,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S04",
+        "S10"
+      ],
+      "source_reading_depth": {
+        "S04": "TU Delft author repository metadata and abstract read. PDF link timed out; no new full-body access. 20 V/180 nm BCD scope confirmed.",
+        "S10": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain as a disturbance diagnostic. Weak-path multi-volt excursions are predictions of an unclamped equivalent, not physical logic-pin or CMTI qualification.",
+      "scope_decision_zh": "保留为扰动诊断；弱通路的数伏偏移仅为无钳位等效模型结果，不能当逻辑引脚真实波形或CMTI认证。",
+      "limits_en": "Unclamped linear RC susceptibility only. Receiver excursions beyond a real logic rail signal model invalidity/risk; no receiver clamp or latch transistor network is modeled. This is not a level-shifter implementation, isolation test or CMTI certification. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "仅未钳位线性RC敏感性；超过实际逻辑电源的电压提示模型适用边界/风险，未建模输入钳位或锁存晶体管。不代表完整电平移位电路、隔离测试或CMTI认证。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "input_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "Ccm_F": 3e-14,
+        "Crx_F": 2e-13,
+        "receiver_R_cases_ohm": [
+          20000,
+          500
+        ],
+        "common_mode_slew_V_per_s": 10000000000.0,
+        "threshold_V": 0.7,
+        "temperature_C": 25
+      },
+      "equation_en": "(Crx+Ccm) dVrx/dt+Vrx/Rrx=Ccm dVcm/dt. Compare weak and stronger receiver discharge paths at the same 10 V/ns edge.",
+      "equation_zh": "共模电容注入电流经接收端RC产生扰动；在相同10V/ns边沿下比较弱/强泄放路径。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [
+        {
+          "case_id": "P04_100V_25C_weak",
+          "en": "INTENTIONAL_THRESHOLD_CROSSING: unclamped RC excursion is not a qualified logic-pin voltage.",
+          "zh": "有意跨越门槛：无钳位RC偏移不是经过验证的逻辑引脚电压。"
+        },
+        {
+          "case_id": "P04_120V_25C_weak",
+          "en": "INTENTIONAL_THRESHOLD_CROSSING: unclamped RC excursion is not a qualified logic-pin voltage.",
+          "zh": "有意跨越门槛：无钳位RC偏移不是经过验证的逻辑引脚电压。"
+        },
+        {
+          "case_id": "P04_150V_25C_weak",
+          "en": "INTENTIONAL_THRESHOLD_CROSSING: unclamped RC excursion is not a qualified logic-pin voltage.",
+          "zh": "有意跨越门槛：无钳位RC偏移不是经过验证的逻辑引脚电压。"
+        },
+        {
+          "case_id": "P04_40V_25C_weak",
+          "en": "INTENTIONAL_THRESHOLD_CROSSING: unclamped RC excursion is not a qualified logic-pin voltage.",
+          "zh": "有意跨越门槛：无钳位RC偏移不是经过验证的逻辑引脚电压。"
+        },
+        {
+          "case_id": "P04_60V_25C_weak",
+          "en": "INTENTIONAL_THRESHOLD_CROSSING: unclamped RC excursion is not a qualified logic-pin voltage.",
+          "zh": "有意跨越门槛：无钳位RC偏移不是经过验证的逻辑引脚电压。"
+        },
+        {
+          "case_id": "P04_80V_25C_weak",
+          "en": "INTENTIONAL_THRESHOLD_CROSSING: unclamped RC excursion is not a qualified logic-pin voltage.",
+          "zh": "有意跨越门槛：无钳位RC偏移不是经过验证的逻辑引脚电压。"
+        }
+      ],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P05",
+      "name_en": "Current-sense amplifier and delayed comparator",
+      "name_zh": "电流检测放大器与延迟比较器",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 3,
+      "vin_classes_V": [],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Low-side only: 0.5→3 A, 50 mΩ nominal shunt, gain 20, 100 ns pole, assumed 35 ns comparator delay; −40/25/125 °C. No Vin sweep.",
+      "operating_scope_zh": "仅低侧：0.5→3 A、标称50 mΩ取样电阻、增益20、100 ns时间常数、假设35 ns比较器延迟；−40/25/125 °C。未扫描Vin。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 2.0000000000000003e-06
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Load current / 负载电流",
+          "unit": "A",
+          "min": 0.5,
+          "max": 3.0
+        },
+        {
+          "quantity": "Shunt voltage / 取样电压",
+          "unit": "V",
+          "min": 0.024837500000000002,
+          "max": 0.15150000000000002
+        },
+        {
+          "quantity": "Amplifier output / 放大器输出",
+          "unit": "V",
+          "min": 0.497425,
+          "max": 3.0314999858529394
+        },
+        {
+          "quantity": "Comparator output / 比较器输出",
+          "unit": "1",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 2,
+      "test_names": [
+        "v32_dcdc:test_sense_step_against_analytic_crossing",
+        "v33_dcdc:test_comparator_event_is_exported_without_quantization"
+      ],
+      "tests_passed": 2,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_sense_step_against_analytic_crossing",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_sense_step_against_analytic_crossing",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_comparator_event_is_exported_without_quantization",
+          "qualified_name": "test_accuracy.NumericalTests.test_comparator_event_is_exported_without_quantization",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 1,
+      "historical_direct_test_count": 1,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S05",
+        "S12"
+      ],
+      "source_reading_depth": {
+        "S05": "Manufacturer PDF pp. 1–4 read: 26 V common-mode range and 400 ns typical comparator propagation delay.",
+        "S12": "Manufacturer HTML body read through common-mode step response, measurement setup and comparison results."
+      },
+      "scope_decision_en": "Retain for first-order detection timing. It is not an INA381 model and provides no 150 V high-side sensing or actual switch turn-off validation.",
+      "scope_decision_zh": "保留用于一阶检测时序；不是INA381模型，不能验证150 V高侧检测或实际开关关断。",
+      "limits_en": "Low-voltage ground-referenced sensing bench. No HV input/common-mode rating, amplifier saturation, input clamp, blanking, random noise, metastability, shunt inductance or actual cycle-by-cycle turn-off. Delay is assumed, not a guaranteed device specification. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "低压地参考检测台；无高压共模额定、放大器饱和、输入钳位、消隐、随机噪声、亚稳态、取样寄生电感及实际逐周期关断。延迟为假设，非器件保证值。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "device_temperature_cases_C": [
+          -40,
+          25,
+          125
+        ],
+        "Rs_25_ohm": 0.05,
+        "Rs_TC_per_K": 0.0001,
+        "gain": 20,
+        "Vos_25_V": 0.001,
+        "Vos_TC_V_per_K": 5e-06,
+        "tau_s": 1e-07,
+        "comparator_threshold_V": 2,
+        "propagation_delay_s": 3.5e-08,
+        "step_time_s": 1e-07,
+        "current_step_A": [
+          0.5,
+          3
+        ]
+      },
+      "equation_en": "Vsense=Rs I; Vtarget=Gain Vsense+Vos; tau dVamp/dt+Vamp=Vtarget. Comparator output asserts after threshold crossing plus 35 ns propagation delay.",
+      "equation_zh": "取样电阻电压经有限带宽放大器和确定性失调形成输出；比较器阈值 crossing 后加35ns传播延迟。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P06",
+      "name_en": "HV startup supply and hysteretic UVLO",
+      "name_zh": "高压启动供电与迟滞欠压锁定",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 18,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Six input classes × −40/25/125 °C; 1 µF auxiliary capacitor; assumed 1 mA source; 9/7 V UVLO; 11 V clamp; 14–24 ms source interruption.",
+      "operating_scope_zh": "六档输入×−40/25/125 °C；1 µF辅助电容；假设1 mA电流源；9/7 V欠压门槛；11 V钳位；14–24 ms断供。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 0.04
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vaux / 辅助电压",
+          "unit": "V",
+          "min": 0.0,
+          "max": 11.0
+        },
+        {
+          "quantity": "Enable / 使能",
+          "unit": "1",
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "quantity": "Startup current / 启动电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0011
+        },
+        {
+          "quantity": "Auxiliary load / 辅助负载电流",
+          "unit": "A",
+          "min": 4e-05,
+          "max": 0.0005
+        },
+        {
+          "quantity": "Clamp current / 钳位电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.0006000000000000001
+        },
+        {
+          "quantity": "HV source dissipation / 高压启动源耗散",
+          "unit": "W",
+          "min": 0.0,
+          "max": 0.165
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 6,
+      "test_names": [
+        "v32_dcdc:test_startup_first_enable_against_capacitor_ramp",
+        "v32_dcdc:test_startup_time_step_refinement",
+        "v32_dcdc:test_uvlo_brownout_restart_and_hysteresis",
+        "v33_dcdc:test_startup_all_hysteresis_events_and_charge_balance",
+        "v33_dcdc:test_startup_domain_rejects_unmodeled_compliance",
+        "v33_dcdc:test_startup_solution_independent_of_display_grid"
+      ],
+      "tests_passed": 6,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_startup_first_enable_against_capacitor_ramp",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_startup_first_enable_against_capacitor_ramp",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_startup_time_step_refinement",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_startup_time_step_refinement",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_uvlo_brownout_restart_and_hysteresis",
+          "qualified_name": "test_dcdc.AuxiliaryTests.test_uvlo_brownout_restart_and_hysteresis",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_startup_all_hysteresis_events_and_charge_balance",
+          "qualified_name": "test_accuracy.NumericalTests.test_startup_all_hysteresis_events_and_charge_balance",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_startup_domain_rejects_unmodeled_compliance",
+          "qualified_name": "test_accuracy.NumericalTests.test_startup_domain_rejects_unmodeled_compliance",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_startup_solution_independent_of_display_grid",
+          "qualified_name": "test_accuracy.NumericalTests.test_startup_solution_independent_of_display_grid",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 3,
+      "historical_direct_test_count": 3,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S06",
+        "S11"
+      ],
+      "source_reading_depth": {
+        "S06": "Manufacturer PDF pp. 1–3 read: input operation up to 100 V and controller functions.",
+        "S11": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain for event-driven bias startup/UVLO. No JFET physics, auxiliary-winding takeover or 150 V hardware rating is represented.",
+      "scope_decision_zh": "保留用于事件驱动的偏置启动/欠压锁定；不含JFET物理、辅助绕组接管或150 V硬件耐压。",
+      "limits_en": "Behavioral startup current source, not a JFET transistor model. The source remains on except for an imposed interruption. No real auxiliary winding handover, high-voltage reliability, clamp SOA, leakage, power-on reset timing or guaranteed start-up range. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "启动限流源为行为模型，非JFET晶体管模型；除规定中断外保持开启。不含真实辅助绕组接管、高压可靠性、钳位SOA、漏电、上电复位时序或保证启动范围。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "input_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "device_temperature_cases_C": [
+          -40,
+          25,
+          125
+        ],
+        "all_coefficients": "Authored illustrative assumptions; same parameterized device across all Vin classes, no rated-voltage certification.",
+        "Caux_F": 1e-06,
+        "start_current_25_A": 0.001,
+        "start_current_TC_per_K": 0.001,
+        "compliance_R_ohm": 20000,
+        "UVLO_on_V": 9,
+        "UVLO_off_V": 7,
+        "clamp_V": 11,
+        "disabled_load_A": 4e-05,
+        "enabled_load_A": 0.0005,
+        "source_interruption_s": [
+          0.014,
+          0.024
+        ],
+        "dt_s": 2e-06,
+        "end_s": 0.04
+      },
+      "equation_en": "Caux dVaux/dt=Istart-Iload-Iclamp; current source has a simple compliance limit. Enable at 9 V, disable at 7 V; an 11 V ideal clamp limits Vaux.",
+      "equation_zh": "辅助电容由限流启动源充电，并供给状态相关负载；9V开启、7V关闭，11V理想钳位限制辅助电压。",
+      "conservation_or_domain_metrics_max_abs": {},
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P07",
+      "name_en": "Switch-node parasitic ringing and damping",
+      "name_zh": "开关节点寄生振铃与阻尼",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 12,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        25
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Six input classes at 25 °C; series RLC, 15 nH, bias-linearized Coss, initial excess voltage 0.15 Vin; weak/damped cases.",
+      "operating_scope_zh": "六档输入、25 °C；串联RLC、15 nH、偏置点线性化Coss、初始过电压0.15 Vin；弱/强阻尼工况。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 4e-07
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vsw / 开关节点",
+          "unit": "V",
+          "min": 35.045105692357055,
+          "max": 172.5
+        },
+        {
+          "quantity": "Parasitic loop current / 寄生环路电流",
+          "unit": "A",
+          "min": -2.453587915847703,
+          "max": 2.1162316010470614
+        },
+        {
+          "quantity": "Stored ring energy / 振铃储能",
+          "unit": "J",
+          "min": 1.5577881485227474e-165,
+          "max": 5.2092695237037056e-08
+        },
+        {
+          "quantity": "Damping loss / 阻尼耗散",
+          "unit": "W",
+          "min": 0.0,
+          "max": 17.055535994789967
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 3,
+      "test_names": [
+        "v32_dcdc:test_rlc_damping_removes_energy_faster",
+        "v32_dcdc:test_series_rlc_critical_resistance_and_decay",
+        "v33_dcdc:test_ringing_energy_quadrature_refines"
+      ],
+      "tests_passed": 3,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_rlc_damping_removes_energy_faster",
+          "qualified_name": "test_dcdc.PowerControlTests.test_rlc_damping_removes_energy_faster",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_series_rlc_critical_resistance_and_decay",
+          "qualified_name": "test_dcdc.PowerControlTests.test_series_rlc_critical_resistance_and_decay",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_ringing_energy_quadrature_refines",
+          "qualified_name": "test_accuracy.NumericalTests.test_ringing_energy_quadrature_refines",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 1,
+      "historical_direct_test_count": 2,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S07"
+      ],
+      "source_reading_depth": {
+        "S07": "Manufacturer PDF targeted pp. 1–3 and 9–13: ring mechanism, voltage margin, gate resistance and parallel-RLC snubber approximation."
+      },
+      "scope_decision_en": "Retain for free-response damping and energy. Rcritical=2√(L/C) is for series RLC; do not copy it into the source note’s parallel-RLC snubber design.",
+      "scope_decision_zh": "保留用于自由响应阻尼与能量；Rcritical=2√(L/C)属于串联RLC，不能套入来源应用笔记的并联RLC吸收电路。",
+      "limits_en": "Linearized series-RLC surrogate about a bus voltage, not a literal shunt RC snubber design. Initial disturbance amplitude is prescribed. No switching-edge excitation, EMI prediction, nonlinear Coss or snubber recurring power estimate. Do not copy its Rcritical into a real shunt snubber. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "母线附近线性化串联RLC替代模型，不是实际并联RC吸收器设计；初始扰动人为规定。无开关边沿激励、EMI预测、非线性Coss或吸收器周期功率；不得将临界电阻直接用于真实并联吸收器。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "input_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "Lpar_H": 1.5e-08,
+        "Clinearization": "P01 Coss evaluated at Vin",
+        "Rweak_ohm": 0.8,
+        "Rdamped_fraction_of_series_critical": 0.8,
+        "initial_ring_amplitude_fraction_of_Vin": 0.15,
+        "initial_current_A": 0,
+        "temperature_C": 25
+      },
+      "equation_en": "Series RLC free response: C dv/dt=i; L di/dt=-v-Ri. Rcritical=2 sqrt(L/C), not the parallel-RLC critical resistance. E=0.5 Cv^2+0.5 Li^2; dE/dt=-Ri^2.",
+      "equation_zh": "串联RLC自由响应，临界电阻为2√(L/C)，与并联RLC不同；电场与磁场储能之和按Ri²耗散。",
+      "conservation_or_domain_metrics_max_abs": {
+        "energy_residual_J": 1.840931818223091e-14
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P08",
+      "name_en": "DC/DC separated losses and thermal budget",
+      "name_zh": "DC/DC分项损耗与热预算",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 18,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "ambient",
+      "operating_scope_en": "Six input classes × ambient −40/25/125 °C; 12 V/1 A, 250 kHz; Rθ=8 K/W, Cθ=0.025 J/K; assumed coefficient range −40…175 °C.",
+      "operating_scope_zh": "六档输入×环境−40/25/125 °C；12 V/1 A、250 kHz；热阻8 K/W、热容0.025 J/K；假设系数范围−40…175 °C。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 1.0
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Effective hot node / 等效热节点",
+          "unit": "degC",
+          "min": -40.0,
+          "max": 151.51920092362758
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 4,
+      "test_names": [
+        "v32_dcdc:test_loss_budget_sum_and_no_reused_full_switch_energy",
+        "v32_dcdc:test_matched_half_bridge_coss_source_minus_storage",
+        "v32_dcdc:test_thermal_fixed_point_and_constant_loss_solution",
+        "v33_dcdc:test_loss_reference_and_same_coss_ledger_all_cases"
+      ],
+      "tests_passed": 4,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_loss_budget_sum_and_no_reused_full_switch_energy",
+          "qualified_name": "test_dcdc.PowerControlTests.test_loss_budget_sum_and_no_reused_full_switch_energy",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_matched_half_bridge_coss_source_minus_storage",
+          "qualified_name": "test_dcdc.PowerControlTests.test_matched_half_bridge_coss_source_minus_storage",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_thermal_fixed_point_and_constant_loss_solution",
+          "qualified_name": "test_dcdc.PowerControlTests.test_thermal_fixed_point_and_constant_loss_solution",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_loss_reference_and_same_coss_ledger_all_cases",
+          "qualified_name": "test_accuracy.NumericalTests.test_loss_reference_and_same_coss_ledger_all_cases",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 1,
+      "historical_direct_test_count": 3,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S08"
+      ],
+      "source_reading_depth": {
+        "S01": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+        "S02": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+        "S08": "Not reopened in this audit; historical reading depth below is retained without upgrading it."
+      },
+      "scope_decision_en": "Retain as a nine-term loss ledger plus one effective hot node. It does not predict an individual device junction or full switching electrothermal dynamics.",
+      "scope_decision_zh": "保留为九项损耗账本加一个等效热节点；不能预测单个器件结温或完整开关电热动态。",
+      "limits_en": "A ledger, not one self-consistent switched electrical/thermal simulation. Two matched Coss curves, one hard upper turn-on per cycle, opposite edge ideal energy redistribution; Coss subterm energies are explanatory and only their sum enters the loss ledger. Overlap includes load-channel current only; Qrr is separate, with no reused full Eon. Vin Qrr is conservative full-bus energy, not diode heat. All heat shares one effective node, not a MOS junction; the thermal transient holds converged loss constant. No core/ESR/reliability/layout loss or measured efficiency. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "此为预算表，非完整自洽开关电热仿真；两管Coss相同，每周期一次高侧硬导通，另一边沿假定理想能量再分配；Coss子项能量用于解释，仅其和计入损耗。交叠仅含负载沟道电流，Qrr单列，不重复使用完整Eon。VinQrr为全母线保守能量，非二极管热；所有热量共用一个等效节点，非MOS结温，热瞬态固定收敛损耗。不含磁芯、ESR、可靠性、版图损耗或实测效率。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "input_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "ambient_temperature_cases_C": [
+          -40,
+          25,
+          125
+        ],
+        "fs_Hz": 250000.0,
+        "Vout_V": 12,
+        "Iout_A": 1,
+        "RL_25_ohm": 0.12,
+        "Rtheta_K_per_W": 8,
+        "Ctheta_J_per_K": 0.025,
+        "control_loss_W": 0.01,
+        "assumed_coefficient_temperature_range_C": [
+          -40,
+          175
+        ],
+        "hard_Coss_commutations_per_cycle": 1,
+        "gate_charge_events_per_cycle": 2
+      },
+      "equation_en": "Matched Coss hard-turn-on energy: Eupper+(Vin Qlower-Elower)=Vin Qoss. Ploss=HS/LS conduction+L copper+channel overlap+Vin Qoss fs+Vin Qrr fs+two Qg Vdrive fs+dead-time diode+control. Solve Thot=Tamb+Rtheta Ploss(Thot). Fixed-loss transient: Thot(t)=Tamb+Ploss Rtheta (1-exp(-t/Rtheta Ctheta)).",
+      "equation_zh": "两管相同Coss：高侧放电储能加低侧充电耗散为Eupper+(VinQlower-Elower)=VinQoss；计一次硬导通/周期，另加导通、铜损、沟道交叠、恢复母线估算、两管栅驱、死区和控制损耗；求等效热节点反馈不动点，再计算恒损耗热瞬态。",
+      "conservation_or_domain_metrics_max_abs": {
+        "thermal_fixed_point_residual_K": 9.947598300641403e-14,
+        "parameter_temperature_range_exceeded": 0
+      },
+      "case_warnings": [],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    },
+    {
+      "model_id": "P09",
+      "name_en": "Averaged buck soft-start and current-reference limit",
+      "name_zh": "平均Buck软启动与电流参考限幅",
+      "classification": "circuit_system_bench",
+      "legacy_kind": "circuit_benchmark",
+      "status": "NUMERICAL_PASS_EDUCATIONAL_SCOPE_ONLY",
+      "case_count": 18,
+      "vin_classes_V": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "temperature_samples_C": [
+        -40,
+        25,
+        125
+      ],
+      "temperature_sweep_C": null,
+      "temperature_semantics": "assumed device/model temperature",
+      "operating_scope_en": "Six input classes × −40/25/125 °C; averaged 12 V buck, 1.6 A command limit, load 12→6 Ω at 4 ms; 2 ms soft-start.",
+      "operating_scope_zh": "六档输入×−40/25/125 °C；平均12 V降压、1.6 A指令限幅、4 ms时负载12→6 Ω；2 ms软启动。",
+      "saved_sweep_domains": [
+        {
+          "axis": "Time / 时间 (s)",
+          "min": 0.0,
+          "max": 0.008
+        }
+      ],
+      "observed_signal_ranges": [
+        {
+          "quantity": "Vout / 输出电压",
+          "unit": "V",
+          "min": 0.0,
+          "max": 11.90119715955642
+        },
+        {
+          "quantity": "Vreference / 参考电压",
+          "unit": "V",
+          "min": 0.0,
+          "max": 12.0
+        },
+        {
+          "quantity": "IL / 电感电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 1.5999999999999974
+        },
+        {
+          "quantity": "Icommand / 电流指令",
+          "unit": "A",
+          "min": 0.0,
+          "max": 1.6
+        },
+        {
+          "quantity": "Iload / 负载电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 1.98353285992607
+        },
+        {
+          "quantity": "Iin averaged / 平均输入电流",
+          "unit": "A",
+          "min": 0.0,
+          "max": 0.4172735522353254
+        },
+        {
+          "quantity": "Duty / 占空比",
+          "unit": "1",
+          "min": 0.0,
+          "max": 0.3118440189491974
+        },
+        {
+          "quantity": "Input power / 输入功率",
+          "unit": "W",
+          "min": 0.0,
+          "max": 16.69094208941302
+        },
+        {
+          "quantity": "Output power / 输出功率",
+          "unit": "W",
+          "min": 0.0,
+          "max": 23.606415638438964
+        },
+        {
+          "quantity": "Conduction loss / 导通损耗",
+          "unit": "W",
+          "min": 0.0,
+          "max": 1.0751999999999966
+        }
+      ],
+      "observed_ranges_are_ratings": false,
+      "test_count": 4,
+      "test_names": [
+        "v32_dcdc:test_averaged_control_step_refinement_and_energy",
+        "v32_dcdc:test_controlled_buck_all_voltage_temperature_cases",
+        "v33_dcdc:test_controller_reference_tolerance_convergence",
+        "v33_dcdc:test_controller_refinement_and_energy_consistency"
+      ],
+      "tests_passed": 4,
+      "test_details": [
+        {
+          "suite": "v32_dcdc",
+          "name": "test_averaged_control_step_refinement_and_energy",
+          "qualified_name": "test_dcdc.PowerControlTests.test_averaged_control_step_refinement_and_energy",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v32_dcdc",
+          "name": "test_controlled_buck_all_voltage_temperature_cases",
+          "qualified_name": "test_dcdc.PowerControlTests.test_controlled_buck_all_voltage_temperature_cases",
+          "passed": true,
+          "scope": "historical_baseline"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_controller_reference_tolerance_convergence",
+          "qualified_name": "test_accuracy.AuditTests.test_controller_reference_tolerance_convergence",
+          "passed": true,
+          "scope": "current_numerical"
+        },
+        {
+          "suite": "v33_dcdc",
+          "name": "test_controller_refinement_and_energy_consistency",
+          "qualified_name": "test_accuracy.NumericalTests.test_controller_refinement_and_energy_consistency",
+          "passed": true,
+          "scope": "current_numerical"
+        }
+      ],
+      "current_direct_test_count": 2,
+      "historical_direct_test_count": 2,
+      "test_count_warning": "Per-model links can overlap and do not sum to the 96-suite total. Historical tests execute historical implementations; current artifact/equality checks bridge unchanged models.",
+      "source_ids": [
+        "S06",
+        "S09"
+      ],
+      "source_reading_depth": {
+        "S06": "Manufacturer PDF pp. 1–3 read: input operation up to 100 V and controller functions.",
+        "S09": "Caltech institutional abstract and bibliographic record read; linked PDF failed via expired redirect. No new equation-level full-text review."
+      },
+      "scope_decision_en": "Retain for averaged soft-start and intentional overload droop. No PWM ripple, cycle-by-cycle peak limit, slope compensation or subharmonic stability prediction.",
+      "scope_decision_zh": "保留用于平均软启动和有意过载压降；不能预测PWM纹波、逐周期峰值限流、斜坡补偿和次谐波稳定性。",
+      "limits_en": "Continuous averaged duty, not PWM edges. A current-reference ceiling is not cycle-by-cycle peak protection; high-frequency overshoot, blanking and inductor saturation are absent. P08 switching losses are not inserted into this plant. Saved traces are decimated; energy metrics use every integration step. No sampled-cycle, slope-compensation, subharmonic or hardware-stability prediction. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+      "limits_zh": "连续平均占空比，非PWM边沿；电流参考上限不是逐周期峰值保护，无高频过冲、消隐与电感饱和。未将P08开关损耗注入功率级；显示曲线抽取，能量指标使用全部积分步。不预测采样周期、斜坡补偿、次谐波或硬件稳定性。 数值改进降低指定离散误差，不代表未知物理建模误差降低。",
+      "parameter_origin_en": "Authored illustrative coefficients; no paper parameter extraction or foundry calibration.",
+      "parameter_origin_zh": "系数为人为示意假设；未提取论文参数或校准晶圆厂数据。",
+      "parameters": {
+        "input_classes_V": [
+          40,
+          60,
+          80,
+          100,
+          120,
+          150
+        ],
+        "device_temperature_cases_C": [
+          -40,
+          25,
+          125
+        ],
+        "all_coefficients": "Authored illustrative assumptions; same parameterized device across all Vin classes, no rated-voltage certification.",
+        "L_H": 0.0001,
+        "C_F": 2.2e-05,
+        "total_R_25_ohm": 0.3,
+        "voltage_Kp_A_per_V": 0.25,
+        "voltage_Ki_A_per_V_s": 350,
+        "current_loop_bandwidth_Hz": 12000,
+        "current_reference_limit_A": 1.6,
+        "max_duty": 0.9,
+        "softstart_s": 0.002,
+        "load_step_s": 0.004,
+        "Rload_before_ohm": 12,
+        "Rload_after_ohm": 6,
+        "dt_s": 5e-07,
+        "end_s": 0.008,
+        "saved_stride_steps": 20
+      },
+      "equation_en": "L di/dt=D Vin-R i-v; C dv/dt=i-v/Rload. PI voltage loop commands a finite-bandwidth current loop. Reference ramps to 12 V in 2 ms; current command clips at 1.6 A with conditional-integration anti-windup.",
+      "equation_zh": "平均功率级由电压PI环和有限带宽电流环控制；2ms参考斜坡、1.6A电流指令上限及条件积分抗饱和。",
+      "conservation_or_domain_metrics_max_abs": {
+        "integrated_energy_residual_J": 5.183180273871102e-14
+      },
+      "case_warnings": [
+        {
+          "case_id": "P09_100V_-40C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_100V_125C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_100V_25C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_120V_-40C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_120V_125C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_120V_25C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_150V_-40C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_150V_125C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_150V_25C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_40V_-40C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_40V_125C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_40V_25C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_60V_-40C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_60V_125C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_60V_25C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_80V_-40C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_80V_125C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        },
+        {
+          "case_id": "P09_80V_25C",
+          "en": "INTENTIONAL_OVERLOAD_DROOP: 1.6 A × 6 ohm = 9.6 V; no 12 V regulation under this overload.",
+          "zh": "有意过载压降：1.6 A×6 Ω=9.6 V；该过载下不维持12 V稳压。"
+        }
+      ],
+      "physical_calibration_verified": false,
+      "foundry_qualified": false
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "B01",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "An analytical MOS transistor model valid in all regions of operation and dedicated to low-voltage and low-current applications",
+      "title_zh": "适用于所有工作区的解析MOS模型",
+      "url": "https://link.springer.com/article/10.1007/BF01239381",
+      "doi": "10.1007/bf01239381",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Publisher abstract and bibliographic page",
+      "historical_reading_depth_zh": "出版商摘要与题录页",
+      "historical_checked_date": "2026-11-01",
+      "role": "Continuous weak-to-strong inversion and source/drain symmetry motivate A01; full intrinsic capacitance/noise model is not implemented.",
+      "role_zh": "连续反型和源漏对称性启发A01；未实现论文完整内禀电容与噪声模型。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "B02",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "Matching Properties of MOS Transistors",
+      "title_zh": "MOS晶体管匹配特性",
+      "url": "https://ewh.ieee.org/r5/denver/sscs/References/1989_10_Pelgrom.pdf",
+      "doi": "10.1109/jssc.1989.572629",
+      "reading_depth_20261112": "Full-text retrieval attempted; IEEE PDF returned 502. No fresh full-text reading; historical targeted-reading record retained.",
+      "reading_depth_20261112_zh": "尝试获取全文，IEEE PDF返回502；本次未重新阅读全文，保留历史定向阅读记录。",
+      "historical_reading_depth": "Targeted PDF body: area dependence and pair mismatch",
+      "historical_reading_depth_zh": "定向阅读PDF正文：面积关系与配对失配",
+      "historical_checked_date": "2026-11-01",
+      "role": "Area scaling informs A04. The 3 mV·um coefficient and rho=0.25 are assumed, not extracted from the paper.",
+      "role_zh": "面积规律用于A04；3mV·μm和相关系数0.25为假设，未从论文提取。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "B03",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "A Simple Three-Terminal IC Bandgap Reference",
+      "title_zh": "简单的三端集成带隙基准",
+      "url": "https://class.ece.iastate.edu/djchen/ee501/2013/bandgaprefpaperbypaulbrokawjssc1974.pdf",
+      "doi": "10.1109/jssc.1974.1050532",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Targeted PDF body: bandgap topology and temperature cancellation",
+      "historical_reading_depth_zh": "定向阅读PDF正文：带隙拓扑与温漂相消",
+      "historical_checked_date": "2026-11-01",
+      "role": "B02 uses an ideal CTAT/PTAT sum, not the measured 2.5 V circuit or its start-up behavior.",
+      "role_zh": "B02只用理想CTAT/PTAT合成，不复现实测2.5V电路及启动。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "B04",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "Gabriel A. Rincon-Mora publication list",
+      "title_zh": "Rincon-Mora官方论文目录",
+      "url": "https://rincon-mora.gatech.edu/publicat/",
+      "doi": "",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Official author publication list",
+      "historical_reading_depth_zh": "作者官方论文目录",
+      "historical_checked_date": "2026-11-01",
+      "role": "Confirms the LDO title and coauthorship with Phillip E. Allen; identity support only.",
+      "role_zh": "核对LDO题名与Phillip E. Allen共同署名；仅作身份支撑。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "B05",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "MT-001: Taking the Mystery out of SNR = 6.02N + 1.76 dB",
+      "title_zh": "MT-001：理想ADC信噪比公式",
+      "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-001.pdf",
+      "doi": "",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Manufacturer tutorial: quantization-noise derivation",
+      "historical_reading_depth_zh": "厂家教程：量化噪声推导",
+      "historical_checked_date": "2026-11-01",
+      "role": "Provides an analytical ideal-ADC check. This tutorial is not classified as a peer-reviewed paper.",
+      "role_zh": "用于理想ADC解析校核；教程不计入同行评审论文。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "B06",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "A low-voltage, low quiescent current, low drop-out regulator",
+      "title_zh": "低电压、低静态电流、低压差稳压器",
+      "url": "https://rincon-mora.gatech.edu/publicat/jrnls/jssc98_lv_ldo.pdf",
+      "doi": "10.1109/4.654935",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Author-hosted PDF: abstract, frequency-response discussion, conclusions",
+      "historical_reading_depth_zh": "作者公开PDF：摘要、频率响应讨论与结论",
+      "historical_checked_date": "2026-11-01",
+      "role": "Motivates load-dependent loop analysis; B05 uses an independent two-state assumed model, not this chip implementation.",
+      "role_zh": "用于识别负载相关环路分析需求；B05为独立假设的二状态模型，并非该芯片实现。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "B07",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "Ngspice User Manual, version 46, chapters 7 and 8",
+      "title_zh": "Ngspice 46手册第7和第8章",
+      "url": "https://ngspice.sourceforge.io/docs/ngspice-46-manual.pdf",
+      "doi": "",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Targeted manual sections: diode capacitance (p.138), BJT model (p.143)",
+      "historical_reading_depth_zh": "定向阅读手册：二极管电容第138页、BJT模型第143页",
+      "historical_checked_date": "2026-11-01",
+      "role": "Documents depletion-capacitance and BJT parameter meanings. A02/A03 are Python reductions; ngspice was not executed.",
+      "role_zh": "核对耗尽电容与BJT参数含义。A02/A03为Python缩减模型，本次没有运行ngspice。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "B08",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "To Chop or Auto-Zero: That Is the Question",
+      "title_zh": "斩波还是自调零",
+      "url": "https://www.analog.com/en/resources/technical-articles/2018/05/25/03/08/to-chop-or-auto-zero-that-is-the-question.html",
+      "doi": "",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Manufacturer technical article: noise trade-offs and switching artifacts",
+      "historical_reading_depth_zh": "厂家技术文章：噪声取舍与开关伪迹",
+      "historical_checked_date": "2026-11-01",
+      "role": "Motivates the missing aliasing, ripple, current-noise and charge-injection terms explicitly listed for B03.",
+      "role_zh": "用于列出B03仍缺失的混叠、纹波、电流噪声和电荷注入项。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "B09",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "A General Theory of Phase Noise in Electrical Oscillators",
+      "title_zh": "电振荡器相位噪声的一般理论",
+      "url": "https://chic.caltech.edu/wp-content/uploads/2013/05/general.pdf",
+      "doi": "10.1109/4.658619",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Author-hosted PDF: abstract and time-varying/ISF mechanism sections",
+      "historical_reading_depth_zh": "作者公开PDF：摘要、时变系统与ISF机理章节",
+      "historical_checked_date": "2026-11-01",
+      "role": "Shows why a phase-domain loop is insufficient to predict transistor oscillator phase noise. ISF/cyclostationary noise are open gaps.",
+      "role_zh": "说明相位域环路不足以预测晶体管振荡器相噪；ISF与循环平稳噪声仍缺。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "D01",
+      "author": "Not present in this legacy source record; do not infer a new author verification.",
+      "title": "Kirchhoff laws and numerical integration",
+      "title_zh": "基尔霍夫定律与数值积分",
+      "url": "",
+      "doi": "",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Independent derivation in this repository",
+      "historical_reading_depth_zh": "本仓库独立推导",
+      "historical_checked_date": "2026-11-01",
+      "role": "B07 uses KVL/KCL, passive energy storage and event-aligned RK4; no article performance is reproduced.",
+      "role_zh": "B07使用KVL/KCL、储能与边沿对齐RK4，不复现任何论文性能。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "S01",
+      "author": "Laszlo Balogh",
+      "title": "Fundamentals of MOSFET and IGBT Gate Driver Circuits",
+      "title_zh": "MOSFET与IGBT栅极驱动电路基础",
+      "url": "https://www.ti.com/lit/ml/slua618a/slua618a.pdf",
+      "doi": "",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Targeted PDF body: switching intervals, gate loss and bootstrap sizing.",
+      "historical_reading_depth_zh": "定向阅读PDF正文：开关区间、栅极损耗与自举电容选取。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Supports gate-charge/Miller intervals and gate-drive energy bookkeeping.",
+      "role_zh": "支持栅电荷、米勒区间及驱动能量核算。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "S02",
+      "author": "David Jauregui; Bo Wang; Rengang Chen",
+      "title": "Power Loss Calculation With Common Source Inductance Consideration for Synchronous Buck Converters",
+      "title_zh": "考虑共源电感的同步降压转换器功率损耗计算",
+      "url": "https://www.ti.com/lit/an/slpa009a/slpa009a.pdf",
+      "doi": "",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Targeted PDF body: diode losses, output capacitance and CCM assumptions.",
+      "historical_reading_depth_zh": "定向阅读PDF正文：二极管损耗、输出电容和CCM假设。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Supports dead-time body-diode conduction and a VIN×Qrr commutation-energy estimate.",
+      "role_zh": "支持死区体二极管导通与VIN×Qrr换流能量估算。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "S03",
+      "author": "Mamadou Diallo",
+      "title": "Bootstrap Circuitry Selection for Half-Bridge Configurations",
+      "title_zh": "半桥结构的自举电路选型",
+      "url": "https://www.ti.com/lit/an/slua887a/slua887a.pdf",
+      "doi": "",
+      "reading_depth_20261112": "Manufacturer PDF text, pp. 1–3: operating paths, bootstrap charge budget and Eq. (3). Targeted reading, not a complete circuit reproduction.",
+      "reading_depth_20261112_zh": "厂家PDF文字第1–3页：工作路径、自举电荷预算和式(3)；定向阅读，未复现完整电路。",
+      "historical_reading_depth": "Targeted PDF body: operating paths and capacitor/diode selection.",
+      "historical_reading_depth_zh": "定向阅读PDF正文：工作电流路径与电容、二极管选取。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Relates stored bootstrap charge, leakage, high-side on-time and UVLO headroom.",
+      "role_zh": "关联自举储存电荷、漏电、高侧导通时间与欠压锁定余量。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": true
+    },
+    {
+      "source_id": "S04",
+      "author": "Yunzhe Yang; Mo Huang; Sijun Du; Rui P. Martins; Yan Lu",
+      "title": "A Level Shifter With Almost Full Immunity to Positive dv/dt for Buck Converters",
+      "title_zh": "用于降压转换器、几乎完全抑制正向dv/dt干扰的电平移位器",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10236598",
+      "doi": "10.1109/TCSI.2023.3307869",
+      "reading_depth_20261112": "TU Delft author repository metadata and abstract read. PDF link timed out; no new full-body access. 20 V/180 nm BCD scope confirmed.",
+      "reading_depth_20261112_zh": "重新阅读代尔夫特作者机构库题录与摘要；PDF超时，未重新获取全文；确认20 V/180 nm BCD范围。",
+      "historical_reading_depth": "Publisher abstract; TU Delft author/title record; Crossref metadata. Full body not retrieved.",
+      "historical_reading_depth_zh": "出版商摘要、代尔夫特理工大学作者题录及Crossref元数据；未获取全文正文。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Analog-IC evidence that dv/dt-induced noise current can upset high-side level shifting.",
+      "role_zh": "提供模拟集成电路依据：dv/dt噪声电流可能扰乱高侧电平移位。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": true
+    },
+    {
+      "source_id": "S05",
+      "author": "Texas Instruments",
+      "title": "INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator",
+      "title_zh": "INA381：26V高速电流检测放大器及集成比较器",
+      "url": "https://www.ti.com/lit/ds/symlink/ina381.pdf",
+      "doi": "",
+      "reading_depth_20261112": "Manufacturer PDF pp. 1–4 read: 26 V common-mode range and 400 ns typical comparator propagation delay.",
+      "reading_depth_20261112_zh": "阅读厂家PDF第1–4页：26 V共模范围、比较器典型传播延迟400 ns。",
+      "historical_reading_depth": "Targeted PDF body: timing specifications, low-side sensing and comparator hysteresis.",
+      "historical_reading_depth_zh": "定向阅读PDF正文：时序指标、低侧检测与比较器迟滞。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Separates amplifier bandwidth, comparator-only delay and complete alert delay.",
+      "role_zh": "区分放大器带宽、比较器本体延迟及完整告警链延迟。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": true
+    },
+    {
+      "source_id": "S06",
+      "author": "Texas Instruments",
+      "title": "LM5116 Wide Range Synchronous Buck Controller",
+      "title_zh": "LM5116宽输入范围同步降压控制器",
+      "url": "https://www.ti.com/lit/ds/symlink/lm5116.pdf",
+      "doi": "",
+      "reading_depth_20261112": "Manufacturer PDF pp. 1–3 read: input operation up to 100 V and controller functions.",
+      "reading_depth_20261112_zh": "阅读厂家PDF第1–3页：输入工作上限100 V及控制器功能。",
+      "historical_reading_depth": "Targeted PDF body: startup regulator, UVLO, current limiting and soft start.",
+      "historical_reading_depth_zh": "定向阅读PDF正文：启动稳压器、欠压锁定、电流限制与软启动。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Provides analog-controller architecture context for bias startup, UVLO hysteresis and soft start.",
+      "role_zh": "提供偏置启动、欠压锁定迟滞与软启动的模拟控制器结构依据。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": true
+    },
+    {
+      "source_id": "S07",
+      "author": "Texas Instruments",
+      "title": "Ringing Reduction Techniques for NexFET High Performance MOSFETs",
+      "title_zh": "NexFET高性能MOSFET的振铃抑制方法",
+      "url": "https://www.ti.com/lit/an/slpa010/slpa010.pdf",
+      "doi": "",
+      "reading_depth_20261112": "Manufacturer PDF targeted pp. 1–3 and 9–13: ring mechanism, voltage margin, gate resistance and parallel-RLC snubber approximation.",
+      "reading_depth_20261112_zh": "定向阅读厂家PDF第1–3及9–13页：振铃机理、耐压裕量、栅阻和并联RLC吸收电路近似。",
+      "historical_reading_depth": "Targeted PDF body: edge-rate tradeoff and switch-node RC snubber.",
+      "historical_reading_depth_zh": "定向阅读PDF正文：边沿速度权衡与开关节点RC吸收电路。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Supports parasitic-L/C ringing and the damping-versus-dissipation tradeoff.",
+      "role_zh": "支持寄生电感、电容振铃及阻尼与损耗之间的权衡。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": true
+    },
+    {
+      "source_id": "S08",
+      "author": "Analog Devices / Maxim Integrated (corporate publication; no individual byline displayed)",
+      "title": "Use Thermal Analysis to Predict an IC's Transient Behavior and Avoid Overheating",
+      "title_zh": "运用热分析预测集成电路瞬态行为并避免过热",
+      "url": "https://www.analog.com/en/resources/technical-articles/use-thermal-analysis-to-predict-an-ics-transient-behavior-and-avoid-overheating.html",
+      "doi": "",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Targeted HTML body: heat-flow laws, RC analogy and measurement-based fitting.",
+      "historical_reading_depth_zh": "定向阅读网页正文：热流定律、RC类比与测量拟合要求。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Supports the heat-capacity/resistance analogy and requirement for transient thermal characterization.",
+      "role_zh": "支持热容、热阻电路类比，以及瞬态热特性实测要求。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "S09",
+      "author": "Shi-Ping Hsu; Art Brown; Loman Rensink; R. D. Middlebrook",
+      "title": "Modelling and analysis of switching DC-to-DC converters in constant-frequency current-programmed mode",
+      "title_zh": "恒频电流编程模式开关DC/DC转换器的建模与分析",
+      "url": "https://authors.library.caltech.edu/records/ac87w-mn171",
+      "doi": "10.1109/PESC.1979.7081037",
+      "reading_depth_20261112": "Caltech institutional abstract and bibliographic record read; linked PDF failed via expired redirect. No new equation-level full-text review.",
+      "reading_depth_20261112_zh": "阅读加州理工机构库摘要与题录；PDF过期重定向失败，本次未重新进行公式级全文核对。",
+      "historical_reading_depth": "Repository abstract; PDF pp. 284–285 (introduction and start of section 2); Crossref metadata.",
+      "historical_reading_depth_zh": "机构库摘要、PDF第284–285页（引言及第2节开头）与Crossref元数据。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Supports current-programmed control, command-current limiting and the distinction between averaged and cycle-to-cycle dynamics.",
+      "role_zh": "支持电流编程控制、指令电流限制，以及平均动态与逐周期动态的区别。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": true
+    },
+    {
+      "source_id": "S10",
+      "author": "Siyuan Yu; Qi Zhou; Gang Shi; Tianyang Wu; Jing Zhu; Long Zhang; Weifeng Sun; Sen Zhang; Nailong He; Ye Li",
+      "title": "A 400-V Half Bridge Gate Driver for Normally-Off GaN HEMTs With Effective Dv/Dt Control and High Dv/Dt Immunity",
+      "title_zh": "适用于常关型GaN HEMT、具有有效dv/dt控制与高抗扰度的400V半桥栅极驱动器",
+      "url": "https://ieeexplore.ieee.org/document/9724123/",
+      "doi": "10.1109/TIE.2022.3153808",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Publisher-indexed abstract and Crossref bibliographic metadata; full text not accessed.",
+      "historical_reading_depth_zh": "出版商索引摘要与Crossref题录元数据；未访问全文。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Analog-IC evidence for active gate-drive strength control and level-shifter common-mode-current compensation.",
+      "role_zh": "为有源栅极驱动强度控制、电平移位器共模电流补偿提供模拟集成电路依据。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "S11",
+      "author": "Bin Wang; Zhiqiang Li; Xin Liu",
+      "title": "An integrated high-voltage self-powered buck converter with reduced heat generation",
+      "title_zh": "降低发热的集成高压自供电降压转换器",
+      "url": "https://www.jstage.jst.go.jp/article/elex/23/9/23_22.20250401/_article",
+      "doi": "10.1587/elex.22.20250401",
+      "reading_depth_20261112": "Not reopened in this audit; historical reading depth below is retained without upgrading it.",
+      "reading_depth_20261112_zh": "本次未重新打开；保留下述历史阅读深度，不提升为本次全文核验。",
+      "historical_reading_depth": "Publisher abstract and PDF pp. 1–3 (sections 1–2.3); Crossref metadata.",
+      "historical_reading_depth_zh": "出版商摘要与PDF第1–3页（第1至2.3节）；Crossref元数据。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Supports HV JFET bias-supply loss (VIN−VDD)×I and voltage-divider/comparator supply supervision.",
+      "role_zh": "支持高压JFET偏置供电损耗(VIN−VDD)×I，以及分压器、比较器电源监测。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": false
+    },
+    {
+      "source_id": "S12",
+      "author": "Paul Blanchard; Anna Fe Briones",
+      "title": "AN-1308: Common-Mode Step Response of Current Sense Amplifiers",
+      "title_zh": "AN-1308：电流检测放大器的共模阶跃响应",
+      "url": "https://www.analog.com/en/resources/app-notes/an-1308.html",
+      "doi": "",
+      "reading_depth_20261112": "Manufacturer HTML body read through common-mode step response, measurement setup and comparison results.",
+      "reading_depth_20261112_zh": "阅读厂家网页正文的共模阶跃响应、测量方法和结果比较。",
+      "historical_reading_depth": "HTML body and PDF revision record; targeted common-mode response discussion.",
+      "historical_reading_depth_zh": "网页正文及PDF修订记录；定向阅读共模响应讨论。",
+      "historical_checked_date": "2026-11-03",
+      "role": "Shows why DC CMRR alone is insufficient for switching-node current sensing.",
+      "role_zh": "说明为何仅有直流共模抑制比不足以评价开关节点电流检测。",
+      "parameter_extraction_verified": false,
+      "newly_accessed_20261112": true
+    }
+  ],
+  "printing_scope": {
+    "total": 75,
+    "category_counts": {
+      "physical_device": 39,
+      "passive": 10,
+      "isolation_structure": 1,
+      "mechanism_demo": 8,
+      "interconnect": 1,
+      "parameter_demo": 2,
+      "circuit_bench": 14
+    },
+    "scope_en": "75 enlarged teaching geometries, not 75 validated numerical devices. Geometry/mesh checks do not establish doping, process dimensions, mechanical print success or electrical characteristics.",
+    "scope_zh": "75项放大教学几何，不是75个经过验证的数值器件。几何/网格检查不证明掺杂、工艺尺寸、实际打印成功或电特性。",
+    "physical_calibration_verified": false
+  },
+  "reproduction_evidence": {
+    "tests": [
+      {
+        "label": "v31_baseline",
+        "command": [
+          "python",
+          "-B",
+          "-X",
+          "utf8",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "v3/tests",
+          "-p",
+          "test_*.py",
+          "-v"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 12.921,
+        "tests_run": 36,
+        "expected_tests": 36,
+        "passed": true
+      },
+      {
+        "label": "v32_dcdc",
+        "command": [
+          "python",
+          "-B",
+          "-X",
+          "utf8",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "V3-2/tests",
+          "-p",
+          "test_*.py",
+          "-v"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 17.625,
+        "tests_run": 25,
+        "expected_tests": 25,
+        "passed": true
+      },
+      {
+        "label": "v33_analog",
+        "command": [
+          "python",
+          "-B",
+          "-X",
+          "utf8",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "V3.3/numerics/analog",
+          "-p",
+          "test_*.py",
+          "-v"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 2.671,
+        "tests_run": 18,
+        "expected_tests": 18,
+        "passed": true
+      },
+      {
+        "label": "v33_dcdc",
+        "command": [
+          "python",
+          "-B",
+          "-X",
+          "utf8",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "V3.3/numerics/dcdc/tests",
+          "-p",
+          "test_*.py",
+          "-v"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 11.39,
+        "tests_run": 17,
+        "expected_tests": 17,
+        "passed": true
+      }
+    ],
+    "byte_identical": {
+      "analog": true,
+      "dcdc": true
+    },
+    "before_sha256": {
+      "analog": "083e34b1ca4f50732b71935f88dd5d4a10e29042050385b108b752faef3dec02",
+      "dcdc": "9cde62bac47631115519408c85b8d2d3f3a56dc9b8b6c952d949099a6d714e0a"
+    },
+    "after_sha256": {
+      "analog": "083e34b1ca4f50732b71935f88dd5d4a10e29042050385b108b752faef3dec02",
+      "dcdc": "9cde62bac47631115519408c85b8d2d3f3a56dc9b8b6c952d949099a6d714e0a"
+    },
+    "execution_context": "Isolated snapshot of the pre-migration layout; current V3-5 paths are checked separately by release validation."
+  }
+}

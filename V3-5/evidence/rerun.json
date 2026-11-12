@@ -1,0 +1,79 @@
+{
+  "date_utc": "2026-11-12T09:15:12.170395+00:00",
+  "status": "PASS",
+  "calculations": [
+    {
+      "label": "calculate_analog",
+      "exit_code": 0,
+      "elapsed_seconds": 4.438,
+      "tests_run": null,
+      "expected_tests": null,
+      "passed": true
+    },
+    {
+      "label": "calculate_dcdc",
+      "exit_code": 0,
+      "elapsed_seconds": 61.188,
+      "tests_run": 17,
+      "expected_tests": null,
+      "passed": true
+    }
+  ],
+  "suites": [
+    {
+      "label": "v31_baseline",
+      "exit_code": 0,
+      "elapsed_seconds": 12.921,
+      "tests_run": 36,
+      "expected_tests": 36,
+      "passed": true
+    },
+    {
+      "label": "v32_dcdc",
+      "exit_code": 0,
+      "elapsed_seconds": 17.625,
+      "tests_run": 25,
+      "expected_tests": 25,
+      "passed": true
+    },
+    {
+      "label": "v33_analog",
+      "exit_code": 0,
+      "elapsed_seconds": 2.671,
+      "tests_run": 18,
+      "expected_tests": 18,
+      "passed": true
+    },
+    {
+      "label": "v33_dcdc",
+      "exit_code": 0,
+      "elapsed_seconds": 11.39,
+      "tests_run": 17,
+      "expected_tests": 17,
+      "passed": true
+    }
+  ],
+  "tests_run": 96,
+  "cases": {
+    "analog": 58,
+    "dcdc": 153
+  },
+  "total_cases": 211,
+  "before_sha256": {
+    "analog": "083e34b1ca4f50732b71935f88dd5d4a10e29042050385b108b752faef3dec02",
+    "dcdc": "9cde62bac47631115519408c85b8d2d3f3a56dc9b8b6c952d949099a6d714e0a"
+  },
+  "after_sha256": {
+    "analog": "083e34b1ca4f50732b71935f88dd5d4a10e29042050385b108b752faef3dec02",
+    "dcdc": "9cde62bac47631115519408c85b8d2d3f3a56dc9b8b6c952d949099a6d714e0a"
+  },
+  "byte_identical": {
+    "analog": true,
+    "dcdc": true
+  },
+  "all_case_data_exactly_equal_to_prior_release": {
+    "analog": true,
+    "dcdc": true
+  },
+  "scope": "Implementation and numerical reproduction only; no PDK, foundry or measured-device calibration."
+}

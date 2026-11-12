@@ -1,0 +1,3331 @@
+{
+  "schema_version": "1.0",
+  "release": "V3-5",
+  "created_date": "2026-11-12",
+  "numerical_baseline": "v3.3.0",
+  "language_order": [
+    "en",
+    "zh"
+  ],
+  "paths_relative_to": "V3-5",
+  "scope": {
+    "en": "V3-5 teaching edition of the existing v3.3.0 numerical baseline: 20 views comprise 3 illustrative device models, 1 statistical demonstration, 2 prescribed mechanism benches and 14 circuit/system benches. The 75 printable entries include these 20 plus 55 legacy/background representations; they are not 75 independently calibrated devices. The release audit separately records reruns of the current numerical baseline. This teaching content adds no new physics, PDK, silicon fit or physical-accuracy gain.",
+    "zh": "V3-5是现有v3.3.0数值基线的教学版本：20个视图含3个示意器件、1个统计演示、2个预设机制测试台及14个电路/系统测试台。75个打印条目包含上述20项与55项旧版/背景表示，并非75种独立校准器件。发布审计另行记录现有数值基线重跑；本教学内容未新增物理机制、PDK、硅实测拟合或物理准确度提高。"
+  },
+  "conventions": [
+    {
+      "en": "40/60/80/100/120/150 V specify maximum DC/DC input classes. Device voltage ratings and transient margins require independent evidence.",
+      "zh": "40/60/80/100/120/150 V表示DC/DC最高输入档位；器件额定耐压及瞬态裕量需要独立依据。"
+    },
+    {
+      "en": "A current arrow uses conventional positive charge flow; terminal signs follow the recorded model. Electrical power is voltage times current with a declared reference direction.",
+      "zh": "电流箭头采用正电荷的约定方向；端口符号遵循原模型。电功率为明确参考方向下电压与电流的乘积。"
+    },
+    {
+      "en": "Read the horizontal-axis label: a bias, temperature, frequency or sample sweep is not elapsed time. GIF speed is pedagogical and each GIF shows one fixed recorded case.",
+      "zh": "先读横轴：偏置、温度、频率或样本扫描不是时间流逝。GIF播放速度为教学调整，每个GIF只展示一个固定保存工况。"
+    },
+    {
+      "en": "Prints are enlarged egg-size relief concepts, roughly 60×42 mm in plan. Layer thicknesses are exaggerated; plastic connections do not represent electrical connections. Boards show functions, not fabricated layouts.",
+      "zh": "打印件是放大的鸡蛋大小浮雕概念，平面约60×42 mm；层厚被夸大，塑料连接不代表电连接，展示板表示功能而非制造版图。"
+    },
+    {
+      "en": "Numerical residuals test the stated equations. Physical validity needs independent measured data; conservation alone cannot establish all model physics.",
+      "zh": "数值残差检验所述方程；物理有效性需要独立实测，单靠守恒不能证明全部模型物理正确。"
+    }
+  ],
+  "levels": [
+    {
+      "id": "beginner",
+      "name": {
+        "en": "Beginner — notice and explain",
+        "zh": "入门版——观察与讲述"
+      },
+      "goal": {
+        "en": "Use one analogy, notice one change, then state where the analogy stops.",
+        "zh": "借助一个比喻，观察一个变化，并说清比喻到哪里为止。"
+      }
+    },
+    {
+      "id": "undergraduate",
+      "name": {
+        "en": "Undergraduate — define and calculate",
+        "zh": "本科版——定义与计算"
+      },
+      "goal": {
+        "en": "Define quantities and units, apply the stated conditions, and solve one short problem.",
+        "zh": "定义量及单位，在适用条件下完成一道小练习。"
+      }
+    },
+    {
+      "id": "graduate",
+      "name": {
+        "en": "Graduate — derive and validate",
+        "zh": "研究生版——推导与验证"
+      },
+      "goal": {
+        "en": "Separate assumptions, numerical error and physical error; plan a falsifiable measurement or model extension.",
+        "zh": "区分假设、数值误差与物理误差，提出可检验的测量或模型扩展。"
+      }
+    }
+  ],
+  "source_review": {
+    "en": "Existing source provenance is preserved. Three primary URLs were reopened for focused teaching checks; other entries retain their earlier read scope. This is not a new comprehensive paper audit, and references do not calibrate the authored model coefficients.",
+    "zh": "保留既有来源追溯，另打开3个一手网址作定向教学核对；其余保留原阅读范围。这不是新一轮全面论文审计，引用也不能校准人为模型系数。"
+  },
+  "definition_note": {
+    "en": "Equations are teaching relations, not normative standards or complete SPICE implementations. A simplified exercise may use illustrative values different from its GIF.",
+    "zh": "公式为教学关系式，不是规范性标准或完整SPICE实现；简化练习可使用与GIF不同的示意数值。"
+  },
+  "sources": [
+    {
+      "id": "base:B01",
+      "title": {
+        "en": "An analytical MOS transistor model valid in all regions of operation and dedicated to low-voltage and low-current applications",
+        "zh": "适用于所有工作区的解析MOS模型"
+      },
+      "url": "https://link.springer.com/article/10.1007/BF01239381",
+      "doi": "10.1007/bf01239381",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "Publisher abstract and bibliographic page",
+        "zh": "出版商摘要与题录页"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Continuous weak-to-strong inversion and source/drain symmetry motivate A01; full intrinsic capacitance/noise model is not implemented.",
+        "zh": "连续反型和源漏对称性启发A01；未实现论文完整内禀电容与噪声模型。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "base:B02",
+      "title": {
+        "en": "Matching Properties of MOS Transistors",
+        "zh": "MOS晶体管匹配特性"
+      },
+      "url": "https://ewh.ieee.org/r5/denver/sscs/References/1989_10_Pelgrom.pdf",
+      "doi": "10.1109/jssc.1989.572629",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "Targeted PDF body: area dependence and pair mismatch",
+        "zh": "定向阅读PDF正文：面积关系与配对失配"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Area scaling informs A04. The 3 mV·um coefficient and rho=0.25 are assumed, not extracted from the paper.",
+        "zh": "面积规律用于A04；3mV·μm和相关系数0.25为假设，未从论文提取。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "base:B03",
+      "title": {
+        "en": "A Simple Three-Terminal IC Bandgap Reference",
+        "zh": "简单的三端集成带隙基准"
+      },
+      "url": "https://class.ece.iastate.edu/djchen/ee501/2013/bandgaprefpaperbypaulbrokawjssc1974.pdf",
+      "doi": "10.1109/jssc.1974.1050532",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "Targeted PDF body: bandgap topology and temperature cancellation",
+        "zh": "定向阅读PDF正文：带隙拓扑与温漂相消"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "B02 uses an ideal CTAT/PTAT sum, not the measured 2.5 V circuit or its start-up behavior.",
+        "zh": "B02只用理想CTAT/PTAT合成，不复现实测2.5V电路及启动。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "base:B04",
+      "title": {
+        "en": "Gabriel A. Rincon-Mora publication list",
+        "zh": "Rincon-Mora官方论文目录"
+      },
+      "url": "https://rincon-mora.gatech.edu/publicat/",
+      "doi": "",
+      "kind": "manual_or_manufacturer_tutorial",
+      "inherited_read_scope": {
+        "en": "Official author publication list",
+        "zh": "作者官方论文目录"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Confirms the LDO title and coauthorship with Phillip E. Allen; identity support only.",
+        "zh": "核对LDO题名与Phillip E. Allen共同署名；仅作身份支撑。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "base:B05",
+      "title": {
+        "en": "MT-001: Taking the Mystery out of SNR = 6.02N + 1.76 dB",
+        "zh": "MT-001：理想ADC信噪比公式"
+      },
+      "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-001.pdf",
+      "doi": "",
+      "kind": "manual_or_manufacturer_tutorial",
+      "inherited_read_scope": {
+        "en": "Manufacturer tutorial: quantization-noise derivation",
+        "zh": "厂家教程：量化噪声推导"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Provides an analytical ideal-ADC check. This tutorial is not classified as a peer-reviewed paper.",
+        "zh": "用于理想ADC解析校核；教程不计入同行评审论文。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": true
+    },
+    {
+      "id": "base:B06",
+      "title": {
+        "en": "A low-voltage, low quiescent current, low drop-out regulator",
+        "zh": "低电压、低静态电流、低压差稳压器"
+      },
+      "url": "https://rincon-mora.gatech.edu/publicat/jrnls/jssc98_lv_ldo.pdf",
+      "doi": "10.1109/4.654935",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "Author-hosted PDF: abstract, frequency-response discussion, conclusions",
+        "zh": "作者公开PDF：摘要、频率响应讨论与结论"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Motivates load-dependent loop analysis; B05 uses an independent two-state assumed model, not this chip implementation.",
+        "zh": "用于识别负载相关环路分析需求；B05为独立假设的二状态模型，并非该芯片实现。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "base:B07",
+      "title": {
+        "en": "Ngspice User Manual, version 46, chapters 7 and 8",
+        "zh": "Ngspice 46手册第7和第8章"
+      },
+      "url": "https://ngspice.sourceforge.io/docs/ngspice-46-manual.pdf",
+      "doi": "",
+      "kind": "manual_or_manufacturer_tutorial",
+      "inherited_read_scope": {
+        "en": "Targeted manual sections: diode capacitance (p.138), BJT model (p.143)",
+        "zh": "定向阅读手册：二极管电容第138页、BJT模型第143页"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Documents depletion-capacitance and BJT parameter meanings. A02/A03 are Python reductions; ngspice was not executed.",
+        "zh": "核对耗尽电容与BJT参数含义。A02/A03为Python缩减模型，本次没有运行ngspice。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": true
+    },
+    {
+      "id": "base:B08",
+      "title": {
+        "en": "To Chop or Auto-Zero: That Is the Question",
+        "zh": "斩波还是自调零"
+      },
+      "url": "https://www.analog.com/en/resources/technical-articles/2018/05/25/03/08/to-chop-or-auto-zero-that-is-the-question.html",
+      "doi": "",
+      "kind": "manual_or_manufacturer_tutorial",
+      "inherited_read_scope": {
+        "en": "Manufacturer technical article: noise trade-offs and switching artifacts",
+        "zh": "厂家技术文章：噪声取舍与开关伪迹"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Motivates the missing aliasing, ripple, current-noise and charge-injection terms explicitly listed for B03.",
+        "zh": "用于列出B03仍缺失的混叠、纹波、电流噪声和电荷注入项。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "base:B09",
+      "title": {
+        "en": "A General Theory of Phase Noise in Electrical Oscillators",
+        "zh": "电振荡器相位噪声的一般理论"
+      },
+      "url": "https://chic.caltech.edu/wp-content/uploads/2013/05/general.pdf",
+      "doi": "10.1109/4.658619",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "Author-hosted PDF: abstract and time-varying/ISF mechanism sections",
+        "zh": "作者公开PDF：摘要、时变系统与ISF机理章节"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Shows why a phase-domain loop is insufficient to predict transistor oscillator phase noise. ISF/cyclostationary noise are open gaps.",
+        "zh": "说明相位域环路不足以预测晶体管振荡器相噪；ISF与循环平稳噪声仍缺。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "base:D01",
+      "title": {
+        "en": "Kirchhoff laws and numerical integration",
+        "zh": "基尔霍夫定律与数值积分"
+      },
+      "url": "",
+      "doi": "",
+      "kind": "repository_derivation",
+      "inherited_read_scope": {
+        "en": "Independent derivation in this repository",
+        "zh": "本仓库独立推导"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "B07 uses KVL/KCL, passive energy storage and event-aligned RK4; no article performance is reproduced.",
+        "zh": "B07使用KVL/KCL、储能与边沿对齐RK4，不复现任何论文性能。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S01",
+      "title": {
+        "en": "Fundamentals of MOSFET and IGBT Gate Driver Circuits",
+        "zh": "MOSFET与IGBT栅极驱动电路基础"
+      },
+      "url": "https://www.ti.com/lit/ml/slua618a/slua618a.pdf",
+      "doi": "",
+      "kind": "manufacturer_application_note",
+      "inherited_read_scope": {
+        "en": "Targeted PDF body: switching intervals, gate loss and bootstrap sizing.",
+        "zh": "定向阅读PDF正文：开关区间、栅极损耗与自举电容选取。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "P01 is a reduced charge-domain example, not the complete gate-driver circuits or a calibrated MOSFET.",
+        "zh": "P01为简化电荷域示例，未复现完整驱动电路或校准MOSFET。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S02",
+      "title": {
+        "en": "Power Loss Calculation With Common Source Inductance Consideration for Synchronous Buck Converters",
+        "zh": "考虑共源电感的同步降压转换器功率损耗计算"
+      },
+      "url": "https://www.ti.com/lit/an/slpa009a/slpa009a.pdf",
+      "doi": "",
+      "kind": "manufacturer_application_note",
+      "inherited_read_scope": {
+        "en": "Targeted PDF body: diode losses, output capacitance and CCM assumptions.",
+        "zh": "定向阅读PDF正文：二极管损耗、输出电容和CCM假设。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "Its 0.5×Qoss×VIN approximation is not a nonlinear-energy identity. P01 integrates Eoss; P08 independently derives matched-pair hard-turn-on energy VIN×Qoss. No common-source-inductance circuit is reproduced.",
+        "zh": "文中的0.5×Qoss×VIN近似并非非线性能量恒等式；P01积分Eoss，P08独立推导匹配双管硬开通能量VIN×Qoss；未复现共源电感电路。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S03",
+      "title": {
+        "en": "Bootstrap Circuitry Selection for Half-Bridge Configurations",
+        "zh": "半桥结构的自举电路选型"
+      },
+      "url": "https://www.ti.com/lit/an/slua887a/slua887a.pdf",
+      "doi": "",
+      "kind": "manufacturer_application_note",
+      "inherited_read_scope": {
+        "en": "Targeted PDF body: operating paths and capacitor/diode selection.",
+        "zh": "定向阅读PDF正文：工作电流路径与电容、二极管选取。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "P03 uses an assumed RC recharge path. It does not reproduce UCC27710, bootstrap-diode recovery or layout ringing.",
+        "zh": "P03采用假设RC充电路径，未复现UCC27710、自举二极管反向恢复或布局振铃。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": true
+    },
+    {
+      "id": "dcdc:S04",
+      "title": {
+        "en": "A Level Shifter With Almost Full Immunity to Positive dv/dt for Buck Converters",
+        "zh": "用于降压转换器、几乎完全抑制正向dv/dt干扰的电平移位器"
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10236598",
+      "doi": "10.1109/TCSI.2023.3307869",
+      "kind": "peer_reviewed_journal",
+      "inherited_read_scope": {
+        "en": "Publisher abstract; TU Delft author/title record; Crossref metadata. Full body not retrieved.",
+        "zh": "出版商摘要、代尔夫特理工大学作者题录及Crossref元数据；未获取全文正文。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "The reported circuit is a 20-V buck in 180-nm BCD. P04 is only an RC disturbance surrogate, not the paper's cancellation scheme or a 150-V rating.",
+        "zh": "原文为180nm BCD的20V降压芯片。P04仅为RC干扰替代模型，不复现抑制方案，也不证明150V耐压。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S05",
+      "title": {
+        "en": "INA381 26-V, High-Speed, Current Sense Amplifier With Integrated Comparator",
+        "zh": "INA381：26V高速电流检测放大器及集成比较器"
+      },
+      "url": "https://www.ti.com/lit/ds/symlink/ina381.pdf",
+      "doi": "",
+      "kind": "manufacturer_datasheet",
+      "inherited_read_scope": {
+        "en": "Targeted PDF body: timing specifications, low-side sensing and comparator hysteresis.",
+        "zh": "定向阅读PDF正文：时序指标、低侧检测与比较器迟滞。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "26-V common-mode capability does not permit direct 150-V high-side sensing. P05 uses an assumed low-side signal chain and is not an INA381 model.",
+        "zh": "26V共模能力不支持直接150V高侧检测；P05是假设低侧信号链，并非INA381模型。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S06",
+      "title": {
+        "en": "LM5116 Wide Range Synchronous Buck Controller",
+        "zh": "LM5116宽输入范围同步降压控制器"
+      },
+      "url": "https://www.ti.com/lit/ds/symlink/lm5116.pdf",
+      "doi": "",
+      "kind": "manufacturer_datasheet",
+      "inherited_read_scope": {
+        "en": "Targeted PDF body: startup regulator, UVLO, current limiting and soft start.",
+        "zh": "定向阅读PDF正文：启动稳压器、欠压锁定、电流限制与软启动。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "LM5116 operates up to 100 V, not 150 V. P06/P09 do not reproduce its internal emulated ramp, hiccup logic or transistor circuits.",
+        "zh": "LM5116工作输入上限为100V，并非150V。P06/P09不复现其内部仿真斜坡、打嗝逻辑或晶体管电路。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S07",
+      "title": {
+        "en": "Ringing Reduction Techniques for NexFET High Performance MOSFETs",
+        "zh": "NexFET高性能MOSFET的振铃抑制方法"
+      },
+      "url": "https://www.ti.com/lit/an/slpa010/slpa010.pdf",
+      "doi": "",
+      "kind": "manufacturer_application_note",
+      "inherited_read_scope": {
+        "en": "Targeted PDF body: edge-rate tradeoff and switch-node RC snubber.",
+        "zh": "定向阅读PDF正文：边沿速度权衡与开关节点RC吸收电路。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "The source approximates a parallel RLC. P07 is a series-RLC surrogate: its critical resistance is 2√(L/C), not the source's 0.5√(L/C). It is not a PCB snubber-design validation.",
+        "zh": "来源近似为并联RLC；P07为串联RLC替代模型，临界电阻应为2√(L/C)，不是原文的0.5√(L/C)。不构成PCB吸收电路设计验证。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S08",
+      "title": {
+        "en": "Use Thermal Analysis to Predict an IC's Transient Behavior and Avoid Overheating",
+        "zh": "运用热分析预测集成电路瞬态行为并避免过热"
+      },
+      "url": "https://www.analog.com/en/resources/technical-articles/use-thermal-analysis-to-predict-an-ics-transient-behavior-and-avoid-overheating.html",
+      "doi": "",
+      "kind": "manufacturer_technical_article",
+      "inherited_read_scope": {
+        "en": "Targeted HTML body: heat-flow laws, RC analogy and measurement-based fitting.",
+        "zh": "定向阅读网页正文：热流定律、RC类比与测量拟合要求。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "P08 reduces heat flow to one assumed node; it does not reproduce the article's fitted three-body network, hotspots or board-dependent package behavior.",
+        "zh": "P08将热流简化为单个假设节点；不复现原文拟合的三体网络、热点或与PCB有关的封装热行为。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S09",
+      "title": {
+        "en": "Modelling and analysis of switching DC-to-DC converters in constant-frequency current-programmed mode",
+        "zh": "恒频电流编程模式开关DC/DC转换器的建模与分析"
+      },
+      "url": "https://authors.library.caltech.edu/records/ac87w-mn171",
+      "doi": "10.1109/PESC.1979.7081037",
+      "kind": "peer_reviewed_conference",
+      "inherited_read_scope": {
+        "en": "Repository abstract; PDF pp. 284–285 (introduction and start of section 2); Crossref metadata.",
+        "zh": "机构库摘要、PDF第284–285页（引言及第2节开头）与Crossref元数据。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "P09 is a simplified averaged teaching plant. It omits sampled-cycle dynamics, slope compensation and subharmonic instability; it does not reproduce this paper's full model.",
+        "zh": "P09为简化平均教学对象；未建模采样周期动态、斜坡补偿及次谐波失稳，未复现论文完整模型。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S10",
+      "title": {
+        "en": "A 400-V Half Bridge Gate Driver for Normally-Off GaN HEMTs With Effective Dv/Dt Control and High Dv/Dt Immunity",
+        "zh": "适用于常关型GaN HEMT、具有有效dv/dt控制与高抗扰度的400V半桥栅极驱动器"
+      },
+      "url": "https://ieeexplore.ieee.org/document/9724123/",
+      "doi": "10.1109/TIE.2022.3153808",
+      "kind": "peer_reviewed_journal",
+      "inherited_read_scope": {
+        "en": "Publisher-indexed abstract and Crossref bibliographic metadata; full text not accessed.",
+        "zh": "出版商索引摘要与Crossref题录元数据；未访问全文。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "P01/P04 reproduce neither proposed circuit nor measured performance. The paper's 400-V SOI BCD driver does not qualify any named foundry process in this repository.",
+        "zh": "P01/P04均未复现该电路或实测性能；论文400V SOI BCD驱动器不能证明本库所列晶圆厂工艺具备相同能力。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S11",
+      "title": {
+        "en": "An integrated high-voltage self-powered buck converter with reduced heat generation",
+        "zh": "降低发热的集成高压自供电降压转换器"
+      },
+      "url": "https://www.jstage.jst.go.jp/article/elex/23/9/23_22.20250401/_article",
+      "doi": "10.1587/elex.22.20250401",
+      "kind": "peer_reviewed_journal",
+      "inherited_read_scope": {
+        "en": "Publisher abstract and PDF pp. 1–3 (sections 1–2.3); Crossref metadata.",
+        "zh": "出版商摘要与PDF第1–3页（第1至2.3节）；Crossref元数据。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "This is an AC-DC constant-current buck IC. P06 does not implement its rectified-line valley-supply method or complete 700-V JFET circuit.",
+        "zh": "原文为AC/DC恒流降压芯片；P06不实现其整流输入谷底供电方法，也不复现完整700V JFET电路。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "dcdc:S12",
+      "title": {
+        "en": "AN-1308: Common-Mode Step Response of Current Sense Amplifiers",
+        "zh": "AN-1308：电流检测放大器的共模阶跃响应"
+      },
+      "url": "https://www.analog.com/en/resources/app-notes/an-1308.html",
+      "doi": "",
+      "kind": "manufacturer_application_note",
+      "inherited_read_scope": {
+        "en": "HTML body and PDF revision record; targeted common-mode response discussion.",
+        "zh": "网页正文及PDF修订记录；定向阅读共模响应讨论。"
+      },
+      "inherited_checked_date": "2026-11-03",
+      "use_boundary": {
+        "en": "P05 is low-side and does not model high-side common-mode-step recovery, input protection or isolation.",
+        "zh": "P05为低侧模型，未模拟高侧共模阶跃恢复、输入保护或隔离。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P01",
+      "title": {
+        "en": "GaN-on-Si Power Technology: Devices and Applications",
+        "zh": "GaN-on-Si Power Technology: Devices and Applications"
+      },
+      "url": "https://ieeexplore.ieee.org/document/7862945/",
+      "doi": "10.1109/TED.2017.2657579",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "摘要及引言",
+        "zh": "摘要及引言"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P02",
+      "title": {
+        "en": "Review of Silicon Carbide Power Devices and Their Applications",
+        "zh": "Review of Silicon Carbide Power Devices and Their Applications"
+      },
+      "url": "https://ieeexplore.ieee.org/document/7815312/",
+      "doi": "10.1109/TIE.2017.2652401",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "摘要及引言",
+        "zh": "摘要及引言"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P04",
+      "title": {
+        "en": "Compact Device Models for FinFET and Beyond",
+        "zh": "Compact Device Models for FinFET and Beyond"
+      },
+      "url": "https://arxiv.org/abs/2005.02580",
+      "doi": "10.48550/arXiv.2005.02580",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "作者预印本摘要",
+        "zh": "作者预印本摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P05",
+      "title": {
+        "en": "Room-temperature fabrication of transparent flexible thin-film transistors using amorphous oxide semiconductors",
+        "zh": "Room-temperature fabrication of transparent flexible thin-film transistors using amorphous oxide semiconductors"
+      },
+      "url": "https://www.nature.com/articles/nature03090",
+      "doi": "10.1038/nature03090",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要及图题",
+        "zh": "期刊摘要及图题"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P06",
+      "title": {
+        "en": "Skin electronics from scalable fabrication of an intrinsically stretchable transistor array",
+        "zh": "Skin electronics from scalable fabrication of an intrinsically stretchable transistor array"
+      },
+      "url": "https://www.nature.com/articles/nature25494",
+      "doi": "10.1038/nature25494",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要",
+        "zh": "期刊摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P07",
+      "title": {
+        "en": "High Performance Multilayer MoS2 Transistors with Scandium Contacts",
+        "zh": "High Performance Multilayer MoS2 Transistors with Scandium Contacts"
+      },
+      "url": "https://pubs.acs.org/doi/10.1021/nl303583v",
+      "doi": "10.1021/nl303583v",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "出版商摘要页",
+        "zh": "出版商摘要页"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P08",
+      "title": {
+        "en": "Electric field effect in atomically thin carbon films",
+        "zh": "Electric field effect in atomically thin carbon films"
+      },
+      "url": "https://www.science.org/doi/10.1126/science.1102896",
+      "doi": "10.1126/science.1102896",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要",
+        "zh": "期刊摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P09",
+      "title": {
+        "en": "The future of ferroelectric field-effect transistor technology",
+        "zh": "The future of ferroelectric field-effect transistor technology"
+      },
+      "url": "https://www.nature.com/articles/s41928-020-00492-7",
+      "doi": "10.1038/s41928-020-00492-7",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要及图题",
+        "zh": "期刊摘要及图题"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P10",
+      "title": {
+        "en": "In-memory computing with resistive switching devices",
+        "zh": "In-memory computing with resistive switching devices"
+      },
+      "url": "https://www.nature.com/articles/s41928-018-0092-2",
+      "doi": "10.1038/s41928-018-0092-2",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要及图题",
+        "zh": "期刊摘要及图题"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P11",
+      "title": {
+        "en": "Spintronics based random access memory: a review",
+        "zh": "Spintronics based random access memory: a review"
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/S1369702117304285",
+      "doi": "10.1016/j.mattod.2017.07.007",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "开放全文重点章节",
+        "zh": "开放全文重点章节"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P12",
+      "title": {
+        "en": "Prospects for LED lighting",
+        "zh": "Prospects for LED lighting"
+      },
+      "url": "https://www.nature.com/articles/nphoton.2009.32",
+      "doi": "10.1038/nphoton.2009.32",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊导语及图题",
+        "zh": "期刊导语及图题"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P13",
+      "title": {
+        "en": "Light-emitting diodes made from cadmium selenide nanocrystals and a semiconducting polymer",
+        "zh": "Light-emitting diodes made from cadmium selenide nanocrystals and a semiconducting polymer"
+      },
+      "url": "https://www.nature.com/articles/370354a0",
+      "doi": "10.1038/370354a0",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要",
+        "zh": "期刊摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P14",
+      "title": {
+        "en": "Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites",
+        "zh": "Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites"
+      },
+      "url": "https://www.science.org/doi/10.1126/science.1228604",
+      "doi": "10.1126/science.1228604",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要",
+        "zh": "期刊摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P15",
+      "title": {
+        "en": "Complex thermoelectric materials",
+        "zh": "Complex thermoelectric materials"
+      },
+      "url": "https://www.nature.com/articles/nmat2090",
+      "doi": "10.1038/nmat2090",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要及图题",
+        "zh": "期刊摘要及图题"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P16",
+      "title": {
+        "en": "Analysis, design, and optimization of spiral inductors and transformers for Si RF ICs",
+        "zh": "Analysis, design, and optimization of spiral inductors and transformers for Si RF ICs"
+      },
+      "url": "https://ieeexplore.ieee.org/document/720393/",
+      "doi": "10.1109/4.720393",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "出版商摘要",
+        "zh": "出版商摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P17",
+      "title": {
+        "en": "Electrical Modeling and Characterization of Through Silicon via for Three-Dimensional ICs",
+        "zh": "Electrical Modeling and Characterization of Through Silicon via for Three-Dimensional ICs"
+      },
+      "url": "https://ieeexplore.ieee.org/document/5340655/",
+      "doi": "10.1109/TED.2009.2034508",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "出版商摘要及引言",
+        "zh": "出版商摘要及引言"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P18",
+      "title": {
+        "en": "Roadmapping the next generation of silicon photonics",
+        "zh": "Roadmapping the next generation of silicon photonics"
+      },
+      "url": "https://www.nature.com/articles/s41467-024-44750-0",
+      "doi": "10.1038/s41467-024-44750-0",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "开放全文器件段",
+        "zh": "开放全文器件段"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P19",
+      "title": {
+        "en": "Three-dimensional integration of nanotechnologies for computing and data storage on a single chip",
+        "zh": "Three-dimensional integration of nanotechnologies for computing and data storage on a single chip"
+      },
+      "url": "https://www.nature.com/articles/nature22994",
+      "doi": "10.1038/nature22994",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要",
+        "zh": "期刊摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P20",
+      "title": {
+        "en": "A comprehensive model of PMOS NBTI degradation",
+        "zh": "A comprehensive model of PMOS NBTI degradation"
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/S0026271404001751",
+      "doi": "10.1016/j.microrel.2004.03.019",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "出版商摘要及引言",
+        "zh": "出版商摘要及引言"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P21",
+      "title": {
+        "en": "A 1/f noise technique to extract the oxide trap density near the conduction band edge of silicon",
+        "zh": "A 1/f noise technique to extract the oxide trap density near the conduction band edge of silicon"
+      },
+      "url": "https://ieeexplore.ieee.org/document/34242/",
+      "doi": "10.1109/16.34242",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "出版商摘要",
+        "zh": "出版商摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P22",
+      "title": {
+        "en": "Intrinsic parameter fluctuations in decananometer MOSFETs introduced by gate line edge roughness",
+        "zh": "Intrinsic parameter fluctuations in decananometer MOSFETs introduced by gate line edge roughness"
+      },
+      "url": "https://ieeexplore.ieee.org/document/1210771/",
+      "doi": "10.1109/TED.2003.813457",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "出版商摘要及引言",
+        "zh": "出版商摘要及引言"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P23",
+      "title": {
+        "en": "A Ferroelectric Oxide Made Directly on Silicon",
+        "zh": "A Ferroelectric Oxide Made Directly on Silicon"
+      },
+      "url": "https://www.science.org/doi/10.1126/science.1169678",
+      "doi": "10.1126/science.1169678",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "期刊摘要",
+        "zh": "期刊摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P24",
+      "title": {
+        "en": "Theory of ballistic nanotransistors",
+        "zh": "Theory of ballistic nanotransistors"
+      },
+      "url": "https://ieeexplore.ieee.org/document/1224486/",
+      "doi": "10.1109/TED.2003.815366",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "出版商摘要及引言",
+        "zh": "出版商摘要及引言"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "legacy:P25",
+      "title": {
+        "en": "Dynamic Performance of AlN-Passivated AlGaN/GaN MIS-High Electron Mobility Transistors under Hard Switching Operation",
+        "zh": "Dynamic Performance of AlN-Passivated AlGaN/GaN MIS-High Electron Mobility Transistors under Hard Switching Operation"
+      },
+      "url": "https://researchportal.hkust.edu.hk/en/publications/dynamic-performance-of-aln-passivated-algangan-mis-high-electron-/",
+      "doi": "10.1109/LED.2015.2450695",
+      "kind": "peer_reviewed_paper_or_author_preprint",
+      "inherited_read_scope": {
+        "en": "作者机构摘要",
+        "zh": "作者机构摘要"
+      },
+      "inherited_checked_date": "2026-11-01",
+      "use_boundary": {
+        "en": "Mechanism context only; no model parameter was extracted or fitted from this paper.",
+        "zh": "仅提供机制背景；未从论文提取或拟合模型参数。"
+      },
+      "new_review_status": "inherited_reference_not_new_full_text_review",
+      "url_reopened_2026_11_12": false
+    },
+    {
+      "id": "catalog:printing",
+      "title": {
+        "en": "Existing printable catalogue and reduced-model definitions",
+        "zh": "现有打印目录及简化模型定义"
+      },
+      "url": "",
+      "local_path": "printing/catalogue.json",
+      "kind": "repository_teaching_catalogue",
+      "inherited_read_scope": {
+        "en": "All 75 names, kinds, labeled parts and limits; legacy equations inspected from model catalogues.",
+        "zh": "已读75项名称、类别、标注部件和边界；旧模型方程据模型目录检查。"
+      },
+      "new_review_status": "local_catalogue_read_2026_11_12",
+      "use_boundary": {
+        "en": "Describes repository teaching representations, not a foundry mask stack or manufacturing process.",
+        "zh": "描述本库教学表示，不是晶圆厂掩膜层次或制造工艺。"
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "A01",
+      "name": {
+        "en": "Four-terminal MOS interpolation",
+        "zh": "四端MOS连续插值"
+      },
+      "kind": "illustrative_device",
+      "catalogue_kind": "physical_device",
+      "assets": {
+        "gif_id": "A01",
+        "gif_path": "simulation/V3-3/education/gifs/A01.gif",
+        "print_ids": [
+          "V33_A01"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_A01.stl"
+        ],
+        "recorded_case_id": "A01_transfer_25C",
+        "animation_kind": "DC SWEEP",
+        "axis": {
+          "en": "Gate voltage (V)",
+          "zh": "直流偏置扫描（非时间）"
+        }
+      },
+      "source_ids": [
+        "base:B01"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A gate is like a tap handle: a small control change can change the flow.",
+          "zh": "栅极像水龙头的把手：轻轻调整，就能改变流量。"
+        },
+        "observe": {
+          "en": "Follow the moving dot: as gate voltage rises, drain current changes. The horizontal axis is voltage, not time.",
+          "zh": "跟着圆点看：栅极电压升高时，漏极电流改变。横轴是电压，不是时间。"
+        },
+        "boundary": {
+          "en": "The gate acts through an electric field; it is not a moving door. The picture does not show individual electrons.",
+          "zh": "栅极靠电场起作用，并不是会移动的门；图片也没有逐个显示电子。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Transconductance is the local sensitivity of drain current to gate voltage at fixed other terminal voltages.",
+          "zh": "跨导是其他端口电压固定时，漏电流对栅压的局部变化率。"
+        },
+        "equation": {
+          "expression": "g_m = ∂I_D/∂V_G; ΔI_D ≈ g_m ΔV_G",
+          "units": "I_D: A; V_G: V; g_m: S = A/V",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Use a small perturbation around one bias point in this 0–1.8 V interpolation. Pair capacitances are fixed; intrinsic charge partition is absent.",
+          "zh": "用于0–1.8 V插值模型某偏置点附近的小扰动。互电容固定，未包含内禀电荷分配。"
+        },
+        "exercise": {
+          "question": {
+            "en": "At g_m = 1 mS, estimate ΔI_D for a 10 mV gate change.",
+            "zh": "跨导为1 mS，栅压变化10 mV，估算漏电流变化。"
+          },
+          "answer": {
+            "en": "ΔI_D ≈ 10 µA; this is a local linear estimate, not a whole-sweep slope.",
+            "zh": "ΔI_D约为10 µA；这是局部线性估算，并非整个扫描的恒定斜率。"
+          },
+          "numeric_check": {
+            "value": 1e-05,
+            "rounded_answer": 1e-05,
+            "unit": "A",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "The softplus current law bridges weak and strong inversion; an independent fixed pair-capacitance network conserves terminal charge.",
+          "zh": "softplus电流式连接弱、强反型；独立的固定互电容网络保证端口电荷守恒。"
+        },
+        "derivation_or_question": {
+          "en": "Differentiate the same DC law analytically; test source/drain exchange symmetry and ΣQ = 0 separately. Why does charge conservation alone not prove correct intrinsic capacitances?",
+          "zh": "对同一直流式解析求导，分别检查源漏交换对称性及ΣQ=0。为什么电荷守恒本身不能证明内禀电容正确？"
+        },
+        "validity_and_error": {
+          "en": "The revision improves derivatives of the authored equation. Missing DIBL, velocity saturation and intrinsic charge partition can dominate physical error.",
+          "zh": "本次基线改进的是人为方程的导数计算。未包含的DIBL、速度饱和及内禀电荷分配可能主导物理误差。"
+        },
+        "extension_and_evidence": {
+          "en": "Obtain multi-bias I–V and terminal C–V data over temperature; separate fitting and hold-out bias points before adding a calibrated compact model.",
+          "zh": "需要多偏置、多温度I–V与端口C–V数据；划分拟合与留出验证工况后，才能引入经校准的紧凑模型。"
+        }
+      },
+      "recorded_case": {
+        "id": "A01_transfer_25C",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "charge_sum_max_C": 7.068193710780266e-28,
+          "max_KCL_residual_A": 0.0
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "0–1.8 V low-voltage demonstration. No avalanche, oxide leakage, DIBL, velocity saturation, intrinsic charge partition or measured fit. Not full EKV/BSIM.",
+        "zh": "仅0–1.8V低压示意；无雪崩、栅漏、DIBL、速度饱和、内禀电荷分配或实测拟合；不是完整EKV/BSIM。"
+      }
+    },
+    {
+      "id": "A02",
+      "name": {
+        "en": "Junction charge and varactor",
+        "zh": "结电荷与变容二极管"
+      },
+      "kind": "illustrative_device",
+      "catalogue_kind": "physical_device",
+      "assets": {
+        "gif_id": "A02",
+        "gif_path": "simulation/V3-3/education/gifs/A02.gif",
+        "print_ids": [
+          "V33_A02"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_A02.stl"
+        ],
+        "recorded_case_id": "A02_CV_25C",
+        "animation_kind": "DC SWEEP",
+        "axis": {
+          "en": "Va - Vk (V)",
+          "zh": "直流偏置扫描（非时间）"
+        }
+      },
+      "source_ids": [
+        "base:B07"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "Imagine a stretchy storage pocket: how much extra charge it can hold changes with its voltage.",
+          "zh": "想象一个可变大小的储物袋：电压不同，多放一点电荷的能力也不同。"
+        },
+        "observe": {
+          "en": "Watch capacitance and charge while the bias changes. More reverse bias reduces the displayed capacitance.",
+          "zh": "改变偏置，观察电容和电荷；反向偏置越大，图中的电容越小。"
+        },
+        "boundary": {
+          "en": "The pocket is an analogy. This animation scans voltages and does not show a moving physical boundary.",
+          "zh": "储物袋只是比喻。动画扫描不同电压，没有计算真实边界怎样移动。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Junction differential capacitance is dQ/dV. Nonlinear stored charge is an integral, not generally C(V)V.",
+          "zh": "结的微分电容为dQ/dV；非线性储存电荷应通过积分求得，通常不等于C(V)V。"
+        },
+        "equation": {
+          "expression": "C(V)=C0(1−V/φ)^(−m); Q(V)=∫₀^V C(u)du; i=C(V)dV/dt",
+          "units": "C,C0: F; Q: C; V,φ: V; i: A; m: dimensionless",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Depletion-only model: −20 V ≤ V < 0.35 V; C0 = 2 pF, φ = 0.7 V, m = 0.5 at 25 °C. Forward diffusion charge is excluded.",
+          "zh": "仅耗尽电容：−20 V≤V<0.35 V；25 °C下C0=2 pF、φ=0.7 V、m=0.5；不含正向扩散电荷。"
+        },
+        "exercise": {
+          "question": {
+            "en": "Find capacitance at V = −2.1 V using the stated 25 °C parameters.",
+            "zh": "用上述25 °C参数求V=−2.1 V时的电容。"
+          },
+          "answer": {
+            "en": "C = 2 pF/√4 = 1 pF. This is differential capacitance at that bias.",
+            "zh": "C=2 pF/√4=1 pF，这是该偏置下的微分电容。"
+          },
+          "numeric_check": {
+            "value": 1e-12,
+            "rounded_answer": 1e-12,
+            "unit": "F",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "A quasi-static depletion law and an assumed 1 pA reverse leakage represent two different mechanisms.",
+          "zh": "准静态耗尽规律与假设的1 pA反向漏电代表两种不同机制。"
+        },
+        "derivation_or_question": {
+          "en": "For m=1/2, rationalize Q=2C0φ[1−√(1−V/φ)] as Q=2C0V/[1+√(1−V/φ)]. Verify dQ/dV=C.",
+          "zh": "m=1/2时，将Q=2C0φ[1−√(1−V/φ)]有理化为Q=2C0V/[1+√(1−V/φ)]，验证dQ/dV=C。"
+        },
+        "validity_and_error": {
+          "en": "Rationalization removes cancellation near zero; a stress-test percentage does not describe accuracy of the entire plotted C–V range or measured junction.",
+          "zh": "有理化消除零附近的相消误差；压力测试的改善比例不能代表全部C–V区间或实测结的准确度。"
+        },
+        "extension_and_evidence": {
+          "en": "Measure bias- and frequency-dependent C–V plus I–V before adding series resistance, diffusion storage or breakdown.",
+          "zh": "补充偏置、频率相关C–V及I–V测量，再引入串联电阻、扩散储能或击穿。"
+        }
+      },
+      "recorded_case": {
+        "id": "A02_CV_25C",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "max_KCL_residual_A": 0.0
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Depletion capacitance only, -20 <= V < 0.35 V. No forward diffusion charge, breakdown or series resistance. Reverse leakage is an assumed 1 pA.",
+        "zh": "仅耗尽电容，-20≤V<0.35V；不含正向扩散电荷、击穿和串联电阻；反向漏电假设为1pA。"
+      }
+    },
+    {
+      "id": "A03",
+      "name": {
+        "en": "Reciprocal NPN Ebers–Moll",
+        "zh": "满足互易关系的NPN Ebers–Moll"
+      },
+      "kind": "illustrative_device",
+      "catalogue_kind": "physical_device",
+      "assets": {
+        "gif_id": "A03",
+        "gif_path": "simulation/V3-3/education/gifs/A03.gif",
+        "print_ids": [
+          "V33_A03"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_A03.stl"
+        ],
+        "recorded_case_id": "A03_gummel_25C",
+        "animation_kind": "DC SWEEP",
+        "axis": {
+          "en": "Vbe (V)",
+          "zh": "直流偏置扫描（非时间）"
+        }
+      },
+      "source_ids": [
+        "base:B07"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A small change at a control point can produce a large flow change, like gently opening a sensitive valve.",
+          "zh": "像轻轻打开一个灵敏的阀门，控制处的小变化可以带来明显的流量变化。"
+        },
+        "observe": {
+          "en": "Watch collector and base currents grow as VBE rises. Equal height steps on the log axis mean equal multiplication factors.",
+          "zh": "观察VBE升高时集电流和基电流的增长；对数纵轴上相同的高度变化表示相同倍数。"
+        },
+        "boundary": {
+          "en": "This is a transistor, not a mechanical valve. The plot does not show carriers travelling through the base.",
+          "zh": "这是晶体管，不是机械阀门；曲线没有显示载流子穿过基区的过程。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "The Ebers–Moll model combines forward and reverse junction injection and enforces three-terminal current conservation.",
+          "zh": "Ebers–Moll模型叠加正、反向结注入，并满足三端电流守恒。"
+        },
+        "equation": {
+          "expression": "I_C=α_F I_F−I_R; I_B=(1−α_F)I_F+(1−α_R)I_R; I_E=−I_F+α_R I_R; β_F=α_F/(1−α_F)",
+          "units": "I_C,I_B,I_E,I_F,I_R: A; α_F,α_R,β_F: dimensionless",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Currents are positive into the device. This generic silicon NPN is low-injection DC only; reciprocity requires α_F I_ES = α_R I_CS.",
+          "zh": "电流以流入器件为正。通用硅NPN仅用于低注入直流；互易关系要求α_F I_ES=α_R I_CS。"
+        },
+        "exercise": {
+          "question": {
+            "en": "In forward-active operation with β_F = 100 and I_C = 1 mA, estimate I_B and I_E, neglecting reverse injection.",
+            "zh": "正向放大区β_F=100、I_C=1 mA，忽略反向注入，估算I_B及I_E。"
+          },
+          "answer": {
+            "en": "I_B ≈ 10 µA and I_E ≈ −1.01 mA; their sum with I_C is zero.",
+            "zh": "I_B约为10 µA、I_E约为−1.01 mA；三端电流之和为零。"
+          },
+          "numeric_check": {
+            "value": 1e-05,
+            "rounded_answer": 1e-05,
+            "unit": "A, base-current approximation",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "Two exponential junction currents share the reciprocity-constrained saturation current; no transit-time charge is present.",
+          "zh": "两个指数结电流由互易约束关联饱和电流；没有渡越时间电荷。"
+        },
+        "derivation_or_question": {
+          "en": "Substitute the three terminal equations to prove KCL for arbitrary I_F and I_R. Then examine the forward-active approximation and its failure in saturation.",
+          "zh": "代入三端方程，证明任意I_F、I_R下均满足KCL；再分析正向放大近似及其在饱和区的失效。"
+        },
+        "validity_and_error": {
+          "en": "An expm1 implementation has floating-point-scale KCL residuals. That does not validate β versus current, Early effect or RF behavior.",
+          "zh": "expm1实现的KCL残差处于浮点量级；这不验证电流相关β、Early效应或射频行为。"
+        },
+        "extension_and_evidence": {
+          "en": "Collect Gummel plots and output curves across temperature; charge-storage or fT measurements are needed for dynamic extensions.",
+          "zh": "需收集不同温度的Gummel图及输出曲线；动态扩展还需电荷储存或fT测量。"
+        }
+      },
+      "recorded_case": {
+        "id": "A03_gummel_25C",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "max_KCL_residual_A": 1.0842021724855044e-19
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Generic silicon NPN, not a SiGe HBT. Low-injection DC only; no Early effect, high injection, transit time, RF fT or breakdown.",
+        "zh": "通用硅NPN，不是SiGe HBT；仅低注入直流，不含Early效应、大注入、渡越时间、fT及击穿。"
+      }
+    },
+    {
+      "id": "A04",
+      "name": {
+        "en": "MOS pair mismatch and correlation",
+        "zh": "MOS配对失配与相关性"
+      },
+      "kind": "statistical_parameter_demo",
+      "catalogue_kind": "parameter_demo",
+      "assets": {
+        "gif_id": "A04",
+        "gif_path": "simulation/V3-3/education/gifs/A04.gif",
+        "print_ids": [
+          "V33_A04"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_A04.stl"
+        ],
+        "recorded_case_id": "A04_area16um2",
+        "animation_kind": "STATISTICAL SAMPLES",
+        "axis": {
+          "en": "Sample index (not time)",
+          "zh": "随机样本序号（非时间）"
+        }
+      },
+      "source_ids": [
+        "base:B02"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "Two cookies made with the same cutter can still differ a little. Bigger cookies can make tiny edge differences less important.",
+          "zh": "同一个模具做的两块饼干仍可能略有不同；饼干变大时，细小差别的相对影响可能减小。"
+        },
+        "observe": {
+          "en": "Compare the two thresholds and their difference. Each moving position is another sample, not a later moment.",
+          "zh": "比较两个阈值及其差值；光标每移动一次代表换一个样本，并不是时间过去了。"
+        },
+        "boundary": {
+          "en": "Real mismatch comes from manufacturing variation, not cookie edges. These random numbers are assumed, not factory measurements.",
+          "zh": "真实失配来自制造差异，不是饼干边缘；这里的随机数是假设，并非工厂测量。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Pair mismatch is a difference of two device parameters; shared variation can cancel, while local variation remains.",
+          "zh": "配对失配是两个器件参数之差；共同变化可相消，局部差异仍存在。"
+        },
+        "equation": {
+          "expression": "σ_pair=A_VT√[(1−ρ)/(WL)]",
+          "units": "σ_pair: V; A_VT: V·µm; W,L: µm; ρ: dimensionless",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "The repository defines A_VT as a pair coefficient. Gaussian local terms, equal areas and assumed correlation are used; do not mix this convention with a single-device coefficient.",
+          "zh": "本库将A_VT定义为配对系数。假设局部高斯分布、等面积及相关性；不可与单管系数约定混用。"
+        },
+        "exercise": {
+          "question": {
+            "en": "For A_VT=3 mV·µm, WL=16 µm² and ρ=0.25, find σ_pair.",
+            "zh": "A_VT=3 mV·µm、WL=16 µm²、ρ=0.25，求配对标准差。"
+          },
+          "answer": {
+            "en": "σ_pair = 0.6495 mV. Quadrupling area halves this predicted standard deviation.",
+            "zh": "σ_pair=0.6495 mV；面积增加至四倍时，该预测标准差减半。"
+          },
+          "numeric_check": {
+            "value": 0.000649519052838329,
+            "rounded_answer": 0.0006495,
+            "unit": "V",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "A common global shift is added to both members; the local joint distribution has specified variance and correlation.",
+          "zh": "两成员加入相同的全局偏移，局部联合分布具有规定的方差与相关系数。"
+        },
+        "derivation_or_question": {
+          "en": "Derive Var(X−Y)=Var(X)+Var(Y)−2Cov(X,Y). Distinguish the spread of devices from uncertainty in the estimated spread.",
+          "zh": "推导Var(X−Y)=Var(X)+Var(Y)−2Cov(X,Y)，区分器件本身的分散与分散估计值的不确定度。"
+        },
+        "validity_and_error": {
+          "en": "80,000 samples reduce sampling uncertainty; a particular sample standard deviation can still move farther from the analytic value. No yield gain follows.",
+          "zh": "80000个样本降低抽样不确定度；某次样本标准差仍可能更远离解析值，也不能据此宣称良率提高。"
+        },
+        "extension_and_evidence": {
+          "en": "Use measured pair arrays with area, separation, orientation and temperature metadata; fit spatial/systematic terms separately from local mismatch.",
+          "zh": "需要带面积、间距、方向和温度信息的实测配对阵列，分别拟合空间/系统性项与局部失配。"
+        }
+      },
+      "recorded_case": {
+        "id": "A04_area16um2",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "area_um2": 16,
+          "sample_count": 80000,
+          "pair_sigma_prediction_V": 0.000649519052838329,
+          "pair_sigma_observed_V": 0.0006469938665973476
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Assumed Gaussian local mismatch and correlation. No foundry statistics, spatial-gradient fit, yield certification or temperature-dependent mismatch law.",
+        "zh": "高斯局部失配和相关系数为假设；无工艺统计、空间梯度拟合、良率认证或温度失配律。"
+      }
+    },
+    {
+      "id": "B01",
+      "name": {
+        "en": "MOS differential pair",
+        "zh": "MOS差分对"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "B01",
+        "gif_path": "simulation/V3-3/education/gifs/B01.gif",
+        "print_ids": [
+          "V33_B01"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_B01.stl"
+        ],
+        "recorded_case_id": "B01_25C",
+        "animation_kind": "DC SWEEP",
+        "axis": {
+          "en": "Differential input (V)",
+          "zh": "直流偏置扫描（非时间）"
+        }
+      },
+      "source_ids": [
+        "base:B01"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "Two slides share one fixed stream of balls: sending more down one leaves fewer for the other.",
+          "zh": "两条滑道分同一股小球：一边分得多，另一边就少。"
+        },
+        "observe": {
+          "en": "Watch one branch current rise while the other falls. Their sum stays at 100 µA.",
+          "zh": "观察一条支路电流上升、另一条下降；两者之和保持100 µA。"
+        },
+        "boundary": {
+          "en": "The two transistors steer electrical current. The fixed total comes from an ideal source in this example.",
+          "zh": "两只晶体管分配的是电流；本例的固定总量由理想电流源提供。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "A MOS differential pair converts differential input voltage into a branch-current difference.",
+          "zh": "MOS差分对将差分输入电压转换为支路电流之差。"
+        },
+        "equation": {
+          "expression": "V_G1,2=V_CM±V_diff/2; I_1+I_2=I_tail; Δ(I_1−I_2)≈g_m V_diff",
+          "units": "V_G,V_CM,V_diff: V; I_1,I_2,I_tail: A; g_m: S (each device at balance)",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "The small-signal relation assumes a matched, balanced pair; full sweeps solve A01 with fixed drains and an ideal tail source.",
+          "zh": "小信号关系要求匹配、平衡；完整扫描调用A01，固定漏端电压，尾源理想。"
+        },
+        "exercise": {
+          "question": {
+            "en": "At zero differential input and a 100 µA ideal tail, what are the currents of a matched pair?",
+            "zh": "差分输入为零、理想尾电流为100 µA，匹配支路各有多少电流？"
+          },
+          "answer": {
+            "en": "I_1 = I_2 = 50 µA. This does not specify an output voltage gain without loads.",
+            "zh": "I_1=I_2=50 µA；没有负载时，不能由此指定输出电压增益。"
+          },
+          "numeric_check": {
+            "value": 5e-05,
+            "rounded_answer": 5e-05,
+            "unit": "A, each branch",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "A scalar common-source voltage is solved by bisection; drain voltages and the current sum are imposed.",
+          "zh": "通过二分法求一个共源电压标量，漏极电压和总电流作为约束。"
+        },
+        "derivation_or_question": {
+          "en": "Linearize both devices about balance to derive current-difference gain. Then replace the ideal tail with finite impedance and examine common-mode response.",
+          "zh": "在平衡点线性化两管以推导差分电流增益；再将理想尾源改为有限阻抗，考察共模响应。"
+        },
+        "validity_and_error": {
+          "en": "The 80-step solution is already at double-precision resolution. A small KCL residual does not establish bandwidth, CMRR or input offset.",
+          "zh": "80步求解已达到双精度分辨率；很小的KCL残差不等于已验证带宽、共模抑制比或输入失调。"
+        },
+        "extension_and_evidence": {
+          "en": "Add load and tail models, body connections and measured mismatch; AC and transient measurements are needed for amplifier-level claims.",
+          "zh": "需补充负载、尾源、体端连接与实测失配；放大器级结论还需交流和瞬态验证。"
+        }
+      },
+      "recorded_case": {
+        "id": "B01_25C",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "max_KCL_residual_A": 4.0657581468206416e-20
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Fixed drain biases and ideal tail source. No amplifier load, common-mode feedback, frequency compensation or finite tail impedance.",
+        "zh": "固定漏端偏置、理想尾电流源；不含放大器负载、共模反馈、频率补偿及尾源有限阻抗。"
+      }
+    },
+    {
+      "id": "B02",
+      "name": {
+        "en": "CTAT/PTAT reference sum",
+        "zh": "CTAT/PTAT基准合成"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "B02",
+        "gif_path": "simulation/V3-3/education/gifs/B02.gif",
+        "print_ids": [
+          "V33_B02"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_B02.stl"
+        ],
+        "recorded_case_id": "B02_temperature",
+        "animation_kind": "TEMPERATURE SWEEP",
+        "axis": {
+          "en": "Temperature (degC)",
+          "zh": "温度扫描（非时间）"
+        }
+      },
+      "source_ids": [
+        "base:B03"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "One ruler reading falls as a room warms while another rises. Adding the right amounts can keep the total steadier.",
+          "zh": "房间变暖时，一个读数下降，另一个上升；按合适比例相加，总数就更稳定。"
+        },
+        "observe": {
+          "en": "Follow temperature: the two contributions tilt in opposite directions, but their sum still bends a little.",
+          "zh": "沿温度轴观察：两项朝相反方向变化，总和仍有一点弯曲。"
+        },
+        "boundary": {
+          "en": "This is a calculated voltage sum, not a real thermometer or a complete working reference chip.",
+          "zh": "这里计算的是电压之和，并不是真实温度计或完整基准芯片。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "CTAT decreases with absolute temperature; PTAT is proportional to absolute temperature. Their weighted sum cancels first-order drift near a design point.",
+          "zh": "CTAT随绝对温度下降，PTAT与绝对温度成正比；加权合成可在设计温度附近抵消一阶温漂。"
+        },
+        "equation": {
+          "expression": "U_T=kT/q; ΔV_BE=U_T ln N; V_ref=V_BE+aΔV_BE",
+          "units": "T: K; U_T,V_BE,V_ref: V; k: J/K; q: C; N,a: dimensionless",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Matched junctions with a current-density ratio N motivate the relation. Here the sum is ideal; startup, resistor TC, PSRR and trimming are absent.",
+          "zh": "关系式基于匹配结的电流密度比N；此处为理想求和，未含启动、电阻温漂、电源抑制和修调。"
+        },
+        "exercise": {
+          "question": {
+            "en": "At 298.15 K with N=8, estimate ΔV_BE using k/q=86.1733 µV/K.",
+            "zh": "T=298.15 K、N=8，取k/q=86.1733 µV/K，估算ΔV_BE。"
+          },
+          "answer": {
+            "en": "ΔV_BE ≈ 53.42 mV. This PTAT term alone is not the full reference voltage.",
+            "zh": "ΔV_BE约53.42 mV；该PTAT项本身并不是完整参考电压。"
+          },
+          "numeric_check": {
+            "value": 0.05342619611245496,
+            "rounded_answer": 0.05342,
+            "unit": "V",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "An empirical V_BE curvature law is combined with ideal PTAT scaling, tuned so dV_ref/dT=0 at 25 °C.",
+          "zh": "将经验V_BE曲率式与理想PTAT项组合，使25 °C处dV_ref/dT=0。"
+        },
+        "derivation_or_question": {
+          "en": "Differentiate V_ref to obtain a at T0, then calculate d²V_ref/dT². Explain why zero slope at one point leaves finite temperature span.",
+          "zh": "对V_ref求导得到T0处的a，再求二阶导数；解释为何一点斜率为零仍有全温区变化。"
+        },
+        "validity_and_error": {
+          "en": "Analytic evaluation has negligible numerical residual; curvature and missing mismatch dominate the interpretation. It is not a reproduction of Brokaw’s measured circuit.",
+          "zh": "解析求值的数值残差很小，但曲率及未建模失配限制结论；它不复现Brokaw的实测电路。"
+        },
+        "extension_and_evidence": {
+          "en": "Use transistor/resistor temperature data, supply sweeps and startup trajectories; test trim strategy on independent process corners.",
+          "zh": "需晶体管/电阻温度数据、电源扫描和启动轨迹，并在独立工艺角验证修调策略。"
+        }
+      },
+      "recorded_case": {
+        "id": "B02_temperature",
+        "temperature_C": null,
+        "input_V": null,
+        "metrics": {
+          "PTAT_scale": 11.269331400193416,
+          "Vref_25_V": 1.2820777373632577,
+          "Vref_max_min_span_V": 0.003918584564435168
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Ideal voltage sum inspired by bandgap principles, not the 2.5 V Brokaw circuit reproduction. No start-up, PSRR, trimming, resistor TC, mismatch or output load.",
+        "zh": "按带隙原理的理想电压合成，并非复现Brokaw的2.5V电路；不含启动、PSRR、修调、电阻温漂、失配及输出负载。"
+      }
+    },
+    {
+      "id": "B03",
+      "name": {
+        "en": "Input noise and sampled kT/C",
+        "zh": "输入噪声与采样kT/C"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "B03",
+        "gif_path": "simulation/V3-3/education/gifs/B03.gif",
+        "print_ids": [
+          "V33_B03"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_B03.stl"
+        ],
+        "recorded_case_id": "B03_25C",
+        "animation_kind": "FREQUENCY SWEEP",
+        "axis": {
+          "en": "Frequency (Hz)",
+          "zh": "频率扫描（非时间）"
+        }
+      },
+      "source_ids": [
+        "base:B08"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A quiet room can still have many small sounds. Adding a wider range of sounds can make the total louder.",
+          "zh": "安静的房间也有细小声音；把更宽范围的声音加起来，总声音可能更大。"
+        },
+        "observe": {
+          "en": "Compare the low- and high-frequency noise curves. The moving dot chooses a frequency, not a moment of random noise.",
+          "zh": "比较低频和高频噪声曲线；圆点选的是频率，并非某一时刻的随机噪声。"
+        },
+        "boundary": {
+          "en": "Sound is only a comparison. The plot shows electrical noise density, not a recording of sound or a random voltage waveform.",
+          "zh": "声音只是类比；图里是电噪声密度，不是录音或随机电压的时间波形。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Voltage PSD integrates to variance; amplitude spectral density is its square root. An equilibrated sampled capacitor has thermal variance kT/C.",
+          "zh": "电压功率谱密度积分得到方差，幅度谱密度是其平方根；达到热平衡的采样电容热噪声方差为kT/C。"
+        },
+        "equation": {
+          "expression": "v_rms²=∫[f1,f2] S_v(f)df; S_v=ASD²; v_sample,rms=√(kT/C)",
+          "units": "S_v: V²/Hz; ASD: V/√Hz; f: Hz; C: F; T: K; k: J/K; v_rms: V",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "One-sided PSD and the stated finite band are used. kT/C is a separate ideal sampling result, not another term already included in the plotted amplifier spectrum.",
+          "zh": "采用单边谱和规定的有限频带；kT/C是另列的理想采样结果，未重复计入图中的放大器频谱。"
+        },
+        "exercise": {
+          "question": {
+            "en": "For T=300 K and C=1 pF, estimate sampled thermal rms voltage.",
+            "zh": "T=300 K、C=1 pF，估算采样热噪声电压有效值。"
+          },
+          "answer": {
+            "en": "√(1.380649×10⁻²³×300/10⁻¹²) ≈ 64.36 µV. Four times the capacitance halves this value.",
+            "zh": "结果约64.36 µV；电容增为四倍时，该电压减半。"
+          },
+          "numeric_check": {
+            "value": 6.435795988065502e-05,
+            "rounded_answer": 6.436e-05,
+            "unit": "V rms",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "Authored spectra compare 1/f suppression with a higher white floor; no actual chopper switches or aliasing are simulated.",
+          "zh": "人为频谱比较1/f抑制与白噪声底上升的取舍；未模拟真实斩波开关或混叠。"
+        },
+        "derivation_or_question": {
+          "en": "Integrate a white-plus-1/f PSD analytically; explain the logarithmic lower-frequency cutoff and why integrating ASD directly gives the wrong units.",
+          "zh": "解析积分白噪声加1/f谱，解释低频截止的对数依赖，以及直接积分ASD为何单位不对。"
+        },
+        "validity_and_error": {
+          "en": "Analytic quadrature improves a metric of the chosen PSD. Unknown current noise, source impedance, aliasing and switching ripple remain physical gaps.",
+          "zh": "解析积分改进选定频谱的指标计算；电流噪声、源阻抗、混叠和开关纹波仍是物理缺项。"
+        },
+        "extension_and_evidence": {
+          "en": "Measure input-referred spectra with source impedances and anti-alias filters specified; add cyclostationary sampling only with a real switching topology.",
+          "zh": "需明确源阻抗和抗混叠滤波后测量输入参考噪声谱；只有给定真实开关拓扑，才可增加循环平稳采样分析。"
+        }
+      },
+      "recorded_case": {
+        "id": "B03_25C",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "plain_integrated_Vrms": 1.0006900374520557e-05,
+          "suppressed_integrated_Vrms": 1.414351857765032e-05,
+          "sample_kTC_Vrms": 6.415921596699885e-05
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Illustrative spectral shaping, not a switched chopper circuit or measured op amp. No current noise, source resistance, aliasing, ripple or charge injection.",
+        "zh": "仅示意频谱整形，不是开关斩波电路或实测运放；不含电流噪声、源阻、混叠、纹波和电荷注入。"
+      }
+    },
+    {
+      "id": "B04",
+      "name": {
+        "en": "Capacitor DAC and SAR ADC",
+        "zh": "电容DAC与SAR ADC"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "B04",
+        "gif_path": "simulation/V3-3/education/gifs/B04.gif",
+        "print_ids": [
+          "V33_B04"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_B04.stl"
+        ],
+        "recorded_case_id": "B04_mismatch",
+        "animation_kind": "SAMPLED SIGNAL",
+        "axis": {
+          "en": "Physical time (us)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "base:B05",
+        "base:B02"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "An ADC is like reading a height with a ruler that has only a fixed number of marks.",
+          "zh": "ADC像用刻度数量有限的尺子量身高。"
+        },
+        "observe": {
+          "en": "Compare the smooth input with the stepped reconstructed value and their error. The movie does not expose every internal bit decision.",
+          "zh": "比较平滑输入、台阶状重建值和误差；动画没有逐个展示内部每一位的判断。"
+        },
+        "boundary": {
+          "en": "A digital number has finite steps, but this example leaves out real electrical noise and incomplete settling.",
+          "zh": "数字结果有有限台阶，但本例没有加入真实电噪声和未充分稳定的影响。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "A SAR ADC tests binary capacitor-DAC weights sequentially. DNL describes code-width error; INL describes transition deviation from a stated reference line.",
+          "zh": "SAR ADC逐次测试二进制电容DAC权重；DNL描述码宽误差，INL描述转换边界相对指定参考直线的偏离。"
+        },
+        "equation": {
+          "expression": "LSB=V_ref/2^N; DNL_k=(T_(k+1)−T_k)/LSB−1",
+          "units": "V_ref,T_k,LSB: V; N: bits; DNL: LSB units (dimensionless numeric value)",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "The baseline is a 10-bit binary CDAC with dummy capacitance, ideal comparison and full settling. Endpoint INL uses first/last internal transitions.",
+          "zh": "基线为含dummy电容的10位二进制CDAC，比较器理想且充分建立；端点INL以首末内部转换点拟合。"
+        },
+        "exercise": {
+          "question": {
+            "en": "For an ideal 10-bit converter with V_ref=1.8 V, find 1 LSB.",
+            "zh": "理想10位转换器V_ref=1.8 V，求1 LSB。"
+          },
+          "answer": {
+            "en": "1 LSB = 1.7578125 mV. Mismatch changes actual code widths, so this remains the nominal step.",
+            "zh": "1 LSB=1.7578125 mV；失配改变实际码宽，因此该值是标称步长。"
+          },
+          "numeric_check": {
+            "value": 0.0017578125,
+            "rounded_answer": 0.0017578125,
+            "unit": "V",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "Assumed capacitor mismatch changes sequential decisions; an ideal comparator still resolves immediately and without noise.",
+          "zh": "假设的电容失配改变逐次判决，理想比较器仍无噪声、即时判断。"
+        },
+        "derivation_or_question": {
+          "en": "Find actual decision thresholds rather than sorting nominal DAC levels. Audit coherent FFT power counting, including DC and Nyquist bins only once.",
+          "zh": "寻找真实逐次判决边界，而非将标称DAC电平排序；审查相干FFT功率计数，直流及奈奎斯特点仅计一次。"
+        },
+        "validity_and_error": {
+          "en": "A machine-precision threshold search does not improve physical ENOB. Ideal SNR formulas require their input and quantization assumptions; use SNDR for ENOB here.",
+          "zh": "机器精度的边界搜索并不提高实物ENOB；理想SNR公式有输入与量化假设，本例ENOB应由SNDR换算。"
+        },
+        "extension_and_evidence": {
+          "en": "Measure transition histograms, capacitor statistics, comparator noise, settling and reference droop; retain independent codes and tones for validation.",
+          "zh": "需要转换直方图、电容统计、比较器噪声、建立过程及参考跌落测量，并保留独立码段和频点验证。"
+        }
+      },
+      "recorded_case": {
+        "id": "B04_mismatch",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "SNDR_dB": 59.5753314665427,
+          "SNR_excluding_harmonics_2_to_5_dB": 60.196640371761376,
+          "SFDR_dBc": 70.53759682183043,
+          "ENOB_bits": 9.603875658894138,
+          "DNL_max_abs_LSB": 0.9357352272794388,
+          "endpoint_INL_max_abs_LSB": 0.6331895534362452,
+          "missing_codes": 0
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Ideal comparator and full settling. No aperture jitter, thermal/comparator noise, switch leakage, reference droop or supply-current prediction. Capacitor mismatch is assumed.",
+        "zh": "比较器理想且完全建立；不含采样抖动、热噪声/比较器噪声、开关漏电、参考跌落及供电电流预测；电容失配为假设。"
+      }
+    },
+    {
+      "id": "B05",
+      "name": {
+        "en": "LDO loop and load step",
+        "zh": "LDO环路与负载阶跃"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "B05",
+        "gif_path": "simulation/V3-3/education/gifs/B05.gif",
+        "print_ids": [
+          "V33_B05"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_B05.stl"
+        ],
+        "recorded_case_id": "B05_25C",
+        "animation_kind": "TIME TRANSIENT",
+        "axis": {
+          "en": "Physical time (us)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "base:B06"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A helper keeps a water tank near a chosen level. When more water is taken out, the helper needs time to react.",
+          "zh": "小助手把水箱维持在指定高度；突然多取水时，助手需要一点时间才补得上。"
+        },
+        "observe": {
+          "en": "Watch output voltage dip after the load step and then approach a new level.",
+          "zh": "观察负载突然增加后，输出电压先下降，再接近新的水平。"
+        },
+        "boundary": {
+          "en": "The real object regulates voltage. This small-change model does not show a completely empty tank or startup.",
+          "zh": "真实对象调节的是电压；小变化模型没有展示“完全空箱”或开机启动。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "An LDO feedback loop adjusts pass current to oppose output-voltage disturbances. Here v and i_p are deviations from a biased operating point.",
+          "zh": "LDO反馈环调节通过电流以抵消输出电压扰动；此处v和i_p为偏置工作点附近的增量。"
+        },
+        "equation": {
+          "expression": "C dv/dt=i_p−v/R−ΔI_load; di_p/dt=ω_a(−Gv−i_p)",
+          "units": "v: V; i_p,ΔI_load: A; C: F; R: Ω; G: A/V; ω_a: rad/s; t: s",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Two-state linear model with no dropout, saturation, ESR zero or current limit. Large supply/load excursions exceed its scope.",
+          "zh": "二状态线性模型，无压差极限、饱和、ESR零点及限流；大幅电源或负载变化超出范围。"
+        },
+        "exercise": {
+          "question": {
+            "en": "Immediately after a +10 mA load step with C=10 µF, before pass current changes, find dv/dt.",
+            "zh": "C=10 µF，负载突然增加10 mA，在通过电流尚未改变的瞬间，求dv/dt。"
+          },
+          "answer": {
+            "en": "dv/dt = −1000 V/s = −1 mV/µs, using incremental v=i_p=0 just before the step.",
+            "zh": "dv/dt=−1000 V/s=−1 mV/µs，取阶跃前增量v=i_p=0。"
+          },
+          "numeric_check": {
+            "value": -999.9999999999999,
+            "rounded_answer": -1000,
+            "unit": "V/s",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "A finite-bandwidth transconductance feeds an output RC load; matrix coefficients are constant at each temperature.",
+          "zh": "有限带宽跨导驱动输出RC负载；各温度下矩阵系数保持常数。"
+        },
+        "derivation_or_question": {
+          "en": "Derive the state matrix and loop gain; compare its poles, unity-gain crossing and final-value load regulation with the step response.",
+          "zh": "推导状态矩阵和环路增益，比较极点、单位增益交点、终值负载调整与阶跃响应。"
+        },
+        "validity_and_error": {
+          "en": "Exact matrix propagation removes discretization of this linear system, not errors in assumed loop poles or measured phase margin.",
+          "zh": "精确矩阵传播消除该线性系统的离散误差，不能消除假设极点或实测相位裕度的不确定性。"
+        },
+        "extension_and_evidence": {
+          "en": "Acquire loop gain versus load, capacitor ESR and pass-device operating range; use nonlinear transistor behavior for dropout and startup.",
+          "zh": "需不同负载下的环路增益、电容ESR及通过管工作范围；压差极限和启动需要非线性晶体管模型。"
+        }
+      },
+      "recorded_case": {
+        "id": "B05_25C",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "final_Vout_V": 1.7804347825727396,
+          "minimum_Vout_V": 1.779931002663985,
+          "phase_margin_deg": 70.91717138762554,
+          "unity_gain_frequency_Hz": 7454.5320315889,
+          "max_KCL_residual_A": 1.734723475976807e-18
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Small perturbation around a biased operating point; no dropout, current limit, start-up, ESR zero or transistor netlist. Not a reproduction of the cited measured LDO.",
+        "zh": "围绕偏置点的小扰动模型；无压差极限、限流、启动、ESR零点或晶体管网表；并非复现引用论文的实测LDO。"
+      }
+    },
+    {
+      "id": "B06",
+      "name": {
+        "en": "Phase loop and noise transfer",
+        "zh": "相位环路与噪声传递"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "B06",
+        "gif_path": "simulation/V3-3/education/gifs/B06.gif",
+        "print_ids": [
+          "V33_B06"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_B06.stl"
+        ],
+        "recorded_case_id": "B06_zeta0.7",
+        "animation_kind": "TIME TRANSIENT",
+        "axis": {
+          "en": "Physical time (us)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "base:B09"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "Two people try to clap together. A slow correction leaves them apart; a too-eager correction can overshoot.",
+          "zh": "两个人想拍手同步：调整太慢会跟不上，调整过猛又可能超过。"
+        },
+        "observe": {
+          "en": "Watch the phase response after a small step. Compare how damping changes overshoot and settling in the available cases.",
+          "zh": "观察小阶跃后的相位响应，并在不同工况中比较阻尼对超调和稳定时间的影响。"
+        },
+        "boundary": {
+          "en": "The picture is an averaged timing rule, not a transistor oscillator or an animation of each clock edge.",
+          "zh": "图里是简化的相位规律，不是晶体管振荡器，也没有逐个时钟边沿。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Phase is position within an oscillation cycle. A canonical second-order loop filters reference phase and complementary oscillator phase disturbances.",
+          "zh": "相位描述振荡周期中的位置；典型二阶环路滤波参考相位及互补的振荡器相位扰动。"
+        },
+        "equation": {
+          "expression": "H(s)=ω_n²/(s²+2ζω_n s+ω_n²); σ_t=σ_φ/(2πf_carrier)",
+          "units": "s,ω_n: s⁻¹; ζ,H: dimensionless; σ_φ: rad; f_carrier: Hz; σ_t: s",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Small phase perturbations and uncorrelated reference/VCO spectra; this model has no loop zero and is not a complete type-II PLL.",
+          "zh": "小相位扰动，参考/VCO噪声互不相关；此模型无环路零点，不是完整二型PLL。"
+        },
+        "exercise": {
+          "question": {
+            "en": "Convert 1 mrad rms phase error into rms time jitter at 1 GHz.",
+            "zh": "1 GHz载波下，将1 mrad相位误差有效值换算为时间抖动有效值。"
+          },
+          "answer": {
+            "en": "σ_t ≈ 159.15 fs. This conversion does not specify the integration bandwidth of a measured jitter result.",
+            "zh": "σ_t约159.15 fs；该换算本身没有指定实测抖动的积分频带。"
+          },
+          "numeric_check": {
+            "value": 1.5915494309189534e-13,
+            "rounded_answer": 1.5915e-13,
+            "unit": "s rms",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "Linear time-invariant phase dynamics mix independent noise via |H|² and |1−H|², using one-sided phase PSD.",
+          "zh": "线性时不变相位动态采用单边相位谱，以|H|²、|1−H|²组合独立噪声。"
+        },
+        "derivation_or_question": {
+          "en": "Derive pole damping and integrated output phase variance. Explain why SSB phase-noise data need a defined convention before conversion to phase PSD.",
+          "zh": "推导极点阻尼及输出相位方差；解释单边带相噪数据为何必须明确约定才能转换为相位功率谱。"
+        },
+        "validity_and_error": {
+          "en": "Exact state evolution and refined quadrature do not capture ISF, cyclostationary noise, cycle slips or acquisition.",
+          "zh": "精确状态演化和细化积分仍不包含ISF、循环平稳噪声、周跳或捕获过程。"
+        },
+        "extension_and_evidence": {
+          "en": "Require measured phase-noise spectra, carrier frequency and integration limits; transistor oscillator work additionally needs periodic steady-state/noise evidence.",
+          "zh": "需实测相噪谱、载波频率和积分界限；晶体管振荡器研究还需周期稳态及噪声依据。"
+        }
+      },
+      "recorded_case": {
+        "id": "B06_zeta0.7",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "zeta": 0.7,
+          "integrated_jitter_s": 1.7618262119631686e-14,
+          "final_phase_rad": 0.10000000033833027
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Canonical phase-domain abstraction without a loop zero. Not a transistor VCO, a full type-II PLL, ISF extraction, cycle-slip or acquisition simulation.",
+        "zh": "无环路零点的典型相位域抽象；不是晶体管VCO、完整二型PLL、ISF提取、周跳或捕获仿真。"
+      }
+    },
+    {
+      "id": "B07",
+      "name": {
+        "en": "40–150 V synchronous buck",
+        "zh": "40–150V同步降压"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "B07",
+        "gif_path": "simulation/V3-3/education/gifs/B07.gif",
+        "print_ids": [
+          "V33_B07"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_B07.stl"
+        ],
+        "recorded_case_id": "B07_100V_25C",
+        "animation_kind": "SWITCHED TRANSIENT",
+        "axis": {
+          "en": "Physical time (us)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "base:D01"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A fast switch sends short energy packets; a coil and a storage part smooth them into a lower steady output.",
+          "zh": "快速开关送出一小包一小包能量，线圈和储能元件把它们变成较平稳的低电压。"
+        },
+        "observe": {
+          "en": "Watch the switch-node voltage jump while inductor current ramps and output voltage ripples only slightly.",
+          "zh": "观察开关节点电压跳变、电感电流爬升或下降，而输出电压只小幅起伏。"
+        },
+        "boundary": {
+          "en": "The animation is slowed down. Its 40–150 V labels describe input cases, not a proven safe voltage for the drawn switch.",
+          "zh": "动画已经放慢；40～150 V表示输入工况，不是图中开关经过验证的安全耐压。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "A synchronous buck alternates high- and low-side switches; in forced continuous conduction, inductor current follows piecewise circuit equations.",
+          "zh": "同步降压器交替控制高、低侧开关；强制连续导通时，电感电流遵循分段电路方程。"
+        },
+        "equation": {
+          "expression": "L di/dt=uV_in−(R_sw+R_L)i−v; C dv/dt=i−v/R_load; ideal D≈V_out/V_in",
+          "units": "L: H; C: F; R: Ω; i: A; v,V_in,V_out: V; u: 0 or 1; D: dimensionless",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Instantaneous switches and fixed duty; only conduction loss is included. D=V_out/V_in is the lossless approximation, not the exact resistive case.",
+          "zh": "开关瞬时切换、占空比固定；只计算导通损耗。D=V_out/V_in为无损近似，并非含电阻情况的精确值。"
+        },
+        "exercise": {
+          "question": {
+            "en": "For an ideal 100 V to 12 V buck at 250 kHz, find duty and high-side on-time.",
+            "zh": "理想100 V降至12 V、250 kHz降压器，求占空比及高侧导通时间。"
+          },
+          "answer": {
+            "en": "D=0.12 and t_on=0.48 µs. The saved resistive 100 V case instead uses D≈0.123.",
+            "zh": "D=0.12，t_on=0.48 µs；已保存的含电阻100 V工况使用D约0.123。"
+          },
+          "numeric_check": {
+            "value": 4.8e-07,
+            "rounded_answer": 4.8e-07,
+            "unit": "s, ideal on-time",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "The linear state matrix is constant within each switch phase; a period map supplies the periodic initial state.",
+          "zh": "每个开关阶段内线性状态矩阵恒定，利用周期映射求周期初始状态。"
+        },
+        "derivation_or_question": {
+          "en": "Derive the on/off affine maps and periodic fixed point. Check input energy minus output energy, resistor loss and stored-energy change.",
+          "zh": "推导导通/关断仿射映射及周期不动点；检查输入能量减输出能量、电阻损耗与储能变化的平衡。"
+        },
+        "validity_and_error": {
+          "en": "Exact propagation and phasewise quadrature reduce numerical error. Saved ripple extrema remain sampled; conduction-only efficiency excludes many real losses.",
+          "zh": "精确传播与分段积分降低数值误差；保存的纹波极值仍来自采样，只含导通损耗的效率遗漏多项真实损耗。"
+        },
+        "extension_and_evidence": {
+          "en": "Add independently calibrated gate/diode/Coss and magnetic losses; validate switching waveforms, parasitic extraction and device voltage/SOA margins separately.",
+          "zh": "需独立校准栅极、二极管、Coss及磁性损耗，并分别验证开关波形、寄生参数、器件耐压及SOA裕量。"
+        }
+      },
+      "recorded_case": {
+        "id": "B07_100V_25C",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "mean_Vout_V": 11.999999999999993,
+          "Vout_ripple_pp_V": 0.009806455015937132,
+          "inductor_ripple_pp_A": 0.43151165389260826,
+          "conduction_only_efficiency": 0.9752406078951947,
+          "mean_conduction_loss_W": 0.3046558196016721,
+          "energy_residual_J": 1.1839403020246983e-18,
+          "max_high_side_Vds_V": 100.2188946403353,
+          "max_low_side_Vds_V": 99.85877745736538,
+          "duty_fraction": 0.12299999999999998,
+          "max_KCL_residual_A": 0.0
+        },
+        "provenance": "simulation/V3-3/numerics/analog/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Forced CCM with ideal instantaneous switches. Efficiency includes conduction loss only; no switching/gate/core loss, dead time, ringing, control-loop start-up, SOA or validated voltage rating.",
+        "zh": "强制连续导通、理想瞬时开关；效率仅含导通损耗；无开关/栅极/磁芯损耗、死区、振铃、控制启动、SOA或已验证耐压。"
+      }
+    },
+    {
+      "id": "P01",
+      "name": {
+        "en": "HV MOS gate charge and switching overlap",
+        "zh": "高压MOS栅电荷与开关交叠"
+      },
+      "kind": "prescribed_mechanism_bench",
+      "catalogue_kind": "mechanism_demo",
+      "assets": {
+        "gif_id": "P01",
+        "gif_path": "simulation/V3-3/education/gifs/P01.gif",
+        "print_ids": [
+          "V33_P01"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P01.stl"
+        ],
+        "recorded_case_id": "P01_100V_25C",
+        "animation_kind": "STAGED TRANSIENT",
+        "axis": {
+          "en": "Physical time (ns)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S01",
+        "dcdc:S02",
+        "dcdc:S10"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "Before a heavy gate changes position, its helper must move some charge. That takes time even when the command is quick.",
+          "zh": "像推动一扇重门前要先用力，开关改变状态前需要移动电荷，即使命令很快也要时间。"
+        },
+        "observe": {
+          "en": "Watch gate voltage pause near a plateau while drain voltage changes; compare the voltage/current overlap.",
+          "zh": "观察栅压在平台附近暂缓变化时，漏压正在改变，并留意电压和电流的交叠。"
+        },
+        "boundary": {
+          "en": "Nothing mechanically moves. The stages are prescribed, and the current does not include every charging or recovery current.",
+          "zh": "没有机械门在移动；阶段由模型规定，图中电流未包含所有充电和恢复电流。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Miller charge is the gate-drain charge transferred during a drain-voltage transition; finite gate current sets its transition time.",
+          "zh": "Miller电荷是漏压变化期间转移的栅漏电荷；有限栅电流决定转换时间。"
+        },
+        "equation": {
+          "expression": "Q_gd=∫C_gd(v)dv; I_g≈(V_drive−V_plateau)/R_g; t_M≈Q_gd/I_g; E_oss=∫₀^V vC_oss(v)dv",
+          "units": "Q_gd: C; C_gd,C_oss: F; I_g: A; R_g: Ω; V: V; t_M: s; E_oss: J",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Plateau current is treated as constant and switching stages are prescribed. Nonlinear capacitance requires integration; E_oss is not generally ½C_oss(V)V².",
+          "zh": "平台电流视为恒定，开关阶段预先规定；非线性电容必须积分，E_oss通常不等于½C_oss(V)V²。"
+        },
+        "exercise": {
+          "question": {
+            "en": "For Q_gd=4 nC, V_drive=10 V, V_plateau=4 V and R_g=10 Ω, estimate t_M.",
+            "zh": "Q_gd=4 nC、驱动10 V、平台4 V、R_g=10 Ω，估算Miller时间。"
+          },
+          "answer": {
+            "en": "I_g=0.6 A and t_M≈6.67 ns; illustrative exercise values differ from the recorded case.",
+            "zh": "I_g=0.6 A，t_M约6.67 ns；本练习假设值与保存工况不同。"
+          },
+          "numeric_check": {
+            "value": 6.666666666666668e-09,
+            "rounded_answer": 6.67e-09,
+            "unit": "s",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "C_gd and C_oss follow authored nonlinear voltage laws; channel overlap, capacitance storage and diode recovery are distinct quantities.",
+          "zh": "C_gd、C_oss采用人为非线性电压规律，沟道交叠、电容储能及二极管恢复分开处理。"
+        },
+        "derivation_or_question": {
+          "en": "Integrate the charge law and invert it for V_DS(t). Audit the subtraction of instantaneous R_on I² baseline from channel-overlap energy.",
+          "zh": "积分电荷式并反解V_DS(t)，审查从沟道交叠能量中扣除瞬时R_on I²导通基线的处理。"
+        },
+        "validity_and_error": {
+          "en": "Stagewise quadrature refines the assumed trajectory; this is not a coupled charge-conserving compact MOS model or a SOA prediction.",
+          "zh": "分阶段积分细化假设轨迹；它不是耦合电荷守恒MOS紧凑模型，也不预测SOA。"
+        },
+        "extension_and_evidence": {
+          "en": "Need bias/temperature C–V, gate-charge and double-pulse traces with de-embedded current definitions; separate measured E_on contributions before fitting.",
+          "zh": "需偏置/温度C–V、栅电荷和去嵌入双脉冲波形，并明确电流定义；拟合前先分清实测E_on的组成。"
+        }
+      },
+      "recorded_case": {
+        "id": "P01_100V_25C",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "Miller_charge_C": 4.6239994319211624e-09,
+          "Miller_on_duration_s": 6.377930250925742e-09,
+          "Miller_off_duration_s": 5.504761228477574e-09,
+          "plateau_V": 4.2,
+          "channel_overlap_on_J": 3.7328871485447823e-07,
+          "channel_overlap_off_J": 3.5178175129389247e-07,
+          "gate_charge_C": 1.2623999431921162e-08,
+          "Qoss_C": 3.478775382679627e-08,
+          "Eoss_J": 1.4957550765359254e-06
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Prescribed staged commutation, not a coupled charge-conserving MOS compact model. Ichannel excludes Coss displacement and diode recovery. Fixed-C Miller appeared in V2 X01; this bench adds nonlinear charge, separate overlap/storage energies and temperature sweeps. No breakdown, avalanche, SOA, gate overshoot or layout extraction. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "人为规定阶段的换流模型，非完整电荷守恒MOS紧凑模型；沟道电流不含Coss位移和二极管恢复。V2 X01已有固定电容Miller，本版增强非线性电荷、分离交叠/储能及温度扫描；不含击穿、雪崩、SOA、栅过冲或版图提取。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    },
+    {
+      "id": "P02",
+      "name": {
+        "en": "Dead-time diode and reverse recovery",
+        "zh": "死区二极管与反向恢复"
+      },
+      "kind": "prescribed_mechanism_bench",
+      "catalogue_kind": "mechanism_demo",
+      "assets": {
+        "gif_id": "P02",
+        "gif_path": "simulation/V3-3/education/gifs/P02.gif",
+        "print_ids": [
+          "V33_P02"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P02.stl"
+        ],
+        "recorded_case_id": "P02_100V_25C",
+        "animation_kind": "PIECEWISE TRANSIENT",
+        "axis": {
+          "en": "Physical time (us)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S02"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "When two gates take turns, a short pause avoids opening both together. During the pause, another path carries the flow.",
+          "zh": "两道门轮流开时，中间留一点空档，避免同时打开；空档里由另一条路承接流量。"
+        },
+        "observe": {
+          "en": "Watch the small negative switch-node level during dead time. The recovery pulse is a separate trace, not part of the plotted inductor current.",
+          "zh": "观察死区时开关节点略低于零；恢复脉冲是另一条独立曲线，不是已画电感电流的一部分。"
+        },
+        "boundary": {
+          "en": "The spare path is a diode. A prescribed triangle illustrates recovery; it does not show actual stored carriers leaving a junction.",
+          "zh": "承接的是二极管通路；三角形脉冲只是恢复示意，并非逐个计算存储载流子离开结区。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Dead time prevents simultaneous switch commands but permits diode conduction. Reverse-recovery charge is the time integral of reverse recovery current.",
+          "zh": "死区避免上下管同时收到导通指令，但可产生二极管导通；反向恢复电荷为恢复电流的时间积分。"
+        },
+        "equation": {
+          "expression": "Q_rr=I_pk t_rr/2; E_bus,rr≈V_in Q_rr; P_dead≈2t_d f_s V_F I_out",
+          "units": "Q_rr: C; I_pk,I_out: A; t_rr,t_d: s; V_in,V_F: V; f_s: Hz; E: J; P: W",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "A triangular prescribed recovery pulse and CCM are assumed. V_in Q_rr is a full-bus energy estimate, not measured diode heat.",
+          "zh": "假设三角恢复脉冲及连续导通；V_in Q_rr为全母线换流能量估算，并非实测二极管发热。"
+        },
+        "exercise": {
+          "question": {
+            "en": "Q_rr=12 nC and t_rr=60 ns. Find I_pk and the bus-energy estimate at 100 V.",
+            "zh": "Q_rr=12 nC、t_rr=60 ns，求峰值恢复电流及100 V下母线能量估算。"
+          },
+          "answer": {
+            "en": "I_pk=0.4 A; E_bus,rr≈1.2 µJ. Do not label the latter as heat in one diode.",
+            "zh": "I_pk=0.4 A，母线能量约1.2 µJ；不能把后者标为单只二极管的热量。"
+          },
+          "numeric_check": {
+            "value": 0.4,
+            "rounded_answer": 0.4,
+            "unit": "A",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "Four ideal phases set the inductor trajectory; a separately specified recovery pulse does not feed back into the switch node.",
+          "zh": "四个理想阶段决定电感轨迹，独立规定的恢复脉冲不反馈到开关节点。"
+        },
+        "derivation_or_question": {
+          "en": "Integrate inductor volt-seconds across HS/dead/LS/dead intervals; derive the duty correction caused by two diode-drop intervals.",
+          "zh": "积分高侧/死区/低侧/死区各阶段的电感伏秒，推导两段二极管压降引起的占空比修正。"
+        },
+        "validity_and_error": {
+          "en": "Closed-form trajectories already have negligible discretization error. Carrier transport, Coss commutation and gate overlap remain uncoupled.",
+          "zh": "闭式轨迹的离散误差已很小；载流子输运、Coss换流及栅交叠仍未耦合。"
+        },
+        "extension_and_evidence": {
+          "en": "Measure recovery versus current, temperature, di/dt and reverse voltage; couple those results to a validated commutation loop before optimizing dead time.",
+          "zh": "需测量电流、温度、di/dt及反压相关恢复特性；与经验证的换流环耦合后才能优化死区。"
+        }
+      },
+      "recorded_case": {
+        "id": "P02_100V_25C",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "duty_fraction": 0.12016,
+          "minimum_IL_A": 0.7885184000000001,
+          "ripple_IL_A": 0.4229631999999999,
+          "mean_IL_A": 0.9999999999999998,
+          "diode_deadtime_loss_W": 0.015999999999999952,
+          "volt_second_residual_Vs": 6.776263578034403e-21,
+          "periodic_current_residual_A": 1.3010426069826053e-17,
+          "Qrr_C": 1.2e-08,
+          "peak_recovery_A": 0.4,
+          "recovery_time_s": 6e-08,
+          "recovery_bus_energy_estimate_J": 1.2e-06
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Periodic ideal CCM waveform; recovery pulse is separate from IL and Vsw. Vin Qrr assumes full bus voltage and is not measured diode heat. No stored-charge transport solution, Coss commutation, gate overlap or ringing. V2 X02 already imposed triangular recovery; V3.2 relates it to dead-time sizing and bus-energy accounting. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "周期理想CCM波形；恢复脉冲与IL、Vsw分别计算。VinQrr假定全母线电压，不等同实测二极管热。无载流子输运、Coss换流、栅交叠或振铃。V2 X02已有三角恢复，本版关联死区选取和母线能量核算。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    },
+    {
+      "id": "P03",
+      "name": {
+        "en": "Floating bootstrap supply and UVLO margin",
+        "zh": "浮地自举供电与欠压裕量"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "P03",
+        "gif_path": "simulation/V3-3/education/gifs/P03.gif",
+        "print_ids": [
+          "V33_P03"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P03.stl"
+        ],
+        "recorded_case_id": "P03_100V_25C",
+        "animation_kind": "TIME TRANSIENT",
+        "axis": {
+          "en": "Physical time (us)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S01",
+        "dcdc:S03"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A small battery rides in a lift: its height above the floor changes, but the battery still has its own two ends.",
+          "zh": "一块小电池坐电梯：它离地面的高度改变，但电池仍有自己的两个端点。"
+        },
+        "observe": {
+          "en": "Watch the local supply fall when charge is used and rise when recharging is possible. Compare it with the low-voltage warning line.",
+          "zh": "观察使用电荷时局部电压下降，可补充电荷时回升，并与欠压警戒线比较。"
+        },
+        "boundary": {
+          "en": "The bootstrap part is a capacitor, not a battery. Its local voltage is measured relative to the moving switch node.",
+          "zh": "自举元件是电容，不是电池；其局部电压相对正在变化的开关节点测量。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "A bootstrap capacitor powers the floating high-side driver; its differential voltage V_BS=V_B−V_S must retain adequate supply margin.",
+          "zh": "自举电容为浮动高侧驱动供电；差分电压V_BS=V_B−V_S须保持足够的供电裕量。"
+        },
+        "equation": {
+          "expression": "ΔV_BS=−Q_g/C_boot; ΔV_quiescent=−I_q t_on/C_boot; τ_recharge=R_charge C_boot",
+          "units": "Q_g: C; C_boot: F; I_q: A; t_on,τ: s; R_charge: Ω; ΔV: V",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Gate charge is an impulse and recharge is an RC exponential. UVLO is a margin flag here; it does not suppress gate pulses.",
+          "zh": "栅电荷作为脉冲消耗，补充过程为RC指数充电；此处UVLO仅标记裕量，不会停止栅脉冲。"
+        },
+        "exercise": {
+          "question": {
+            "en": "A 10 nC event draws charge from 100 nF. Ignoring other loads, what is the voltage drop?",
+            "zh": "10 nC电荷从100 nF电容抽取，忽略其他负载，电压下降多少？"
+          },
+          "answer": {
+            "en": "|ΔV|=0.10 V. Add quiescent and leakage charge when doing a complete budget.",
+            "zh": "下降0.10 V；完整预算还须计入静态和漏电消耗。"
+          },
+          "numeric_check": {
+            "value": 0.1,
+            "rounded_answer": 0.1,
+            "unit": "V, droop magnitude",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "An imposed switching schedule alternates depletion and exponential recharge relative to the moving source node.",
+          "zh": "规定的开关时序使电容相对移动源极交替放电和指数充电。"
+        },
+        "derivation_or_question": {
+          "en": "Compose the per-cycle affine voltage map; solve its fixed point and minimum V_BS as duty approaches one.",
+          "zh": "组合每周期仿射电压映射，求不动点及占空比趋近1时的最小V_BS。"
+        },
+        "validity_and_error": {
+          "en": "Exact recursion is numerically converged but excludes negative-SW overcharge, startup charging and real leakage/recovery. It cannot certify high-duty operation.",
+          "zh": "精确递推在数值上收敛，但遗漏负SW过充、启动充电和真实漏电/恢复，不能认证高占空比工作。"
+        },
+        "extension_and_evidence": {
+          "en": "Measure driver current, gate charge, diode behavior and bias-dependent capacitor value; validate startup and worst-case recharge windows.",
+          "zh": "需测量驱动电流、栅电荷、二极管特性及电容偏压特性，并验证启动和最差充电窗口。"
+        }
+      },
+      "recorded_case": {
+        "id": "P03_100V_25C",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "Cboot_F": 1e-07,
+          "Qgate_C": 1.2623999431921162e-08,
+          "steady_pre_gate_V": 9.345134750542961,
+          "steady_min_V": 9.21841475622375,
+          "minimum_simulated_V": 9.21841475622375,
+          "steady_droop_V": 0.12671999431921163,
+          "UVLO_margin_V": 3.2184147562237495,
+          "last_cycle_min_V": 9.21841475622375,
+          "gate_impulse_charge_C": 1.2623999431921162e-08
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "VBS is gate-driver supply relative to switching source, not absolute gate voltage. UVLO flags a sizing violation without disabling the prescribed gate-charge pulses. No negative-SW overcharge, diode leakage/recovery, startup recharge sequence, high-side common-mode isolation or high-duty operation qualification. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "VBS相对开关源极，非绝对栅压；欠压仅标记选值失败，不关闭规定栅电荷脉冲。不含负SW过充、二极管漏电/恢复、启动充电序列、高侧共模隔离或高占空比认证。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    },
+    {
+      "id": "P04",
+      "name": {
+        "en": "Level-shifter common-mode disturbance",
+        "zh": "电平移位接收端共模扰动"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "P04",
+        "gif_path": "simulation/V3-3/education/gifs/P04.gif",
+        "print_ids": [
+          "V33_P04"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P04.stl"
+        ],
+        "recorded_case_id": "P04_100V_25C_strong",
+        "animation_kind": "TIME TRANSIENT",
+        "axis": {
+          "en": "Physical time (ns)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S04",
+        "dcdc:S10"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A quick push on one side of a soft divider can disturb the other side even without a direct opening.",
+          "zh": "在柔软隔板一边猛推一下，即使没有开口，另一边也会受扰。"
+        },
+        "observe": {
+          "en": "Watch a fast common-voltage edge produce a short receiver-voltage bump, then decay through the discharge path.",
+          "zh": "观察共同电压快速变化时接收端出现短暂凸起，随后经泄放通路消退。"
+        },
+        "boundary": {
+          "en": "Electrical coupling here uses a tiny capacitor, not a moving wall. The picture does not contain a full logic receiver.",
+          "zh": "这里通过小电容耦合，不是墙在移动；图中没有完整逻辑接收器。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Common-mode slew injects displacement current through parasitic capacitance; receiver impedance converts it into a differential disturbance.",
+          "zh": "共模电压变化通过寄生电容注入位移电流，接收端阻抗将其变为差模扰动。"
+        },
+        "equation": {
+          "expression": "(C_rx+C_cm)dV_rx/dt+V_rx/R_rx=C_cm dV_cm/dt",
+          "units": "C_rx,C_cm: F; V_rx,V_cm: V; R_rx: Ω; dV/dt: V/s",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Unclamped linear RC only. Excursions beyond real supply rails indicate invalid extrapolation; no latch, clamp or CMTI test is implemented.",
+          "zh": "仅未钳位线性RC模型；越过实际电源轨的值提示外推失效；未实现锁存、钳位或CMTI测试。"
+        },
+        "exercise": {
+          "question": {
+            "en": "For C_cm=30 fF and slew=10 V/ns, find injected current.",
+            "zh": "C_cm=30 fF、变化率10 V/ns，求注入电流。"
+          },
+          "answer": {
+            "en": "I=C_cm·slew=0.30 mA; receiver voltage additionally depends on R, C and edge duration.",
+            "zh": "I=0.30 mA；接收端电压还取决于R、C及边沿持续时间。"
+          },
+          "numeric_check": {
+            "value": 0.0003,
+            "rounded_answer": 0.0003,
+            "unit": "A",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "A prescribed linear edge drives a first-order RC network with no nonlinear rail limiting.",
+          "zh": "预设线性边沿驱动一阶RC网络，没有非线性电源轨限幅。"
+        },
+        "derivation_or_question": {
+          "en": "For a constant slew S, derive V_peak=R_rx C_cm S[1−exp(−t_r/τ)] with τ=R_rx(C_rx+C_cm); compare short- and long-edge limits.",
+          "zh": "恒定变化率S下推导峰值R_rx C_cm S[1−exp(−t_r/τ)]，其中τ=R_rx(C_rx+C_cm)，比较短、长边沿极限。"
+        },
+        "validity_and_error": {
+          "en": "An analytic peak only validates this RC reduction. The cited 20 V and 400 V circuits neither calibrate it nor prove any catalogued foundry rating.",
+          "zh": "解析峰值只验证此RC简化；所引20 V和400 V电路既未校准本模型，也不能证明目录中晶圆厂的耐压。"
+        },
+        "extension_and_evidence": {
+          "en": "Need extracted coupling, receiver clamp I–V, latch sensitivity and measured positive/negative common-mode transients before a CMTI claim.",
+          "zh": "作CMTI声明前，需要提取耦合参数、接收端钳位I–V、锁存敏感性以及正负共模瞬态实测。"
+        }
+      },
+      "recorded_case": {
+        "id": "P04_100V_25C_strong",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "common_mode_slew_V_per_s": 10000000000.0,
+          "rise_time_s": 1e-08,
+          "peak_receiver_disturbance_V": 0.15,
+          "comparator_noise_margin_V": 0.5499999999999999,
+          "threshold_crossed": 0,
+          "Ccm_F": 3e-14,
+          "receiver_tau_s": 1.1500000000000002e-10,
+          "receiver_R_ohm": 500
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Unclamped linear RC susceptibility only. Receiver excursions beyond a real logic rail signal model invalidity/risk; no receiver clamp or latch transistor network is modeled. This is not a level-shifter implementation, isolation test or CMTI certification. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "仅未钳位线性RC敏感性；超过实际逻辑电源的电压提示模型适用边界/风险，未建模输入钳位或锁存晶体管。不代表完整电平移位电路、隔离测试或CMTI认证。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    },
+    {
+      "id": "P05",
+      "name": {
+        "en": "Current-sense amplifier and delayed comparator",
+        "zh": "电流检测放大器与延迟比较器"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "P05",
+        "gif_path": "simulation/V3-3/education/gifs/P05.gif",
+        "print_ids": [
+          "V33_P05"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P05.stl"
+        ],
+        "recorded_case_id": "P05_25C",
+        "animation_kind": "TIME TRANSIENT",
+        "axis": {
+          "en": "Physical time (ns)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S05",
+        "dcdc:S12"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A scale measures a load, and an alarm rings after the reading becomes large enough. Both reading and ringing take time.",
+          "zh": "秤测出重量，读数足够大时警铃响起；读数变化和响铃都需要时间。"
+        },
+        "observe": {
+          "en": "Watch current step first, the amplifier respond next, and the comparator change state later.",
+          "zh": "观察电流先跳变，放大器随后响应，比较器再改变状态。"
+        },
+        "boundary": {
+          "en": "The alarm only reports a result here; it does not turn off the current. The circuit senses near ground.",
+          "zh": "本例警铃只报告结果，不会切断电流；检测电路工作在接近地电位处。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "A shunt converts current into voltage; finite amplifier bandwidth and comparator delay determine detection timing.",
+          "zh": "分流电阻把电流转为电压，放大器有限带宽和比较器延迟决定检测时刻。"
+        },
+        "equation": {
+          "expression": "V_s=R_s I; τ dV_a/dt+V_a=G R_s I+V_os; I_trip,DC=(V_th−V_os)/(G R_s)",
+          "units": "R_s: Ω; I: A; V_s,V_a,V_os,V_th: V; G: dimensionless; τ: s",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Low-side, linear, ground-referenced bench. V_os is applied at the amplifier output in this equation; no saturation or real shutdown loop exists.",
+          "zh": "低侧、线性、地参考测试台；此式V_os加在放大器输出侧，没有饱和或真实关断闭环。"
+        },
+        "exercise": {
+          "question": {
+            "en": "With G=20, R_s=0.05 Ω, V_th=2 V and V_os=1 mV, find the DC trip current.",
+            "zh": "G=20、R_s=0.05 Ω、V_th=2 V、V_os=1 mV，求直流触发电流。"
+          },
+          "answer": {
+            "en": "I_trip,DC=1.999 A. The transient alert occurs later because bandwidth and propagation delay matter.",
+            "zh": "直流触发电流1.999 A；瞬态告警会因带宽和传播延迟而更晚。"
+          },
+          "numeric_check": {
+            "value": 1.999,
+            "rounded_answer": 1.999,
+            "unit": "A",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "The input current is prescribed; a first-order amplifier and fixed 35 ns comparator delay are deterministic.",
+          "zh": "输入电流预设，一阶放大器及固定35 ns比较器延迟均为确定性假设。"
+        },
+        "derivation_or_question": {
+          "en": "Solve the exponential crossing time before adding propagation delay. Explain why total alert delay is not equal to comparator-only delay.",
+          "zh": "先解指数响应的过阈值时间，再加传播延迟；解释完整告警链延迟为何不等于比较器本体延迟。"
+        },
+        "validity_and_error": {
+          "en": "Event placement is refined, while the analytic trip-time metric was already exact. Offset is assumed; noise, blanking and common-mode recovery are absent.",
+          "zh": "改进的是事件定位，解析触发时刻指标原已精确；失调是假设，未含噪声、消隐及共模恢复。"
+        },
+        "extension_and_evidence": {
+          "en": "Measure step response, offset drift, threshold dispersion and delay versus overdrive; high-side sensing needs an additional verified common-mode design.",
+          "zh": "需测阶跃响应、失调漂移、阈值分散及过驱相关延迟；高侧检测还需要另行验证的共模设计。"
+        }
+      },
+      "recorded_case": {
+        "id": "P05_25C",
+        "temperature_C": 25,
+        "input_V": null,
+        "metrics": {
+          "sense_resistance_ohm": 0.05,
+          "amplifier_offset_V": 0.001,
+          "nominal_trip_current_A": 1.999,
+          "analog_crossing_time_s": 1.9152912315410715e-07,
+          "trip_time_s": 2.2652912315410716e-07,
+          "response_delay_s": 1.2652912315410717e-07,
+          "sense_loss_at_1A_W": 0.05,
+          "sampled_trip_time_s": 2.2652912315410716e-07,
+          "sampled_trip_timing_error_s": 0.0
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Low-voltage ground-referenced sensing bench. No HV input/common-mode rating, amplifier saturation, input clamp, blanking, random noise, metastability, shunt inductance or actual cycle-by-cycle turn-off. Delay is assumed, not a guaranteed device specification. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "低压地参考检测台；无高压共模额定、放大器饱和、输入钳位、消隐、随机噪声、亚稳态、取样寄生电感及实际逐周期关断。延迟为假设，非器件保证值。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    },
+    {
+      "id": "P06",
+      "name": {
+        "en": "HV startup supply and hysteretic UVLO",
+        "zh": "高压启动供电与迟滞欠压锁定"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "P06",
+        "gif_path": "simulation/V3-3/education/gifs/P06.gif",
+        "print_ids": [
+          "V33_P06"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P06.stl"
+        ],
+        "recorded_case_id": "P06_100V_25C",
+        "animation_kind": "TIME TRANSIENT",
+        "axis": {
+          "en": "Physical time (ms)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S06",
+        "dcdc:S11"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A toy waits until its energy cup is full enough to start, and stops only when the level falls to a lower mark.",
+          "zh": "玩具等“能量杯”装到较高刻度才启动，降到较低刻度才停止。"
+        },
+        "observe": {
+          "en": "Watch the auxiliary voltage cross 9 V to enable, and 7 V to disable during the interruption.",
+          "zh": "观察辅助电压越过9 V时开启，供电中断时降到7 V关闭。"
+        },
+        "boundary": {
+          "en": "The cup is a capacitor and the marks are voltage thresholds. The model is not a physical high-voltage startup transistor.",
+          "zh": "杯子比喻电容，刻度比喻电压阈值；模型并非真实高压启动晶体管。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Startup current charges an auxiliary supply; UVLO hysteresis uses distinct enable and disable thresholds to avoid immediate toggling.",
+          "zh": "启动电流给辅助供电电容充电，UVLO迟滞采用不同开启和关闭阈值以避免立即反复翻转。"
+        },
+        "equation": {
+          "expression": "C_aux dV_aux/dt=I_start−I_load−I_clamp; Δt=C_aux ΔV/I_net (constant I_net)",
+          "units": "C_aux: F; V_aux: V; I_start,I_load,I_clamp,I_net: A; Δt: s",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Behavioral current source with compliance and an ideal 11 V clamp; 9 V enable/7 V disable. Constant-current timing applies only before compliance or state changes.",
+          "zh": "行为电流源具有顺从限制，11 V理想钳位，9 V开启、7 V关闭；恒流计时仅适用于顺从限制或状态切换前。"
+        },
+        "exercise": {
+          "question": {
+            "en": "Starting at 0 V, C_aux=1 µF, I_start=1 mA and disabled load=40 µA. How long to 9 V if compliance permits?",
+            "zh": "从0 V开始，C_aux=1 µF、启动1 mA、关闭时负载40 µA；若电流源顺从范围允许，多久达到9 V？"
+          },
+          "answer": {
+            "en": "I_net=0.96 mA; t=9.375 ms. Use different net current after enable.",
+            "zh": "净电流0.96 mA，时间9.375 ms；开启后须改用新的净电流。"
+          },
+          "numeric_check": {
+            "value": 0.009375,
+            "rounded_answer": 0.009375,
+            "unit": "s",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "Piecewise load states, an imposed interruption and an ideal clamp replace a full bias-generator circuit.",
+          "zh": "分段负载状态、预设中断与理想钳位代替完整偏置发生电路。"
+        },
+        "derivation_or_question": {
+          "en": "Derive threshold event times and integrate source dissipation (V_in−V_aux)I_start. Which domain changes invalidate a constant-current segment?",
+          "zh": "推导阈值事件时刻，积分源损耗(V_in−V_aux)I_start；哪些工作域变化会使恒流分段失效？"
+        },
+        "validity_and_error": {
+          "en": "Event-aligned exactness holds only in the checked constant-current domain. No JFET transport, handover circuit, clamp SOA or startup-rating guarantee is modeled.",
+          "zh": "事件对齐的精确性仅限已检查的恒流域；未模拟JFET输运、接管电路、钳位SOA或保证启动范围。"
+        },
+        "extension_and_evidence": {
+          "en": "Require startup I–V/compliance, leakage, auxiliary handover and threshold distributions across input and temperature.",
+          "zh": "需不同输入和温度下的启动I–V/顺从范围、漏电、辅助供电接管及阈值分布。"
+        }
+      },
+      "recorded_case": {
+        "id": "P06_100V_25C",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "first_enable_s": 0.009375,
+          "enable_events": 2,
+          "brownout_events": 1,
+          "peak_source_dissipation_W": 0.1,
+          "peak_Vaux_V": 11.0,
+          "start_current_limit_A": 0.001,
+          "source_compliance_resistance_ohm": 20000.0
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Behavioral startup current source, not a JFET transistor model. The source remains on except for an imposed interruption. No real auxiliary winding handover, high-voltage reliability, clamp SOA, leakage, power-on reset timing or guaranteed start-up range. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "启动限流源为行为模型，非JFET晶体管模型；除规定中断外保持开启。不含真实辅助绕组接管、高压可靠性、钳位SOA、漏电、上电复位时序或保证启动范围。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    },
+    {
+      "id": "P07",
+      "name": {
+        "en": "Switch-node parasitic ringing and damping",
+        "zh": "开关节点寄生振铃与阻尼"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "P07",
+        "gif_path": "simulation/V3-3/education/gifs/P07.gif",
+        "print_ids": [
+          "V33_P07"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P07.stl"
+        ],
+        "recorded_case_id": "P07_100V_damped",
+        "animation_kind": "TIME TRANSIENT",
+        "axis": {
+          "en": "Physical time (ns)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S07"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A swing moves back and forth after a push. Friction gradually turns its stored motion into heat.",
+          "zh": "秋千被推一下后会来回摆动，摩擦逐渐把储存的运动能量变成热。"
+        },
+        "observe": {
+          "en": "Watch the excess voltage and current exchange energy while the oscillation becomes smaller.",
+          "zh": "观察多余电压和电流交替变化，振荡逐渐变小。"
+        },
+        "boundary": {
+          "en": "The circuit stores electric and magnetic energy, not swinging motion. Its starting push is chosen by the model.",
+          "zh": "电路储存电场能和磁场能，并非机械摆动；初始“推力”是模型预设的。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "A series RLC free response transfers energy between capacitor and inductor; resistance dissipates it.",
+          "zh": "串联RLC自由响应在电容与电感间交换能量，由电阻耗散。"
+        },
+        "equation": {
+          "expression": "R_critical=2√(L/C); E=½Cv²+½Li²; dE/dt=−Ri²",
+          "units": "R: Ω; L: H; C: F; v: excess V around bus; i: A; E: J; t: s",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Linearized series RLC about the bus, prescribed initial disturbance. The critical resistance is not a value to copy into a parallel RC snubber.",
+          "zh": "母线附近的线性化串联RLC，初始扰动预设；该临界电阻不能照搬到并联RC吸收器。"
+        },
+        "exercise": {
+          "question": {
+            "en": "For L=15 nH and C=250 pF, find series critical resistance.",
+            "zh": "L=15 nH、C=250 pF，求串联临界电阻。"
+          },
+          "answer": {
+            "en": "R_critical≈15.49 Ω. The actual recorded capacitance depends on the input-bias assumption.",
+            "zh": "临界电阻约15.49 Ω；已保存工况的电容随输入偏置假设而变。"
+          },
+          "numeric_check": {
+            "value": 15.491933384829666,
+            "rounded_answer": 15.49,
+            "unit": "Ω",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "A constant Coss linearization, fixed L and R, and an imposed voltage excess form an unforced second-order system.",
+          "zh": "恒定Coss线性化、固定L/R及预设过压构成无外驱二阶系统。"
+        },
+        "derivation_or_question": {
+          "en": "Use the characteristic polynomial to derive critical damping, then prove energy decay from the two state equations.",
+          "zh": "由特征多项式推导临界阻尼，再由两条状态方程证明能量衰减。"
+        },
+        "validity_and_error": {
+          "en": "Quadrature refinement improves the energy audit; the initial peak is imposed, not predicted from a switching edge. No EMI or repetitive snubber power follows.",
+          "zh": "细化积分改进能量核算；初始峰值是给定而非由开关边沿预测，不能据此推算EMI或周期吸收功率。"
+        },
+        "extension_and_evidence": {
+          "en": "Measure ringing frequency and decay, extract loop parasitics, then validate a separately specified snubber topology and its dissipation.",
+          "zh": "需测振铃频率与衰减、提取回路寄生，再验证另行指定的吸收器拓扑及损耗。"
+        }
+      },
+      "recorded_case": {
+        "id": "P07_100V_damped",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "Lpar_H": 1.5e-08,
+          "Clinearized_F": 2.4494897427831785e-10,
+          "Rseries_ohm": 12.520676640586299,
+          "Rcritical_series_ohm": 15.650845800732872,
+          "damping_ratio": 0.8,
+          "peak_Vsw_V": 115.0,
+          "initial_ring_energy_J": 2.755675960631076e-08,
+          "energy_residual_J": 6.875342921081425e-15,
+          "integrated_damping_energy_J": 2.755676648165368e-08
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Linearized series-RLC surrogate about a bus voltage, not a literal shunt RC snubber design. Initial disturbance amplitude is prescribed. No switching-edge excitation, EMI prediction, nonlinear Coss or snubber recurring power estimate. Do not copy its Rcritical into a real shunt snubber. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "母线附近线性化串联RLC替代模型，不是实际并联RC吸收器设计；初始扰动人为规定。无开关边沿激励、EMI预测、非线性Coss或吸收器周期功率；不得将临界电阻直接用于真实并联吸收器。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    },
+    {
+      "id": "P08",
+      "name": {
+        "en": "DC/DC separated losses and thermal budget",
+        "zh": "DC/DC分项损耗与热预算"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "P08",
+        "gif_path": "simulation/V3-3/education/gifs/P08.gif",
+        "print_ids": [
+          "V33_P08"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P08.stl"
+        ],
+        "recorded_case_id": "P08_100V_25C",
+        "animation_kind": "THERMAL TRANSIENT",
+        "axis": {
+          "en": "Physical time (s)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S01",
+        "dcdc:S02",
+        "dcdc:S08"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "An energy budget is like tracking where pocket money goes. Energy used as heat is no longer delivered to the load.",
+          "zh": "能量账本像记录零花钱花到哪里；变成热的能量就不能送给负载。"
+        },
+        "observe": {
+          "en": "Compare the fixed loss bars, then watch one shared temperature rise toward its final level.",
+          "zh": "比较固定的损耗条形，再看一个共同温度逐渐接近最终水平。"
+        },
+        "boundary": {
+          "en": "The bars are steady losses, not moving heat maps. The shared temperature is not the temperature of each transistor junction.",
+          "zh": "条形表示稳态损耗，不是会流动的热图；共同温度也不是每只晶体管的结温。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "A loss ledger sums distinct energy mechanisms; a thermal resistance/capacitance converts assumed loss into an effective temperature rise.",
+          "zh": "损耗账本对不同能量机制分别求和，热阻/热容把假设损耗换算为等效温升。"
+        },
+        "equation": {
+          "expression": "T_hot=T_amb+R_θ P_loss; τ_θ=R_θ C_θ; η=P_out/(P_out+P_loss)",
+          "units": "T: °C or K (differences in K); R_θ: K/W; P: W; C_θ: J/K; τ_θ: s; η: dimensionless",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "One effective node, not device junctions. The transient holds converged loss fixed; thermal coefficients and omitted core/ESR losses are not calibrated.",
+          "zh": "单个等效热节点，并非器件结温；瞬态固定收敛后的损耗，热系数及遗漏的磁芯/ESR损耗未校准。"
+        },
+        "exercise": {
+          "question": {
+            "en": "For 2 W fixed loss, R_θ=8 K/W and ambient 25 °C, find steady node temperature.",
+            "zh": "固定损耗2 W、热阻8 K/W、环境25 °C，求稳态节点温度。"
+          },
+          "answer": {
+            "en": "T_hot=41 °C. This calculation does not provide the maximum temperature inside an actual package.",
+            "zh": "T_hot=41 °C；这不代表真实封装内部的最高温度。"
+          },
+          "numeric_check": {
+            "value": 41,
+            "rounded_answer": 41,
+            "unit": "°C",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "Matched Coss curves and one hard upper turn-on per cycle yield E_upper+(V_in Q_lower−E_lower)=V_in Qoss; Qrr and load-channel overlap are separate.",
+          "zh": "匹配Coss、每周期一次高侧硬导通，使E_upper+(V_in Q_lower−E_lower)=V_in Qoss；Qrr与负载沟道交叠分列。"
+        },
+        "derivation_or_question": {
+          "en": "Derive the matched-capacitance energy identity without assuming constant capacitance. For thermal fixed-point iteration, examine |R_θ dP/dT| near the solution.",
+          "zh": "不假设恒定电容，推导匹配双电容能量恒等式；对热不动点迭代，考察解附近|R_θ dP/dT|。"
+        },
+        "validity_and_error": {
+          "en": "Tight residuals certify the ledger calculation only. Full E_on must not be added again to separately counted overlap/Coss/Qrr; no measured efficiency claim is made.",
+          "zh": "小残差只证明账本运算；已分别计入交叠/Coss/Qrr时不可再叠加完整E_on，不宣称实测效率。"
+        },
+        "extension_and_evidence": {
+          "en": "Need loss-resolved double-pulse data, magnetic/ESR loss and multi-node transient thermal measurements under a specified PCB/cooling condition.",
+          "zh": "需分项双脉冲损耗、磁性/ESR损耗及指定PCB和散热条件下的多节点瞬态热测量。"
+        }
+      },
+      "recorded_case": {
+        "id": "P08_100V_25C",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "total_loss_W": 1.7792470982088155,
+          "estimated_efficiency": 0.8708748681602421,
+          "steady_hot_node_C": 39.23397678567045,
+          "thermal_fixed_point_residual_K": -7.460698725481052e-14,
+          "Rtheta_K_per_W": 8.0,
+          "Ctheta_J_per_K": 0.025,
+          "parameter_temperature_range_exceeded": 0,
+          "Coss_upper_discharge_J": 1.4957550765359254e-06,
+          "Coss_lower_charging_loss_J": 1.9830203061437018e-06,
+          "Coss_hard_commutation_J": 3.478775382679627e-06,
+          "high_side_conduction_W": 0.023199633314191496,
+          "low_side_conduction_W": 0.166016239744868,
+          "inductor_copper_W": 0.1287182809925575,
+          "channel_overlap_W": 0.18143689622855366,
+          "Coss_commutation_W": 0.8696938456699067,
+          "recovery_bus_estimate_W": 0.3213509651785057,
+          "gate_driver_supply_W": 0.06311591661594602,
+          "deadtime_diode_W": 0.015715320464286548,
+          "assumed_control_supply_W": 0.01
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "A ledger, not one self-consistent switched electrical/thermal simulation. Two matched Coss curves, one hard upper turn-on per cycle, opposite edge ideal energy redistribution; Coss subterm energies are explanatory and only their sum enters the loss ledger. Overlap includes load-channel current only; Qrr is separate, with no reused full Eon. Vin Qrr is conservative full-bus energy, not diode heat. All heat shares one effective node, not a MOS junction; the thermal transient holds converged loss constant. No core/ESR/reliability/layout loss or measured efficiency. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "此为预算表，非完整自洽开关电热仿真；两管Coss相同，每周期一次高侧硬导通，另一边沿假定理想能量再分配；Coss子项能量用于解释，仅其和计入损耗。交叠仅含负载沟道电流，Qrr单列，不重复使用完整Eon。VinQrr为全母线保守能量，非二极管热；所有热量共用一个等效节点，非MOS结温，热瞬态固定收敛损耗。不含磁芯、ESR、可靠性、版图损耗或实测效率。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    },
+    {
+      "id": "P09",
+      "name": {
+        "en": "Averaged buck soft-start and current-reference limit",
+        "zh": "平均Buck软启动与电流参考限幅"
+      },
+      "kind": "circuit_system_bench",
+      "catalogue_kind": "circuit_bench",
+      "assets": {
+        "gif_id": "P09",
+        "gif_path": "simulation/V3-3/education/gifs/P09.gif",
+        "print_ids": [
+          "V33_P09"
+        ],
+        "stl_paths": [
+          "printing/stl/V33_P09.stl"
+        ],
+        "recorded_case_id": "P09_100V_25C",
+        "animation_kind": "AVERAGED TRANSIENT",
+        "axis": {
+          "en": "Physical time (ms)",
+          "zh": "物理时间（播放速度经过调整）"
+        }
+      },
+      "source_ids": [
+        "dcdc:S06",
+        "dcdc:S09"
+      ],
+      "beginner": {
+        "analogy": {
+          "en": "A helper turns the target up slowly at startup. If too many toys ask for power, the helper reaches a limit and the output can fall.",
+          "zh": "小助手启动时慢慢提高目标；若太多玩具同时要电，助手达到上限，输出就可能下降。"
+        },
+        "observe": {
+          "en": "Watch the reference ramp, then the extra load at 4 ms. The current command stops increasing and output voltage falls.",
+          "zh": "观察参考缓升及4 ms处负载增加；电流指令不再上升，输出电压随之下降。"
+        },
+        "boundary": {
+          "en": "This movie shows averages. It does not show each switching pulse or promise a safe limit for every current peak.",
+          "zh": "动画显示平均量；没有逐个开关脉冲，也不保证每个电流尖峰都被安全限制。"
+        }
+      },
+      "undergraduate": {
+        "definition": {
+          "en": "Soft-start ramps the reference; a PI voltage loop requests current through a finite-bandwidth inner loop, with a clipped current reference.",
+          "zh": "软启动使参考缓升，PI电压环经有限带宽内环请求电流，且电流参考被限幅。"
+        },
+        "equation": {
+          "expression": "L di/dt=D V_in−Ri−v; C dv/dt=i−v/R_load; i_ref≤1.6 A",
+          "units": "L: H; C: F; R,R_load: Ω; i,i_ref: A; v,V_in: V; D: dimensionless; t: s",
+          "context": {
+            "en": "Teaching relationship; use the stated conditions and the model card for the full implemented law.",
+            "zh": "教学关系式；须结合适用条件，完整实现见模型卡。"
+          }
+        },
+        "conditions": {
+          "en": "Continuous averaged duty and conditional-integration anti-windup. The 1.6 A command ceiling is not cycle-by-cycle peak-current protection.",
+          "zh": "连续平均占空比，采用条件积分抗饱和；1.6 A指令上限不是逐周期峰值电流保护。"
+        },
+        "exercise": {
+          "question": {
+            "en": "If the average current settles to 1.6 A into 6 Ω, what output voltage can be sustained?",
+            "zh": "若平均电流稳定为1.6 A、负载6 Ω，可维持多少输出电压？"
+          },
+          "answer": {
+            "en": "V_out=1.6×6=9.6 V, below the 12 V target; the current ceiling and target cannot both be satisfied at that load.",
+            "zh": "V_out=9.6 V，低于12 V目标；该负载下无法同时满足限流与电压目标。"
+          },
+          "numeric_check": {
+            "value": 9.600000000000001,
+            "rounded_answer": 9.6,
+            "unit": "V",
+            "role": "authored_hand_calculation_not_a_new_simulation_result"
+          }
+        }
+      },
+      "graduate": {
+        "assumptions": {
+          "en": "Averaged states omit PWM ripple; PI saturation and anti-windup introduce piecewise control behavior. P08 losses are not injected into this plant.",
+          "zh": "平均状态不含PWM纹波，PI饱和及抗饱和引入分段控制行为；功率级未注入P08损耗。"
+        },
+        "derivation_or_question": {
+          "en": "Derive the averaged plant and current-limited equilibrium; compare control saturation events under RK4 step refinement and an adaptive reference solver.",
+          "zh": "推导平均功率级和限流平衡点，比较RK4步长细化与自适应参考求解器的控制饱和事件。"
+        },
+        "validity_and_error": {
+          "en": "The reference’s tolerance comparison is empirical, not a rigorous bound. A 10 µs saved trace cannot resolve sub-cycle spikes or subharmonics.",
+          "zh": "参考解的容差比较为经验估计，并非严格界限；10 µs保存间隔无法分辨周期内尖峰或次谐波。"
+        },
+        "extension_and_evidence": {
+          "en": "Add sampled-cycle control, slope compensation and magnetic saturation only with explicit timing and hardware data; validate load steps independently.",
+          "zh": "只有具备明确时序和硬件数据后，才可增加采样周期控制、斜坡补偿和磁饱和，并独立验证负载阶跃。"
+        }
+      },
+      "recorded_case": {
+        "id": "P09_100V_25C",
+        "temperature_C": 25,
+        "input_V": 100,
+        "metrics": {
+          "peak_output_V": 11.90119715955642,
+          "maximum_IL_A": 1.5999999999999972,
+          "current_reference_limit_A": 1.6,
+          "final_output_V": 9.600000000000218,
+          "final_load_current_A": 1.6000000000000363,
+          "pre_step_output_V": 11.889282407606547,
+          "minimum_post_step_output_V": 9.600000000000218,
+          "maximum_duty": 0.12353455250462998,
+          "integrated_energy_residual_J": -5.182204491915865e-14,
+          "internal_step_s": 5e-07,
+          "saved_stride_steps": 20
+        },
+        "provenance": "simulation/V3-3/numerics/dcdc/simulation.json"
+      },
+      "original_model_limits": {
+        "en": "Continuous averaged duty, not PWM edges. A current-reference ceiling is not cycle-by-cycle peak protection; high-frequency overshoot, blanking and inductor saturation are absent. P08 switching losses are not inserted into this plant. Saved traces are decimated; energy metrics use every integration step. No sampled-cycle, slope-compensation, subharmonic or hardware-stability prediction. Numerical refinement reduces selected discretization errors, not unknown physical modeling error.",
+        "zh": "连续平均占空比，非PWM边沿；电流参考上限不是逐周期峰值保护，无高频过冲、消隐与电感饱和。未将P08开关损耗注入功率级；显示曲线抽取，能量指标使用全部积分步。不预测采样周期、斜坡补偿、次谐波或硬件稳定性。 数值改进降低指定离散误差，不代表未知物理建模误差降低。"
+      }
+    }
+  ]
+}

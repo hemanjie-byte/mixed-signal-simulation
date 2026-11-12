@@ -1,107 +1,19 @@
-# Mixed-Signal Simulation V3-4
+# Mixed-Signal Simulation · V3-5
 
-# 模拟与混合信号仿真 V3-4
+One current edition, three ways to learn. [Start here](V3-5/README.md) · [Download V3-5](https://github.com/hemanjie-byte/mixed-signal-simulation/archive/refs/tags/V3-5.zip) · [Excel](V3-5/Mixed_Signal_Simulation_V3-5_EN_ZH.xlsx)
 
-**V3-4 integration update (2026-11-07):** folders `v32` → [`V3-2`](V3-2/README.md), `v33` → [`V3.3`](V3.3/README.md), and the former `V3-3` sharing entry → [`V3-4`](V3-4/README.md). [Compare all four editions](V3-4/VERSION_COMPARISON.md). The numerical baseline remains **v3.3.0**; this release migrates paths, clarifies navigation and updates the delivery workbook/packages. The recorded numerical results, GIF pixels and STL geometry are preserved.
+一个当前版本，三种学习方式。[使用入口](V3-5/README.md) · [下载 V3-5](https://github.com/hemanjie-byte/mixed-signal-simulation/archive/refs/tags/V3-5.zip) · [Excel](V3-5/Mixed_Signal_Simulation_V3-5_EN_ZH.xlsx)
 
-**V3-4整合更新（2026-11-07）：**目录 `v32` → [`V3-2`](V3-2/README.md)、`v33` → [`V3.3`](V3.3/README.md)，原 `V3-3` 分享入口 → [`V3-4`](V3-4/README.md)。[查看四版异同](V3-4/VERSION_COMPARISON.md)。数值基线仍为 **v3.3.0**；本版迁移路径、梳理导航并更新交付工作簿与压缩包，保留已记录的数值结果、GIF画面与STL几何。
+| Learning edition / 学习版 | Approach / 解释方式 |
+|---|---|
+| [Beginner / 入门版](V3-5/lessons/beginner.md) | Everyday comparisons, observation and short questions.<br>用生活比喻、观察和简短问答帮助小学生建立概念。 |
+| [Undergraduate / 本科版](V3-5/lessons/undergraduate.md) | Definitions, equations with units, conditions and exercises.<br>标准定义、带单位的公式、适用条件及练习。 |
+| [Graduate / 研究生版](V3-5/lessons/graduate.md) | Model assumptions, derivation, error and validation questions.<br>模型假设、推导、误差及验证问题。 |
 
-**Current sharing entry: [V3-4](V3-4/README.md).** The display name is V3-4; the numerical release remains v3.3.0. The [global FAB public-process folder](global-fab-processes/README.md) now provides catalogue revision **2.0**: 59 catalogue entities, 119 records and 28 follow-up/exclusion items, reviewed on 2026-11-06. Entities include subsidiaries and research institutes; these are not counts of independent ownership groups or physical fabs. [Download the V3-4 simulation/FAB core package](V3-4_20261107_core.zip).
+20 numerical demonstrations, 211 cases, 20 English-annotated GIFs and 75 STL teaching entries. The numerical library contains 3 illustrative device models, 1 statistical-parameter demonstration, 2 prescribed switching-mechanism benches and 14 circuit/system benches. [Model validity](V3-5/evidence/VALIDITY.md) states their actual scope; none is calibrated to a foundry PDK or measured silicon.
 
-**当前分享入口：[V3-4](V3-4/README.md)。** 展示名称统一为V3-4，数值版本仍为v3.3.0。[全球FAB公开工艺文件夹](global-fab-processes/README.md)现为目录修订版 **2.0**：59个目录主体、119条记录、28项后续核实/排除说明，核对日期为2026-11-06。主体包含子公司与研究机构，不等于独立集团或实体晶圆厂数量。[下载V3-4仿真/FAB核心包](V3-4_20261107_core.zip)。
+20 项数值演示、211 个工况、20 份英文标注 GIF、75 项 STL 教学条目。数值库含 3 项示意器件模型、1 项统计参数演示、2 项预设开关机理测试台、14 项电路/系统测试台。[模型有效性](V3-5/evidence/VALIDITY.md)逐项说明实际范围；目前均未经过晶圆厂 PDK 或硅片实测校准。
 
-**Printing edition 1.0 (2026-11-07): [75 egg-size STL teaching models](printable-models/README.md).** Each file corresponds to a documented catalogue entry; devices, passive parts, isolation/interconnect structures, mechanisms and circuit benches remain distinct. Models have 60 × 42 mm footprints and enlarged tactile features. [Download the printing bundle](Semiconductor_Teaching_STL_V3-4_20261107.zip).
+The working tree contains one release directory, **V3-5**. Version directories use **VX-X**. Previous editions remain accessible through [version history](VERSIONS.md), without duplicate release ZIPs or old workbooks in the current tree. English appears first, followed by Chinese.
 
-**打印版1.0（2026-11-07）：[75份鸡蛋大小STL教学模型](printable-models/README.md)。** 每份对应明确目录条目，区分器件、无源、隔离/互连结构、机理及电路台；底面60×42毫米，细节为教学放大。[下载打印资料包](Semiconductor_Teaching_STL_V3-4_20261107.zip)。
-
-2026-11-03. Every one of the 20 model views now has its own English-annotated GIF: a mechanism diagram, a moving data cursor, explicit units and a recorded representative case. DC sweeps, physical-time transients and statistical displays are clearly distinguished. The viewer and workbook retain English-first, Chinese-second explanations.
-
-2026-11-03。20项模型视图现在各配一份英文标注GIF，含机理图、移动数据光标、明确单位及已记录的代表工况。直流扫描、物理时间瞬态与统计展示分别标注；演示页及Excel保持英文在前、中文对照。
-
-**Accuracy result:** 12 stated numerical benchmarks demonstrate at least 10% relative error reduction. 7 benchmarks are at a numerical/analytic floor and carry no percentage claim; 1 statistical model reports sampling uncertainty separately. We cannot verify a 10% improvement in every device's physical accuracy without measured or authorized PDK reference data. The detailed before/after errors and limitations are published, including unchanged and diagnostic-only cases.
-
-**准确性结果：**12项注明的数值基准证明误差相对下降至少10%；7项已到数值/解析精度下限，不赋予提升比例；1项统计模型单独报告采样不确定度。缺少实测或授权PDK参考，无法证明所有器件的物理准确率都提升10%。逐项公开前后误差与限制，包含未变化项和仅诊断测试项。
-
-The v3.3.0 baseline contains 211 regenerated cases. 96 recorded checks pass, including preserved-model regression and new numerical-improvement tests. Model count is unchanged: six device/parameter extensions and fourteen circuit/system benches. No new foundry-qualified device is claimed.
-
-v3.3.0基线包含已计算的211个工况。96项记录检查通过，包含旧模型回归及新增数值改进检查。模型数量不变：6项器件/参数增强、14项电路/系统测试台；不声称新增晶圆厂认证器件。
-
-## Open the demonstrations
-
-## 查看演示
-
-- [Bilingual Excel](Mixed_Signal_Simulation_V3_4_EN_ZH.xlsx) — 双语工作簿，含逐模型GIF链接及误差算式
-- [Offline viewer](index.html) — 离线全模型动画库、曲线、数值与概念3D
-- [Current V3-4 simulation/FAB core package](V3-4_20261107_core.zip) — 当前V3-4仿真/FAB核心包
-- [Original v3.3.0 simulation snapshot](mixed-signal-simulation_V3_3_20261103.zip) — 原始仿真发布快照
-- [Numerical accuracy and limits](V3.3/ACCURACY_AND_LIMITS.md) — 数值准确性及边界
-- [Model cards](V3.3/MODEL_CARDS.md) — 模型方程、假设与未覆盖项
-- [Animation guide](V3.3/education/README.md) — 动画说明
-- [Undergraduate buck lesson](V3-2/education/UNDERGRADUATE_TUTORIAL.md) — 大学生Buck课程及练习
-
-Extract the package and open index.html locally in Edge/Chrome; GitHub does not execute HTML previews. Select **20 model GIFs**, then **Open full teaching view**. In the simulation view, the GIF is tied to its labeled representative case; the case selector and sampled-value controls operate the separate numerical plot. Conceptual 3D is available in an expandable section.
-
-解压后用Edge/Chrome本地打开index.html；GitHub预览不执行HTML。选择“全模型动画”，再打开完整教学视图。仿真页的GIF绑定其标注的代表工况；工况选择和采样控件操作独立数值曲线。概念3D位于可展开区域。
-
-![MOS teaching demonstration](V3.3/education/gifs/A01.gif)
-
-| ID | Model / 模型 | Animation / 动画 | Display / 展示类型 |
-|---|---|---|---|
-| A01 | Four-terminal MOS interpolation<br>四端MOS连续插值 | [GIF](V3.3/education/gifs/A01.gif) | DC SWEEP |
-| A02 | Junction charge and varactor<br>结电荷与变容二极管 | [GIF](V3.3/education/gifs/A02.gif) | DC SWEEP |
-| A03 | Reciprocal NPN Ebers–Moll<br>满足互易关系的NPN Ebers–Moll | [GIF](V3.3/education/gifs/A03.gif) | DC SWEEP |
-| A04 | MOS pair mismatch and correlation<br>MOS配对失配与相关性 | [GIF](V3.3/education/gifs/A04.gif) | STATISTICAL SAMPLES |
-| B01 | MOS differential pair<br>MOS差分对 | [GIF](V3.3/education/gifs/B01.gif) | DC SWEEP |
-| B02 | CTAT/PTAT reference sum<br>CTAT/PTAT基准合成 | [GIF](V3.3/education/gifs/B02.gif) | TEMPERATURE SWEEP |
-| B03 | Input noise and sampled kT/C<br>输入噪声与采样kT/C | [GIF](V3.3/education/gifs/B03.gif) | FREQUENCY SWEEP |
-| B04 | Capacitor DAC and SAR ADC<br>电容DAC与SAR ADC | [GIF](V3.3/education/gifs/B04.gif) | SAMPLED SIGNAL |
-| B05 | LDO loop and load step<br>LDO环路与负载阶跃 | [GIF](V3.3/education/gifs/B05.gif) | TIME TRANSIENT |
-| B06 | Phase loop and noise transfer<br>相位环路与噪声传递 | [GIF](V3.3/education/gifs/B06.gif) | TIME TRANSIENT |
-| B07 | 40–150 V synchronous buck<br>40–150V同步降压 | [GIF](V3.3/education/gifs/B07.gif) | SWITCHED TRANSIENT |
-| P01 | HV MOS gate charge and switching overlap<br>高压MOS栅电荷与开关交叠 | [GIF](V3.3/education/gifs/P01.gif) | STAGED TRANSIENT |
-| P02 | Dead-time diode and reverse recovery<br>死区二极管与反向恢复 | [GIF](V3.3/education/gifs/P02.gif) | PIECEWISE TRANSIENT |
-| P03 | Floating bootstrap supply and UVLO margin<br>浮地自举供电与欠压裕量 | [GIF](V3.3/education/gifs/P03.gif) | TIME TRANSIENT |
-| P04 | Level-shifter common-mode disturbance<br>电平移位接收端共模扰动 | [GIF](V3.3/education/gifs/P04.gif) | TIME TRANSIENT |
-| P05 | Current-sense amplifier and delayed comparator<br>电流检测放大器与延迟比较器 | [GIF](V3.3/education/gifs/P05.gif) | TIME TRANSIENT |
-| P06 | HV startup supply and hysteretic UVLO<br>高压启动供电与迟滞欠压锁定 | [GIF](V3.3/education/gifs/P06.gif) | TIME TRANSIENT |
-| P07 | Switch-node parasitic ringing and damping<br>开关节点寄生振铃与阻尼 | [GIF](V3.3/education/gifs/P07.gif) | TIME TRANSIENT |
-| P08 | DC/DC separated losses and thermal budget<br>DC/DC分项损耗与热预算 | [GIF](V3.3/education/gifs/P08.gif) | THERMAL TRANSIENT |
-| P09 | Averaged buck soft-start and current-reference limit<br>平均Buck软启动与电流参考限幅 | [GIF](V3.3/education/gifs/P09.gif) | AVERAGED TRANSIENT |
-
-## What changed numerically
-
-## 数值实现改进
-
-Analytic derivatives replace finite differences where available; cancellation-safe junction charge improves near-zero evaluation; exact linear state propagation replaces selected time stepping; PSD and switching-energy integrals use analytic or higher-order evaluation; event insertion resolves comparator/UVLO transitions; averaged-buck integration treats the reference ramp at intermediate stages. The original physical coefficients and simplified mechanisms remain the comparison basis.
-
-在可用处以解析导数替代差分；稳定结电荷表达式改进近零计算；部分线性状态采用精确传播；PSD与开关能量采用解析或高阶积分；比较器/欠压锁定插入精确事件点；平均Buck积分在中间阶段计算参考斜坡。原物理系数与简化机理仍为前后比较基础。
-
-Some original errors were already tiny: a large relative reduction may change only far-below-measurement digits. A02's percentage concerns a stated near-zero numerical stress test, not the entire original CV sweep. A04 increases draws from 20,000 to 80,000, halving the asymptotic sampling standard error; this particular realized sigma estimate is farther from the analytic value, so it is not counted as a numerical-accuracy success.
-
-部分旧误差本来已极小，因此较大的下降比例可能只改变远低于测量分辨率的末位数字。A02的比例针对明确列出的近零数值压力测试，并非整个原CV扫描。A04样本从20,000增至80,000，使渐近抽样标准误减半；本次实现的标准差估计反而离解析值更远，因此不计为数值准确度达标项。
-
-## Reproduce
-
-## 复现
-
-```bash
-python -m pip install -r V3.3/requirements.txt
-python V3.3/numerics/analog/run.py
-python V3.3/numerics/analog/validate.py
-python V3.3/numerics/dcdc/run.py
-python V3.3/validation/run_legacy_checks.py
-python V3.3/education/render_all.py
-python V3.3/presentation/build_views.py
-```
-
-The numerical runners export data and comparison audits without modifying V3.1/V3.2 inputs. The separate analog `validate.py` command executes and records its tests; the DC/DC runner executes its own validation. GIF hashes record the exact improved data used; rendering fonts may differ across systems. These commands rebuild the V3-4 viewer while retaining the v3.3.0 numerical baseline. The Excel workbook and delivery archives are separately versioned snapshots. [Original release checksums](https://github.com/hemanjie-byte/mixed-signal-simulation/blob/v3.3.0/v33/validation/release_manifest.json), [browser QA](V3.3/validation/viewer_validation.json) and [workbook QA](V3.3/validation/workbook_validation.json) describe the original simulation release. [Current sharing checksums](V3-4/package_manifest.json) describe the V3-4 core package.
-
-数值脚本导出数据与误差审计，不修改V3.1/V3.2输入。模拟系列通过独立的`validate.py`命令执行并记录测试；DC/DC脚本自行执行验证。GIF记录所用改进数据的精确哈希，跨系统字体可能不同。上述命令重建V3-4演示页，数值基线仍为v3.3.0；Excel及交付压缩包单独保存为版本快照。[原发布校验值](https://github.com/hemanjie-byte/mixed-signal-simulation/blob/v3.3.0/v33/validation/release_manifest.json)、[浏览器检查](V3.3/validation/viewer_validation.json)及[工作簿检查](V3.3/validation/workbook_validation.json)对应原仿真发布；[当前分享包校验值](V3-4/package_manifest.json)对应V3-4核心包。
-
-The TOP200/182-paper cohort retains its V3.1 audit; the four additional papers and eight manufacturer documents retain their V3.2 reading-depth records. No new full-text literature or foundry-availability audit is claimed. The 40–150 V values mean maximum DC/DC input, not device ratings. Physical accuracy, PDK sign-off, breakdown/SOA, extracted layout and calibrated electrothermal behavior remain unverified.
-
-TOP200/182篇名单保留V3.1审计；新增4篇论文与8份厂商文档保留V3.2阅读深度记录。不宣称本轮重新全文审查文献或核对工艺供货。40～150V指DC/DC最高输入，不是器件额定；物理准确性、PDK签核、击穿/SOA、提取版图及校准电热行为仍未验证。
-
-The complete sharing edition uses two archives: extract the core package to create **V3-4**, then extract **Semiconductor_Teaching_STL_V3-4_20261107.zip inside that V3-4 folder**. The printing archive also works independently for printing. Its source files overlap some core dependencies with identical bytes; merge folders and keep the matching versions. Both archives and all individual files are available in the repository.
-
-完整分享版采用两个压缩包：先解压核心包得到 **V3-4**，再将 **Semiconductor_Teaching_STL_V3-4_20261107.zip解压到该V3-4文件夹内部**。打印包也可独立用于打印；其部分源文件与核心依赖字节一致，合并目录并保留匹配版本即可。仓库同时保存两个压缩包及全部单独文件。
+工作目录仅保留 **V3-5** 一个发布目录，版本目录统一使用 **VX-X**。旧版从[版本历史](VERSIONS.md)访问，当前目录不再重复存放旧 ZIP 和旧工作簿。正文保持英文在前、中文对照。

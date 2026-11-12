@@ -1,0 +1,28 @@
+{
+  "version": "V3-5",
+  "date": "2026-11-12",
+  "numerical_baseline": "v3.3.0",
+  "entry": "index.html",
+  "workbook": "Mixed_Signal_Simulation_V3-5_EN_ZH.xlsx",
+  "learning_levels": [
+    "beginner",
+    "undergraduate",
+    "graduate"
+  ],
+  "numerical_entries": 20,
+  "cases": 211,
+  "model_gifs": 20,
+  "printable_entries": 75,
+  "historical_printing_entries_without_new_electrical_rerun": 55,
+  "numerical_tests_passed": 96,
+  "geometry_checks_passed": 2025,
+  "fab_catalogue_version": "2.0",
+  "fab_review_date": "2026-11-06",
+  "fab_records": 119,
+  "fab_entities": 59,
+  "physical_accuracy_verified": false,
+  "physical_print_tested": false,
+  "history": "../VERSIONS.md",
+  "download": "https://github.com/hemanjie-byte/mixed-signal-simulation/archive/refs/tags/V3-5.zip",
+  "directory_naming": "VX-X"
+}

@@ -1,0 +1,42 @@
+{
+  "version": "V3-5",
+  "review_date": "2026-11-12",
+  "status": "PASS",
+  "numerical_tests": {
+    "historical_analog_research": 36,
+    "historical_dcdc": 25,
+    "current_analog": 18,
+    "current_dcdc": 17,
+    "total": 96
+  },
+  "recomputed_cases": 211,
+  "simulation_json_byte_identical_to_baseline": true,
+  "preserved_scientific_assets": 379,
+  "model_gifs": 20,
+  "print_geometry": {
+    "entries": 75,
+    "checks": 2025,
+    "physical_print_tested": false
+  },
+  "learning": {
+    "numerical_entries": 20,
+    "printing_entries": 75,
+    "levels": 3,
+    "level_switch_combinations": 285
+  },
+  "browser": {
+    "desktop_width_px": 1440,
+    "mobile_width_px": 390,
+    "javascript_errors": 0,
+    "horizontal_overflow": false,
+    "local_links_and_downloads": "PASS"
+  },
+  "workbook": {
+    "worksheets": 9,
+    "dcdc_metrics_checked": 1761,
+    "formula_examples_checked": 12,
+    "native_excel_recalculation_tested": false
+  },
+  "source_scope": "22 mechanism references retain explicit reading depth; only sources marked newly_accessed were revisited. No assertion of full-text re-review of the full historical cohort.",
+  "physical_calibration_verified": false
+}
